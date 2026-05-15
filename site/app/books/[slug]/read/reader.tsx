@@ -97,7 +97,7 @@ export function EpubReader({ bookId, url, initialCfi }: Props) {
       </div>
       <ReactReader
         url={url}
-        location={location ?? undefined}
+        location={location}
         locationChanged={onLocationChanged}
         getRendition={getRendition}
         showToc
@@ -164,7 +164,7 @@ const readerStyles = {
   },
   tocAreaButton: {
     userSelect: "none" as const,
-    appearance: "none",
+    appearance: "none" as const,
     background: "none",
     border: "none",
     display: "block",
@@ -200,6 +200,20 @@ const readerStyles = {
   },
   tocButtonBarTop: { top: 18 },
   tocButtonBottom: { bottom: 18 },
+  tocBackground: {
+    position: "absolute" as const,
+    inset: 0,
+    background: "rgba(0,0,0,0.4)",
+    zIndex: 9,
+  },
+  errorView: {
+    position: "absolute" as const,
+    inset: 0,
+    display: "flex",
+    alignItems: "center" as const,
+    justifyContent: "center" as const,
+    color: "#ef4444",
+  },
   loadingView: {
     position: "absolute" as const,
     inset: 0,
