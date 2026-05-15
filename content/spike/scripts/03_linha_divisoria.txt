@@ -1,0 +1,53 @@
+Episódio três. A linha divisória entre crescimento e decadência.
+
+No episódio anterior, conheci você ao pico, the spike, e à Preeti, a mãe indiana que quer dois filhos. Hoje, capítulo dois do livro. E pra abrir esse capítulo eu quero te apresentar duas irmãs.
+
+Seema e Reema. Enfermeiras no mesmo hospital de Uttar Pradesh onde a Preeti deu à luz. As duas vêm de um vilarejo rural. Pai e mãe tiveram oito filhos. O pai delas, ele mesmo, era um de oito irmãos. Há uma geração, oito filhos não era estranho. Os pais sacrificaram décadas pra educar os oito. As duas conseguiram diploma. Furaram a estatística.
+
+Reema, a irmã mais velha, foi a primeira a virar enfermeira profissional. Hoje ela diz: dois filhos. Com certeza dois.
+
+Seema, vinte e dois anos, ainda solteira, casamento arranjado por vir, diz outra coisa. Um filho. Só um. Ela ama a família grande em que cresceu, mas pra si mesma, ela não quer isso. O tempo é outro, ela diz.
+
+Spears e Geruso pegam essa diferença, dois pra Reema, um pra Seema, e fazem uma observação aparentemente boba. Ouve só: um vírgula nove é menor que dois vírgula zero. Eles chamam isso de uma verdade profunda. E parece bobagem. Mas é o ponto inteiro do capítulo. Porque dois é a linha. Acima de dois, a humanidade cresce exponencialmente. Abaixo de dois, ela decresce exponencialmente. Não existe estabilidade abaixo de dois. Não existe planalto. É decadência composta.
+
+Aqui entra a primeira lição matemática do capítulo, e prometo manter leve. Crescimento populacional e decadência populacional seguem a mesma matemática. Exponencial pros dois lados. Nos últimos cem anos, a humanidade quadruplicou. Nos últimos duzentos anos, multiplicou por oito. E a álgebra que fez isso pra cima é a mesma que pode fazer pra baixo. Em duzentos anos, podemos cair pelo mesmo fator.
+
+A segunda lição é por que dois é a linha. Em geral, metade das crianças nasce mulher. Pra cada duas mulheres adultas hoje, se cada uma tem dois filhos, a próxima geração terá duas mulheres adultas. Mesmo número, geração após geração. Estabilidade.
+
+Mas se cada mulher tem em média um vírgula cinco filho, e isso é a média europeia atual, ela tem em média zero vírgula sete e cinco filhas. Cem mulheres dessa geração viram setenta e cinco mulheres na próxima. Setenta e cinco viram cinquenta e seis. Cinquenta e seis viram quarenta e dois. Pra cada sete gerações a partir de agora, com essa fertilidade, cento e trinta e dois milhões de bebês por ano viram nove milhões. Em catorze gerações, um milhão. Em vinte e uma gerações, cento e sessenta mil meninas no ano todo no planeta inteiro. Isso é menos do que nasce no Texas hoje.
+
+Tem um número técnico que eu preciso te mencionar: muita gente fala em dois vírgula um como nível de reposição. Por que esse decimal? Porque nem todo bebê chega à idade adulta. Tem mortalidade infantil. Em locais onde metade dos bebês morria antes dos cinco, o nível de reposição era próximo de quatro. No Reino Unido no ano mil e novecentos, era dois vírgula seis. Em Uttar Pradesh nos anos dois mil e dez, era dois vírgula trinta e nove. Em Kerala, estado mais rico da Índia, dois vírgula zero nove.
+
+Mas, como o livro diz, o futuro vai ter mortalidade infantil próxima de zero em quase todo lugar. Então o nível de reposição global, no futuro, converge pra perto de dois. Os autores adotam dois como aproximação suficientemente boa. Eu também vou adotar nessa série.
+
+Agora vem o ponto que provavelmente mais te surpreende. A taxa de natalidade está caindo há séculos. Há séculos. Não começou com pílula, não começou com feminismo, não começou com industrialização. Vem caindo há tanto tempo quanto existem dados pra medir. Em mil e oitocentos, mulheres brancas casadas nos Estados Unidos tinham em média sete filhos. Na média global, seis. Em mil e novecentos, a média americana caiu pra quatro. Na França, abaixo de três. Globalmente, cinco vírgula cinco. Em mil novecentos e cinquenta, ainda cinco em média no mundo. Hoje, dois vírgula três.
+
+Espera. Se a taxa de natalidade está caindo há tanto tempo, como a população explodiu nos últimos duzentos anos?
+
+Resposta: porque a mortalidade infantil despencou ainda mais rápido. A população não cresceu porque as pessoas começaram a ter mais filhos. Cresceu porque os filhos pararam de morrer.
+
+Esse é um dos fatos centrais do livro, e tem uma elegância dolorosa. Pense na família do Benjamin Franklin. Ele tinha dezessete irmãos. Quatro morreram na infância. Mortalidade infantil de uns vinte e quatro por cento. Naquele tempo, era considerada sorte. Em alguns lugares dos mil setecentos, entre um terço e metade dos bebês morria antes dos cinco anos.
+
+Hoje, na Austrália, Alemanha ou Coréia do Sul, de duzentas e cinquenta crianças que nascem, duzentas e quarenta e nove chegam aos cinco. Globalmente, a chance de morrer na infância é menos de quatro por cento.
+
+Esse foi o que o economista Angus Deaton, ganhador do Nobel e ex-orientador dos autores, chamou de A Grande Fuga. Foi a humanidade fugindo da morte precoce. Aquela imagem clássica de que antigamente as pessoas morriam aos trinta? Não é bem assim. Quem chegava na vida adulta vivia até os sessenta, setenta. O que melhorou drasticamente foi a sobrevivência infantil. Quem fica velho hoje fica mais ou menos tão velho quanto o velho de mil setecentos. O que mudou é que muita gente que morreria criança hoje chega lá.
+
+Aí vem o ponto que muda tudo pro futuro. A grande fuga acabou. Não tem mais pra onde a mortalidade infantil cair. Já está perto do piso. Em Uttar Pradesh, o lugar pobre da Índia onde Spears trabalha, a mortalidade infantil hoje é menor do que era nos Estados Unidos em mil e oitocentos. O motor que empurrou a humanidade pra cima do pico, mortalidade infantil caindo, esgotou.
+
+Então, daqui pra frente, o que define a trajetória populacional é uma coisa só: a fertilidade. E a fertilidade está bem abaixo de dois.
+
+Os autores antecipam três objeções comuns. Vou listar.
+
+Primeira: e Finlândia entre dois mil e dois mil e dez? A fertilidade subiu nessa década específica. Não é prova de que pode subir? Resposta dos autores: dá zoom out. Em dois mil e vinte, a Finlândia já tinha caído pra um vírgula quatro. Em mil novecentos e sessenta era dois vírgula sete. Tem ruído de curto prazo, claro, mas o sinal de longo prazo é claríssimo.
+
+Segunda: e os lugares onde a fertilidade ainda é bem acima de dois, como a África subsaariana? Resposta: a África subsaariana, há quarenta anos, tinha fertilidade de seis vírgula oito. Hoje está em quatro vírgula dois. Cai um por cento ao ano. Todas as equipes sérias de projeção esperam que continue caindo.
+
+Terceira: e se a expectativa de vida dobrar ou quadruplicar? Não compensaria? Resposta surpreendente: não. Se a média ainda for menor que dois filhos por mulher, ainda que cada um viva trezentos anos, a quantidade de bebês ainda cai exponencialmente. As pessoas vão acumular anos de vida, mas o tamanho da próxima geração ainda encolhe. Pra estabilizar, tem que voltar a ter dois filhos. Não tem outro caminho.
+
+Tem uma analogia bonita no fim do capítulo. Quando alguém joga uma bola pra cima, ela sobe, atinge um ápice, e volta. Não fica suspensa no topo. A mesma força que desacelerou a subida puxa pra baixo. Muita gente, inclusive economistas famosos, supôs que a fertilidade ia chegar em dois e parar. Não tem por que. Dois é só um número. Não tem ímã.
+
+Estatísticos da Universidade de Washington estimaram em dois mil e vinte e três: há noventa por cento de chance de que a fertilidade global fique abaixo de dois pelo menos até o ano de dois mil e trezentos. Noventa por cento.
+
+Resumo do capítulo dois: a humanidade chegou ao pico porque mortalidade caiu, não porque natalidade subiu. A mortalidade já caiu quase tudo o que podia. Agora só sobra a natalidade pra mexer o ponteiro. E a natalidade está claramente abaixo da linha de reposição. Pra estabilizar, alguém precisa decidir e trabalhar pra isso acontecer.
+
+Aí termina a Parte um do livro. Próximo episódio, capítulo três, começa a Parte dois, que é o argumento contra mais gente. Aquele clássico: mas e o planeta? Pessoas a mais não destroem o meio ambiente? Vou te contar como os autores respondem essa pergunta. Te espero lá.

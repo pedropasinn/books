@@ -1,0 +1,100 @@
+[
+  {
+    "id": "01_prologo",
+    "title": "Prólogo — o livro que pede pra você pensar de novo",
+    "duration_min": 6.76,
+    "size_mb": 4.64,
+    "chunks": 18
+  },
+  {
+    "id": "02_o_pico",
+    "title": "Cap. 1 — O pico",
+    "duration_min": 6.55,
+    "size_mb": 4.5,
+    "chunks": 20
+  },
+  {
+    "id": "03_linha_divisoria",
+    "title": "Cap. 2 — A linha divisória entre crescimento e decadência",
+    "duration_min": 8.08,
+    "size_mb": 5.55,
+    "chunks": 27
+  },
+  {
+    "id": "04_pessoas_e_planeta",
+    "title": "Cap. 3 — O que as pessoas fazem ao planeta",
+    "duration_min": 8.64,
+    "size_mb": 5.93,
+    "chunks": 25
+  },
+  {
+    "id": "05_corpos_dos_outros",
+    "title": "Cap. 4 — A população começa no corpo dos outros",
+    "duration_min": 9.08,
+    "size_mb": 6.24,
+    "chunks": 22
+  },
+  {
+    "id": "06_mundo_imperfeito",
+    "title": "Cap. 5 — Adicionar novas vidas a um mundo imperfeito",
+    "duration_min": 8.61,
+    "size_mb": 5.91,
+    "chunks": 22
+  },
+  {
+    "id": "07_progresso_vem_de_pessoas",
+    "title": "Cap. 6 — Progresso vem de pessoas",
+    "duration_min": 8.74,
+    "size_mb": 6.0,
+    "chunks": 25
+  },
+  {
+    "id": "08_desviando_asteroide",
+    "title": "Cap. 7 — Desviando do asteroide",
+    "duration_min": 9.54,
+    "size_mb": 6.55,
+    "chunks": 27
+  },
+  {
+    "id": "09_mais_bom_e_melhor",
+    "title": "Cap. 8 — Mais bom é melhor",
+    "duration_min": 9.07,
+    "size_mb": 6.23,
+    "chunks": 30
+  },
+  {
+    "id": "10_nao_se_resolve_sozinho",
+    "title": "Cap. 9 — Despovoamento não se resolve sozinho",
+    "duration_min": 9.78,
+    "size_mb": 6.71,
+    "chunks": 28
+  },
+  {
+    "id": "11_controle_estatal",
+    "title": "Cap. 10 — Controle estatal não pode forçar estabilização",
+    "duration_min": 8.36,
+    "size_mb": 5.74,
+    "chunks": 25
+  },
+  {
+    "id": "12_dinheiro_e_resposta",
+    "title": "Cap. 11 — Dinheiro é a resposta?",
+    "duration_min": 8.8,
+    "size_mb": 6.04,
+    "chunks": 36
+  },
+  {
+    "id": "13_almeje_mais_alto",
+    "title": "Cap. 12 — Almeje mais alto",
+    "duration_min": 9.39,
+    "size_mb": 6.45,
+    "chunks": 27
+  },
+  {
+    "id": "14_apendice_repugnante",
+    "title": "Apêndice — A conclusão repugnante",
+    "duration_min": 9.81,
+    "size_mb": 6.73,
+    "chunks": 43
+  }
+]

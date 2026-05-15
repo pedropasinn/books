@@ -1,0 +1,85 @@
+Episódio quatorze. Apêndice repugnante.
+
+Esse é o último episódio da série. Pode soar estranho terminar com um apêndice. Mas Spears e Geruso fazem esse apêndice porque sabem que qualquer leitor curioso de ética populacional vai bater na questão que ele responde. É a famosa conclusão repugnante do filósofo Derek Parfit, formulada nos anos oitenta. E é uma das objeções mais comuns à ideia de que mais vidas boas é melhor. Vou explicar com calma.
+
+Primeiro, o problema. Imagine duas humanidades possíveis no futuro.
+
+Humanidade A. Um bilhão de pessoas. Cada uma com qualidade de vida nota dez na escala cósmica. Vidas excepcionalmente boas. Cultura, arte, amor, realização, saúde, prosperidade.
+
+Humanidade B. Um trilhão de pessoas. Mil vezes mais gente. Cada uma com qualidade de vida nota dois. Vidas só um pouquinho positivas. Comer batata, ouvir música genérica, viver sem grandes sofrimentos, sem grandes alegrias. Apenas suficientemente boa.
+
+Qual é melhor?
+
+Se você somar o bem-estar total, a humanidade B vence. Um trilhão vezes dois é maior que um bilhão vezes dez. Pelo critério do bem-estar total, mais gente vivendo só um pouquinho bem é preferível a menos gente vivendo otimamente.
+
+Parfit, filósofo brilhante, no livro Reasons and Persons de mil novecentos e oitenta e quatro, achou essa conclusão repugnante. Em sentido literal. Algo no nosso senso moral grita. Como assim, um trilhão de pessoas medíocres é melhor que um bilhão de pessoas com vidas dignas? Parfit chamou isso de Conclusão Repugnante e usou como argumento contra o critério do bem-estar total.
+
+Por quatro décadas, filósofos perderam o sono com isso. The Economist, Nate Silver, Peter Singer, Matt Yglesias, todos escreveram sobre. Virou meme intelectual.
+
+Spears e Geruso fizeram o apêndice por dois motivos. Primeiro, porque qualquer leitor minimamente curioso vai esbarrar nessa ideia, e seria desonesto ignorá-la. Segundo, porque eles têm uma posição clara, e querem desarmar essa ideia. Eles dizem o seguinte. A Conclusão Repugnante não é um problema único do critério do bem-estar total. Não é argumento que distingue uma teoria moral da outra. E, mais importante, não tem nenhuma relevância pra discussão prática entre despovoamento e estabilização. Vou destrinchar.
+
+O argumento original do Parfit pressupunha que comparamos só os dois grupos hipotéticos. Humanidade A com um bilhão, humanidade B com um trilhão. Nada mais. Aí, no critério da média, A vence, porque a média é dez. No critério do total, B vence. Parfit usou isso pra dizer: o critério da média é certo, o critério do total é errado.
+
+Spears e Geruso, junto com o filósofo Mark Budolfson, mostraram numa publicação acadêmica que isso é uma armadilha do exemplo. Eles dizem: por que comparamos só os dois grupos isolados? Não existe outro grupo? E aí, eles incluem um detalhe historicamente verdadeiro. Cento e vinte bilhões de pessoas já viveram nessa Terra ao longo da história humana. Setenta por cento dessas vidas tiveram qualidade nem tão boa. Comida ruim, doença, morte precoce. Vamos atribuir a essas cento e vinte bilhões de vidas passadas uma qualidade média de um.
+
+Agora recalcule a média no cenário humanidade A versus humanidade B, incluindo o grupo de fundo das cento e vinte bilhões de pessoas que existiram.
+
+Cenário A. Cento e vinte bilhões de pessoas com nota um, mais um bilhão com nota dez. A média sobe pouquinho de um, porque um bilhão de notas dez não diluem suficientemente cento e vinte bilhões de notas um.
+
+Cenário B. Cento e vinte bilhões com nota um, mais um trilhão com nota dois. A média sobe muito mais, porque um trilhão de notas dois move o ponteiro com força.
+
+Resultado. No critério da média, com o grupo de fundo incluído, a humanidade B também vence. Não é só o bem-estar total que aponta pra B. É o bem-estar médio também. As duas teorias coincidem.
+
+Ou seja. A Conclusão Repugnante não é privilégio do bem-estar total. Ela emerge de praticamente qualquer teoria que faz comparações sensatas, quando o cenário inclui grupo de fundo realista. O incômodo emocional com a conclusão pode ser sincero. Mas ele não justifica abandonar bem-estar total em favor de bem-estar médio. Os dois ônibus levam pra mesma estação.
+
+Spears e Geruso citam um economista chamado Yew-Kwang Ng, que provou matematicamente, no final dos anos oitenta, que qualquer teoria moral completa que respeite duas regras óbvias, que igualdade não é ruim e que adicionar vida boa não piora o mundo, vai gerar alguma versão da Conclusão Repugnante. O filósofo Gustaf Arrhenius depois generalizou. Ou seja, ou você abandona princípios morais bem básicos, ou você convive com a Conclusão Repugnante. Os autores defendem que conviva.
+
+Mas eles vão além. Defendem que a Conclusão Repugnante talvez nem seja tão repugnante quanto Parfit fez parecer.
+
+Por quê? Algumas razões.
+
+Primeira. A vida nota dois, vida só um pouquinho positiva, é melhor que não existir. Por definição. Spears e Geruso dizem: você está tão acostumado com sua vida nota cinco que parece insulto chamar nota dois de boa. Mas pra quem vive a vida nota dois, ela é melhor que não existir. Pra quem não vive, não existe diferença a sentir, porque não existe sujeito. Adicionar muitas vidas nota dois é adicionar bem ao universo. Repugnante é palavra forte demais.
+
+Segunda. Filósofos como Johan Gustafsson argumentaram que nossas intuições falham diante de números gigantescos. A gente não consegue sentir um trilhão de pessoas no estômago. A gente sente um bilhão e o trilhão é igual. A nossa intuição é treinada pra escala humana, não pra escala cósmica. Confiar nela como ferramenta moral quando os números atingem ordens de grandeza extremas é arriscado. Precisamos de lógica, não só de sentimento.
+
+Terceira. Economistas, em geral, ficam menos incomodados com a Conclusão Repugnante do que filósofos. Por quê? Porque economistas estão acostumados com trade-offs, valor esperado, marginalidade. Pra um economista, ouvir que um trilhão de notas dois supera um bilhão de notas dez é apenas aritmética básica de soma. Não é monstruoso.
+
+Quarta, e essa é a mais elegante. A Conclusão Repugnante é sobre trade-offs entre qualidade e quantidade. Cenário onde uma sobe e a outra cai. Mas o ponto central do livro inteiro é que entre despovoamento e estabilização não há trade-off. As duas dimensões andam juntas. Estabilização gera mais inovação, mais especialização, mais economia de escala, mais combate ao asteroide, mais sequestro de carbono, mais ciência, mais vacina. Estabilização é ganho em qualidade. E é ganho em quantidade. É win-win.
+
+A Conclusão Repugnante só ataca alguém que defende quantidade contra qualidade. Spears e Geruso não defendem isso. Eles defendem que num mundo estabilizado, tanto a qualidade quanto a quantidade são maiores. Não tem trade-off pra perder o sono.
+
+Spears e Geruso terminam o apêndice com uma serenidade quase elegante. A Conclusão Repugnante, dizem eles, é um quebra-cabeça filosófico interessante. Mas que tem zero implicação prática pra escolha que a humanidade enfrenta entre despovoar até virar pó ou estabilizar em alguma escala próspera.
+
+E aqui se fecha a série. Catorze episódios. Vamos passar rapidinho pelo arco.
+
+Episódio um, prólogo. A humanidade está num caminho de despovoamento. Não estabilização. Despovoamento exponencial.
+
+Episódio dois, capítulo um. O pico. Dois mil e doze foi possivelmente o ano de mais nascimentos da história humana. Estamos no topo da agulha.
+
+Episódio três, capítulo dois. Linha divisória. Dois é o número mágico. Abaixo de dois, decaimento exponencial. Mortalidade infantil esgotou. Só natalidade conta agora.
+
+Episódio quatro, capítulo três. Pessoas e planeta. Mais gente não é mais poluição. Despovoamento não resolve clima. Net zero resolve clima.
+
+Episódio cinco, capítulo quatro. Corpo das outras. Estabilização é compatível com igualdade de gênero. Coerção não funciona e nem é necessária.
+
+Episódio seis, capítulo cinco. Mundo imperfeito. Vida sempre foi imperfeita. Vida hoje é melhor que de Benjamin Franklin. Trazer filho a um mundo cheio de problemas é decisão racional.
+
+Episódio sete, capítulo seis. Progresso vem de pessoas. Ideias não se gastam. Inovação é não rival. Menos pessoas é menos ideias.
+
+Episódio oito, capítulo sete. Asteroides e custos fixos. Mais gente paga custos fixos mais facilmente. Asteroide, vacina, sequestro de carbono, todos custos fixos.
+
+Episódio nove, capítulo oito. Mais bom é melhor. Adicionar vida boa é adicionar bem ao mundo. Liberdade reprodutiva e estabilização convivem.
+
+Episódio dez, capítulo nove. Não se resolve sozinho. Amish não dominarão o mundo. FIV não reverte. Tecnologia não reverte. Bebê é externalidade global.
+
+Episódio onze, capítulo dez. Controle estatal não funciona. Política do filho único da China não foi a causa. Decreto setecentos e setenta da Romênia não funcionou. Restringir aborto não eleva fertilidade.
+
+Episódio doze, capítulo onze. Dinheiro não é a resposta. Suécia não tem fertilidade maior. Custo de oportunidade explica. Tudo melhorou exceto a parentalidade.
+
+Episódio treze, capítulo doze. Almeje mais alto. Escola universal, esgoto, previdência, tudo já foi impossível antes de virar óbvio. Parentalidade pode ser o próximo. Mas precisa de visão e compromisso.
+
+E hoje, episódio quatorze, apêndice. Conclusão repugnante é uma elegância filosófica, mas não derruba a tese de que estabilizar é melhor que despovoar.
+
+A tese final. A humanidade está num caminho que termina em desaparecimento. A gente tem algumas décadas. Não é crise. É chamado de longo prazo, igual ao clima foi nos anos cinquenta. E quem começa a conversa hoje, importa.
+
+Você ouviu uma série inteira sobre o livro After the Spike de Dean Spears e Michael Geruso. Se algum tema te tocou, leia o livro. E pense. Obrigado por ouvir até aqui.

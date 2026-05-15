@@ -1,0 +1,43 @@
+# dependencies
+**/node_modules/
+.pnp
+.pnp.*
+
+# next.js
+**/.next/
+**/out/
+**/build/
+
+# env
+.env
+.env.*
+!.env.example
+
+# local sqlite (drizzle file driver)
+**/local.db
+**/local.db-journal
+**/*.db-shm
+**/*.db-wal
+
+# vercel
+.vercel
+**/.vercel
+
+# typescript
+*.tsbuildinfo
+**/next-env.d.ts
+
+# misc
+.DS_Store
+*.pem
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# python (spike_podcasts)
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
