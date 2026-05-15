@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { Play, BookOpen, CheckCircle2, Clock } from "lucide-react";
+import { Play, CheckCircle2, Clock } from "lucide-react";
 
 function fmtDuration(sec?: number | null) {
   if (!sec) return null;
@@ -66,14 +66,6 @@ export default async function BookPage({
                 <Link href={`/books/${book.slug}/ep/${episodes[0].number}`}>
                   <Play className="size-4" />
                   Começar do início
-                </Link>
-              </Button>
-            )}
-            {book.epubUrl && (
-              <Button variant="outline" asChild>
-                <Link href={`/books/${book.slug}/read`}>
-                  <BookOpen className="size-4" />
-                  Ler na íntegra
                 </Link>
               </Button>
             )}
