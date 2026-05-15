@@ -20,10 +20,11 @@ type Props = {
 const FONT_SIZES = [85, 100, 115, 130, 150];
 
 export function EpubReader({ bookId, url, initialCfi }: Props) {
-  const [location, setLocation] = useState<string | number | null>(initialCfi);
+  const [location, setLocation] = useState<string | number | null>(null);
   const [fontSize, setFontSize] = useState(115);
   const renditionRef = useRef<Rendition | null>(null);
   const saveTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const initialNavDone = useRef(false);
 
   const onLocationChanged = useCallback(
     (cfi: string) => {
@@ -52,8 +53,15 @@ export function EpubReader({ bookId, url, initialCfi }: Props) {
       });
       rendition.themes.select("dark");
       rendition.themes.fontSize(`${fontSize}%`);
+
+      if (!initialNavDone.current && initialCfi) {
+        initialNavDone.current = true;
+        rendition.display(initialCfi).catch(() => {
+          rendition.display();
+        });
+      }
     },
-    [fontSize]
+    [fontSize, initialCfi]
   );
 
   useEffect(() => {
