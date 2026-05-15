@@ -2,7 +2,7 @@ import { NextRequest } from "next/server";
 import { readFile, stat } from "node:fs/promises";
 import { join, resolve, extname } from "node:path";
 
-const CONTENT_DIR = resolve(process.cwd(), process.env.CONTENT_DIR ?? "../content");
+const CONTENT_DIR = resolve(process.cwd(), process.env.CONTENT_DIR ?? "./content");
 
 const MIME: Record<string, string> = {
   ".mp3": "audio/mpeg",
