@@ -44,7 +44,7 @@ export default async function ReadPage({
           {book.title}
         </Link>
       </div>
-      <div className="flex-1 overflow-hidden">
+      <div className="relative min-h-0 flex-1 overflow-hidden">
         <EpubReader bookId={book.id} url={book.epubUrl} initialCfi={pos?.cfi ?? null} />
       </div>
     </div>

@@ -79,7 +79,7 @@ export function EpubReader({ bookId, url, initialCfi }: Props) {
   }, []);
 
   return (
-    <div className="relative h-full">
+    <div className="absolute inset-0">
       <div className="absolute right-4 top-4 z-10 flex items-center gap-2">
         <Button variant="outline" size="sm" onClick={cycleSize} className="gap-1.5">
           <Type className="size-3.5" /> {fontSize}%
