@@ -27,10 +27,12 @@ with open(base / "episodes.tsv", encoding="utf-8") as f:
     rows = [r for r in csv.reader(f, delimiter="\t") if len(r) >= 4]
 
 def run_print(vid, field):
+    # ejs:github = solver de challenge JS do YouTube (alguns vídeos exigem p/ ter chapters)
     p = subprocess.run(
-        ["yt-dlp", "--no-update", "--skip-download", "--print", field,
+        ["yt-dlp", "--no-update", "--remote-components", "ejs:github",
+         "--skip-download", "--print", field,
          f"https://www.youtube.com/watch?v={vid}"],
-        capture_output=True, text=True, timeout=120, env=env)
+        capture_output=True, text=True, timeout=180, env=env)
     return p.stdout
 
 def fetch(vid, tries=3):
