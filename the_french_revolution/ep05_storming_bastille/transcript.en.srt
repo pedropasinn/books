@@ -1,0 +1,3200 @@
+1
+00:00:00,000 --> 00:00:07,780
+So today, let's dig into what really happened in July 1789, and let's start by picking up from last week's episodes.
+
+2
+00:00:08,800 --> 00:00:20,640
+So, listeners will remember, there was a social crisis born of the horrendous weather, the bad harvest, the hunger, the frustration, the fear that has swept through so much of France as people begin to starve.
+
+3
+00:00:21,040 --> 00:00:29,160
+There's a financial and political crisis that goes back for decades to do with the French government running up debts to pay for its foreign wars.
+
+4
+00:00:29,160 --> 00:00:36,200
+Its political system, unlike, say, Britain's, not really having a mechanism that allows them to do that.
+
+5
+00:00:36,380 --> 00:00:38,240
+France has been on the verge of bankruptcy.
+
+6
+00:00:38,680 --> 00:00:54,460
+Louis XVI has recalled the Estates General, this great gathering of the commons, the lords, and the church, which has then morphed into a national assembly and basically made a move to take sovereignty from the monarchy.
+
+7
+00:00:55,020 --> 00:00:57,820
+And we ended last time, 20,000 troops.
+
+8
+00:00:58,120 --> 00:00:59,140
+Our moods.
+
+9
+00:00:59,160 --> 00:01:10,040
+Moving towards Paris from the frontiers, many of them Swiss or German speakers, so feared and hated by much of the Parisian population.
+
+10
+00:01:10,140 --> 00:01:14,400
+They are advancing on the capital, triggering panic in the streets of Paris.
+
+11
+00:01:14,540 --> 00:01:19,120
+And there's a sense, when you get to the beginning of July 1789, everything is building towards a peak.
+
+12
+00:01:19,220 --> 00:01:20,520
+The food prices are rising.
+
+13
+00:01:21,080 --> 00:01:26,880
+The panic on the streets, the sense of paranoia is growing all the time.
+
+14
+00:01:27,420 --> 00:01:28,100
+And people-
+
+15
+00:01:28,100 --> 00:01:28,600
+Famously.
+
+16
+00:01:28,740 --> 00:01:28,980
+Yeah.
+
+17
+00:01:28,980 --> 00:01:33,680
+The bread price reaches its pinnacle on the 14th of July.
+
+18
+00:01:33,680 --> 00:01:34,060
+It does indeed.
+
+19
+00:01:34,320 --> 00:01:34,700
+It does indeed.
+
+20
+00:01:34,800 --> 00:01:38,300
+About 15 sous, having been normally about 8 sous.
+
+21
+00:01:38,400 --> 00:01:39,680
+So, in other words, bread has doubled.
+
+22
+00:01:39,780 --> 00:01:41,360
+And for a lot of people, that means destitution.
+
+23
+00:01:42,000 --> 00:01:43,140
+Cost of living crisis.
+
+24
+00:01:43,140 --> 00:01:44,740
+Cost of living crisis with knobs on.
+
+25
+00:01:44,900 --> 00:01:53,980
+And a lot of people at this point, even though that cost of living crisis is driven by acts of God, which is to say the weather, people are already looking for scapegoats.
+
+26
+00:01:54,600 --> 00:01:58,280
+And that is a real theme of the entire French Revolutionary story.
+
+27
+00:01:58,560 --> 00:01:58,960
+Right.
+
+28
+00:01:58,980 --> 00:02:20,380
+So, a guy, a deputy in the new National Assembly, a future member of the Committee of Public Safety called Bertrand Barrère, said on the 19th of June that the food shortage was the result of the disastrous projects of the enemies of the people, enemies of humanity, and they need to be discovered, intimidated and punished.
+
+29
+00:02:20,580 --> 00:02:23,680
+And there again, a real preview of what is to follow.
+
+30
+00:02:23,880 --> 00:02:28,580
+But brilliantly, there is a kind of the people's hero, rather unexpectedly, is a banker.
+
+31
+00:02:28,980 --> 00:02:29,520
+That's right.
+
+32
+00:02:29,700 --> 00:02:30,260
+Which, yes.
+
+33
+00:02:30,480 --> 00:02:31,320
+Not what you see today.
+
+34
+00:02:31,440 --> 00:02:32,140
+Yeah, no, exactly.
+
+35
+00:02:32,360 --> 00:02:37,660
+So, this is somebody, again, we talked about last time, Jacques Necker, the finance minister, a Swiss Protestant.
+
+36
+00:02:38,260 --> 00:02:42,780
+He's the one person that most of the French public view as their savior.
+
+37
+00:02:43,320 --> 00:02:46,700
+But, as we said last time, Louis has been losing confidence in Necker.
+
+38
+00:02:47,120 --> 00:02:53,760
+And at 5 o'clock on Saturday, the 11th of July, Necker and his wife leave Versailles for good in a coach.
+
+39
+00:02:53,920 --> 00:02:58,960
+He has been sacked by the king in a very kind of underhand manner.
+
+40
+00:02:58,980 --> 00:03:07,020
+Which means Necker was about to sit down to have dinner when he got a note telling him he had to leave France immediately and not go via Paris.
+
+41
+00:03:07,360 --> 00:03:08,560
+He goes to Brussels.
+
+42
+00:03:08,820 --> 00:03:16,960
+And actually, Necker then does something, Tom, which I think shows that he, you know, it would be nice to have a revisionist view of Necker.
+
+43
+00:03:17,240 --> 00:03:21,560
+But Necker gets to Brussels the next day and he writes a letter to the Dutch banker's hope.
+
+44
+00:03:21,840 --> 00:03:28,860
+And he says to them, I promise, I put up two million pounds in my own money as security.
+
+45
+00:03:28,980 --> 00:03:35,860
+Security for grain shipments to the people of France, even though I have been fired, I'm still good for the two million pounds.
+
+46
+00:03:36,160 --> 00:03:38,200
+I mean, that shows he's a pretty decent fellow.
+
+47
+00:03:39,380 --> 00:03:42,460
+Now, the king's advisors, they'd sacked him on a Saturday.
+
+48
+00:03:43,240 --> 00:03:44,720
+They thought they were being very clever.
+
+49
+00:03:45,300 --> 00:03:51,300
+They thought that because the National Assembly wouldn't meet on the Sunday, there wouldn't be an immediate reaction.
+
+50
+00:03:51,420 --> 00:03:53,240
+And they would therefore be able to manage it.
+
+51
+00:03:53,560 --> 00:03:56,100
+But what they didn't bargain for, they didn't think it through.
+
+52
+00:03:56,700 --> 00:03:58,780
+Because on Sunday in Paris.
+
+53
+00:03:58,980 --> 00:04:03,500
+A lot of people obviously are not working and they've taken to the streets.
+
+54
+00:04:03,580 --> 00:04:04,640
+There are lots of sightseers.
+
+55
+00:04:04,720 --> 00:04:08,760
+There are peasants who've come in from the countryside to kind of go into the city.
+
+56
+00:04:09,040 --> 00:04:23,140
+And a lot of these people have gathered at what's called the Palais Royal, which is a part of the city, a great complex of our sort of arcades and cafes and shops that is under the jurisdiction, not of the king, but of the Duke of Orléans.
+
+57
+00:04:23,540 --> 00:04:23,940
+Right.
+
+58
+00:04:24,020 --> 00:04:25,580
+And we've talked about that, haven't we?
+
+59
+00:04:25,660 --> 00:04:28,680
+And talked about how, for instance, when we were talking about the.
+
+60
+00:04:28,980 --> 00:04:39,440
+The abuse leveled at Marie Antoinette, that a lot of this is coming from factions within Versailles, within the royal family and the Duke of Orléans, he is Louis's cousin.
+
+61
+00:04:39,660 --> 00:04:44,880
+And although he's absolutely committed to the causes, I mean, he will end up.
+
+62
+00:04:46,400 --> 00:04:48,400
+He will end up voting for Louis's death.
+
+63
+00:04:48,560 --> 00:04:48,700
+Yeah.
+
+64
+00:04:48,700 --> 00:04:49,920
+It's not a good man.
+
+65
+00:04:50,020 --> 00:04:50,800
+I think the Duke of Orléans.
+
+66
+00:04:50,940 --> 00:04:58,960
+But he, I mean, there's a sense in which even now there is a slight quality of the, the kind of the internal royal faction fight going on.
+
+67
+00:04:58,980 --> 00:05:01,800
+But it's obviously spiraling massively out of that.
+
+68
+00:05:01,880 --> 00:05:02,720
+Massively out of control.
+
+69
+00:05:02,840 --> 00:05:03,000
+Yeah.
+
+70
+00:05:03,060 --> 00:05:21,420
+So there are huge crowds that have assembled in the Palais Royal and thousands of people and the news arrives by about midday that NECA has been sacked and the crowds are very cross and angry and they're all shouting and people are listening to, there would be a tradition of kind of orators standing up and giving impromptu speeches on the street corners and things.
+
+71
+00:05:21,600 --> 00:05:28,900
+And about by about three o'clock this afternoon, a large crowd, it's said to be thousands of people has gathered around one particular cafe.
+
+72
+00:05:28,980 --> 00:05:43,720
+Where a young man is standing on a table, shouting at the crowd, the Cafe Foy, it's called, and this young man will be very familiar to people who've read Hilary Mantel's book, A Place of Greater Safety, because he's really the hero of that book.
+
+73
+00:05:43,960 --> 00:05:58,960
+And he's called Camille Desmoulins, he's 26 years old, he came from Picardy, he's the kind of slightly spoiled son of a Lieutenant Colonel who had sent him to Paris for his education and at the Lycée Louis Le Grand in Paris, Camille had become a lieutenant colonel.
+
+74
+00:05:58,960 --> 00:06:05,940
+And they've become great pals with the man whose name will definitely be familiar to a lot of listeners, Maximilien Robespierre.
+
+75
+00:06:06,580 --> 00:06:15,380
+So they're a real sort of inseparable duo and Desmoulins is not a deputy at the Estates General, but he's very much of that ilk.
+
+76
+00:06:15,560 --> 00:06:20,500
+So he's obsessed with the Romans, with Cicero, with liberty, with virtue.
+
+77
+00:06:20,780 --> 00:06:24,320
+He's written a poem, an ode to the Estates General.
+
+78
+00:06:24,580 --> 00:06:25,340
+What a tell-
+
+79
+00:06:25,340 --> 00:06:26,460
+So he's a very Sandbrook figure?
+
+80
+00:06:26,620 --> 00:06:27,600
+Thank you, Tom.
+
+81
+00:06:27,740 --> 00:06:28,400
+Yeah, great.
+
+82
+00:06:28,960 --> 00:06:34,220
+exactly um he's a kind of shelly isn't he he is he's a wannabe show it's just the unacknowledged
+
+83
+00:06:34,220 --> 00:06:38,900
+legislators of the world exactly that's exactly he's a young long-haired idealist he's everything
+
+84
+00:06:38,900 --> 00:06:46,900
+i dislike in a man um and he i look forward to you being fair well sarma says he's an exponent
+
+85
+00:06:46,900 --> 00:06:53,360
+of the breast-beating sob-provoking declamation then in vogue of the palais royal his style a
+
+86
+00:06:53,360 --> 00:06:58,660
+tone of virtue militant mingled with the patriotic martyrdom exemplified in neoclassical
+
+87
+00:06:58,660 --> 00:07:06,060
+history paintings in the salon and on the stage so you can absolutely that the type he in 1968
+
+88
+00:07:06,880 --> 00:07:13,200
+at columbia in new york or in paris or the london school of economics he'd have been the first one
+
+89
+00:07:13,200 --> 00:07:19,820
+to do the sit-in or whatever yeah but or 1848 yes i mean he's there at the beginning of that
+
+90
+00:07:19,820 --> 00:07:27,520
+tradition is he is the long-haired poets throwing cobblestones yes absolutely he is so um de moulin
+
+91
+00:07:27,520 --> 00:07:28,640
+stands on the stage and he's the one who's the one who's the one who's the one who's the one who's
+
+92
+00:07:28,640 --> 00:07:35,060
+on the table and he says um to everybody you know necker has been kicked out you the nation you've
+
+93
+00:07:35,060 --> 00:07:43,140
+been we've been insulted and he says um uzam uzam to arms to arms and he and he supposedly he grabs
+
+94
+00:07:43,140 --> 00:07:50,820
+the leaves from a tree and he says let us all take a green cockade the color of hope and he
+
+95
+00:07:50,820 --> 00:07:56,240
+kind of wears these leaves and everybody says marketing strategy that doesn't work no and
+
+96
+00:07:56,240 --> 00:07:58,500
+everybody but everybody at the time says oh brilliant
+
+97
+00:07:58,640 --> 00:08:03,460
+love it and they everyone's shouting bravo and people are kissing him and kissing each other
+
+98
+00:08:03,460 --> 00:08:10,200
+and they they they take kind of green ribbons or they take bits of branches or or sort of leaves
+
+99
+00:08:10,200 --> 00:08:15,820
+and stuff anything green and then they go out into the streets of the capital out of the palais
+
+100
+00:08:15,820 --> 00:08:21,060
+royal into the streets of the capital some of them um have wearing kind of mourning clothes
+
+101
+00:08:21,060 --> 00:08:28,480
+to mourn necker's um dismissal they burst into theaters it's very kind of just stop oil or
+
+102
+00:08:28,640 --> 00:08:34,040
+something isn't it they disrupt performances and they say how can you you know there's a crisis on
+
+103
+00:08:34,040 --> 00:08:38,420
+this is a moment of mourning how can you know everyone should go out in the streets and mourn
+
+104
+00:08:38,420 --> 00:08:45,740
+the departure of necker they they invade a wax museum run by i mean this is so meta yeah so meta
+
+105
+00:08:45,740 --> 00:08:52,000
+run by a guy called philippe courteous now philippe courteous um is the inspiration he is
+
+106
+00:08:52,000 --> 00:08:58,120
+the patron of a little girl called marie who ends up becoming madame to sue madame to swords
+
+107
+00:08:58,640 --> 00:09:03,760
+the wax museum and in the wax museum philippe courteous wax museum heads they've got a head
+
+108
+00:09:03,760 --> 00:09:08,900
+of the duke of ornia and a head of necker and the crowd grab these heads and they're kind of
+
+109
+00:09:08,900 --> 00:09:16,160
+parading around in the streets it's it is very it's unbelievable it is so bizarre so the whole
+
+110
+00:09:16,160 --> 00:09:21,460
+story is bookended with heads it is it is indeed so anyway the crowd rampage through the streets
+
+111
+00:09:21,460 --> 00:09:27,080
+shouting and waving the heads and all this and they get to the place vendome and the place vendome
+
+112
+00:09:27,080 --> 00:09:28,240
+some of these troops
+
+113
+00:09:28,880 --> 00:09:35,040
+are there they're the royal allemand they are the they're german-speaking troops and they try to
+
+114
+00:09:35,040 --> 00:09:40,540
+clear the square and basically this degenerates into fighting between these dragoons and the
+
+115
+00:09:40,540 --> 00:09:46,720
+crowd and the fighting spills over from the place vendome into the place luikens which is at the end
+
+116
+00:09:46,720 --> 00:09:52,300
+of the tuileries gardens this great sort of and that's the place de la concorde yes this great
+
+117
+00:09:52,300 --> 00:09:57,780
+exactly tom yes this this this great kind of pleasure park royal pleasure park in the center
+
+118
+00:09:58,640 --> 00:10:04,240
+now the gardens are filled with middle-class parisians on a sunday stroll women children
+
+119
+00:10:04,240 --> 00:10:11,060
+families and whatnot and the fighting which has now become between the crowd and the dragoons
+
+120
+00:10:11,060 --> 00:10:15,640
+basically spills right over into the park into where all these people are strolling
+
+121
+00:10:15,640 --> 00:10:20,560
+total chaos people the crowd are grabbing things from kind of cafe terraces and throwing them at
+
+122
+00:10:20,560 --> 00:10:28,380
+the soldiers chairs kind of stones bits of statues and because as people are fleeing in panic screaming
+
+123
+00:10:28,640 --> 00:10:34,440
+and stuff the word spreads around the city the germans and the swiss have gone mad and they're
+
+124
+00:10:34,440 --> 00:10:40,420
+trying to kill the they're massacring the people and at that point another military detachment
+
+125
+00:10:40,420 --> 00:10:47,480
+these are called the guard francaise so the french guards they arrive on the scene to try and
+
+126
+00:10:47,480 --> 00:10:54,260
+protect the people from the german and swiss troopers now the guard francaise are an infantry
+
+127
+00:10:54,260 --> 00:10:58,200
+unit and they are very different they are young men they are often
+
+128
+00:10:58,640 --> 00:11:06,920
+from northern towns and they have proved in recent weeks extremely unreliable so they have been
+
+129
+00:11:07,540 --> 00:11:12,900
+pamphlets have been circulating among the french guards we are citizens before we're soldiers we
+
+130
+00:11:12,900 --> 00:11:19,680
+are frenchmen before we are slaves in other words you know they have been as it were uh they've been
+
+131
+00:11:19,680 --> 00:11:24,420
+i was going to say tainted that's not the right word but they have the the rhetoric of liberty
+
+132
+00:11:24,420 --> 00:11:28,620
+and virtue has permeated them as it has so many times
+
+133
+00:11:28,640 --> 00:11:32,920
+the other aspects of french life it's like the police taking the knee yeah they're the police
+
+134
+00:11:32,920 --> 00:11:39,800
+taking the knee exactly so together the rioters and the guard francaise actually drive the cavalry
+
+135
+00:11:39,800 --> 00:11:45,460
+troopers out of the tuileries gardens and at that point the royal commander in the city who is called
+
+136
+00:11:45,460 --> 00:11:53,520
+baron de besanval he gives the order to all his troopers to evacuate effectively the whole of the
+
+137
+00:11:53,520 --> 00:11:58,620
+city rather than fight because he he knows he's lost it because he and he's lost it and he's lost it
+
+138
+00:11:58,640 --> 00:12:04,920
+he says and he's frightened rightly that he says we cannot trust our own soldiers to to to hold the
+
+139
+00:12:04,920 --> 00:12:11,560
+line they they are breaking and defecting to the rioters so in that moment the city is lost
+
+140
+00:12:11,560 --> 00:12:20,340
+to the authorities and that then is the cue for a kind of um well there's no other way of putting it
+
+141
+00:12:20,340 --> 00:12:28,140
+an orgy of destruction tom so or a a toppling of symbols of oppression carnival of liberation
+
+142
+00:12:28,640 --> 00:12:34,480
+a carnival of liberation so the um so as the royal troops withdraw to the pont de sève
+
+143
+00:12:34,480 --> 00:12:43,300
+a bridge to the west um the crowd invades uh gun shops armorers and so on and they force them to
+
+144
+00:12:43,300 --> 00:12:48,200
+hand over whatever weapons they can find they've also many of them by now armed themselves with
+
+145
+00:12:48,200 --> 00:12:53,960
+daggers and clubs even kitchen knives and they head to the north of the city where there is this
+
+146
+00:12:53,960 --> 00:12:57,340
+great wall a customs barrier because remember
+
+147
+00:12:58,640 --> 00:13:05,860
+in the previous episode france at this point has a lot of internal um duties internal economic
+
+148
+00:13:06,400 --> 00:13:11,820
+barriers protectionist barriers and custom and literally customs barriers and this is the most
+
+149
+00:13:11,820 --> 00:13:19,980
+famous one and it's built by uh lavoisier who is the the greatest chemist uh in france and
+
+150
+00:13:19,980 --> 00:13:24,300
+he has done it because he has invested in this kind of tax farming company so therefore with
+
+151
+00:13:24,300 --> 00:13:28,620
+this war they can you know regulate the um the goods that come in and out of the of the
+
+152
+00:13:28,620 --> 00:13:33,500
+of the city and he's doing that obviously to raise money and and this will not look good in
+
+153
+00:13:33,500 --> 00:13:38,920
+due course and lavoisier will end up guillotined but it is i think i always love this story i
+
+154
+00:13:38,920 --> 00:13:45,540
+actually did a school project on lavoisier so he's yeah so um this is he's always been close
+
+155
+00:13:45,540 --> 00:13:50,640
+to my heart because because although he's undoubtedly part of this kind of exploitative
+
+156
+00:13:50,640 --> 00:13:54,920
+framework he is also of course a brilliant chemist he's the guy who basically disproves
+
+157
+00:13:54,920 --> 00:13:58,220
+that there's this kind of weird element supposedly called phlogiston that
+
+158
+00:13:58,620 --> 00:14:04,800
+uh kind of results in explosions and things and he says no it's all about oxygen and stuff I
+
+159
+00:14:04,800 --> 00:14:09,880
+may I'm slightly paraphrasing here chemists may be able to refine that take on it but also he
+
+160
+00:14:09,880 --> 00:14:16,360
+is investing a lot of the money that he is making in charitable causes right and among those is
+
+161
+00:14:16,360 --> 00:14:21,220
+prison reform he's very very keen on improving conditions for prisoners and the other rather
+
+162
+00:14:21,220 --> 00:14:26,100
+topically bearing in mind that this is going out in the the fortnight of the Olympics he's very
+
+163
+00:14:26,100 --> 00:14:28,300
+keen on purifying the water in the same all right
+
+164
+00:14:28,620 --> 00:14:35,820
+so so it's a kind of weird Nexus of the ocean regime that it's it's exploitative it's oppressive
+
+165
+00:14:35,820 --> 00:14:42,180
+it's enlightened and it's compassionate all in one kind of confusing Hall of Mirrors Dominic
+
+166
+00:14:42,180 --> 00:14:47,440
+his Hall of Mirrors complicated Tom people are complicated aren't they yeah it's complicated so
+
+167
+00:14:47,440 --> 00:14:53,880
+his wall I mean his wall is an amazing thing it's 18 miles in circumference and 10 feet high you
+
+168
+00:14:53,880 --> 00:14:57,880
+know it's a really if it was standing today you'd go and see it as it would be a tourist attraction
+
+169
+00:14:58,620 --> 00:15:02,960
+anyway it's not standing because the crowd demolished the wall and they demolished 40
+
+170
+00:15:02,960 --> 00:15:07,540
+customs posts which are intervals around the wall and they and they burn all the records from the
+
+171
+00:15:07,540 --> 00:15:12,040
+customs post now burning the the records people are doing this in the countryside at the same
+
+172
+00:15:12,040 --> 00:15:16,340
+time they're breaking into castles and Chateau and things it's very like the presence exactly
+
+173
+00:15:16,880 --> 00:15:22,180
+burning the feudal records of their own kind that the the the evidence as it were of their
+
+174
+00:15:22,180 --> 00:15:27,400
+own subordinate status so this is what people are doing um outside Paris and they're doing this all
+
+175
+00:15:28,620 --> 00:15:33,580
+the time now back inside the city of course there are a lot of people with a lot to lose there are
+
+176
+00:15:33,580 --> 00:15:38,960
+the propertied middle classes basically the people who up till now have been directing the revolutionary
+
+177
+00:15:39,320 --> 00:15:46,080
+process and a lot of them are extremely worried about the fact that the army has vacated the city
+
+178
+00:15:46,080 --> 00:15:51,340
+and law and order is completely breaking down and there's a group of royal officials um that
+
+179
+00:15:51,340 --> 00:15:57,780
+huddle around a guy who's effectively the mayor he's called the provost of merchants the prevo de
+
+180
+00:15:58,620 --> 00:16:03,260
+his name is Jacques de Flessel and we will come back to him at the end of this um at the end of
+
+181
+00:16:03,260 --> 00:16:09,200
+this episode spoiler alert he does not come to a very happy end and the mayor basically says listen
+
+182
+00:16:09,200 --> 00:16:16,600
+we need to rally the forces of order and we will do this at dawn on the 13th of July will sound the
+
+183
+00:16:16,600 --> 00:16:25,240
+toxin the churches the bells will toll an emergency signal uh sort of a slow toll of the bell will
+
+184
+00:16:25,240 --> 00:16:28,240
+fire cannons there will be drums and these will
+
+185
+00:16:28,620 --> 00:16:33,300
+fall out representatives from the electoral districts to the hotel de ville the city hall
+
+186
+00:16:33,900 --> 00:16:40,000
+um and we will meet and we will decide what to do and presumably this will have a very calming effect
+
+187
+00:16:40,000 --> 00:16:45,280
+this is what they're hoping yeah madness because as soon as the toxin starts tolling at dawn bells
+
+188
+00:16:45,280 --> 00:16:49,180
+and cannon people are like what's going on and everyone pours out into the streets thinking
+
+189
+00:16:49,180 --> 00:16:55,140
+there's the city's under attack from the army or or who knows what now at the hotel de ville the
+
+190
+00:16:55,140 --> 00:16:58,340
+representatives of the electoral districts arrive and they agree to form
+
+191
+00:16:58,620 --> 00:17:06,900
+a commune a sort of uh an informal city administration to run their own Affairs the
+
+192
+00:17:06,900 --> 00:17:12,320
+commune will become one of the great power bases in the French Revolution although nobody of course
+
+193
+00:17:12,320 --> 00:17:19,160
+knows this at the time and they also say there are there are now mobs roaming the streets there
+
+194
+00:17:19,160 --> 00:17:24,520
+are also bands of vigilantes roaming the streets we should regularize all this with a militia they
+
+195
+00:17:24,520 --> 00:17:28,440
+call it um entertainingly the guard the bourgeois the bourgeois guard
+
+196
+00:17:28,620 --> 00:17:34,680
+and this is what becomes ultimately the National Guard again a key player in the revolutionary
+
+197
+00:17:34,680 --> 00:17:43,040
+story and they've been wearing of course Camille de mulan's um green green spring green sprigs
+
+198
+00:17:43,040 --> 00:17:49,120
+exactly and they say well this green business is rubbish not least because green is the symbol of
+
+199
+00:17:49,120 --> 00:17:54,300
+one of the great reactionaries the king's brother the Comte d'Artois and they said we can't be
+
+200
+00:17:54,300 --> 00:17:58,160
+wearing his color why don't we wear the colors of Paris red and blue
+
+201
+00:17:58,620 --> 00:18:03,700
+so that morning they swapped their cockades for red and blue cockades we will discuss the symbolism
+
+202
+00:18:03,700 --> 00:18:09,960
+of cockades a little bit later um so meanwhile the stuff the the anarchy in the streets is
+
+203
+00:18:09,960 --> 00:18:16,300
+actually getting worse that morning uh rioters sacked the convent of San Lazar they took loads
+
+204
+00:18:16,300 --> 00:18:20,640
+of which is where Beaumarchais had been right exactly a nice bit nod back to your thing about
+
+205
+00:18:20,640 --> 00:18:27,280
+the marriage of figaro Tom exactly they take a they find there a lot of food um wine vinegar 25
+
+206
+00:18:29,140 --> 00:18:35,520
+pieces which is exactly what I'd expect to be in a monastery frankly and and a large dried Ram's
+
+207
+00:18:35,520 --> 00:18:40,800
+head I mean who knows what you'd be doing with that is that the beer space is for a soup who
+
+208
+00:18:40,800 --> 00:18:45,860
+knows well I don't know I mean say monasteries and convents are always the setting for pornographic
+
+209
+00:18:45,860 --> 00:18:52,300
+fantasy they are exactly about cheese what's going on so anyway they take all this stuff
+
+210
+00:18:52,300 --> 00:18:57,780
+and they say oh well this absolutely proves the privilege classes the monks they're priests the
+
+211
+00:18:58,620 --> 00:19:03,200
+have been hoarding food all this time and that's of course only inflames them more and the drive
+
+212
+00:19:03,200 --> 00:19:07,400
+to get weapons is now they're desperate to get weapons because they think they're going to come
+
+213
+00:19:07,400 --> 00:19:13,900
+under attack they they ransack a royal storehouse they get loads of halberds and we had a few
+
+214
+00:19:13,900 --> 00:19:17,500
+halberds in our british elections episode so it's great to have halberds back on the show
+
+215
+00:19:18,740 --> 00:19:24,280
+crossbows they've got a cannon that was given by the king of siam i love this to louis the 14th
+
+216
+00:19:24,280 --> 00:19:30,120
+the silver lined cannon it was basically a toy a toy cannon life-size toy cannon anyway they've
+
+217
+00:19:30,120 --> 00:19:35,140
+got this kind of thing decorated with elephants yeah almost certainly this uh this thai cannon
+
+218
+00:19:35,140 --> 00:19:44,440
+bizarre um they they go to the um the great sort of military hospital les invalides this is about
+
+219
+00:19:44,440 --> 00:19:49,640
+when i say hospital it's a place for old soldiers that's where napoleon ends yeah where he went to
+
+220
+00:19:49,640 --> 00:19:53,960
+retire i've filmed have you i've never been to the les invalides tom
+
+221
+00:19:53,960 --> 00:19:54,260
+you
+
+222
+00:19:54,700 --> 00:19:59,700
+really should go and pay my respects to napoleon i think i have stood next to his tomb and been
+
+223
+00:19:59,700 --> 00:20:05,360
+filmed pondering were you sort of in a napoleonic manner were you dreaming about invading russia
+
+224
+00:20:05,360 --> 00:20:10,240
+leaving your troops behind as you'd left them behind after invading egypt cursing the british
+
+225
+00:20:10,240 --> 00:20:17,060
+mastery of the sea exactly cursing the nation's shopkeepers um well uh at the um but obviously
+
+226
+00:20:17,060 --> 00:20:22,040
+at this point he's not there no the avalides managed to sort of uh keep them away for the
+
+227
+00:20:22,040 --> 00:20:24,140
+time being meanwhile that guy the mayor
+
+228
+00:20:24,140 --> 00:20:30,880
+is is sort of he's he's playing what seems to be a very strange game people are saying to him where
+
+229
+00:20:30,880 --> 00:20:34,780
+are the arms and he's sending them off to different parts of the city where it seems like there's
+
+230
+00:20:34,780 --> 00:20:38,980
+obviously not going to be any weapons and people are starting to be suspicious and thinking is he
+
+231
+00:20:38,980 --> 00:20:43,560
+trying to is he playing a double game is he just trying to buy time by sending us some wild goose
+
+232
+00:20:43,560 --> 00:20:52,020
+chases but all that day the 13th there is a sense of kind of increasing disorder um and then dawn
+
+233
+00:20:52,020 --> 00:20:53,840
+breaks the following day tuesday
+
+234
+00:20:54,140 --> 00:21:00,320
+the 14th and the bread price not surprisingly given the chaos has now reached its all-time
+
+235
+00:21:00,320 --> 00:21:05,760
+peak so it's now about 15 sue and women who are going out to the markets to get bread are
+
+236
+00:21:05,760 --> 00:21:12,700
+incredibly angry and saying you know this is intolerable uh we we can't eat we must you know
+
+237
+00:21:12,700 --> 00:21:17,600
+we must take matters into our own hands so that morning the crowds are bigger than ever about
+
+238
+00:21:17,600 --> 00:21:23,980
+80 000 people return to these avalides they they seize they break in it's scenes of
+
+239
+00:21:24,140 --> 00:21:28,020
+tremendous chaos kind of stampede there's a crush people have been crushed underfoot they get
+
+240
+00:21:28,760 --> 00:21:34,540
+muskets about about 5 000 muskets they take out about 20 cannons and they're passing them out
+
+241
+00:21:34,540 --> 00:21:40,540
+among the crowd but there is one thing they don't have they don't have any gunpowder they don't have
+
+242
+00:21:40,540 --> 00:21:45,160
+anything to basically make the cannons work and so dominic is there anywhere in paris that might
+
+243
+00:21:45,160 --> 00:21:51,320
+have a ready supply of gunpowder is one place tom and that place is the bastille the great fortress
+
+244
+00:21:51,320 --> 00:21:54,080
+in the center of paris and now the crowd's
+
+245
+00:21:54,140 --> 00:21:59,720
+turned their attention to the bastille so the bastille tom you will know because you did a
+
+246
+00:21:59,720 --> 00:22:04,820
+wonderful episode about the man in the iron mask that the bastille is not quite what we think it
+
+247
+00:22:04,820 --> 00:22:12,340
+was so in our imagination the bastille is this towering gothic castle you know well that's how
+
+248
+00:22:12,340 --> 00:22:16,880
+it's shown in the painting the paintings it's it's it's looming over the city it's this terrible
+
+249
+00:22:16,880 --> 00:22:23,920
+symbol of royal oppression the embodiment of despotism and tyranny and whatnot now it's gothic
+
+250
+00:22:24,140 --> 00:22:28,020
+stories in it as well because this is the kind of the period of gothic fiction yes and it's a
+
+251
+00:22:28,020 --> 00:22:34,660
+transplantation of a sinister baronial pile in the alps or something right into the middle of paris
+
+252
+00:22:34,660 --> 00:22:39,460
+but that's not actually no not what it is it's a bit of the it's got a bit of a tower of london
+
+253
+00:22:39,460 --> 00:22:45,940
+quality to it i suppose but it's quite squat it has eight round towers and it has it does
+
+254
+00:22:45,940 --> 00:22:53,680
+have walls that are five feet thick but it had been built in the hundred years war as a defense
+
+255
+00:22:54,140 --> 00:23:01,780
+the english i'm proud to say and charles the mad charles the sixth had converted it into a prison
+
+256
+00:23:02,380 --> 00:23:05,660
+well we'll be looking at this in a hundred years series we're going to be doing on
+
+257
+00:23:05,660 --> 00:23:12,260
+yeah henry v in a few weeks exactly um but it was cardinal richlier in the 17th century who
+
+258
+00:23:12,260 --> 00:23:17,580
+really said let's use it as a as a prison for prisoners of state and the people who were sent
+
+259
+00:23:17,580 --> 00:23:23,520
+there as you described in your episode that you did on the man in the iron mask there's a thing
+
+260
+00:23:24,140 --> 00:23:31,480
+and this is a kind of sealed letter approved by the king in which your crime is often not really
+
+261
+00:23:31,480 --> 00:23:37,800
+nearly even named but basically if there's a letter to cache you can be sentenced uh without
+
+262
+00:23:37,800 --> 00:23:44,580
+any process without any trial um you can be basically thrown behind bars so people are
+
+263
+00:23:44,580 --> 00:23:49,920
+obviously up in arms they see this as a symbol of arbitrary government and despotism and absolutism
+
+264
+00:23:49,920 --> 00:23:53,780
+and whatnot but there are kind of three three kinds really aren't there
+
+265
+00:23:54,140 --> 00:24:00,640
+so there's there's um people who are seen as engaged in conspiracy against the monarchy yes
+
+266
+00:24:00,640 --> 00:24:05,420
+of whom whoever he is the man in the iron mask would be the exemplary example
+
+267
+00:24:06,140 --> 00:24:12,820
+um and there are writers whose whose works are seen to be seditious so the most famous of these
+
+268
+00:24:12,820 --> 00:24:19,000
+writers is voltaire the great kind of wit and philosopher who actually writes a story of the
+
+269
+00:24:19,000 --> 00:24:23,900
+the man in the iron mask and basically kind of invents it as a a a symbol of
+
+270
+00:24:24,140 --> 00:24:33,360
+tyranny and then there are um kind of basically people who are seen by their own families as
+
+271
+00:24:33,360 --> 00:24:39,060
+trouble and again there is a famous archetype of this a literary figure who we've also done
+
+272
+00:24:39,060 --> 00:24:43,300
+an episode on and that is the marquis de sade that's right so delinquents whose own aristocratic
+
+273
+00:24:43,300 --> 00:24:48,620
+usually whose own families basically petition the monarchy please can you have my son locked up he's
+
+274
+00:24:48,620 --> 00:24:53,340
+totally out of control i mean that's what it is isn't it it's like sending your if you if today
+
+275
+00:24:53,340 --> 00:24:59,040
+you sent your child to um i don't know uh to a sort of sanatorium or something or to or to a
+
+276
+00:24:59,040 --> 00:25:03,820
+clinic you know to a military school yeah exactly that kind of thing and actually it's quite a kind
+
+277
+00:25:03,820 --> 00:25:08,180
+of mark of status isn't it if you're a writer or to be sent to the bastille rebel yeah to be sent
+
+278
+00:25:08,180 --> 00:25:11,500
+there because that's what beaumarchais finds so humiliating when he's sent to san lazare
+
+279
+00:25:11,500 --> 00:25:17,780
+that he isn't a lesser prison yeah and actually the the conditions in the bastille i i when i
+
+280
+00:25:17,780 --> 00:25:22,320
+read up on it it reminded me of the prisons that dickens describes like the marshalsea or something
+
+281
+00:25:22,320 --> 00:25:23,220
+so it's all
+
+282
+00:25:23,220 --> 00:25:29,040
+a bit dickensian it's sharma described compares it to an overgrown lodging house with guests
+
+283
+00:25:29,580 --> 00:25:35,140
+with guests living in different rooms according to their station you can go into if you remember
+
+284
+00:25:35,140 --> 00:25:40,580
+the public you can actually walk into the bastille you can go in and sort of there are shops on the
+
+285
+00:25:40,580 --> 00:25:45,860
+inside there's a garden the governor has a vegetable garden so you can have a stroll and
+
+286
+00:25:45,860 --> 00:25:50,700
+stuff and inside further inside there's the kind of warren of rooms where the inmates are kept
+
+287
+00:25:51,280 --> 00:25:53,200
+and the conditions are actually not really that bad
+
+288
+00:25:53,220 --> 00:25:59,100
+so the extraordinary thing is you are better off inside the bastille than the vast majority
+
+289
+00:25:59,100 --> 00:26:04,640
+of french people who live outside it so well the marquis de sade lives quite well i mean he's able
+
+290
+00:26:04,640 --> 00:26:09,520
+to write his yeah novel and you have alcohol wine and yeah he sends his wife out to get him cheese
+
+291
+00:26:09,520 --> 00:26:14,760
+that's right he has 133 books when he's in there and he has a desk and his dressing gowns he has
+
+292
+00:26:15,760 --> 00:26:20,720
+aftershave he's allowed all these kind of treats this is the norm there are card games among there
+
+293
+00:26:20,720 --> 00:26:21,940
+there's a billiard table
+
+294
+00:26:23,220 --> 00:26:28,880
+um there's a wonderful writer called jean-françois momentel he was asked what was the food like in
+
+295
+00:26:28,880 --> 00:26:34,300
+the bastille and he said um i always remember an excellent soup a succulent side of beef
+
+296
+00:26:34,300 --> 00:26:39,820
+a thigh of boiled chicken oozing with grease a little dish of fried marinated artichokes
+
+297
+00:26:39,820 --> 00:26:45,240
+really some fine croissant prayers a bottle of old burgundy the very best mocha coffee
+
+298
+00:26:45,240 --> 00:26:52,580
+so it's it's kind of cross it's more like a hotel than a prison um and the demonology of it was
+
+299
+00:26:53,220 --> 00:26:58,880
+considered by writers to criticize the regime yes the most famous is a guy actually called
+
+300
+00:26:58,880 --> 00:27:04,380
+lingay who was a barrister who was sent there and we don't really know why in 1780 and he published
+
+301
+00:27:04,380 --> 00:27:09,840
+a book called memoirs of the bastille and this is your classic kind of gothic nightmare you know
+
+302
+00:27:09,840 --> 00:27:16,460
+the clanking chains the door crashing shut behind you and he invented the idea really that the
+
+303
+00:27:16,460 --> 00:27:20,820
+bastille was this kind of living tomb that everybody in it was the walking dead they would
+
+304
+00:27:20,820 --> 00:27:22,340
+never be he must be drawing on the voltaire again i suppose i don't know if you know if you've ever
+
+305
+00:27:22,340 --> 00:27:23,200
+the bastille was the walking dead they would never be well he must be drawing on the voltaire i guess i suppose
+
+306
+00:27:23,220 --> 00:27:29,020
+to some extent as well i mean it's kind of been laid those ideas are quite deep roots they do and
+
+307
+00:27:29,020 --> 00:27:34,540
+they're actually so successful those ideas that the government themselves have decided the bastille
+
+308
+00:27:34,540 --> 00:27:39,120
+has to go because it's basically bad but even though it's fine it's kind of bad publicity to
+
+309
+00:27:39,120 --> 00:27:46,100
+have it so by the 1780s they have a plan to redevelop the bastille they're going to build
+
+310
+00:27:46,100 --> 00:27:50,720
+a park instead with a column and fountains in the middle and there'll be an inscription that says
+
+311
+00:27:50,720 --> 00:28:00,180
+ironically louis xvi restorer of public freedom uh of course that part that never happens i mean
+
+312
+00:28:00,180 --> 00:28:06,720
+the the kind of the the shades of irony i know the the the veil the totemic episodes in the french
+
+313
+00:28:06,720 --> 00:28:13,300
+revolution are amazing so so the bastille has has featured in in people's imagination in the
+
+314
+00:28:13,300 --> 00:28:17,260
+days leading up to the 14th of july because partly because of the marquis de sade actually
+
+315
+00:28:17,700 --> 00:28:20,700
+so he's in the bastille he's been following all the news from
+
+316
+00:28:20,720 --> 00:28:26,240
+versailles really into it isn't he and he's been shouting political harangues from the window yeah
+
+317
+00:28:26,240 --> 00:28:31,680
+because he takes the thing that he pees into yeah kind of metal funnel kind of uh funnel and he uses
+
+318
+00:28:31,680 --> 00:28:35,980
+that to shout out revolutionary slogans exactly and he says the governor is planning to i'm in
+
+319
+00:28:35,980 --> 00:28:41,060
+here with hundreds of inmates and the governor is planning to kill us all and this is a complete
+
+320
+00:28:41,060 --> 00:28:45,420
+fantasy and the governor event so he gets bundled off to a lunatic lunatic asylum he's got to go he's
+
+321
+00:28:45,420 --> 00:28:50,640
+a real pain now actually we've talked about that mentioned the governor so the marquis de
+
+322
+00:28:50,640 --> 00:28:55,940
+sade was kicked out nine day nine days ago and the governor in those nine days has been getting
+
+323
+00:28:55,940 --> 00:29:03,120
+increasingly worried as you might expect his name is bernard jone de lorne and he is 49 years old
+
+324
+00:29:03,640 --> 00:29:09,720
+he was born in the bastille his father had been the governor as well and basically he's a very very
+
+325
+00:29:10,320 --> 00:29:20,540
+dutiful um humdrum you know uncontroversial civil servant the guy who runs the bastille he's not a
+
+326
+00:29:20,640 --> 00:29:25,460
+bad man he's not a torturer he's nothing like that he's just kind of a boring official he
+
+327
+00:29:25,460 --> 00:29:30,520
+doesn't cackle evilly he doesn't he doesn't fettering people in dripping dungeons not at all
+
+328
+00:29:30,520 --> 00:29:36,720
+and he's been given this gunpowder to guard the gunpowder has been sent to him 250 barrels of it
+
+329
+00:29:37,120 --> 00:29:43,580
+and he's been told you know don't let anyone have it he has been sort of making vague preparations
+
+330
+00:29:43,960 --> 00:29:49,340
+like moving the cannons to the embrasures uh he's told his men to gather
+
+331
+00:29:50,640 --> 00:29:55,660
+stones to throw at people if they try to get in and bits of iron mongery and stuff and i say his
+
+332
+00:29:55,660 --> 00:30:05,260
+men he has 82 old soldiers like pensioners avalid as they're called and and they are just loafers
+
+333
+00:30:05,600 --> 00:30:10,020
+they're completely useless they're not going to really be at all used in a fight and he's also
+
+334
+00:30:10,020 --> 00:30:17,740
+been sent 32 swiss guards he has enough food to last him two days and he has no water supply
+
+335
+00:30:17,740 --> 00:30:20,160
+whatsoever so when he sees
+
+336
+00:30:20,640 --> 00:30:27,260
+this giant crowd advancing towards him he thinks yeah for god's sake like this is the last thing i
+
+337
+00:30:27,260 --> 00:30:35,720
+need now this crowd later ends up being um sort of dare i say sacralized tom there are 954 of them
+
+338
+00:30:35,720 --> 00:30:41,740
+and they are aged between 8 and 72 and they're known officially as the vanker you might say that
+
+339
+00:30:41,740 --> 00:30:47,320
+all frenchmen are vanker one way or another when you but um anyway uh that's a subject for a bonus
+
+340
+00:30:47,320 --> 00:30:49,740
+episode so most of these vanker
+
+341
+00:30:50,640 --> 00:30:57,060
+are artisans from the saint antoine neighborhood the neighborhood around the um around the bastille
+
+342
+00:30:57,520 --> 00:31:03,620
+and they are joiners and glaziers and cabinet makers and locksmiths so because they ended up
+
+343
+00:31:03,620 --> 00:31:08,700
+as these great heroes of the revolution we know loads about them only one of them is a woman a
+
+344
+00:31:08,700 --> 00:31:15,000
+laundress called marie charpentier most of them historians have really done tremendous work kind
+
+345
+00:31:15,000 --> 00:31:20,440
+of analyzing their background most of them had not been born in paris so that gives you a sense of
+
+346
+00:31:20,640 --> 00:31:25,860
+how transient the parisian population is how many migrants have come from the countryside for work
+
+347
+00:31:25,860 --> 00:31:32,700
+or for bread and are now angry and resentful in a city like paris people are going to die
+
+348
+00:31:33,160 --> 00:31:39,980
+of disease and so the population cannot be maintained without this constant influx of people
+
+349
+00:31:39,980 --> 00:31:45,860
+um so they are angry resentful hungry they're also frightened there are lots of rumors that
+
+350
+00:31:45,860 --> 00:31:50,120
+the army are preparing to retake the city they're desperate to get this gunpowder
+
+351
+00:31:50,640 --> 00:31:56,240
+anyway so they've assembled a thousand of them or so shouting and roaring outside the walls of the
+
+352
+00:31:56,240 --> 00:32:02,520
+bastille um more happily for delorne two delegates arrived from city hall from the hotel de ville
+
+353
+00:32:03,060 --> 00:32:06,960
+and they say look we've come to see you and he says well funnily enough i'm about to have um
+
+354
+00:32:07,500 --> 00:32:12,440
+about to have my breakfast dinner see yeah it seems it's 10 o'clock so it's it's described
+
+355
+00:32:12,440 --> 00:32:17,860
+as his day but it's more of a brunch he's about to have brunch and and he says why don't you come in
+
+356
+00:32:17,860 --> 00:32:20,480
+so these guys go in and they have this enormous
+
+357
+00:32:20,640 --> 00:32:25,060
+i mean obviously it's france right they have this enormous meal which goes on for hours
+
+358
+00:32:25,060 --> 00:32:29,840
+and the crowd become very restless what are they doing well if they're all starving today right
+
+359
+00:32:29,840 --> 00:32:33,640
+and of course we know what they're eating in the bastille they're having an excellent
+
+360
+00:32:33,640 --> 00:32:38,120
+soup a second inside of beef a thigh of boiled chicken oozing with grease they're having all this
+
+361
+00:32:38,120 --> 00:32:44,780
+brilliant the crowd get very restless another deputy arrives called turio de la rosier and he
+
+362
+00:32:44,780 --> 00:32:49,560
+goes in to see uh to lauren by this time he's got a very firm list of of demands
+
+363
+00:32:50,640 --> 00:32:57,640
+he says we want all your guns as cannons as well as uh the gunpowder and you must allow our new
+
+364
+00:32:57,640 --> 00:33:04,780
+militia the bourgeois guard to take over the bastille and doronay says look i i can't do that
+
+365
+00:33:04,780 --> 00:33:09,940
+i mean i need instructions from versailles i've been taught i've got my orders you know i'm doing
+
+366
+00:33:09,940 --> 00:33:14,040
+my i'm just doing my job i don't want any trouble but you can't ask me stuff that i can't deliver
+
+367
+00:33:15,040 --> 00:33:20,620
+turio says i understand where you you know i understand where you're coming from i'm not having
+
+368
+00:33:20,640 --> 00:33:24,960
+to be happy about it but i will go back to the hotel de ville and report back and and come and
+
+369
+00:33:24,960 --> 00:33:32,300
+find out what's what's going to happen so turio goes back to the hotel de ville and there all
+
+370
+00:33:32,300 --> 00:33:38,700
+these sort of electors and officials are huddled together and they're chatting for about an hour
+
+371
+00:33:38,700 --> 00:33:43,540
+about what's what are we going to do about the bastille and actually their attitude is
+
+372
+00:33:43,540 --> 00:33:48,200
+we don't want a massive affray in the center of paris
+
+373
+00:33:50,640 --> 00:33:56,520
+i think the bastille is a source of ammunition rather than its role as an emblem yes yes yes they
+
+374
+00:33:56,520 --> 00:34:01,420
+are that is what they want they want the gunpowder they want the guns but they're not talking about
+
+375
+00:34:01,420 --> 00:34:05,420
+you know the bastille as the gothic castle and stuff i mean they can see the bastille they know
+
+376
+00:34:05,420 --> 00:34:15,380
+what it is but they've been talking for about an hour um it's 1 30. um turio is going to be sent
+
+377
+00:34:15,380 --> 00:34:20,520
+back to the bastille with a loud hailer to kind of address the crowd and stuff when suddenly they
+
+378
+00:34:20,640 --> 00:34:26,260
+hear there's this enormous explosion and the hotel de ville literally shakes and then they
+
+379
+00:34:26,260 --> 00:34:32,120
+hear this ex this this further explosions gunfire and it's all coming from the direction of the
+
+380
+00:34:32,120 --> 00:34:40,340
+bastille so what has happened well while turio and his friends have been meeting in the city hall the
+
+381
+00:34:40,340 --> 00:34:45,680
+crowd outside the bastille have actually run out of patience and have just decided to take matters
+
+382
+00:34:45,680 --> 00:34:50,320
+into their own hands and some of them have started to burst into that outer courtyard
+
+383
+00:34:50,640 --> 00:34:55,360
+the vegetable garden and the shops shouting give us the bastille give us the bastille
+
+384
+00:34:56,200 --> 00:35:01,500
+a load of them climb up to the top of a perfume shop which is next to the gate that goes into
+
+385
+00:35:01,500 --> 00:35:08,860
+the inner courtyard and there's a drawbridge which is closed they cut the ropes holding
+
+386
+00:35:08,860 --> 00:35:15,320
+the drawbridge up now this is that classic kind of mad crowd behavior the drawbridge at this point
+
+387
+00:35:15,320 --> 00:35:19,480
+falls open very unexpected and it crushes people underneath one person has died
+
+388
+00:35:20,640 --> 00:35:24,660
+the rest of the crowd they're damn about that and they just run over the drawbridge presumably
+
+389
+00:35:24,660 --> 00:35:30,360
+further flattening this poor man um there are soldiers up at the top who's shouting
+
+390
+00:35:31,000 --> 00:35:37,000
+stay away stay away we don't want to shoot you the the crowd think they are saying come in come
+
+391
+00:35:37,000 --> 00:35:43,660
+in we won't shoot so they charge in and the soldiers start the swiss guards start shooting
+
+392
+00:35:43,660 --> 00:35:50,500
+at them now the crowd believe quite wrongly the people further behind say oh they must have learned
+
+393
+00:35:50,640 --> 00:35:55,220
+a drawbridge and let us into the inner courtyard as a trick because they wanted to shoot us down
+
+394
+00:35:55,220 --> 00:36:00,960
+like dogs and they go ballistic the crowd is now stampeding further into the bastille
+
+395
+00:36:01,640 --> 00:36:09,440
+and the fighting kind of breaks out in earnest and what then happens uh of course rumors spread
+
+396
+00:36:09,440 --> 00:36:13,960
+people you know chinese whispers people are sort of saying oh they're it's all kicking
+
+397
+00:36:13,960 --> 00:36:20,460
+off at the bastille the guards are shooting at our people at the crowd um there's a guy who's called
+
+398
+00:36:20,640 --> 00:36:27,180
+uh ula pierre augusta and he runs out and he gets a load of guard francais french guards
+
+399
+00:36:27,180 --> 00:36:31,600
+and he says the criminal de lornais is assassinating our fathers our wives
+
+400
+00:36:31,600 --> 00:36:35,920
+and our children will you let them be slaughtered so these guards says arrive
+
+401
+00:36:36,680 --> 00:36:41,020
+and they've brought with them some cannons and one of those tom is that siamese cannon
+
+402
+00:36:41,020 --> 00:36:46,480
+oh brilliant well the elephants i think are a figment of your imagination but let's imagine
+
+403
+00:36:46,480 --> 00:36:50,520
+yeah um uh which was a present for louis xiv and they
+
+404
+00:36:50,640 --> 00:36:56,980
+these cannon at the gates so it's total chaos inside the bastille delorne the governor is
+
+405
+00:36:56,980 --> 00:37:03,780
+obviously very distressed at what's happening and uh he he's enjoyed a nice breakfast yeah
+
+406
+00:37:03,780 --> 00:37:09,520
+true he did get his brunch but he is um i mean tom it's fair to say the last brunch he'll ever have
+
+407
+00:37:09,520 --> 00:37:16,520
+sadly um he just wants to basically the whole thing to be over with honor and he wants an
+
+408
+00:37:16,520 --> 00:37:21,860
+honorable surrender no more bloodshed he sends a note he he sends a note to the leads of the crowd
+
+409
+00:37:21,860 --> 00:37:27,320
+and he says um look i've got all these barrels of gunpowder if you don't stop attacking i will blow
+
+410
+00:37:27,320 --> 00:37:32,160
+up the gunpowder and the four i'll blow up the whole thing but sky high they don't want to give
+
+411
+00:37:32,160 --> 00:37:39,180
+in to this ultimatum and in fact his own soldiers say yeah we don't not a good idea we don't want
+
+412
+00:37:39,180 --> 00:37:43,680
+you to blow up all the gunpowder and us with it and so eventually delorne you know his that this
+
+413
+00:37:43,680 --> 00:37:45,420
+wheeze of his has failed and he says
+
+414
+00:37:46,580 --> 00:37:52,280
+fine yeah let's call it a day and he lowers the drawbridge that leads to the inner courtyards
+
+415
+00:37:53,080 --> 00:37:59,180
+the attackers now swarm over this drawbridge some of them i mean even though he's basically
+
+416
+00:37:59,180 --> 00:38:03,380
+surrendered and let them in they're determined to have their sort of moment of glory anyway so
+
+417
+00:38:03,380 --> 00:38:10,360
+they climb the walls and they hack down the gate which is a bit kind of unnecessary and by about
+
+418
+00:38:10,360 --> 00:38:16,080
+five o'clock in the afternoon the siege is over and there are white flags flying above the bastille
+
+419
+00:38:16,080 --> 00:38:16,240
+they
+
+420
+00:38:16,520 --> 00:38:22,600
+think they are going to find uh victims of royal despotism chained up in dungeons
+
+421
+00:38:22,600 --> 00:38:25,940
+of course they do i mean don't forget the market has been telling them that this
+
+422
+00:38:25,940 --> 00:38:31,720
+massacre was impending and for years as you said going back to voltaire people have believed
+
+423
+00:38:31,720 --> 00:38:37,960
+that the the bastille is is rammed with the victims of despotism with their free
+
+424
+00:38:37,960 --> 00:38:45,020
+how many did they find there are seven people in the bastille tom seven uh prisoners four of whom
+
+425
+00:38:46,520 --> 00:38:53,340
+are criminals who are forgers uh who cannot be romanticized at all one of them is one of the
+
+426
+00:38:53,340 --> 00:38:58,980
+do they go free do they yeah the forgers do go free i think one of them is a sort of one of your
+
+427
+00:38:58,980 --> 00:39:04,400
+posh libertines a guy called the cop the comte de solo who had been locked up at the request of his
+
+428
+00:39:04,400 --> 00:39:15,420
+own family for bad behavior and two are um lunatics so of the of the lunatics as they're called um one
+
+429
+00:39:15,420 --> 00:39:21,960
+of them is just obviously completely mad and the other one is is probably some sources say english
+
+430
+00:39:21,960 --> 00:39:27,200
+some irish but i think it's generally agreed he's irish people has a long white beard people call
+
+431
+00:39:27,200 --> 00:39:33,480
+him major white he's he looks good he's the only possible candidate that they have that they can
+
+432
+00:39:33,480 --> 00:39:38,280
+say they've rescued from this massacre a symbol of liberation because he's gone he thinks he's
+
+433
+00:39:38,280 --> 00:39:41,760
+julius caesar doesn't he yeah they take him they put him on their shoulders and carry him around
+
+434
+00:39:41,760 --> 00:39:46,540
+the city hurrah look at this man now he thinks he's julius caesar so he's very confused by the
+
+435
+00:39:46,540 --> 00:39:50,720
+whole thing he's kind of waving at the crowds and i think the next day they take they take
+
+436
+00:39:50,720 --> 00:39:54,740
+him and lock him up in a lunatic asylum again so actually he was probably better off in the
+
+437
+00:39:54,740 --> 00:40:00,780
+bastille with his with his fine foods and his billiard table anyway just on the bastille itself
+
+438
+00:40:01,380 --> 00:40:04,940
+this is obviously very disappointing from the revolution's point of view
+
+439
+00:40:05,500 --> 00:40:11,280
+so they have to completely reinvent what happened and what they found they revolutionary artists
+
+440
+00:40:11,280 --> 00:40:11,740
+probably have to completely reinvent what happened and what they found they revolutionary artists
+
+441
+00:40:11,760 --> 00:40:18,000
+poor at prints and engravings that show torture chambers you know iron maidens men in iron masks
+
+442
+00:40:18,540 --> 00:40:24,640
+all of that kind of stuff and also the battlements being much much larger exactly this this
+
+443
+00:40:24,640 --> 00:40:32,200
+extraordinary sort of uh helms deep style siege which is not really what it was it was like more
+
+444
+00:40:32,200 --> 00:40:36,800
+like a sort of it was more like a kind of there was an element of the riot of football hooligans
+
+445
+00:40:36,800 --> 00:40:41,680
+i think in the uh taking the bastille francis will be shocked by this by the way but the um
+
+446
+00:40:41,680 --> 00:40:42,200
+i think in the uh taking the bastille francis will be shocked by this by the way but the um
+
+447
+00:40:42,200 --> 00:40:46,200
+do we have any no so it's not an issue uh they find some bits of old armor
+
+448
+00:40:46,200 --> 00:40:50,460
+in the sort of cellar and they bring that out they say torture equipment
+
+449
+00:40:50,460 --> 00:40:58,760
+they find a printing press torture machine all this kind of stuff bastille tourism in the next
+
+450
+00:40:58,760 --> 00:41:04,600
+few days becomes a huge thing so they basically former warders turn up they're giving you a guided
+
+451
+00:41:04,600 --> 00:41:11,520
+tour of the cells um posh women will have themselves locked in overnight so they can enjoy
+
+452
+00:41:11,520 --> 00:41:17,680
+the full bastille yeah toads and stuff didn't the guy um that there was a guy who who made friends
+
+453
+00:41:17,680 --> 00:41:24,600
+with his rats is that in a cell i didn't know that yeah a sort of rat yeah wow who knew the rats
+
+454
+00:41:24,600 --> 00:41:30,840
+became his big friends okay um a really interesting story and you can read up more about this in um a
+
+455
+00:41:30,840 --> 00:41:34,960
+lot of the french revolution histories simon sharma's really good on this for example there
+
+456
+00:41:34,960 --> 00:41:39,860
+was a guy in the crowd who was a building contractor called pierre francois and he's very
+
+457
+00:41:41,520 --> 00:41:44,700
+interested in the bastille he basically gets the contract to demolish the bastille but he organized
+
+458
+00:41:44,700 --> 00:41:51,360
+he makes tons of money from organizing guided tours lectures all this kind of stuff he builds
+
+459
+00:41:51,360 --> 00:41:58,540
+a revolute france's first revolutionary altar from chains and manacles that he claimed to have found
+
+460
+00:41:58,540 --> 00:42:04,060
+in the bastille and then he becomes the great entrepreneur bastille merchandising so he puts
+
+461
+00:42:04,060 --> 00:42:11,500
+together a traveling revolution kit that um his kind of uh his his reps his sales reps
+
+462
+00:42:11,520 --> 00:42:18,580
+reps take to everyone every part of france every one of the 83 new departments and it includes a
+
+463
+00:42:18,580 --> 00:42:27,080
+big chest of of souvenirs literally inkwells that are supposedly made from fetters paperweights in
+
+464
+00:42:27,080 --> 00:42:34,820
+the shape of the bastille daggers snuff boxes so dominic it's very like um uh the way the berlin
+
+465
+00:42:34,820 --> 00:42:39,180
+wall you know the chunks of the berlin wall were sold enough chunks of the berlin wall to make
+
+466
+00:42:39,800 --> 00:42:41,420
+millions of berlin walls i think
+
+467
+00:42:41,520 --> 00:42:47,580
+fed so it's exactly the same yeah so and sort of cross between it's a cross between
+
+468
+00:42:48,240 --> 00:42:56,740
+medieval relics and basically modern souvenir tat uh mr palloy's uh souvenir kits anyway
+
+469
+00:42:56,740 --> 00:43:00,740
+which is the hinge between the past and the present that's history tom what can you say
+
+470
+00:43:01,140 --> 00:43:05,720
+um anyway uh that's the jump ahead let's go back to the afternoon of the 14th of july
+
+471
+00:43:06,400 --> 00:43:10,900
+so what happened to all the defenders the swiss guards were initially unharmed because they'd
+
+472
+00:43:11,520 --> 00:43:16,800
+had their uniforms off so nobody knew who they were some of the the avalide are very very harshly
+
+473
+00:43:16,800 --> 00:43:21,600
+treated there's a guy a good example of this this guy called betka and this i think is a
+
+474
+00:43:21,600 --> 00:43:27,660
+quite scary warning of what lies ahead becka had been one of the key people in dissuading
+
+475
+00:43:27,660 --> 00:43:33,820
+delornay from blowing up the gunpowder um and so actually you know he he the crowd
+
+476
+00:43:33,820 --> 00:43:39,580
+should have been quite grateful to him but as soon as they get inside he opens one of the gates and
+
+477
+00:43:39,580 --> 00:43:40,820
+somebody cuts off his hand
+
+478
+00:43:41,880 --> 00:43:44,580
+The crowd believed that he must have been a jailer.
+
+479
+00:43:44,700 --> 00:43:48,560
+So they wave his hand around and they go, they put a key in.
+
+480
+00:43:48,580 --> 00:43:49,380
+And he's presumably still got the keys.
+
+481
+00:43:49,380 --> 00:43:49,880
+He's got the key in.
+
+482
+00:43:49,960 --> 00:43:50,280
+Yeah, sorry.
+
+483
+00:43:50,360 --> 00:43:51,620
+He's got the key because he's opened the gate.
+
+484
+00:43:52,000 --> 00:43:56,180
+So because of this, they parade around the city carrying this poor bloke's hand.
+
+485
+00:43:57,220 --> 00:44:03,000
+Anyway, he manages to live to the end of the day, but then somebody again, misidentifies
+
+486
+00:44:03,000 --> 00:44:07,000
+him and says, oh, I think that bloke was one of the guys who was firing the cannons at
+
+487
+00:44:07,000 --> 00:44:08,520
+the people, which he wasn't.
+
+488
+00:44:08,520 --> 00:44:13,440
+And so he ends up being hanged along with some of his comrades, which is very unfortunate,
+
+489
+00:44:13,940 --> 00:44:18,660
+but not as chilling as something that has always stayed in my mind ever since I first
+
+490
+00:44:18,660 --> 00:44:24,860
+read it, which must be, I mean, 30, 40 years ago, which is what happened to Governor Delaunay.
+
+491
+00:44:25,000 --> 00:44:26,980
+Remember I said, he's just a functionary.
+
+492
+00:44:27,440 --> 00:44:29,400
+He wanted to kill himself.
+
+493
+00:44:29,620 --> 00:44:34,780
+He was so shamed by the dishonor of surrendering the fortress, but he was stopped from doing
+
+494
+00:44:34,780 --> 00:44:35,780
+so by a grenadier.
+
+495
+00:44:36,640 --> 00:44:38,500
+And the crowd sees him.
+
+496
+00:44:38,500 --> 00:44:42,080
+They seize on him and they drag him out and they drag him towards the Hôtel de Ville.
+
+497
+00:44:43,500 --> 00:44:45,380
+He's being dragged through the streets.
+
+498
+00:44:45,580 --> 00:44:50,600
+People are spitting on him and kicking him and on all sorts, a horrible scene.
+
+499
+00:44:51,020 --> 00:44:56,440
+They get to the Hôtel de Ville and then they say, well, let's kill him in a really amusing
+
+500
+00:44:56,440 --> 00:44:57,140
+baroque way.
+
+501
+00:44:57,340 --> 00:45:01,200
+And there are some people who say, why don't we tie him to a horse's tail and drag him
+
+502
+00:45:01,200 --> 00:45:03,680
+through the city and he will die by being dragged over the cobbles.
+
+503
+00:45:04,100 --> 00:45:08,480
+Because that's kind of the kind of thing that royal executions do.
+
+504
+00:45:09,520 --> 00:45:12,240
+To awe and intimidate the masses.
+
+505
+00:45:12,860 --> 00:45:17,220
+And so I suppose there's a kind of element of paying royal officials in their own kind.
+
+506
+00:45:17,300 --> 00:45:17,600
+Exactly.
+
+507
+00:45:17,800 --> 00:45:18,200
+Exactly.
+
+508
+00:45:18,640 --> 00:45:23,760
+And there's a guy called a pastry cook, who says, no, we'll take him into the city hall,
+
+509
+00:45:23,900 --> 00:45:28,080
+the Hôtel de Ville, and we'll give him a kind of a trial or something.
+
+510
+00:45:28,520 --> 00:45:34,040
+And to Delaunay, who at this point is battered, bruised, covered with blood, crying, whatever.
+
+511
+00:45:34,500 --> 00:45:36,100
+He says, enough of this.
+
+512
+00:45:36,200 --> 00:45:37,320
+Just let me die.
+
+513
+00:45:37,500 --> 00:45:38,360
+And he lashes out.
+
+514
+00:45:38,500 --> 00:45:38,640
+He does.
+
+515
+00:45:38,640 --> 00:45:42,460
+He lashes out furiously and kicks the pastry cook, Danao, in the groin.
+
+516
+00:45:42,560 --> 00:45:47,580
+And at that point the crowd kind of close in on him, daggers drawn, bayonets.
+
+517
+00:45:47,660 --> 00:45:52,540
+And people are in a frenzy and they stab and stab and stab and kill him for Delaunay.
+
+518
+00:45:53,040 --> 00:45:55,980
+And then people shoot his body as it lies in the gutter.
+
+519
+00:45:56,000 --> 00:46:00,800
+And then somebody gives Danao the pastry cook a sword and says, you have the honour of cutting
+
+520
+00:46:00,800 --> 00:46:01,420
+off his head.
+
+521
+00:46:02,020 --> 00:46:03,800
+And Danao throws the sword aside.
+
+522
+00:46:03,860 --> 00:46:04,860
+I don't need the sword, he says.
+
+523
+00:46:04,920 --> 00:46:06,800
+And he gets out a pocket knife.
+
+524
+00:46:06,800 --> 00:46:14,880
+and he then kneels down and basically saws this governor's head off.
+
+525
+00:46:15,160 --> 00:46:18,640
+And so this story began with wax heads being paraded.
+
+526
+00:46:18,640 --> 00:46:19,600
+Yeah, and now real heads.
+
+527
+00:46:19,600 --> 00:46:20,920
+And now real heads.
+
+528
+00:46:20,920 --> 00:46:22,040
+And they put his head on a pike.
+
+529
+00:46:22,320 --> 00:46:23,880
+The crowd are all laughing.
+
+530
+00:46:23,980 --> 00:46:25,040
+There are women in the crowd.
+
+531
+00:46:25,200 --> 00:46:28,800
+This is what shocks some witnesses, kind of cheering and singing,
+
+532
+00:46:29,560 --> 00:46:30,800
+and they parade around.
+
+533
+00:46:31,100 --> 00:46:36,520
+Now, the mayor has been in the Hôtel de Ville all this time, Jacques de Flessel.
+
+534
+00:46:36,800 --> 00:46:37,920
+This is the double crossing there.
+
+535
+00:46:37,940 --> 00:46:39,580
+People suspect a double crossing there.
+
+536
+00:46:40,400 --> 00:46:41,800
+People seize him as well.
+
+537
+00:46:41,980 --> 00:46:46,940
+They say afterwards they found a letter from De Launay in his pocket saying,
+
+538
+00:46:47,620 --> 00:46:50,780
+you know, hold out, let's distract the rabble.
+
+539
+00:46:51,120 --> 00:46:52,640
+Whether this is true, we don't know.
+
+540
+00:46:52,700 --> 00:46:54,180
+Of course, there's no evidence for it now.
+
+541
+00:46:54,940 --> 00:46:56,300
+Flessel, too, was taken outside.
+
+542
+00:46:56,440 --> 00:46:59,480
+He was basically ripped to pieces by the crowd, shot in the head,
+
+543
+00:46:59,600 --> 00:47:01,360
+his head cut off, put on a pike,
+
+544
+00:47:01,520 --> 00:47:05,540
+and then the crowd parade through the streets with his two heads on pikes.
+
+545
+00:47:06,880 --> 00:47:09,800
+So this is what's been happening in the city.
+
+546
+00:47:11,560 --> 00:47:13,620
+That evening, it starts to rain,
+
+547
+00:47:13,760 --> 00:47:16,240
+and anyone who knows anything about riots and mobs
+
+548
+00:47:16,240 --> 00:47:20,980
+knows that basically the single best way to end a riot is for it to start raining.
+
+549
+00:47:21,660 --> 00:47:23,520
+So like the Chartists in 1848.
+
+550
+00:47:23,520 --> 00:47:23,920
+Exactly.
+
+551
+00:47:24,000 --> 00:47:24,620
+Got rained.
+
+552
+00:47:24,620 --> 00:47:25,640
+There was no revolution.
+
+553
+00:47:27,480 --> 00:47:31,100
+So everything has died down in Paris,
+
+554
+00:47:31,140 --> 00:47:33,080
+but the National Assembly, of course, is still in Versailles.
+
+555
+00:47:33,200 --> 00:47:34,860
+That evening, as the rain is falling,
+
+556
+00:47:34,860 --> 00:47:39,560
+a guy called the Vicomte de Noailles bursts into the National Assembly in Versailles,
+
+557
+00:47:39,720 --> 00:47:42,620
+which is hours away, but ride or whatever,
+
+558
+00:47:42,780 --> 00:47:46,360
+and says that all this chaos has kicked off in the city.
+
+559
+00:47:46,540 --> 00:47:50,000
+And actually, the National Assembly are not jubilant.
+
+560
+00:47:50,500 --> 00:47:52,520
+They are anxious and shocked.
+
+561
+00:47:52,860 --> 00:47:55,740
+It is clear to them, to some of them, even now,
+
+562
+00:47:55,900 --> 00:47:59,960
+that this process that they thought they were controlling until a few days ago
+
+563
+00:47:59,960 --> 00:48:04,000
+is spiraling well beyond their ability to restrain it.
+
+564
+00:48:04,860 --> 00:48:07,860
+The king himself has been in the palace all day.
+
+565
+00:48:07,980 --> 00:48:12,140
+That is why in his journal he writes the word rien, nothing,
+
+566
+00:48:12,860 --> 00:48:15,880
+because it's a hunting journal and he has not done any hunting,
+
+567
+00:48:15,960 --> 00:48:19,620
+which in itself is a sign of how things have changed for him.
+
+568
+00:48:19,720 --> 00:48:23,920
+So it's not him being obtuse and failing to recognise the significance of what's happened.
+
+569
+00:48:23,940 --> 00:48:24,800
+No, there's an apocryphal exchange.
+
+570
+00:48:24,880 --> 00:48:28,580
+Somebody comes in to tell him this in the evening, another duke,
+
+571
+00:48:29,160 --> 00:48:31,720
+and tells him the Bastille is for and Louis is supposed to have said,
+
+572
+00:48:31,720 --> 00:48:32,460
+that is it a revolt?
+
+573
+00:48:32,720 --> 00:48:34,900
+And the guy said, no, sire, it is a revolution.
+
+574
+00:48:35,580 --> 00:48:38,040
+Again, I think that's too Hollywood, really.
+
+575
+00:48:39,420 --> 00:48:45,780
+But the next day, the 15th of July, all morning he dithers and he's not sure what to do,
+
+576
+00:48:45,840 --> 00:48:49,600
+but eventually he decides he should go and address the National Assembly personally.
+
+577
+00:48:49,820 --> 00:48:53,780
+He goes in with no guards, with no retinue, just with his two brothers,
+
+578
+00:48:53,980 --> 00:48:59,700
+and he says, obviously things in this capital are totally out of control.
+
+579
+00:48:59,880 --> 00:49:01,180
+I'm going to withdraw all troops.
+
+580
+00:49:01,180 --> 00:49:02,780
+Please help me.
+
+581
+00:49:03,460 --> 00:49:06,760
+He says, help me to assure the salvation of the state.
+
+582
+00:49:06,880 --> 00:49:10,220
+Help me to send a delegation to Paris to sort things out.
+
+583
+00:49:10,380 --> 00:49:13,340
+And the deputies are really impressed by this.
+
+584
+00:49:13,500 --> 00:49:14,840
+They're moved by it.
+
+585
+00:49:14,880 --> 00:49:21,200
+They start cheering and they, brilliant, the king has shown his willingness to work with us,
+
+586
+00:49:21,300 --> 00:49:23,660
+to recognise, you know, our importance.
+
+587
+00:49:24,600 --> 00:49:26,600
+And he's clearly going to play decently.
+
+588
+00:49:27,160 --> 00:49:30,240
+So at two o'clock that afternoon, they send this great,
+
+589
+00:49:30,240 --> 00:49:35,540
+great cortege, this procession of deputies in carriages to Paris.
+
+590
+00:49:35,980 --> 00:49:39,700
+And they are led by the president and the vice president of the National Assembly.
+
+591
+00:49:40,140 --> 00:49:43,700
+The president is an astronomer called Jean-Sylvain Bailly.
+
+592
+00:49:44,300 --> 00:49:47,780
+And the vice president is a man that our American listeners will know,
+
+593
+00:49:48,220 --> 00:49:50,140
+the Marquis de Lafayette.
+
+594
+00:49:51,480 --> 00:49:52,080
+Tremendous character.
+
+595
+00:49:52,180 --> 00:49:54,220
+Well, do you like the Marquis de Lafayette, Tom?
+
+596
+00:49:54,420 --> 00:49:55,940
+I do. I like him more than you do.
+
+597
+00:49:55,940 --> 00:49:58,340
+Yeah, I've got no time for him at all.
+
+598
+00:49:58,480 --> 00:49:59,460
+So he's a rich...
+
+599
+00:49:59,460 --> 00:49:59,860
+It astonished me.
+
+600
+00:49:59,880 --> 00:50:00,140
+He's a...
+
+601
+00:50:00,240 --> 00:50:01,120
+He's a trustafarian.
+
+602
+00:50:01,340 --> 00:50:03,980
+He's a rich aristocrat who went for his gap year.
+
+603
+00:50:03,980 --> 00:50:06,680
+But he's gone off to fight in the American Revolution.
+
+604
+00:50:06,680 --> 00:50:08,320
+He's a tax cheat.
+
+605
+00:50:08,560 --> 00:50:10,800
+He's a friend of tax cheats.
+
+606
+00:50:10,800 --> 00:50:13,000
+And he hangs out with George Washington.
+
+607
+00:50:13,040 --> 00:50:15,960
+And basically he becomes the son that George Washington never had.
+
+608
+00:50:16,160 --> 00:50:18,300
+So he's still only 41.
+
+609
+00:50:18,580 --> 00:50:21,000
+He's come back to France from America.
+
+610
+00:50:21,240 --> 00:50:22,540
+He's a massive celebrity.
+
+611
+00:50:23,020 --> 00:50:24,980
+He's been elected to the Estates General.
+
+612
+00:50:25,440 --> 00:50:27,300
+He's a kind of liberal reformer.
+
+613
+00:50:27,460 --> 00:50:29,720
+Lafayette, very much typical of his generation.
+
+614
+00:50:31,280 --> 00:50:37,600
+I have to say, Tom, his biographers, and especially if they're not American and not as keen on him as you are.
+
+615
+00:50:37,660 --> 00:50:39,180
+So one biography calls him...
+
+616
+00:50:39,180 --> 00:50:42,340
+I wouldn't say I'm keen, but I like his dash and his swag.
+
+617
+00:50:42,380 --> 00:50:46,600
+One biography calls him vain, naive, immature, and egocentric.
+
+618
+00:50:46,800 --> 00:50:47,720
+And my favorite one...
+
+619
+00:50:47,720 --> 00:50:48,200
+What's not to like?
+
+620
+00:50:48,300 --> 00:50:52,160
+It's from the Histoire et Dictionnaire de la Révolution Française,
+
+621
+00:50:52,620 --> 00:50:57,000
+which was compiled by French scholars in the 1980s for the bicentenary.
+
+622
+00:50:57,340 --> 00:51:00,220
+And the entry of Lafayette describes him...
+
+623
+00:51:00,240 --> 00:51:02,800
+...as an empty-headed political dwarf.
+
+624
+00:51:03,620 --> 00:51:04,400
+Yeah, brilliant.
+
+625
+00:51:05,220 --> 00:51:09,220
+Yeah, I mean, I'm not saying he's a political genius, but he has swagger and dash.
+
+626
+00:51:09,400 --> 00:51:10,060
+Yeah, and you love that.
+
+627
+00:51:10,080 --> 00:51:10,760
+You love that.
+
+628
+00:51:10,840 --> 00:51:12,260
+You love a political dwarf.
+
+629
+00:51:13,860 --> 00:51:15,000
+If he dresses well.
+
+630
+00:51:15,260 --> 00:51:17,640
+So they arrive at the Hotel de Ville.
+
+631
+00:51:19,500 --> 00:51:21,500
+Huge cheers, all this kind of stuff.
+
+632
+00:51:22,380 --> 00:51:25,580
+Bailly, the astronomer, people say, you be the mayor of Paris now.
+
+633
+00:51:25,660 --> 00:51:26,740
+So he's going to be the mayor of Paris.
+
+634
+00:51:27,540 --> 00:51:30,220
+And Lafayette accepts the commandment.
+
+635
+00:51:30,240 --> 00:51:34,560
+He accepts the command of this new militia, the bourgeois guard, the National Guard, as it becomes.
+
+636
+00:51:35,640 --> 00:51:40,340
+And it's Lafayette who says, why don't we, as a mark of compromise,
+
+637
+00:51:41,340 --> 00:51:44,360
+and the coming together of all these different forces,
+
+638
+00:51:44,680 --> 00:51:50,420
+we will add to the red and blue colors of Paris the white of the Bourbon dynasty.
+
+639
+00:51:50,740 --> 00:51:52,420
+So, Dominic, I put it to you.
+
+640
+00:51:52,440 --> 00:51:55,080
+Is this the action of an empty-headed political dwarf?
+
+641
+00:51:55,520 --> 00:51:56,420
+Yeah, it's a terrible fact.
+
+642
+00:51:56,420 --> 00:52:00,020
+Or a man with an eye for political symbolism that has endured to the present day?
+
+643
+00:52:00,060 --> 00:52:00,200
+Well, yeah.
+
+644
+00:52:00,200 --> 00:52:03,080
+I mean, it depends what your views on the French flag, Tom.
+
+645
+00:52:03,440 --> 00:52:10,320
+Do you like the old flag, the flag of tradition, honor, and the age-old customs?
+
+646
+00:52:10,340 --> 00:52:11,720
+I have a lot of time for a tricolour.
+
+647
+00:52:11,720 --> 00:52:12,320
+Of a proud people?
+
+648
+00:52:12,620 --> 00:52:14,960
+Or do you like a boring tricolour flag?
+
+649
+00:52:15,120 --> 00:52:16,800
+I don't rate a tricolour flag, personally.
+
+650
+00:52:16,840 --> 00:52:17,520
+You know my methods.
+
+651
+00:52:17,880 --> 00:52:20,840
+Anyway, so yeah, this is the origins of the French flag.
+
+652
+00:52:21,040 --> 00:52:24,960
+The next day, the 16th, so only two days after the fall of the Bastille,
+
+653
+00:52:25,060 --> 00:52:27,700
+the king holds his final ever royal council.
+
+654
+00:52:27,860 --> 00:52:30,180
+His brothers and his...
+
+655
+00:52:30,200 --> 00:52:35,420
+His relatives, a lot of them have basically now given up on the whole process.
+
+656
+00:52:36,780 --> 00:52:38,960
+Again, they say to him, you should leave.
+
+657
+00:52:39,060 --> 00:52:40,100
+You should get to the frontier.
+
+658
+00:52:40,340 --> 00:52:41,320
+Get loyal troops.
+
+659
+00:52:41,540 --> 00:52:42,540
+This is all out of control.
+
+660
+00:52:43,200 --> 00:52:47,900
+But actually, some people say, now we're not even sure we can get there in safety.
+
+661
+00:52:48,040 --> 00:52:49,360
+That safety cannot be guaranteed.
+
+662
+00:52:49,360 --> 00:52:53,480
+We just have to hope somehow, stick this out, and hope we can turn this around.
+
+663
+00:52:54,480 --> 00:52:55,800
+But Dominic, you know who does go?
+
+664
+00:52:56,080 --> 00:52:56,600
+Tell me.
+
+665
+00:52:56,840 --> 00:52:58,300
+The Duchess de Polignac.
+
+666
+00:52:58,380 --> 00:52:59,520
+Yeah, Marianne Trenet's friend.
+
+667
+00:52:59,720 --> 00:53:00,180
+Marianne Trenet.
+
+668
+00:53:00,200 --> 00:53:00,840
+Marianne Trenet's great friend.
+
+669
+00:53:00,940 --> 00:53:01,080
+Yeah.
+
+670
+00:53:01,160 --> 00:53:04,640
+And who doesn't go is our other great friend, the Princess de Lamballe.
+
+671
+00:53:04,680 --> 00:53:04,900
+I know.
+
+672
+00:53:05,020 --> 00:53:06,500
+Should have gone, Tom.
+
+673
+00:53:06,700 --> 00:53:07,540
+Princess de Lamballe.
+
+674
+00:53:07,720 --> 00:53:08,360
+As events will prove.
+
+675
+00:53:08,360 --> 00:53:09,040
+As events will prove.
+
+676
+00:53:09,120 --> 00:53:10,700
+So quite a lot of them do go that night.
+
+677
+00:53:10,800 --> 00:53:14,960
+The Comte d'Artois, the Prince de Conti, the Prince de Condé.
+
+678
+00:53:15,400 --> 00:53:17,360
+So these are the first émigré.
+
+679
+00:53:17,740 --> 00:53:22,080
+So for the first time, you have people now fleeing France for the frontiers,
+
+680
+00:53:23,860 --> 00:53:27,560
+determined that there will be no compromise with the revolution.
+
+681
+00:53:27,780 --> 00:53:29,100
+But Louis himself does not flee.
+
+682
+00:53:30,360 --> 00:53:35,580
+He, instead, the following day, the 17th, makes an extraordinary gesture.
+
+683
+00:53:36,080 --> 00:53:40,820
+He decides to go to Paris himself in an undecorated carriage,
+
+684
+00:53:41,140 --> 00:53:43,180
+wearing a plain, undecorated coat.
+
+685
+00:53:43,500 --> 00:53:49,240
+And he is greeted at the gates of Paris by the new mayor, Bailly,
+
+686
+00:53:49,420 --> 00:53:51,720
+the astronomer from the National Assembly.
+
+687
+00:53:51,960 --> 00:53:54,180
+And Bailly hands him the keys of the city.
+
+688
+00:53:54,740 --> 00:53:59,120
+And he says, these are the same keys that were presented to Henri IV,
+
+689
+00:53:59,180 --> 00:53:59,840
+Henry IV.
+
+690
+00:54:00,520 --> 00:54:04,780
+A great folk hero to the French people, the king who had abandoned Protestantism
+
+691
+00:54:05,880 --> 00:54:08,560
+because he said, you know, France, what is it?
+
+692
+00:54:08,600 --> 00:54:10,640
+France, Paris is worth a mass, is it?
+
+693
+00:54:10,680 --> 00:54:11,320
+Paris is worth a mass.
+
+694
+00:54:11,320 --> 00:54:12,140
+Paris is worth a mass, yeah.
+
+695
+00:54:12,200 --> 00:54:15,700
+Also, he's very keen that every peasant should have a chicken in their head.
+
+696
+00:54:15,760 --> 00:54:16,080
+Exactly.
+
+697
+00:54:16,280 --> 00:54:17,120
+Everybody loves him.
+
+698
+00:54:17,320 --> 00:54:18,560
+Chickens and Catholicism.
+
+699
+00:54:19,520 --> 00:54:24,060
+And Bailly says to Louis, these keys were given to Henry IV.
+
+700
+00:54:24,300 --> 00:54:29,080
+He had conquered his people, but now it is his people who have conquered their king.
+
+701
+00:54:29,380 --> 00:54:30,180
+I mean, who wants to hear?
+
+702
+00:54:30,200 --> 00:54:30,300
+Who wants to hear that?
+
+703
+00:54:31,200 --> 00:54:33,240
+Poor Louis, like, smiling weakly.
+
+704
+00:54:35,340 --> 00:54:39,820
+Anyway, Lafayette is there with his new cockade, the new colors, red, white, and blue.
+
+705
+00:54:39,880 --> 00:54:40,200
+I'm sure.
+
+706
+00:54:40,920 --> 00:54:44,340
+There are loads of National Guards now lining the streets.
+
+707
+00:54:44,900 --> 00:54:46,640
+They process through the streets.
+
+708
+00:54:46,840 --> 00:54:50,940
+Market women dressed in white, making up the rear of the procession.
+
+709
+00:54:50,940 --> 00:54:53,680
+We'll be hearing more about market women, I imagine, in the next couple of days.
+
+710
+00:54:53,840 --> 00:54:54,320
+We will, yeah.
+
+711
+00:54:54,920 --> 00:54:59,740
+And people are chanting, not long live the king, but long live the nation.
+
+712
+00:54:59,780 --> 00:55:00,180
+Long live the nation.
+
+713
+00:55:01,220 --> 00:55:04,240
+They get to the city hall, and there there's a great banner.
+
+714
+00:55:04,860 --> 00:55:09,020
+Louis XVI, father of the French, the king of a free people.
+
+715
+00:55:09,540 --> 00:55:12,920
+And Dominic Key there, he's not described as the king of France.
+
+716
+00:55:12,940 --> 00:55:13,780
+No, but of the French.
+
+717
+00:55:13,820 --> 00:55:17,240
+So the idea that France is the property of the king is gone.
+
+718
+00:55:17,280 --> 00:55:17,660
+Exactly.
+
+719
+00:55:18,480 --> 00:55:21,260
+Louis gets onto a throne, and people make speeches.
+
+720
+00:55:21,680 --> 00:55:25,100
+And he's said to have listened with tears running down his cheeks.
+
+721
+00:55:25,160 --> 00:55:27,020
+Of course, some people say, wonderful.
+
+722
+00:55:27,220 --> 00:55:28,560
+Tears of patriotic pride.
+
+723
+00:55:29,040 --> 00:55:29,780
+Others say.
+
+724
+00:55:30,200 --> 00:55:31,100
+He's gutted.
+
+725
+00:55:31,140 --> 00:55:32,900
+This is like the worst day of his life.
+
+726
+00:55:34,040 --> 00:55:37,680
+Bailly gives him a tricolour cockade, red, white, and blue.
+
+727
+00:55:37,760 --> 00:55:39,960
+And the king sticks it in his hat, and everybody cheers.
+
+728
+00:55:40,700 --> 00:55:42,760
+But what he is thinking, we don't know.
+
+729
+00:55:42,840 --> 00:55:45,900
+We know he got back to Versailles that night about 10 o'clock.
+
+730
+00:55:46,020 --> 00:55:49,620
+And Marianne Swinette and his family were so worried about him.
+
+731
+00:55:50,100 --> 00:55:54,420
+But what he said to them, what he made of it all, remains a mystery.
+
+732
+00:55:55,340 --> 00:55:59,680
+Most people, though, at the time, thought this was a truly exceptional,
+
+733
+00:56:00,200 --> 00:56:01,440
+truly remarkable event in history.
+
+734
+00:56:01,800 --> 00:56:06,600
+One third estate deputy, a guy called Jean-Antoine Huguet, said it was unique
+
+735
+00:56:06,600 --> 00:56:10,000
+in the annals of the universe to see a people that had taken up arms against
+
+736
+00:56:10,000 --> 00:56:15,100
+their king now reunited with their king in a world in which the balance
+
+737
+00:56:15,100 --> 00:56:16,300
+of power completely changed.
+
+738
+00:56:16,560 --> 00:56:23,080
+He says, it was reserved for the French nation to give this example to the universe.
+
+739
+00:56:23,580 --> 00:56:27,660
+And that universalism, we'll be talking about this tomorrow when you do.
+
+740
+00:56:27,680 --> 00:56:27,960
+We will.
+
+741
+00:56:27,960 --> 00:56:33,500
+When you get onto the sort of ideological shift that the French Revolution represents,
+
+742
+00:56:33,920 --> 00:56:37,500
+that universalism is so key to this whole story.
+
+743
+00:56:38,140 --> 00:56:42,260
+There's a great source for this whole period, the letters of a bookseller called Nicolas
+
+744
+00:56:42,260 --> 00:56:42,760
+Rouault.
+
+745
+00:56:43,200 --> 00:56:45,000
+And he wrote to his brother after this.
+
+746
+00:56:45,060 --> 00:56:46,400
+He said, everything will now change.
+
+747
+00:56:46,780 --> 00:56:49,640
+Morals, opinions, laws, customs, usages, government.
+
+748
+00:56:49,960 --> 00:56:53,620
+In very little time, we will be new men.
+
+749
+00:56:53,840 --> 00:56:56,260
+And that, of course, is the French Revolution's appeal.
+
+750
+00:56:56,420 --> 00:56:57,800
+The idea of starting anew.
+
+751
+00:56:57,960 --> 00:57:00,360
+And making, you know, a better world.
+
+752
+00:57:00,780 --> 00:57:05,300
+But actually, Tom, it would be, to be Burkean, I think it would be wrong
+
+753
+00:57:05,300 --> 00:57:10,720
+to end on the note of optimism because actually the violence doesn't
+
+754
+00:57:10,720 --> 00:57:12,640
+end with the fall of the Bastille.
+
+755
+00:57:12,700 --> 00:57:14,780
+Something has been unleashed now, I would say.
+
+756
+00:57:15,000 --> 00:57:19,000
+And I know this is just my own prejudice talking, but I would say something has
+
+757
+00:57:19,000 --> 00:57:21,980
+been unleashed that will, cannot now be put back in its box.
+
+758
+00:57:22,300 --> 00:57:24,560
+And the example of this is what we began with.
+
+759
+00:57:24,700 --> 00:57:27,940
+So seven days, one week after the fall of the Bastille.
+
+760
+00:57:29,720 --> 00:57:36,200
+The food prices are still very high, and there are rumours that an official, a royal official
+
+761
+00:57:36,200 --> 00:57:43,120
+in the war ministry called Joseph Foulon de Douai had said about the poor, let them eat straw.
+
+762
+00:57:43,740 --> 00:57:46,120
+Whether he did say it, we do not know.
+
+763
+00:57:47,280 --> 00:57:48,960
+A crowd grabbed him.
+
+764
+00:57:49,440 --> 00:57:51,000
+They, they hanged him.
+
+765
+00:57:51,540 --> 00:57:52,640
+They cut off his head.
+
+766
+00:57:53,060 --> 00:57:57,820
+They stuffed grass and straw in his mouth, and they paraded his head around the city on a
+
+767
+00:57:57,820 --> 00:57:57,980
+pike.
+
+768
+00:57:58,580 --> 00:58:02,920
+And then they saw his son-in-law, who was the intendant of Paris, the royal official
+
+769
+00:58:03,410 --> 00:58:07,460
+responsible for Paris, who was Berthier de Sauvigny, the man you began with.
+
+770
+00:58:08,060 --> 00:58:12,620
+And they dragged, they grabbed, they grabbed him and they forced him to accompany them
+
+771
+00:58:12,620 --> 00:58:13,340
+round the streets.
+
+772
+00:58:13,620 --> 00:58:18,440
+They held the head of Foulon in front of him, his father-in-law, and they chanted at
+
+773
+00:58:18,440 --> 00:58:20,760
+him, kiss papa, kiss papa.
+
+774
+00:58:21,000 --> 00:58:24,920
+I mean, an absolutely, unbelievably horrendous scene.
+
+775
+00:58:25,400 --> 00:58:26,760
+They got to the city hall.
+
+776
+00:58:26,880 --> 00:58:27,800
+They killed him.
+
+777
+00:58:27,820 --> 00:58:32,980
+They tore, they literally tore the heart out of his body and threw it at the walls of the
+
+778
+00:58:32,980 --> 00:58:33,940
+city hall.
+
+779
+00:58:34,240 --> 00:58:38,340
+And then they put his head on a pike too, alongside his father-in-law's and paraded
+
+780
+00:58:38,340 --> 00:58:38,720
+it around.
+
+781
+00:58:39,480 --> 00:58:44,640
+And that newspaper you mentioned, Élysée Lustelot's Révolution de Paris, he wrote
+
+782
+00:58:44,640 --> 00:58:45,740
+a big article about this.
+
+783
+00:58:45,780 --> 00:58:46,560
+That's what we quoted.
+
+784
+00:58:47,160 --> 00:58:49,240
+And Lustelot said, it's fine.
+
+785
+00:58:49,500 --> 00:58:52,460
+They were both traitors to the nation, traitors to the people.
+
+786
+00:58:53,360 --> 00:58:57,020
+And actually, it's only by killing such people that Frenchmen,
+
+787
+00:58:57,020 --> 00:58:58,880
+you will be free.
+
+788
+00:58:59,440 --> 00:59:04,140
+And as Simon Sharma says in his book, Citizens, this isn't the end of something.
+
+789
+00:59:04,340 --> 00:59:05,740
+This is just the beginning.
+
+790
+00:59:05,920 --> 00:59:10,140
+When he's described these events, it's then that Sharma writes, violence was not just
+
+791
+00:59:10,140 --> 00:59:12,460
+an unfortunate side effect of the French Revolution.
+
+792
+00:59:12,520 --> 00:59:15,080
+It was the revolution's source of collective energy.
+
+793
+00:59:15,380 --> 00:59:19,580
+It was violence that made the revolution revolutionary.
+
+794
+00:59:20,220 --> 00:59:23,900
+And I'm afraid there will be a lot more violence to come.
+
+795
+00:59:24,020 --> 00:59:26,800
+But I think worth mentioning.
+
+796
+00:59:26,800 --> 00:59:32,600
+As well, there will also be a lot more idealism and abstract nouns to come.
+
+797
+00:59:32,640 --> 00:59:33,360
+So we will see you then.
+
+798
+00:59:33,400 --> 00:59:33,480
+Brilliant.
+
+799
+00:59:33,560 --> 00:59:33,800
+Bye-bye.
+
+800
+00:59:33,820 --> 00:59:34,040
+Bye-bye.
+

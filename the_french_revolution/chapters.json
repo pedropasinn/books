@@ -1,0 +1,785 @@
+{
+ "ep01_marie_antoinette": [
+  {
+   "t": 0,
+   "title": "Marie Antoinette and the mythology of the French Revolution"
+  },
+  {
+   "t": 180,
+   "title": "Monster or victim? The battle over Marie Antoinette’s reputation"
+  },
+  {
+   "t": 420,
+   "title": "Marie Antoinette as a symbol of fantasy, fashion, and political storytelling"
+  },
+  {
+   "t": 519,
+   "title": "Born a Habsburg: why being Austrian mattered so much"
+  },
+  {
+   "t": 782,
+   "title": "The teenage princess sent to France"
+  },
+  {
+   "t": 1029,
+   "title": "Marie Antoinette becomes French"
+  },
+  {
+   "t": 1159,
+   "title": "A disastrous wedding omen in Paris"
+  },
+  {
+   "t": 1288,
+   "title": "Versailles: the palace of absolutism and suffocating etiquette"
+  },
+  {
+   "t": 1502,
+   "title": "Marie Antoinette clashes with the rituals of court life"
+  },
+  {
+   "t": 1677,
+   "title": "The death of Louis XV and the rise of Louis XVI"
+  },
+  {
+   "t": 1844,
+   "title": "Louis XVI and Marie Antoinette: an awkward royal marriage"
+  },
+  {
+   "t": 2071,
+   "title": "Louis XVI the hunter, diarist, lock-maker, and reluctant king"
+  },
+  {
+   "t": 2273,
+   "title": "The seven-year failure to consummate the marriage"
+  },
+  {
+   "t": 2478,
+   "title": "Children, fidelity, and the Petit Trianon"
+  },
+  {
+   "t": 2562,
+   "title": "Rousseau, simplicity, and Marie Antoinette’s private world"
+  },
+  {
+   "t": 2729,
+   "title": "Charity, motherhood, and the performance of royal goodness"
+  },
+  {
+   "t": 2841,
+   "title": "Marie Antoinette’s revolutionary fashion and natural style"
+  },
+  {
+   "t": 2971,
+   "title": "Hair, celebrity stylists, and the invention of modern French fashion"
+  },
+  {
+   "t": 3120,
+   "title": "The Queen’s inner circle: favourites, gossip, and scandal"
+  },
+  {
+   "t": 3341,
+   "title": "How Marie Antoinette came to be hated like a royal mistress"
+  },
+  {
+   "t": 3456,
+   "title": "Pornographic rumours, court politics, and the making of a hate figure"
+  },
+  {
+   "t": 3558,
+   "title": "The scandal that changed everything: the Diamond Necklace Affair"
+  }
+ ],
+ "ep02_diamond_necklace": [],
+ "ep03_violence_begins": [
+  {
+   "t": 0,
+   "title": "The French Revolution as the central event of modern history"
+  },
+  {
+   "t": 157,
+   "title": "Why did the French Revolution happen? Three key causes"
+  },
+  {
+   "t": 300,
+   "title": "Portrait of Louis XVI and the French kingdom in 1774"
+  },
+  {
+   "t": 455,
+   "title": "The fragmented nature of France and linguistic diversity"
+  },
+  {
+   "t": 600,
+   "title": "Enlightenment and signs of modernization"
+  },
+  {
+   "t": 765,
+   "title": "Influence of the American Revolution and debt"
+  },
+  {
+   "t": 1140,
+   "title": "The monarchy’s financial crisis and lack of a bank"
+  },
+  {
+   "t": 1570,
+   "title": "The failed reforms of Calonne and Assembly of Notables"
+  },
+  {
+   "t": 1910,
+   "title": "Calonne's pamphlet and the birth of revolutionary language"
+  },
+  {
+   "t": 2160,
+   "title": "Archbishop Brienne and worsening financial deadlock"
+  },
+  {
+   "t": 2797,
+   "title": "Grenoble, 1788: The Day of the Tiles"
+  },
+  {
+   "t": 3125,
+   "title": "Jean Joseph Mounier and radical calls for a new constitution"
+  },
+  {
+   "t": 3448,
+   "title": "France is declared bankrupt"
+  }
+ ],
+ "ep04_showdown_versailles": [
+  {
+   "t": 0,
+   "title": "The Great Storm of 1788"
+  },
+  {
+   "t": 7,
+   "title": "Ineffective relief efforts"
+  },
+  {
+   "t": 100,
+   "title": "Royal desperation"
+  },
+  {
+   "t": 170,
+   "title": "The return of Necker"
+  },
+  {
+   "t": 355,
+   "title": "The crisis of bread"
+  },
+  {
+   "t": 520,
+   "title": "The devastating winter"
+  },
+  {
+   "t": 646,
+   "title": "Economic collapse"
+  },
+  {
+   "t": 777,
+   "title": "Demands for change"
+  },
+  {
+   "t": 1064,
+   "title": "Grievance books"
+  },
+  {
+   "t": 1275,
+   "title": "Spreading disorder"
+  },
+  {
+   "t": 1403,
+   "title": "The Réveillon Riot"
+  },
+  {
+   "t": 1745,
+   "title": "An occupied capital"
+  },
+  {
+   "t": 1802,
+   "title": "The procession of estates"
+  },
+  {
+   "t": 2222,
+   "title": "The Third Estate lawyers"
+  },
+  {
+   "t": 2361,
+   "title": "The stalemate begins"
+  },
+  {
+   "t": 2525,
+   "title": "Theatrical politics"
+  },
+  {
+   "t": 2627,
+   "title": "The National Assembly"
+  },
+  {
+   "t": 2770,
+   "title": "The king concedes"
+  },
+  {
+   "t": 3065,
+   "title": "Tragedy in the palace"
+  },
+  {
+   "t": 3140,
+   "title": "The Tennis Court Oath"
+  },
+  {
+   "t": 3311,
+   "title": "The royal session"
+  },
+  {
+   "t": 3535,
+   "title": "The crowd triumphs"
+  },
+  {
+   "t": 3847,
+   "title": "The revolution continues"
+  },
+  {
+   "t": 3905,
+   "title": "The fall of Necker"
+  }
+ ],
+ "ep05_storming_bastille": [],
+ "ep06_rights_of_man": [
+  {
+   "t": 0,
+   "title": "The National Assembly"
+  },
+  {
+   "t": 108,
+   "title": "Great fear in the provinces"
+  },
+  {
+   "t": 185,
+   "title": "Attacking feudal authority"
+  },
+  {
+   "t": 448,
+   "title": "Abolishing feudalism"
+  },
+  {
+   "t": 680,
+   "title": "Declaration of Human Rights"
+  },
+  {
+   "t": 960,
+   "title": "Nationalism and sovereignty"
+  },
+  {
+   "t": 1150,
+   "title": "The Church's antiquity"
+  },
+  {
+   "t": 1283,
+   "title": "Symbols of the new order"
+  },
+  {
+   "t": 1460,
+   "title": "Enlightenment radicalism"
+  },
+  {
+   "t": 1747,
+   "title": "Protestant influence"
+  },
+  {
+   "t": 2114,
+   "title": "Nationalizing church land"
+  },
+  {
+   "t": 2248,
+   "title": "Dissolving monasteries"
+  },
+  {
+   "t": 2420,
+   "title": "Civil Constitution"
+  },
+  {
+   "t": 2616,
+   "title": "Fracturing the revolution"
+  },
+  {
+   "t": 2737,
+   "title": "Religion and enlightenment"
+  },
+  {
+   "t": 3056,
+   "title": "Reapproriating Christian past"
+  },
+  {
+   "t": 3313,
+   "title": "King's response"
+  }
+ ],
+ "ep07_women_evict_louis": [],
+ "ep08_royal_family_escapes": [
+  {
+   "t": 0,
+   "title": "The road to Paris"
+  },
+  {
+   "t": 82,
+   "title": "A city in flux"
+  },
+  {
+   "t": 288,
+   "title": "National assembly troubles"
+  },
+  {
+   "t": 383,
+   "title": "Rise of radical clubs"
+  },
+  {
+   "t": 526,
+   "title": "Citizen rights and unrest"
+  },
+  {
+   "t": 666,
+   "title": "Death of Mirabeau"
+  },
+  {
+   "t": 797,
+   "title": "The constitutional monarchy"
+  },
+  {
+   "t": 956,
+   "title": "Louis XVI's secret plans"
+  },
+  {
+   "t": 1100,
+   "title": "Planning the escape"
+  },
+  {
+   "t": 1418,
+   "title": "The final decision"
+  },
+  {
+   "t": 1729,
+   "title": "Night of the flight"
+  },
+  {
+   "t": 2028,
+   "title": "Departing Paris"
+  },
+  {
+   "t": 2289,
+   "title": "The journey east"
+  },
+  {
+   "t": 2697,
+   "title": "Missed military escort"
+  },
+  {
+   "t": 2866,
+   "title": "Recognition at Varennes"
+  },
+  {
+   "t": 3068,
+   "title": "Confrontation at the inn"
+  },
+  {
+   "t": 3311,
+   "title": "Arrest at dawn"
+  },
+  {
+   "t": 3539,
+   "title": "Return to Paris"
+  },
+  {
+   "t": 3855,
+   "title": "The end of the monarchy"
+  }
+ ],
+ "ep09_la_marseillaise": [
+  {
+   "t": 0,
+   "title": "Introduction"
+  },
+  {
+   "t": 56,
+   "title": "Which is the best national anthem?"
+  },
+  {
+   "t": 128,
+   "title": "Casablanca"
+  },
+  {
+   "t": 144,
+   "title": "The most martial national anthem"
+  },
+  {
+   "t": 213,
+   "title": "How it was written?"
+  },
+  {
+   "t": 490,
+   "title": "Was the Marseilles plagiarised"
+  },
+  {
+   "t": 590,
+   "title": "The first performances"
+  },
+  {
+   "t": 790,
+   "title": "People who didn’t like it"
+  },
+  {
+   "t": 899,
+   "title": "The first republican anthem"
+  },
+  {
+   "t": 1037,
+   "title": "Taking inspiration from Ancient Rome"
+  },
+  {
+   "t": 1580,
+   "title": "Were they trying to wipe away christianity"
+  },
+  {
+   "t": 1760,
+   "title": "The distinctive clothes of revolution"
+  },
+  {
+   "t": 2275,
+   "title": "Duke of Orléans"
+  }
+ ],
+ "ep10_september_massacres": [
+  {
+   "t": 0,
+   "title": "The Blood-Soaked Streets of Paris"
+  },
+  {
+   "t": 24,
+   "title": "A Speech to Save France"
+  },
+  {
+   "t": 67,
+   "title": "Churchill or Danton?"
+  },
+  {
+   "t": 154,
+   "title": "A War Going Horribly Wrong"
+  },
+  {
+   "t": 366,
+   "title": "Paris is Paranoid"
+  },
+  {
+   "t": 580,
+   "title": "Treason at the Front Lines"
+  },
+  {
+   "t": 723,
+   "title": "Don’t Look in the Cellar…"
+  },
+  {
+   "t": 981,
+   "title": "A Death Sentence in Disguise"
+  },
+  {
+   "t": 1160,
+   "title": "The First Bloodshed Begins"
+  },
+  {
+   "t": 1255,
+   "title": "Silence Before the Slaughter"
+  },
+  {
+   "t": 1509,
+   "title": "When Justice Turns to Horror"
+  },
+  {
+   "t": 1833,
+   "title": "The Most Famous Victim"
+  },
+  {
+   "t": 2260,
+   "title": "A Head on a Pike"
+  },
+  {
+   "t": 2404,
+   "title": "Propaganda and Power"
+  },
+  {
+   "t": 2709,
+   "title": "Paris Accepts the Massacre"
+  },
+  {
+   "t": 3000,
+   "title": "A Glimpse into the Future of Terror"
+  },
+  {
+   "t": 3310,
+   "title": "The Enemy is Still Marching"
+  },
+  {
+   "t": 3370,
+   "title": "A Final Stand at Valmy"
+  },
+  {
+   "t": 3421,
+   "title": "Next Time: The Fall of the Monarchy"
+  }
+ ],
+ "ep11_monarchy_last_breath": [
+  {
+   "t": 0,
+   "title": "‘The monarchy is hereby abolished’"
+  },
+  {
+   "t": 75,
+   "title": "Jeremy Corbyn cameo"
+  },
+  {
+   "t": 95,
+   "title": "One of the oldest monarchies in Europe?"
+  },
+  {
+   "t": 250,
+   "title": "What was the electoral system they used?"
+  },
+  {
+   "t": 260,
+   "title": "Why was turnout so poor?"
+  },
+  {
+   "t": 460,
+   "title": "The war inches closer to Paris"
+  },
+  {
+   "t": 475,
+   "title": "Who were the members of the Assembly?"
+  },
+  {
+   "t": 531,
+   "title": "France becomes a republic…"
+  },
+  {
+   "t": 697,
+   "title": "The state of the war"
+  },
+  {
+   "t": 795,
+   "title": "The two armies face each other… the wrong way round"
+  },
+  {
+   "t": 851,
+   "title": "The composition of the army"
+  },
+  {
+   "t": 894,
+   "title": "The French army assembles"
+  },
+  {
+   "t": 915,
+   "title": "Goethe"
+  },
+  {
+   "t": 971,
+   "title": "The assault begins…"
+  },
+  {
+   "t": 1044,
+   "title": "What kind of result was this?"
+  },
+  {
+   "t": 1201,
+   "title": "The news reaches Paris"
+  },
+  {
+   "t": 1233,
+   "title": "The comparison with Ancient Athens"
+  },
+  {
+   "t": 1257,
+   "title": "Political developments in Paris"
+  },
+  {
+   "t": 1420,
+   "title": "Robespierre, Danton, and Marat…"
+  },
+  {
+   "t": 2705,
+   "title": "‘The traitor of traitors’"
+  }
+ ],
+ "ep12_trial_execution_louis": [
+  {
+   "t": 0,
+   "title": "the French Revolution as a rhetorical event"
+  },
+  {
+   "t": 187,
+   "title": "How Europe reacted to the trial"
+  },
+  {
+   "t": 214,
+   "title": "Royalism in France"
+  },
+  {
+   "t": 251,
+   "title": "The constitutional position of Louis and whether he could face trial"
+  },
+  {
+   "t": 313,
+   "title": "The international context of the trial"
+  },
+  {
+   "t": 365,
+   "title": "Putting all monarchs on trial"
+  },
+  {
+   "t": 412,
+   "title": "The importance of this as a ritual for the French republic"
+  },
+  {
+   "t": 519,
+   "title": "Was he always going to be found guilty?"
+  },
+  {
+   "t": 538,
+   "title": "How he was brought to trial"
+  },
+  {
+   "t": 786,
+   "title": "Similarities to the trial of Charles I"
+  },
+  {
+   "t": 824,
+   "title": "The charges are read out"
+  },
+  {
+   "t": 855,
+   "title": "The reaction to his performance"
+  },
+  {
+   "t": 880,
+   "title": "Louis’ legal strategy"
+  },
+  {
+   "t": 1378,
+   "title": "The trial begins…"
+  },
+  {
+   "t": 1614,
+   "title": "The verdict comes in"
+  },
+  {
+   "t": 1923,
+   "title": "Louis is told the verdict"
+  },
+  {
+   "t": 2017,
+   "title": "Vanguard"
+  },
+  {
+   "t": 2091,
+   "title": "The last days of Louis’ life"
+  },
+  {
+   "t": 2337,
+   "title": "The last time Louis sees his family"
+  },
+  {
+   "t": 2451,
+   "title": "The executioner"
+  },
+  {
+   "t": 2538,
+   "title": "The place of the execution"
+  },
+  {
+   "t": 2581,
+   "title": "Why they used the guillotine"
+  },
+  {
+   "t": 2612,
+   "title": "The day of the execution..."
+  },
+  {
+   "t": 2684,
+   "title": "Women are banned from watching"
+  },
+  {
+   "t": 2705,
+   "title": "The Mayor of Paris sends an address commemorating the occasion"
+  },
+  {
+   "t": 2797,
+   "title": "Louis' last confession"
+  },
+  {
+   "t": 2838,
+   "title": "Louis travels to the place of execution"
+  },
+  {
+   "t": 2985,
+   "title": "The act"
+  },
+  {
+   "t": 3117,
+   "title": "Marie Antoinette hears the news"
+  },
+  {
+   "t": 3167,
+   "title": "How the public respond"
+  },
+  {
+   "t": 3225,
+   "title": "What the death symbolises"
+  }
+ ],
+ "ep13_unexpected_revolutionary": [
+  {
+   "t": 0,
+   "title": "The embodiment of France"
+  },
+  {
+   "t": 190,
+   "title": "Popular sovereignty"
+  },
+  {
+   "t": 435,
+   "title": "France represented as a woman"
+  },
+  {
+   "t": 763,
+   "title": "Women’s role in the revolution thus far"
+  },
+  {
+   "t": 1081,
+   "title": "The most important woman in the early revolution"
+  },
+  {
+   "t": 1457,
+   "title": "Disney"
+  },
+  {
+   "t": 1702,
+   "title": "The women pushing for equal rights"
+  },
+  {
+   "t": 2015,
+   "title": "Olympes de gouges"
+  },
+  {
+   "t": 2865,
+   "title": "Rousseau"
+  },
+  {
+   "t": 3094,
+   "title": "Saily"
+  },
+  {
+   "t": 3177,
+   "title": "The people don’t take part in voting"
+  },
+  {
+   "t": 3307,
+   "title": "The real radicalism of what she is proposing"
+  }
+ ]
+}

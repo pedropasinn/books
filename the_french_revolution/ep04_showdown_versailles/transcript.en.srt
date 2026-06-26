@@ -1,0 +1,6668 @@
+1
+00:00:00,000 --> 00:00:03,160
+It's a terrible storm, and of course, if you've been listening to this series,
+
+2
+00:00:03,240 --> 00:00:06,820
+which we hope you have, you will know that it strikes at the worst possible moment,
+
+3
+00:00:06,980 --> 00:00:11,580
+when France is gripped by this political and financial crisis.
+
+4
+00:00:12,360 --> 00:00:16,320
+And the storm is then followed by a drought across France,
+
+5
+00:00:16,540 --> 00:00:18,120
+then suddenly a very hot summer,
+
+6
+00:00:18,220 --> 00:00:23,140
+and farmers are writing to the court in Versailles sending letters asking for help.
+
+7
+00:00:23,360 --> 00:00:27,780
+A once ravishing countryside has been reduced to an arid desert.
+
+8
+00:00:27,780 --> 00:00:31,240
+And there's a real sense of kind of, of catastrophe.
+
+9
+00:00:31,540 --> 00:00:32,020
+Is that an Arab?
+
+10
+00:00:32,260 --> 00:00:33,020
+That was Scottish again.
+
+11
+00:00:34,620 --> 00:00:38,020
+There's a real sense of incipient catastrophe,
+
+12
+00:00:38,340 --> 00:00:41,860
+which of course, in the context of everything we were talking about in the last episode,
+
+13
+00:00:42,600 --> 00:00:43,480
+means that...
+
+14
+00:00:43,480 --> 00:00:44,300
+It's not helpful, is it?
+
+15
+00:00:44,380 --> 00:00:45,520
+It's not helpful at all.
+
+16
+00:00:46,200 --> 00:00:51,260
+The interesting thing, actually, is that last time we were talking about the Ancien Régime,
+
+17
+00:00:51,380 --> 00:00:55,740
+and the sort of, how the stereotype of it is so misleading.
+
+18
+00:00:55,960 --> 00:00:57,400
+And so it is with this case.
+
+19
+00:00:57,780 --> 00:01:01,420
+You would think, if you had read A Tale of Two Cities and all of the sort of,
+
+20
+00:01:01,840 --> 00:01:05,460
+you know, you used the caricatures of the French Revolution and the French elite,
+
+21
+00:01:06,040 --> 00:01:07,800
+that nobody did anything to help.
+
+22
+00:01:07,980 --> 00:01:08,940
+And you would be wrong.
+
+23
+00:01:09,380 --> 00:01:12,860
+Because actually, the Archbishop of Paris launches this big charity drive.
+
+24
+00:01:13,240 --> 00:01:18,660
+The king gives a million livres, even though, you know, the monarchy has pretty much run out of money.
+
+25
+00:01:19,200 --> 00:01:24,280
+There's a national lottery is organized and it raises 12 million livres to pay for relief.
+
+26
+00:01:25,180 --> 00:01:26,680
+But as we will see,
+
+27
+00:01:27,280 --> 00:01:27,760
+it's,
+
+28
+00:01:27,780 --> 00:01:31,540
+it is not remotely enough to rescue the situation, because, Tom,
+
+29
+00:01:32,520 --> 00:01:35,940
+nature has more storms in store.
+
+30
+00:01:36,660 --> 00:01:37,020
+Wow.
+
+31
+00:01:37,360 --> 00:01:39,600
+So the elements are combining against the monarchy.
+
+32
+00:01:39,740 --> 00:01:40,240
+They are indeed.
+
+33
+00:01:40,580 --> 00:01:41,560
+And the Ancien Régime.
+
+34
+00:01:41,820 --> 00:01:42,640
+Is in a mess.
+
+35
+00:01:43,020 --> 00:01:44,040
+I think it's fair to say.
+
+36
+00:01:44,180 --> 00:01:46,440
+Were you trying to think of a meteorological metaphor for the...
+
+37
+00:01:46,440 --> 00:01:47,980
+No, I've moved on from the meteorological metaphors.
+
+38
+00:01:47,980 --> 00:01:49,480
+I was maybe thinking of a building one.
+
+39
+00:01:49,540 --> 00:01:51,720
+I was thinking perhaps it's tottering on its foundations.
+
+40
+00:01:52,040 --> 00:01:53,060
+It is tottering on its foundations.
+
+41
+00:01:53,620 --> 00:01:56,180
+Because as we discussed at the end of the last episode,
+
+42
+00:01:57,780 --> 00:02:02,820
+some, something looking very much like a French Revolution has already broken out in Grenoble
+
+43
+00:02:02,820 --> 00:02:07,840
+and in Dauphine in the southeast of France and has spread to other provinces.
+
+44
+00:02:08,400 --> 00:02:13,460
+Louis XVI, in desperation, has announced that he will call the Estates General.
+
+45
+00:02:14,040 --> 00:02:22,480
+And we ended last time with the bombshell that Archbishop Brienne, the finance minister,
+
+46
+00:02:23,260 --> 00:02:27,140
+has basically declared bankruptcy, at least partial bankruptcy,
+
+47
+00:02:27,780 --> 00:02:28,640
+And it's ironic, isn't it?
+
+48
+00:02:28,640 --> 00:02:31,320
+Because he doesn't believe in God, but all these acts of God have now come to France.
+
+49
+00:02:31,320 --> 00:02:31,840
+Yes, ironically.
+
+50
+00:02:32,100 --> 00:02:33,120
+Well, he didn't believe in the deficit.
+
+51
+00:02:33,240 --> 00:02:35,820
+And then he was appointed to look at the books.
+
+52
+00:02:36,600 --> 00:02:37,660
+He's on a learning curve.
+
+53
+00:02:37,760 --> 00:02:37,780
+Yeah, he is.
+
+54
+00:02:38,880 --> 00:02:45,340
+Well, his learning curve is abruptly terminated a week later on the 25th of August when he is booted out.
+
+55
+00:02:45,880 --> 00:02:50,520
+And the monarchy turned to the one person who everybody in France thinks can rescue the situation.
+
+56
+00:02:50,700 --> 00:02:52,720
+This is a man we mentioned very briefly last time.
+
+57
+00:02:53,040 --> 00:02:55,180
+His name is Jean-Jacques Necker.
+
+58
+00:02:55,760 --> 00:02:57,460
+And he is not...
+
+59
+00:02:57,780 --> 00:02:58,240
+A courtier.
+
+60
+00:02:58,480 --> 00:03:00,220
+He is not an aristocrat.
+
+61
+00:03:00,280 --> 00:03:01,760
+He is not even French.
+
+62
+00:03:02,040 --> 00:03:05,840
+He is a Swiss Protestant from a Genevan banking family.
+
+63
+00:03:05,940 --> 00:03:11,300
+And he is meant to be the great financial whiz kid of Western Europe.
+
+64
+00:03:11,480 --> 00:03:16,140
+Because the Swiss even then have a kind of reputation for sobriety
+
+65
+00:03:16,140 --> 00:03:19,840
+and the kind of man that you would trust to sort out your bank balance.
+
+66
+00:03:19,920 --> 00:03:20,520
+Totally, they do.
+
+67
+00:03:20,640 --> 00:03:21,220
+Yes, exactly.
+
+68
+00:03:21,800 --> 00:03:23,260
+Necker is a...
+
+69
+00:03:23,820 --> 00:03:27,140
+It seems odd now from our perspective, all these centuries later,
+
+70
+00:03:27,780 --> 00:03:32,940
+to comprehend how a Swiss banker could be such a folk hero across France.
+
+71
+00:03:33,260 --> 00:03:33,300
+Yeah, I know.
+
+72
+00:03:34,020 --> 00:03:37,960
+But absolutely, there was a sense in France in the late 18th century
+
+73
+00:03:37,960 --> 00:03:41,560
+that Protestants, although they are weird, alien and heretical,
+
+74
+00:03:42,340 --> 00:03:45,260
+nevertheless, they're very boring and they can be trusted.
+
+75
+00:03:45,540 --> 00:03:47,280
+And Swiss Protestants...
+
+76
+00:03:47,280 --> 00:03:49,400
+Yeah, they're kind of black sober suits.
+
+77
+00:03:49,720 --> 00:03:50,140
+Exactly.
+
+78
+00:03:50,420 --> 00:03:51,360
+All that kind of thing.
+
+79
+00:03:51,520 --> 00:03:53,160
+So when I was reading up on Necker,
+
+80
+00:03:53,320 --> 00:03:57,200
+I was reminded of how a lot of people in Britain thought about the Canadian bank,
+
+81
+00:03:57,200 --> 00:04:01,640
+the Canadian national banker, Mark Carney, who...
+
+82
+00:04:01,640 --> 00:04:02,980
+A listener to The Rest Is History.
+
+83
+00:04:02,980 --> 00:04:04,320
+A listener to The Rest Is History, exactly.
+
+84
+00:04:05,400 --> 00:04:06,820
+Who ran the Bank of England.
+
+85
+00:04:07,140 --> 00:04:08,960
+And there was a perception, I think, in Britain,
+
+86
+00:04:09,640 --> 00:04:11,700
+that he was very measured, very Canadian,
+
+87
+00:04:11,900 --> 00:04:14,680
+very kind of controlled and kind of apparently very sober.
+
+88
+00:04:15,180 --> 00:04:16,720
+I mean, I'm not saying he wasn't sober, but...
+
+89
+00:04:16,720 --> 00:04:18,280
+I'm just saying that's how...
+
+90
+00:04:18,280 --> 00:04:19,240
+The avoidance of doubt.
+
+91
+00:04:19,760 --> 00:04:20,820
+That's how he appeared.
+
+92
+00:04:21,280 --> 00:04:21,900
+He's listening.
+
+93
+00:04:22,200 --> 00:04:23,740
+Dominic is not accusing you of being drunk.
+
+94
+00:04:23,840 --> 00:04:24,300
+No, I'm not.
+
+95
+00:04:24,980 --> 00:04:25,880
+But I'm saying...
+
+96
+00:04:25,880 --> 00:04:27,180
+I'm saying...
+
+97
+00:04:27,200 --> 00:04:28,780
+People who knew nothing about Mark Carney,
+
+98
+00:04:28,880 --> 00:04:32,160
+precisely because he was an outsider, not tainted by British politics,
+
+99
+00:04:32,700 --> 00:04:35,820
+people attributed him with sort of extraordinary powers
+
+100
+00:04:35,820 --> 00:04:39,580
+and they saw him as a figure who represented stability and solidity
+
+101
+00:04:39,580 --> 00:04:40,960
+and he wasn't...
+
+102
+00:04:40,960 --> 00:04:42,200
+And also neutrality.
+
+103
+00:04:42,300 --> 00:04:43,220
+Yeah, neutrality, exactly.
+
+104
+00:04:43,240 --> 00:04:45,340
+And objectivity, not having too many vested interests.
+
+105
+00:04:45,480 --> 00:04:49,620
+And I guess that's why people think, you know, Necker is a deus ex machina.
+
+106
+00:04:49,680 --> 00:04:50,100
+They do, indeed.
+
+107
+00:04:50,420 --> 00:04:53,320
+Someone who can be introduced to kind of cut through
+
+108
+00:04:53,320 --> 00:04:55,980
+all the Gordian knots that have been...
+
+109
+00:04:55,980 --> 00:04:56,040
+Yeah.
+
+110
+00:04:56,800 --> 00:04:58,040
+Strangling the French economy.
+
+111
+00:04:58,240 --> 00:04:58,880
+We love it.
+
+112
+00:04:59,180 --> 00:05:01,480
+I mean, not just one Gordian knot, according to you,
+
+113
+00:05:01,520 --> 00:05:02,540
+but multiple Gordian knots.
+
+114
+00:05:03,660 --> 00:05:04,400
+All of them.
+
+115
+00:05:04,580 --> 00:05:05,440
+So, yeah, Necker...
+
+116
+00:05:05,440 --> 00:05:06,800
+Sprouting, like Hydra's heads.
+
+117
+00:05:06,980 --> 00:05:09,680
+And Necker, to be fair, is brilliant at...
+
+118
+00:05:09,680 --> 00:05:13,700
+I mean, the one thing he had done is he'd got loans for the American war,
+
+119
+00:05:14,060 --> 00:05:16,020
+you might argue, with disastrous consequences.
+
+120
+00:05:16,360 --> 00:05:17,720
+He's very good at getting loans
+
+121
+00:05:17,720 --> 00:05:19,660
+because he has so many friends in the banking business.
+
+122
+00:05:20,080 --> 00:05:22,740
+So as soon as he arrives, he says,
+
+123
+00:05:22,780 --> 00:05:24,060
+I can do what Brienne could not.
+
+124
+00:05:24,520 --> 00:05:25,880
+I can get my friends to...
+
+125
+00:05:26,040 --> 00:05:28,240
+I can lend you money at decent rates.
+
+126
+00:05:28,680 --> 00:05:31,500
+I will be able to tide us over for at least another year
+
+127
+00:05:32,080 --> 00:05:33,960
+until the Estates General can meet
+
+128
+00:05:33,960 --> 00:05:35,860
+and we can actually sort this thing out
+
+129
+00:05:35,860 --> 00:05:38,840
+and perhaps set up some new constitutional body
+
+130
+00:05:38,840 --> 00:05:41,960
+or whatever it might be that will approve taxes.
+
+131
+00:05:42,380 --> 00:05:43,860
+And so the stock exchange,
+
+132
+00:05:44,100 --> 00:05:46,440
+which had been very jittery in the summer of 1788,
+
+133
+00:05:46,940 --> 00:05:48,280
+kind of returns to normal.
+
+134
+00:05:48,720 --> 00:05:50,680
+And there's a sense, you know,
+
+135
+00:05:50,700 --> 00:05:52,520
+ah, maybe we've got a bit of direction.
+
+136
+00:05:52,640 --> 00:05:54,160
+Maybe we've got a bit of calm.
+
+137
+00:05:54,500 --> 00:05:55,920
+But I think that sense, Tom,
+
+138
+00:05:56,040 --> 00:05:57,640
+would be illusory.
+
+139
+00:05:57,840 --> 00:05:59,320
+Well, because surely people know
+
+140
+00:05:59,320 --> 00:06:00,900
+that there's an absolute catastrophe looming
+
+141
+00:06:00,900 --> 00:06:02,600
+because the hailstones have wiped out...
+
+142
+00:06:02,600 --> 00:06:02,960
+They do indeed.
+
+143
+00:06:03,200 --> 00:06:03,620
+...the wheat harvest.
+
+144
+00:06:03,620 --> 00:06:04,020
+They do indeed.
+
+145
+00:06:04,240 --> 00:06:04,720
+And that, of course,
+
+146
+00:06:04,720 --> 00:06:07,620
+has terrible implications for bread.
+
+147
+00:06:07,980 --> 00:06:09,840
+There were saves of celebrations in Paris
+
+148
+00:06:09,840 --> 00:06:11,860
+that turned into rioting.
+
+149
+00:06:12,680 --> 00:06:14,880
+There was fighting between the Paris Watch
+
+150
+00:06:14,880 --> 00:06:17,540
+and these celebrators stroke rioters.
+
+151
+00:06:18,600 --> 00:06:21,160
+Perhaps 20 people were killed in the fighting.
+
+152
+00:06:21,320 --> 00:06:23,080
+I mean, this is fighting with kind of...
+
+153
+00:06:23,440 --> 00:06:25,200
+This is your classic kind of...
+
+154
+00:06:25,200 --> 00:06:25,660
+Yeah.
+
+155
+00:06:25,660 --> 00:06:25,920
+...the watch.
+
+156
+00:06:26,040 --> 00:06:27,200
+Have sabres and bayonets.
+
+157
+00:06:27,280 --> 00:06:28,780
+By the end, they're firing into the crowds.
+
+158
+00:06:30,320 --> 00:06:32,760
+Soldiers restore order in the capital eventually.
+
+159
+00:06:33,380 --> 00:06:34,700
+But exactly as you say,
+
+160
+00:06:34,820 --> 00:06:35,780
+because of the storms,
+
+161
+00:06:35,900 --> 00:06:39,400
+everybody knows that something very bad is going to happen.
+
+162
+00:06:39,600 --> 00:06:42,360
+And the reason is this thing about bread.
+
+163
+00:06:43,160 --> 00:06:45,340
+You know, it's the classic thing in the French Revolution
+
+164
+00:06:45,340 --> 00:06:48,800
+is that you get great hordes of people chanting for bread.
+
+165
+00:06:49,040 --> 00:06:50,540
+That's one of the kind of images.
+
+166
+00:06:51,400 --> 00:06:53,380
+And the reason for this is that
+
+167
+00:06:53,380 --> 00:06:55,020
+three out of four people in France,
+
+168
+00:06:55,800 --> 00:06:59,060
+subsist almost entirely on basically a particular kind of loaf,
+
+169
+00:06:59,120 --> 00:07:00,300
+which is called the four-pound loaf.
+
+170
+00:07:00,500 --> 00:07:01,540
+If you've got a family of four,
+
+171
+00:07:01,640 --> 00:07:05,340
+you need two of these loaves every day to feed them.
+
+172
+00:07:05,700 --> 00:07:07,880
+Now, one loaf costs eight sous.
+
+173
+00:07:08,760 --> 00:07:12,060
+And a manual labourer makes about 25 sous a day.
+
+174
+00:07:12,260 --> 00:07:13,820
+So in other words, he will be spending
+
+175
+00:07:15,280 --> 00:07:18,540
+half, maybe more than half of his daily income
+
+176
+00:07:18,540 --> 00:07:20,660
+on these two loaves of bread.
+
+177
+00:07:20,980 --> 00:07:22,840
+And if the bread prices rise,
+
+178
+00:07:23,840 --> 00:07:25,000
+he's in a real...
+
+179
+00:07:25,020 --> 00:07:25,300
+He's in a real mess.
+
+180
+00:07:27,020 --> 00:07:28,300
+So by October,
+
+181
+00:07:28,500 --> 00:07:30,900
+the price has already gone from eight to 12 sous.
+
+182
+00:07:31,300 --> 00:07:32,660
+And eventually, as we will see,
+
+183
+00:07:33,260 --> 00:07:35,100
+it will peak at about 15 sous
+
+184
+00:07:35,100 --> 00:07:36,900
+around about the time of the...
+
+185
+00:07:36,900 --> 00:07:37,820
+And it peaks, doesn't it,
+
+186
+00:07:37,860 --> 00:07:39,980
+on the 14th of July, 1789,
+
+187
+00:07:40,240 --> 00:07:41,440
+the day of the fall of the Bastille.
+
+188
+00:07:41,660 --> 00:07:42,840
+Now, you could say,
+
+189
+00:07:43,560 --> 00:07:44,440
+we could say,
+
+190
+00:07:44,580 --> 00:07:46,280
+I mean, there's nothing anyone can do about this.
+
+191
+00:07:46,340 --> 00:07:47,620
+This is a complete act of God.
+
+192
+00:07:47,940 --> 00:07:50,440
+You know, the storms have destroyed the harvest.
+
+193
+00:07:50,500 --> 00:07:51,640
+There is not enough...
+
+194
+00:07:53,260 --> 00:07:54,320
+There are not enough crops,
+
+195
+00:07:54,400 --> 00:07:55,000
+there's not enough wheat,
+
+196
+00:07:55,020 --> 00:07:56,460
+there's not going to be enough flour,
+
+197
+00:07:56,600 --> 00:07:57,500
+there's not going to be enough bread.
+
+198
+00:07:57,620 --> 00:07:58,480
+Prices will rise.
+
+199
+00:07:58,640 --> 00:08:01,360
+But this is an age of pamphlets and of rumours
+
+200
+00:08:01,360 --> 00:08:02,760
+and therefore of conspiracy theories.
+
+201
+00:08:02,760 --> 00:08:03,060
+Exactly.
+
+202
+00:08:03,200 --> 00:08:05,040
+And so if something bad happens,
+
+203
+00:08:05,240 --> 00:08:06,580
+someone must be to blame.
+
+204
+00:08:06,700 --> 00:08:07,140
+Exactly.
+
+205
+00:08:07,320 --> 00:08:08,040
+That's exactly it.
+
+206
+00:08:08,140 --> 00:08:08,800
+They have been,
+
+207
+00:08:08,920 --> 00:08:12,240
+ever since the whole issue was opened by Calonne
+
+208
+00:08:12,240 --> 00:08:12,980
+and obviously,
+
+209
+00:08:13,440 --> 00:08:15,280
+in many ways, going back even further,
+
+210
+00:08:16,300 --> 00:08:18,740
+there has been this rhetoric of the king's ministers,
+
+211
+00:08:19,000 --> 00:08:20,800
+the king's ministers who are despotic
+
+212
+00:08:20,800 --> 00:08:21,540
+and they don't care
+
+213
+00:08:21,540 --> 00:08:23,800
+and they just want to trample on our ancient liberties
+
+214
+00:08:24,260 --> 00:08:25,000
+and all of that.
+
+215
+00:08:25,000 --> 00:08:26,480
+And now people start to say,
+
+216
+00:08:27,040 --> 00:08:28,920
+well, this is all the fault of the king's ministers.
+
+217
+00:08:29,080 --> 00:08:30,080
+They're not giving us any relief.
+
+218
+00:08:30,260 --> 00:08:31,940
+They're probably hoarding grain themselves,
+
+219
+00:08:32,220 --> 00:08:32,600
+to be honest.
+
+220
+00:08:32,780 --> 00:08:34,520
+They're probably profiting from all this
+
+221
+00:08:34,520 --> 00:08:35,620
+and driving prices up.
+
+222
+00:08:36,200 --> 00:08:38,460
+Only the Estates General can save us.
+
+223
+00:08:38,960 --> 00:08:41,100
+And then if that's not bad enough,
+
+224
+00:08:41,160 --> 00:08:45,200
+I promised you that nature had more tricks up our sleeve.
+
+225
+00:08:45,960 --> 00:08:48,400
+On the 26th of November, 1788,
+
+226
+00:08:49,840 --> 00:08:52,280
+there is an unexpected snowfall.
+
+227
+00:08:52,340 --> 00:08:54,980
+Basically, winter has come unexpectedly heavy.
+
+228
+00:08:54,980 --> 00:08:58,760
+And this kicks off what Robert Danson describes
+
+229
+00:08:58,760 --> 00:09:01,360
+as the longest, cruelest, coldest winter
+
+230
+00:09:01,360 --> 00:09:03,360
+that anybody in France had ever known.
+
+231
+00:09:04,080 --> 00:09:07,960
+So by December, Paris is completely covered with snow.
+
+232
+00:09:08,100 --> 00:09:09,480
+The Seine is frozen over.
+
+233
+00:09:09,560 --> 00:09:10,880
+People are walking on the Seine.
+
+234
+00:09:11,840 --> 00:09:14,740
+There are frozen bodies lying in the streets.
+
+235
+00:09:15,480 --> 00:09:16,740
+By New Year's Eve,
+
+236
+00:09:16,800 --> 00:09:19,660
+the temperature has fallen to the lowest ever recorded in France,
+
+237
+00:09:19,860 --> 00:09:20,980
+minus 10 degrees Fahrenheit.
+
+238
+00:09:22,420 --> 00:09:24,100
+The rivers are all frozen.
+
+239
+00:09:24,180 --> 00:09:24,500
+Of course,
+
+240
+00:09:24,500 --> 00:09:27,000
+the rivers being frozen means that the water mills...
+
+241
+00:09:27,000 --> 00:09:28,160
+Yeah, so they can't grind the...
+
+242
+00:09:28,160 --> 00:09:29,860
+They can't create flour.
+
+243
+00:09:30,160 --> 00:09:30,420
+Yeah.
+
+244
+00:09:31,440 --> 00:09:33,440
+The rivers are frozen.
+
+245
+00:09:33,560 --> 00:09:35,100
+The roads are snowbound.
+
+246
+00:09:35,260 --> 00:09:37,640
+They cannot transport supplies of bread
+
+247
+00:09:37,640 --> 00:09:39,680
+to those areas that are suffering the most.
+
+248
+00:09:40,060 --> 00:09:42,020
+And the snow is everywhere in France.
+
+249
+00:09:42,080 --> 00:09:44,640
+It's as far south as the Languedoc in the southwest.
+
+250
+00:09:45,160 --> 00:09:48,440
+And it falls pretty much every other day
+
+251
+00:09:48,440 --> 00:09:51,600
+between February and April, 1789.
+
+252
+00:09:51,600 --> 00:09:53,780
+I mean, this is a real freak winter.
+
+253
+00:09:54,500 --> 00:09:55,940
+And so they must all be sitting,
+
+254
+00:09:56,080 --> 00:09:57,420
+you know, standing in Versailles,
+
+255
+00:09:57,520 --> 00:09:58,240
+looking out of the window,
+
+256
+00:09:58,380 --> 00:09:59,720
+thinking, oh, no.
+
+257
+00:09:59,880 --> 00:10:00,420
+Completely, they are.
+
+258
+00:10:00,540 --> 00:10:02,280
+Yeah, because they're getting reports all the time
+
+259
+00:10:02,280 --> 00:10:04,300
+that basically there's a lot of people in France
+
+260
+00:10:04,300 --> 00:10:05,420
+who are labourers with no land
+
+261
+00:10:05,420 --> 00:10:07,300
+and they rely on seasonal work
+
+262
+00:10:07,300 --> 00:10:08,720
+and they're all out of work
+
+263
+00:10:08,720 --> 00:10:09,500
+and they're just starving.
+
+264
+00:10:09,920 --> 00:10:11,060
+You know, they've no money.
+
+265
+00:10:11,100 --> 00:10:11,860
+They have no food.
+
+266
+00:10:12,040 --> 00:10:12,960
+And dying, presumably.
+
+267
+00:10:13,280 --> 00:10:13,880
+And dying, yeah.
+
+268
+00:10:14,000 --> 00:10:15,660
+The majority of French men and women
+
+269
+00:10:15,660 --> 00:10:17,600
+are peasant sharecroppers, smallholders.
+
+270
+00:10:18,120 --> 00:10:19,540
+So they work their land.
+
+271
+00:10:19,680 --> 00:10:22,400
+They owe the seigneur, the local landowner,
+
+272
+00:10:22,540 --> 00:10:24,240
+they owe him for goods and stuff.
+
+273
+00:10:24,500 --> 00:10:26,480
+And they owe him various exactions.
+
+274
+00:10:27,720 --> 00:10:30,460
+With this winter following on the storm,
+
+275
+00:10:30,960 --> 00:10:33,120
+they probably won't be able to pay him what they owe.
+
+276
+00:10:34,020 --> 00:10:36,060
+This means that they will probably be evicted
+
+277
+00:10:36,060 --> 00:10:36,700
+from their land
+
+278
+00:10:36,700 --> 00:10:38,580
+and they will be demoted
+
+279
+00:10:39,000 --> 00:10:41,460
+to the class of those people who have no land,
+
+280
+00:10:41,580 --> 00:10:42,480
+which for them...
+
+281
+00:10:42,480 --> 00:10:43,800
+But at least they have the consolation
+
+282
+00:10:43,800 --> 00:10:44,680
+of knowing that the seigneur
+
+283
+00:10:44,680 --> 00:10:45,940
+doesn't have to pay taxes.
+
+284
+00:10:46,260 --> 00:10:47,280
+So that must be a relief.
+
+285
+00:10:49,480 --> 00:10:51,480
+Yeah, that the seigneur is fighting
+
+286
+00:10:51,480 --> 00:10:53,080
+for the liberties of France.
+
+287
+00:10:53,260 --> 00:10:54,120
+Yeah, for the liberty.
+
+288
+00:10:54,500 --> 00:10:55,820
+For his right not to pay taxes.
+
+289
+00:10:56,140 --> 00:10:57,400
+Tom, I think it's fair to say
+
+290
+00:10:57,400 --> 00:10:58,780
+that on Gemma and the Rest is History,
+
+291
+00:10:59,000 --> 00:11:01,740
+we deplore people who don't pay their rightful taxes.
+
+292
+00:11:02,020 --> 00:11:02,420
+Don't we?
+
+293
+00:11:02,580 --> 00:11:04,720
+We set out our position a year ago
+
+294
+00:11:04,720 --> 00:11:06,440
+in the series on the American War of Independence.
+
+295
+00:11:06,820 --> 00:11:07,140
+We did.
+
+296
+00:11:07,140 --> 00:11:08,240
+And we're sticking to it now.
+
+297
+00:11:08,420 --> 00:11:09,920
+Just pay your taxes, for God's sake.
+
+298
+00:11:09,940 --> 00:11:12,280
+French, American, what is wrong with you people?
+
+299
+00:11:12,280 --> 00:11:13,480
+But this is such a hostage to fortune
+
+300
+00:11:13,480 --> 00:11:15,200
+when we get investigated by tax collectors.
+
+301
+00:11:15,200 --> 00:11:15,720
+That's true.
+
+302
+00:11:16,320 --> 00:11:18,320
+So now, anyway, you have a flood of people
+
+303
+00:11:18,820 --> 00:11:19,980
+moving into the cities,
+
+304
+00:11:20,720 --> 00:11:22,040
+desperate for relief.
+
+305
+00:11:22,400 --> 00:11:24,260
+But if they manage to get there,
+
+306
+00:11:24,260 --> 00:11:24,840
+they're through the snow.
+
+307
+00:11:24,980 --> 00:11:26,960
+There is very little there for them
+
+308
+00:11:26,960 --> 00:11:29,160
+because France already is suffering
+
+309
+00:11:29,160 --> 00:11:31,400
+from quite high unemployment in the cities
+
+310
+00:11:31,880 --> 00:11:33,840
+because, as we said right at the beginning
+
+311
+00:11:33,840 --> 00:11:34,780
+of the last episode,
+
+312
+00:11:35,720 --> 00:11:39,420
+the Ancien Régime is a modernizing regime.
+
+313
+00:11:39,980 --> 00:11:41,920
+We're living in the age of the Industrial Revolution.
+
+314
+00:11:42,200 --> 00:11:43,900
+People are being, weavers, artisans,
+
+315
+00:11:43,900 --> 00:11:45,720
+are being put out of work by machines,
+
+316
+00:11:46,000 --> 00:11:47,520
+by capitalism.
+
+317
+00:11:48,000 --> 00:11:49,620
+And by Britain.
+
+318
+00:11:49,700 --> 00:11:50,240
+And by Britain.
+
+319
+00:11:50,260 --> 00:11:50,640
+More specifically.
+
+320
+00:11:51,020 --> 00:11:51,780
+Yeah, because Calon,
+
+321
+00:11:51,920 --> 00:11:54,020
+who wanted to liberalize the French economy,
+
+322
+00:11:54,260 --> 00:11:56,540
+had signed, this is very Brexit negotiations,
+
+323
+00:11:57,060 --> 00:11:59,220
+he'd signed a free trade deal with the British.
+
+324
+00:11:59,680 --> 00:12:01,740
+And he'd said, this will give us the shock we need,
+
+325
+00:12:01,780 --> 00:12:02,400
+a bit of competition,
+
+326
+00:12:02,680 --> 00:12:04,600
+a bit of, you know, a spur to our economy,
+
+327
+00:12:04,760 --> 00:12:07,980
+a flood of British manufactured goods.
+
+328
+00:12:08,220 --> 00:12:09,440
+Yeah, cheap gloves and things.
+
+329
+00:12:09,560 --> 00:12:12,780
+Cheap gloves that are putting the French out of work.
+
+330
+00:12:13,040 --> 00:12:14,020
+So over that...
+
+331
+00:12:14,020 --> 00:12:16,120
+That's what my ancestors made in Derbyshire.
+
+332
+00:12:16,200 --> 00:12:16,880
+They were making gloves.
+
+333
+00:12:16,900 --> 00:12:17,140
+Really?
+
+334
+00:12:17,680 --> 00:12:20,040
+So basically, your ancestors are responsible
+
+335
+00:12:20,040 --> 00:12:21,640
+for the Day of the Tiles in Grenoble.
+
+336
+00:12:21,880 --> 00:12:22,400
+Yeah, we played our bit.
+
+337
+00:12:22,460 --> 00:12:22,700
+Wow.
+
+338
+00:12:22,780 --> 00:12:24,100
+Tom, you kept that quiet during that.
+
+339
+00:12:24,100 --> 00:12:25,140
+That whole incident when people,
+
+340
+00:12:25,240 --> 00:12:26,280
+12-year-olds were being shot,
+
+341
+00:12:26,400 --> 00:12:27,720
+but now you bring it up.
+
+342
+00:12:27,780 --> 00:12:28,180
+Oh, yeah.
+
+343
+00:12:28,640 --> 00:12:29,900
+I'd actually forgotten about it.
+
+344
+00:12:29,920 --> 00:12:30,620
+Unbelievable, isn't it?
+
+345
+00:12:30,700 --> 00:12:31,100
+That's the worst.
+
+346
+00:12:31,240 --> 00:12:32,080
+That's even worse.
+
+347
+00:12:32,160 --> 00:12:32,880
+It's the indifference.
+
+348
+00:12:33,080 --> 00:12:33,580
+I know.
+
+349
+00:12:33,660 --> 00:12:35,160
+It's the indifference to the suffering you've caused.
+
+350
+00:12:36,460 --> 00:12:36,820
+Right.
+
+351
+00:12:37,380 --> 00:12:38,300
+I mean, you should be,
+
+352
+00:12:38,340 --> 00:12:40,660
+you can do better and be true to your values, Tom, please.
+
+353
+00:12:41,700 --> 00:12:43,620
+So over the winter of 1788,
+
+354
+00:12:43,680 --> 00:12:48,100
+about a fifth of the population of Paris are unemployed.
+
+355
+00:12:48,480 --> 00:12:49,860
+So that's what, about 100,000?
+
+356
+00:12:50,420 --> 00:12:51,600
+100,000 people, yeah.
+
+357
+00:12:51,880 --> 00:12:53,420
+So, or, well,
+
+358
+00:12:54,100 --> 00:12:56,300
+we're receiving relief of some kind, like poor relief.
+
+359
+00:12:56,800 --> 00:12:58,880
+So now we have the three ingredients
+
+360
+00:12:58,880 --> 00:13:00,660
+that we talked about last time.
+
+361
+00:13:00,740 --> 00:13:02,280
+The political and financial crisis,
+
+362
+00:13:02,340 --> 00:13:03,220
+the kind of high politics,
+
+363
+00:13:03,860 --> 00:13:05,160
+the cultural moment,
+
+364
+00:13:05,420 --> 00:13:08,340
+the cult of virtue, of passion,
+
+365
+00:13:09,100 --> 00:13:10,760
+of, you know, living your truth,
+
+366
+00:13:10,840 --> 00:13:11,880
+all of that stuff,
+
+367
+00:13:12,040 --> 00:13:13,980
+and now the social unrest
+
+368
+00:13:13,980 --> 00:13:15,580
+and the anger and the desperation.
+
+369
+00:13:16,600 --> 00:13:18,280
+So this is a lot of pressure
+
+370
+00:13:18,900 --> 00:13:20,320
+on the Estates General,
+
+371
+00:13:20,440 --> 00:13:21,180
+which has been called
+
+372
+00:13:21,180 --> 00:13:23,060
+and is supposed to resolve all this.
+
+373
+00:13:24,100 --> 00:13:24,540
+And the thing is,
+
+374
+00:13:24,560 --> 00:13:25,700
+they've called the Estates General
+
+375
+00:13:25,700 --> 00:13:28,040
+and it's going to meet the following spring, summer.
+
+376
+00:13:28,240 --> 00:13:30,120
+The date is a slightly movable feast.
+
+377
+00:13:30,960 --> 00:13:32,880
+But they don't really know, as we said,
+
+378
+00:13:33,660 --> 00:13:34,820
+what it is,
+
+379
+00:13:34,900 --> 00:13:36,540
+how it will be arranged.
+
+380
+00:13:38,460 --> 00:13:40,280
+There's no institutional memory of it
+
+381
+00:13:40,280 --> 00:13:42,240
+because it hasn't met since 1614, 15.
+
+382
+00:13:42,280 --> 00:13:44,180
+And the king has not decreed what it should be.
+
+383
+00:13:44,380 --> 00:13:44,500
+No.
+
+384
+00:13:45,100 --> 00:13:46,660
+There's a flood of pamphlets.
+
+385
+00:13:46,960 --> 00:13:49,040
+There's a huge sort of torrent of argument
+
+386
+00:13:49,560 --> 00:13:51,500
+in the final months of 1788.
+
+387
+00:13:52,100 --> 00:13:53,380
+And what people want,
+
+388
+00:13:53,500 --> 00:13:54,000
+if they are,
+
+389
+00:13:54,000 --> 00:13:54,760
+if they are kind of reformers,
+
+390
+00:13:54,760 --> 00:13:57,780
+they say the third estate,
+
+391
+00:13:58,120 --> 00:13:59,140
+which is the commons,
+
+392
+00:13:59,160 --> 00:14:00,780
+representing the great majority
+
+393
+00:14:00,780 --> 00:14:01,700
+of the French people,
+
+394
+00:14:01,920 --> 00:14:05,340
+should absolutely not allow itself
+
+395
+00:14:05,340 --> 00:14:06,980
+to be outvoted by the clergy
+
+396
+00:14:06,980 --> 00:14:07,940
+and the nobility.
+
+397
+00:14:08,620 --> 00:14:10,060
+So the third estate...
+
+398
+00:14:10,060 --> 00:14:11,080
+The clergy, the first estate,
+
+399
+00:14:11,720 --> 00:14:12,880
+nobles of the second estate.
+
+400
+00:14:12,980 --> 00:14:13,200
+Exactly.
+
+401
+00:14:13,480 --> 00:14:14,720
+The mass of everybody else
+
+402
+00:14:14,720 --> 00:14:15,340
+is the third estate.
+
+403
+00:14:15,380 --> 00:14:16,100
+Everybody else, yeah.
+
+404
+00:14:16,220 --> 00:14:17,680
+The third estate should have
+
+405
+00:14:17,680 --> 00:14:18,460
+its numbers doubled,
+
+406
+00:14:18,620 --> 00:14:19,620
+so it should be equivalent
+
+407
+00:14:19,620 --> 00:14:20,300
+to those two.
+
+408
+00:14:20,760 --> 00:14:22,800
+And they should all sit together
+
+409
+00:14:24,180 --> 00:14:26,260
+so that a majority vote
+
+410
+00:14:26,260 --> 00:14:28,340
+can decide all the big questions
+
+411
+00:14:28,340 --> 00:14:29,680
+that basically shouldn't be out.
+
+412
+00:14:29,860 --> 00:14:32,020
+Because even if its numbers are doubled,
+
+413
+00:14:32,500 --> 00:14:33,580
+if it's outvoted
+
+414
+00:14:33,580 --> 00:14:34,760
+by the other two chambers,
+
+415
+00:14:35,000 --> 00:14:36,320
+if each chamber gets basically
+
+416
+00:14:36,320 --> 00:14:37,740
+one vote, as it were,
+
+417
+00:14:37,940 --> 00:14:40,500
+then they'll never be able to win.
+
+418
+00:14:40,820 --> 00:14:41,800
+And can I ask,
+
+419
+00:14:41,820 --> 00:14:43,580
+with all this talk about,
+
+420
+00:14:44,120 --> 00:14:45,480
+you know, the general will
+
+421
+00:14:45,480 --> 00:14:46,560
+of the people,
+
+422
+00:14:47,040 --> 00:14:48,820
+which is already becoming very current,
+
+423
+00:14:49,060 --> 00:14:50,560
+is there already a sense
+
+424
+00:14:50,560 --> 00:14:51,960
+that actually there shouldn't be
+
+425
+00:14:51,960 --> 00:14:52,520
+three estates,
+
+426
+00:14:52,540 --> 00:14:53,460
+there should just be the one
+
+427
+00:14:53,460 --> 00:14:55,200
+national assembly
+
+428
+00:14:55,800 --> 00:14:56,800
+which could speak
+
+429
+00:14:56,800 --> 00:14:57,500
+and articulate
+
+430
+00:14:57,500 --> 00:15:01,760
+the truth of the nation?
+
+431
+00:15:02,100 --> 00:15:02,500
+Yes.
+
+432
+00:15:02,700 --> 00:15:03,680
+And this is the moment
+
+433
+00:15:03,680 --> 00:15:04,940
+when people start to say that.
+
+434
+00:15:05,160 --> 00:15:06,640
+So people had not really
+
+435
+00:15:06,640 --> 00:15:08,700
+been saying that so openly
+
+436
+00:15:08,700 --> 00:15:10,640
+in, you know, 1780 or something.
+
+437
+00:15:11,200 --> 00:15:12,740
+But now by 1788,
+
+438
+00:15:12,900 --> 00:15:14,100
+they're saying it very openly.
+
+439
+00:15:14,180 --> 00:15:15,440
+And the most famous example of that,
+
+440
+00:15:15,500 --> 00:15:16,020
+actually, Tom,
+
+441
+00:15:16,060 --> 00:15:17,180
+is a guy called Siez,
+
+442
+00:15:17,300 --> 00:15:19,500
+the Abbe Siez, Emmanuel Siez.
+
+443
+00:15:19,880 --> 00:15:21,620
+So he is from a commoner family
+
+444
+00:15:21,620 --> 00:15:23,340
+and he had become a kind of church,
+
+445
+00:15:23,460 --> 00:15:24,860
+administrator in Chartres.
+
+446
+00:15:25,400 --> 00:15:27,480
+And he writes a very famous pamphlet.
+
+447
+00:15:27,580 --> 00:15:29,460
+If anyone has ever done this
+
+448
+00:15:29,460 --> 00:15:30,440
+for A-level like me,
+
+449
+00:15:30,520 --> 00:15:31,340
+they will remember this.
+
+450
+00:15:31,420 --> 00:15:32,260
+He wrote a pamphlet called
+
+451
+00:15:32,260 --> 00:15:34,020
+Qu'est-ce que le tiers état?
+
+452
+00:15:34,100 --> 00:15:35,060
+What is the third estate?
+
+453
+00:15:35,280 --> 00:15:37,100
+Which came out in January 1789.
+
+454
+00:15:37,300 --> 00:15:39,100
+And it started with these famous words.
+
+455
+00:15:39,500 --> 00:15:41,480
+We have three questions to ask.
+
+456
+00:15:41,820 --> 00:15:44,020
+First, what is the third estate?
+
+457
+00:15:44,640 --> 00:15:45,120
+Everything.
+
+458
+00:15:46,360 --> 00:15:47,840
+Second, what has it been
+
+459
+00:15:47,840 --> 00:15:49,580
+in the political order up to now?
+
+460
+00:15:50,200 --> 00:15:50,680
+Nothing.
+
+461
+00:15:52,060 --> 00:15:53,420
+Third, what does it do?
+
+462
+00:15:53,460 --> 00:15:55,520
+Demand to become something.
+
+463
+00:15:56,640 --> 00:15:57,900
+So this sort of idea
+
+464
+00:15:57,900 --> 00:15:59,980
+that the third estate is everything.
+
+465
+00:16:00,280 --> 00:16:01,620
+And he says, Siez,
+
+466
+00:16:02,220 --> 00:16:04,880
+the third estate is a complete nation.
+
+467
+00:16:05,180 --> 00:16:07,140
+He says there are 25 million of us.
+
+468
+00:16:07,480 --> 00:16:09,660
+There are only 200,000 of them,
+
+469
+00:16:09,740 --> 00:16:10,660
+nobles and priests.
+
+470
+00:16:10,780 --> 00:16:11,740
+We don't even need them.
+
+471
+00:16:12,200 --> 00:16:14,580
+He says we are the nation.
+
+472
+00:16:15,260 --> 00:16:18,480
+We, if we want a total reboot of France,
+
+473
+00:16:19,160 --> 00:16:20,380
+we can have one.
+
+474
+00:16:20,560 --> 00:16:21,960
+If we lack a constitution,
+
+475
+00:16:22,260 --> 00:16:23,200
+we must make one.
+
+476
+00:16:23,460 --> 00:16:26,100
+The nation alone has that right.
+
+477
+00:16:26,400 --> 00:16:27,900
+And he, I mean, he presumably,
+
+478
+00:16:28,200 --> 00:16:29,900
+I mean, he's a member of the first estate.
+
+479
+00:16:30,140 --> 00:16:30,320
+Yes.
+
+480
+00:16:30,500 --> 00:16:32,320
+And we talked in the previous episode
+
+481
+00:16:32,320 --> 00:16:34,600
+that there are nobles, members of the second estate
+
+482
+00:16:35,140 --> 00:16:36,360
+who sympathise with this.
+
+483
+00:16:36,520 --> 00:16:36,760
+Yes.
+
+484
+00:16:36,840 --> 00:16:39,920
+That, you know, they would like to see their order,
+
+485
+00:16:39,980 --> 00:16:44,480
+their estate dissolved into the entirety of a single assembly.
+
+486
+00:16:44,740 --> 00:16:45,420
+They absolutely would.
+
+487
+00:16:45,500 --> 00:16:46,140
+Yeah, they would.
+
+488
+00:16:46,220 --> 00:16:49,520
+So we'll see a very famous example in the Comte de Mirabeau,
+
+489
+00:16:49,640 --> 00:16:51,980
+who is one of the most famous spokesmen for the third estate,
+
+490
+00:16:52,140 --> 00:16:53,200
+but is a nobleman.
+
+491
+00:16:53,200 --> 00:16:56,060
+And, of course, also the Duke of Orléans,
+
+492
+00:16:56,220 --> 00:16:57,440
+who, again, we talked to,
+
+493
+00:16:57,460 --> 00:16:59,360
+the cousin of Louis XVI,
+
+494
+00:16:59,420 --> 00:17:02,660
+who, you know, is a member, obviously, of the second estate.
+
+495
+00:17:02,880 --> 00:17:04,700
+And actually, some of these people are very vitriolic
+
+496
+00:17:04,700 --> 00:17:05,740
+about their own estates.
+
+497
+00:17:05,780 --> 00:17:06,800
+So here's an example.
+
+498
+00:17:07,040 --> 00:17:08,940
+There's a real hint of menace in that pamphlet,
+
+499
+00:17:09,020 --> 00:17:09,920
+What is the third estate?
+
+500
+00:17:10,360 --> 00:17:11,020
+He says,
+
+501
+00:17:11,700 --> 00:17:14,260
+if the nobility and the clergy, like me,
+
+502
+00:17:14,400 --> 00:17:16,040
+want to become part of the nation,
+
+503
+00:17:16,320 --> 00:17:17,700
+they must discard their privileges.
+
+504
+00:17:18,480 --> 00:17:19,220
+And he says,
+
+505
+00:17:19,260 --> 00:17:21,280
+people are always asking what place should they occupy
+
+506
+00:17:21,280 --> 00:17:22,180
+in the social order.
+
+507
+00:17:22,400 --> 00:17:23,020
+He says,
+
+508
+00:17:23,200 --> 00:17:25,000
+this is equivalent to asking
+
+509
+00:17:25,000 --> 00:17:28,100
+what place should be assigned to a malignant disease
+
+510
+00:17:28,640 --> 00:17:32,020
+which preys upon and tortures the body of a sick man.
+
+511
+00:17:32,820 --> 00:17:34,420
+I mean, that analogy,
+
+512
+00:17:35,120 --> 00:17:37,760
+your opponents are not even traitors.
+
+513
+00:17:37,980 --> 00:17:39,360
+They are a disease.
+
+514
+00:17:39,980 --> 00:17:41,080
+Yeah, it's very familiar, isn't it?
+
+515
+00:17:41,140 --> 00:17:42,700
+I mean, that is very familiar and very disturbing.
+
+516
+00:17:43,400 --> 00:17:45,180
+So anyway, in this argument,
+
+517
+00:17:46,140 --> 00:17:48,840
+Necker suggests a compromise,
+
+518
+00:17:48,880 --> 00:17:50,300
+and he and the king issue a decision.
+
+519
+00:17:50,680 --> 00:17:52,960
+The third estate will get its key demand.
+
+520
+00:17:53,200 --> 00:17:54,520
+It will get 600 deputies
+
+521
+00:17:54,520 --> 00:17:56,740
+compared with the 300 or so
+
+522
+00:17:56,740 --> 00:17:58,880
+for both the clergy and the nobility.
+
+523
+00:17:59,580 --> 00:18:02,260
+Also, the third estate will be able to elect,
+
+524
+00:18:02,320 --> 00:18:03,660
+choose its representatives,
+
+525
+00:18:04,020 --> 00:18:05,040
+people like Siez,
+
+526
+00:18:05,540 --> 00:18:07,540
+who come from the other estates.
+
+527
+00:18:07,640 --> 00:18:08,880
+So if you're, Tom,
+
+528
+00:18:08,960 --> 00:18:12,060
+a liberal reforming clergyman like him
+
+529
+00:18:12,060 --> 00:18:14,180
+or a vicomte or whatever,
+
+530
+00:18:14,860 --> 00:18:17,160
+and your own estate won't choose you,
+
+531
+00:18:17,180 --> 00:18:17,600
+obviously,
+
+532
+00:18:18,160 --> 00:18:20,600
+you could run in the third estate elections
+
+533
+00:18:20,600 --> 00:18:21,940
+to get in that way.
+
+534
+00:18:22,360 --> 00:18:22,880
+However,
+
+535
+00:18:23,200 --> 00:18:25,020
+what Necker does not decide
+
+536
+00:18:25,020 --> 00:18:27,000
+is whether the three estates
+
+537
+00:18:27,000 --> 00:18:28,020
+are all going to sit together,
+
+538
+00:18:28,200 --> 00:18:30,020
+which would allow the third estate to dominate,
+
+539
+00:18:30,240 --> 00:18:32,420
+or whether they would still be stratified
+
+540
+00:18:32,420 --> 00:18:33,480
+kind of hierarchically
+
+541
+00:18:33,480 --> 00:18:35,980
+and be in their different chambers.
+
+542
+00:18:37,280 --> 00:18:38,820
+So this kicks off
+
+543
+00:18:39,840 --> 00:18:42,380
+these elections for the three estates,
+
+544
+00:18:42,420 --> 00:18:43,520
+and they're very, very complicated.
+
+545
+00:18:43,600 --> 00:18:45,860
+So let's try to stay clear of them
+
+546
+00:18:45,860 --> 00:18:46,660
+as much as possible.
+
+547
+00:18:47,020 --> 00:18:48,940
+Basically, it's a filtration process.
+
+548
+00:18:49,580 --> 00:18:51,340
+You've got a parish assembly
+
+549
+00:18:51,340 --> 00:18:52,760
+and then a district assembly,
+
+550
+00:18:52,760 --> 00:18:54,040
+and then a provincial assembly.
+
+551
+00:18:54,100 --> 00:18:55,060
+It kind of varies from place to place, doesn't it?
+
+552
+00:18:55,060 --> 00:18:55,240
+It does.
+
+553
+00:18:55,280 --> 00:18:56,280
+It's all kind of random.
+
+554
+00:18:56,520 --> 00:18:57,620
+Yeah, very complicated.
+
+555
+00:18:57,620 --> 00:18:58,220
+And all the time,
+
+556
+00:18:58,220 --> 00:18:59,340
+people have been encouraged.
+
+557
+00:18:59,640 --> 00:19:00,760
+And this is an amazing thing.
+
+558
+00:19:00,900 --> 00:19:01,800
+The king says to them,
+
+559
+00:19:02,640 --> 00:19:04,220
+I want to hear all your grievances.
+
+560
+00:19:04,820 --> 00:19:07,840
+I want to hear all your desires.
+
+561
+00:19:08,240 --> 00:19:08,820
+So actually,
+
+562
+00:19:08,920 --> 00:19:10,980
+the idea that the elite and the regime
+
+563
+00:19:10,980 --> 00:19:12,940
+is totally indifferent and out of touch
+
+564
+00:19:12,940 --> 00:19:13,760
+is not quite right.
+
+565
+00:19:14,020 --> 00:19:14,680
+But this is the king.
+
+566
+00:19:14,780 --> 00:19:16,760
+This is him playing his role of the father.
+
+567
+00:19:16,800 --> 00:19:18,100
+Yeah, the father of the nation.
+
+568
+00:19:18,500 --> 00:19:19,340
+Because, of course,
+
+569
+00:19:19,360 --> 00:19:21,180
+I assume at this point,
+
+570
+00:19:21,800 --> 00:19:23,300
+the implications of all this
+
+571
+00:19:23,760 --> 00:19:25,740
+identification of the third estate
+
+572
+00:19:25,740 --> 00:19:27,760
+with the voice of the people,
+
+573
+00:19:28,260 --> 00:19:29,480
+they're not yet discussing
+
+574
+00:19:29,480 --> 00:19:30,700
+what implications that might have
+
+575
+00:19:30,700 --> 00:19:31,380
+for the monarch.
+
+576
+00:19:31,420 --> 00:19:32,480
+No, because they're all,
+
+577
+00:19:32,540 --> 00:19:33,060
+by the way,
+
+578
+00:19:33,100 --> 00:19:33,980
+they're all monarchists.
+
+579
+00:19:34,320 --> 00:19:34,940
+I mean,
+
+580
+00:19:34,980 --> 00:19:35,360
+Of course.
+
+581
+00:19:35,680 --> 00:19:37,160
+I mean, that's taken for granted.
+
+582
+00:19:37,360 --> 00:19:38,840
+There is very little of a,
+
+583
+00:19:39,400 --> 00:19:40,020
+I mean,
+
+584
+00:19:40,020 --> 00:19:41,840
+certainly in the books that I've read,
+
+585
+00:19:41,880 --> 00:19:43,820
+there's no mention of any of a republicanism
+
+586
+00:19:43,820 --> 00:19:44,920
+at this stage.
+
+587
+00:19:45,060 --> 00:19:46,400
+Their dream, remember,
+
+588
+00:19:46,400 --> 00:19:47,400
+a lot of these reformers
+
+589
+00:19:47,400 --> 00:19:49,080
+is a British-style system,
+
+590
+00:19:49,560 --> 00:19:51,160
+not an American republicanism.
+
+591
+00:19:52,160 --> 00:19:53,840
+So the ordinary people
+
+592
+00:19:53,840 --> 00:19:56,940
+are composing these 25,000 dossiers,
+
+593
+00:19:57,000 --> 00:20:00,500
+they could call it exercise books,
+
+594
+00:20:00,660 --> 00:20:01,320
+you could call them,
+
+595
+00:20:02,980 --> 00:20:04,780
+in which they basically are saying,
+
+596
+00:20:04,900 --> 00:20:05,940
+well, I don't like this tax.
+
+597
+00:20:06,140 --> 00:20:07,940
+I don't like the senior does this.
+
+598
+00:20:08,640 --> 00:20:11,420
+I would love to live with this or that
+
+599
+00:20:11,420 --> 00:20:11,840
+or whatever.
+
+600
+00:20:12,000 --> 00:20:13,080
+This is too many hailstones.
+
+601
+00:20:13,080 --> 00:20:14,740
+But no one in Europe has ever,
+
+602
+00:20:14,780 --> 00:20:15,960
+I think possibly in the world,
+
+603
+00:20:16,020 --> 00:20:18,740
+has ever done an exercise like this before.
+
+604
+00:20:18,800 --> 00:20:21,020
+It is a monumental sort of,
+
+605
+00:20:21,180 --> 00:20:22,820
+public opinion survey.
+
+606
+00:20:23,040 --> 00:20:24,560
+And does it help stabilise the situation?
+
+607
+00:20:24,780 --> 00:20:26,020
+Well, obviously the problem with it
+
+608
+00:20:26,020 --> 00:20:28,300
+is that it raises expectations that no,
+
+609
+00:20:28,420 --> 00:20:30,160
+because it's unprecedented and extraordinary,
+
+610
+00:20:30,440 --> 00:20:32,360
+it raises expectations no government,
+
+611
+00:20:32,940 --> 00:20:34,300
+even a revolutionary government,
+
+612
+00:20:34,560 --> 00:20:36,100
+can possibly meet
+
+613
+00:20:36,100 --> 00:20:38,300
+because people then, as now,
+
+614
+00:20:39,040 --> 00:20:41,360
+they want impossible and contradictory things.
+
+615
+00:20:41,560 --> 00:20:43,040
+They want more food.
+
+616
+00:20:43,220 --> 00:20:44,460
+They want more freedom.
+
+617
+00:20:44,640 --> 00:20:46,020
+They want lower prices.
+
+618
+00:20:46,420 --> 00:20:49,240
+They want less government on their backs
+
+619
+00:20:49,240 --> 00:20:50,220
+and telling them what to do.
+
+620
+00:20:50,280 --> 00:20:51,160
+They also want,
+
+621
+00:20:51,180 --> 00:20:51,960
+they want more government,
+
+622
+00:20:52,160 --> 00:20:54,220
+a paternalistic government that is giving them,
+
+623
+00:20:54,260 --> 00:20:55,460
+that was always there with relief
+
+624
+00:20:55,460 --> 00:20:56,660
+and all this kind of thing.
+
+625
+00:20:56,780 --> 00:20:59,360
+They're asking things that no 18th century government
+
+626
+00:20:59,360 --> 00:21:03,500
+can possibly supply.
+
+627
+00:21:03,860 --> 00:21:05,020
+And that will create,
+
+628
+00:21:05,160 --> 00:21:07,340
+that's stoking their expectations to a pitch
+
+629
+00:21:07,340 --> 00:21:10,460
+where the dissatisfaction will explode
+
+630
+00:21:10,460 --> 00:21:14,340
+in fury and disappointment very shortly.
+
+631
+00:21:15,380 --> 00:21:15,900
+Meanwhile,
+
+632
+00:21:16,080 --> 00:21:18,580
+even as they are electing their representatives
+
+633
+00:21:18,580 --> 00:21:19,900
+and drawing up their CAE,
+
+634
+00:21:20,640 --> 00:21:21,160
+they're asking things like,
+
+635
+00:21:21,180 --> 00:21:22,380
+well, what's the point of this?
+
+636
+00:21:22,520 --> 00:21:23,140
+And that's the point of the revolution.
+
+637
+00:21:23,140 --> 00:21:23,320
+And that's the point of the revolution.
+
+638
+00:21:23,380 --> 00:21:23,480
+And again,
+
+639
+00:21:24,360 --> 00:21:26,120
+this doesn't start with the revolution.
+
+640
+00:21:26,380 --> 00:21:27,760
+It precedes the revolution.
+
+641
+00:21:28,160 --> 00:21:29,180
+So effectively,
+
+642
+00:21:29,420 --> 00:21:31,680
+I think what happens is the snow melts
+
+643
+00:21:31,680 --> 00:21:33,320
+as the ice thaws
+
+644
+00:21:33,320 --> 00:21:35,160
+and people go back to the streets
+
+645
+00:21:35,160 --> 00:21:38,700
+and the food prices are still very high.
+
+646
+00:21:39,160 --> 00:21:42,420
+So the disorder returns to the streets
+
+647
+00:21:42,420 --> 00:21:44,320
+and you get a series of reports
+
+648
+00:21:44,320 --> 00:21:48,280
+by about March of food rioting across the country,
+
+649
+00:21:48,340 --> 00:21:50,440
+all the way from France in the north
+
+650
+00:21:50,440 --> 00:21:51,080
+to Avignon,
+
+651
+00:21:51,180 --> 00:21:53,460
+to Toulouse in the south.
+
+652
+00:21:54,080 --> 00:21:55,300
+And in particular,
+
+653
+00:21:55,460 --> 00:21:57,780
+there is a sense that in the countryside,
+
+654
+00:21:58,000 --> 00:22:00,280
+which is most of France,
+
+655
+00:22:01,880 --> 00:22:04,540
+authority is really breaking down at this point.
+
+656
+00:22:04,720 --> 00:22:07,440
+So I know we've both read Sharma's book.
+
+657
+00:22:07,640 --> 00:22:09,620
+He has this wonderful section, doesn't he,
+
+658
+00:22:09,640 --> 00:22:11,040
+where he introduced this by saying
+
+659
+00:22:11,040 --> 00:22:12,880
+the first mass casualties,
+
+660
+00:22:12,960 --> 00:22:14,760
+the French Revolution of France is rabbits.
+
+661
+00:22:15,420 --> 00:22:17,900
+Because he describes how people just,
+
+662
+00:22:18,820 --> 00:22:19,940
+they're desperate.
+
+663
+00:22:20,060 --> 00:22:21,080
+They form platoons,
+
+664
+00:22:21,720 --> 00:22:23,760
+and they go out with guns or whatever,
+
+665
+00:22:23,940 --> 00:22:25,660
+or kind of bludgeons,
+
+666
+00:22:26,260 --> 00:22:27,820
+like British schoolboys.
+
+667
+00:22:28,300 --> 00:22:30,940
+And they're hunting game and rabbits
+
+668
+00:22:30,940 --> 00:22:32,160
+and all this sort of stuff.
+
+669
+00:22:32,340 --> 00:22:33,520
+And this is in contravention
+
+670
+00:22:33,520 --> 00:22:36,100
+of very restrictive game laws.
+
+671
+00:22:36,400 --> 00:22:36,660
+Yeah.
+
+672
+00:22:36,760 --> 00:22:37,860
+And actually,
+
+673
+00:22:37,940 --> 00:22:40,300
+it's one of the stories of 1789
+
+674
+00:22:40,300 --> 00:22:42,780
+is the erosion of those game laws.
+
+675
+00:22:43,280 --> 00:22:45,260
+And it's bad news for rabbits.
+
+676
+00:22:45,320 --> 00:22:46,900
+And in a very short time,
+
+677
+00:22:47,000 --> 00:22:48,480
+it will be bad news for birds.
+
+678
+00:22:48,600 --> 00:22:50,480
+Yeah, because when gamekeepers
+
+679
+00:22:50,480 --> 00:22:51,160
+try to stop them,
+
+680
+00:22:51,160 --> 00:22:52,100
+and say,
+
+681
+00:22:52,200 --> 00:22:54,100
+oh, this is the seniors stuff,
+
+682
+00:22:54,780 --> 00:22:57,460
+they're just shooting them dead and continue.
+
+683
+00:22:58,140 --> 00:23:00,220
+But you think the real victims in this are the birds,
+
+684
+00:23:00,260 --> 00:23:00,600
+do you, Tom?
+
+685
+00:23:00,700 --> 00:23:01,160
+I do, really,
+
+686
+00:23:01,280 --> 00:23:02,860
+because they've remained victims,
+
+687
+00:23:03,440 --> 00:23:05,600
+because it becomes a kind of principle of,
+
+688
+00:23:06,220 --> 00:23:06,780
+you know,
+
+689
+00:23:06,800 --> 00:23:07,660
+the new order in France,
+
+690
+00:23:07,780 --> 00:23:09,140
+that you can kill as many birds as you like.
+
+691
+00:23:09,240 --> 00:23:11,480
+Like François Mitterrand eating that bird on his deathbed.
+
+692
+00:23:11,660 --> 00:23:12,080
+Absolutely.
+
+693
+00:23:12,340 --> 00:23:12,560
+Yeah.
+
+694
+00:23:12,620 --> 00:23:12,820
+Yeah.
+
+695
+00:23:12,880 --> 00:23:13,180
+Unbelievable.
+
+696
+00:23:13,420 --> 00:23:13,640
+Yeah.
+
+697
+00:23:13,740 --> 00:23:18,340
+It's a slippery slope from bread riots to François Mitterrand
+
+698
+00:23:18,340 --> 00:23:20,400
+biting the head off an innocent bird.
+
+699
+00:23:20,400 --> 00:23:21,880
+Oh, no, what a terrible image.
+
+700
+00:23:22,740 --> 00:23:25,160
+So there's a real sense of a power vacuum in the countryside.
+
+701
+00:23:25,520 --> 00:23:27,680
+People are attacking granaries and bakeries.
+
+702
+00:23:28,540 --> 00:23:31,980
+Towns unable to defend themselves are forming their own militias.
+
+703
+00:23:33,220 --> 00:23:34,520
+Again, that's not good.
+
+704
+00:23:34,660 --> 00:23:34,840
+Yeah.
+
+705
+00:23:34,900 --> 00:23:36,540
+It's all kind of starting to crumble.
+
+706
+00:23:36,700 --> 00:23:39,040
+But you know what you need in a situation like this?
+
+707
+00:23:39,120 --> 00:23:39,320
+Tell me.
+
+708
+00:23:39,420 --> 00:23:40,820
+You need a massive riot.
+
+709
+00:23:41,120 --> 00:23:41,400
+Yes.
+
+710
+00:23:41,800 --> 00:23:43,300
+Dominic, does such a thing happen?
+
+711
+00:23:43,500 --> 00:23:43,820
+It does.
+
+712
+00:23:43,940 --> 00:23:44,840
+So it happens in Paris.
+
+713
+00:23:44,960 --> 00:23:45,800
+And I think, again,
+
+714
+00:23:46,440 --> 00:23:50,280
+I said in the last episode that the French Revolution started in Grenoble.
+
+715
+00:23:50,400 --> 00:23:53,860
+You could also say, I mean, if you want to choose an alternative date,
+
+716
+00:23:53,980 --> 00:23:58,840
+it starts on the 28th of April 1789 in Paris, not at the Bastille.
+
+717
+00:23:59,000 --> 00:24:02,640
+This starts in a place east of the Bastille called the Faubourg,
+
+718
+00:24:02,640 --> 00:24:05,420
+that means neighborhood, Saint-Antoine, Saint-Anthony.
+
+719
+00:24:06,060 --> 00:24:07,980
+And there's a rumor that goes around.
+
+720
+00:24:08,400 --> 00:24:12,940
+There's a big wallpaper manufacturer in town called Réveillon.
+
+721
+00:24:13,260 --> 00:24:17,700
+And there's a rumor that Réveillon had gone to a public meeting and had said
+
+722
+00:24:17,700 --> 00:24:20,380
+that his workers should live on 15 days.
+
+723
+00:24:20,380 --> 00:24:26,300
+15 sous a day, the price of which is now the price of a loaf of bread, one loaf only.
+
+724
+00:24:27,020 --> 00:24:28,940
+And actually, he hadn't said that.
+
+725
+00:24:29,060 --> 00:24:33,920
+What he had said was that if they sorted out the economy and liberalized the economy,
+
+726
+00:24:34,160 --> 00:24:38,920
+there would be lower prices and then with lower prices, there would be lower wages.
+
+727
+00:24:39,160 --> 00:24:44,320
+And one day his workers would live on 15 sous a day because bread would be so cheap.
+
+728
+00:24:44,580 --> 00:24:45,840
+Or words to that effect.
+
+729
+00:24:46,720 --> 00:24:49,140
+Now, Réveillon is very well known in Paris.
+
+730
+00:24:49,840 --> 00:24:53,340
+He had made, in his capacity as a paper manufacturer,
+
+731
+00:24:54,060 --> 00:25:00,200
+Tom, he had made the paper that was the first balloon, the Montgolfier balloon.
+
+732
+00:25:01,260 --> 00:25:06,700
+And he had sponsored the first hot air balloons and they had taken off from the yard of his workshop.
+
+733
+00:25:07,360 --> 00:25:11,420
+So, you know, you will see his name if you Google the first hot air balloon flights.
+
+734
+00:25:11,500 --> 00:25:14,120
+He is like a really modern, interesting person.
+
+735
+00:25:14,280 --> 00:25:15,420
+Kind of James Dyson figure.
+
+736
+00:25:15,520 --> 00:25:16,020
+Yeah, exactly.
+
+737
+00:25:17,320 --> 00:25:19,120
+Entrepreneur, technology, the future.
+
+738
+00:25:19,140 --> 00:25:22,160
+He's a really impressive person, this guy, Réveillon.
+
+739
+00:25:22,420 --> 00:25:25,200
+He had been an apprentice paper worker.
+
+740
+00:25:25,620 --> 00:25:27,060
+He had worked his way up.
+
+741
+00:25:27,080 --> 00:25:28,420
+He had bought his own paper workshop.
+
+742
+00:25:29,600 --> 00:25:32,900
+By the 1780s, he was employing hundreds of workers.
+
+743
+00:25:33,200 --> 00:25:35,460
+He's brilliant at making wallpaper and paper generally.
+
+744
+00:25:35,700 --> 00:25:40,880
+He's so good, he exports it to England, which, of course, given that England is the sort of…
+
+745
+00:25:40,880 --> 00:25:41,560
+Yeah, Colston, Newcastle.
+
+746
+00:25:41,560 --> 00:25:42,560
+Yeah, it's Colston, Newcastle.
+
+747
+00:25:42,580 --> 00:25:42,760
+Exactly.
+
+748
+00:25:43,360 --> 00:25:45,560
+He's also a very paternalistic employer.
+
+749
+00:25:45,740 --> 00:25:48,740
+He pays his workers well more than his competitors.
+
+750
+00:25:49,140 --> 00:25:53,100
+And he even pays them over that winter when it's so cold they can't work.
+
+751
+00:25:53,240 --> 00:25:54,240
+He says, I'll sort you out.
+
+752
+00:25:54,600 --> 00:25:56,920
+But because he's a capitalist…
+
+753
+00:25:56,920 --> 00:25:57,520
+He's a saint.
+
+754
+00:25:57,920 --> 00:26:00,100
+A saintly figure.
+
+755
+00:26:00,260 --> 00:26:00,960
+A wonderful man.
+
+756
+00:26:01,000 --> 00:26:01,920
+Like the end of a Dickens novel.
+
+757
+00:26:02,040 --> 00:26:02,780
+A lovely man.
+
+758
+00:26:03,020 --> 00:26:05,700
+Like Mr. Cheerable or something.
+
+759
+00:26:05,980 --> 00:26:06,280
+Yeah.
+
+760
+00:26:06,660 --> 00:26:13,540
+Anyway, because he's a capitalist entrepreneur, basically everybody hates him because he represents a threat.
+
+761
+00:26:13,600 --> 00:26:15,840
+He represents threatening modernity.
+
+762
+00:26:15,840 --> 00:26:19,120
+Putting sort of craftspeople out of work.
+
+763
+00:26:19,120 --> 00:26:20,840
+Like his rivals out of work.
+
+764
+00:26:21,300 --> 00:26:30,420
+And so as this story spreads, people in the neighbourhood say, yeah, let's go and smash up Réveillon's workshop.
+
+765
+00:26:30,780 --> 00:26:36,120
+The first day they tried to do this, some of the local sort of politicians managed to turn them away.
+
+766
+00:26:36,320 --> 00:26:42,420
+But the second day, the 28th of April, the crowd is swelled by unemployed dockers and brewers and tanners and things.
+
+767
+00:26:42,700 --> 00:26:46,080
+And about 5,000 to 10,000 people turn up outside Réveillon's.
+
+768
+00:26:46,080 --> 00:26:49,100
+And do you think this is partly like in the election episode?
+
+769
+00:26:49,100 --> 00:26:50,540
+We did a few weeks back.
+
+770
+00:26:50,540 --> 00:26:50,640
+Ruffs.
+
+771
+00:26:51,040 --> 00:26:53,440
+People, you know, they're told there's going to be a Barney.
+
+772
+00:26:53,480 --> 00:26:53,720
+Oh, yeah.
+
+773
+00:26:54,200 --> 00:26:54,600
+Completely.
+
+774
+00:26:54,920 --> 00:26:55,700
+Turn up for the fun of it.
+
+775
+00:26:55,800 --> 00:26:55,820
+Yeah.
+
+776
+00:26:55,820 --> 00:27:06,920
+But the thing about people hearing there's going to be a Barney and turning up to see the fun of it or to join in is key to all riots and revolutions, I think.
+
+777
+00:27:08,200 --> 00:27:13,400
+So all these people turn up and they basically they lay siege to his house and his workshop.
+
+778
+00:27:13,620 --> 00:27:15,240
+He and his family managed to get away.
+
+779
+00:27:16,440 --> 00:27:17,840
+What then happens is extraordinary.
+
+780
+00:27:17,980 --> 00:27:18,920
+It takes these people.
+
+781
+00:27:18,920 --> 00:27:25,260
+Literally two hours to physically destroy every trace of his house and workshop.
+
+782
+00:27:25,460 --> 00:27:27,280
+They pile up literally everything.
+
+783
+00:27:27,620 --> 00:27:32,900
+And I quote the furniture, the woodwork, the doors, the linens, the stocks of paper, the carriages, even some poultry.
+
+784
+00:27:33,400 --> 00:27:34,920
+And they set it on fire.
+
+785
+00:27:35,100 --> 00:27:37,200
+So we've had rabbits and now chickens.
+
+786
+00:27:37,500 --> 00:27:41,860
+The captain from Strasbourg of the guard who came to try and sort of sort out the situation.
+
+787
+00:27:42,060 --> 00:27:48,680
+He said he described 15 or 1600 of the excrement of the nation vomiting up brandy.
+
+788
+00:27:48,680 --> 00:27:51,340
+And presenting the most disgusting and revolting sight.
+
+789
+00:27:51,520 --> 00:27:54,760
+Because these people have found what they think is Reveillon's cellar.
+
+790
+00:27:57,140 --> 00:27:59,840
+Unfortunately, what they thought was his wine cellar.
+
+791
+00:27:59,860 --> 00:28:03,300
+He had had thousands of bottles of very good wine that they left untouched.
+
+792
+00:28:03,520 --> 00:28:10,600
+What they thought was the cellar of his wine is actually where he's storing the liquid they used to make the wallpaper.
+
+793
+00:28:11,040 --> 00:28:14,740
+So loads of these blokes drink this liquid and they're found dead the next day.
+
+794
+00:28:14,880 --> 00:28:18,660
+So you can see why the French Republic celebrates him.
+
+795
+00:28:18,680 --> 00:28:23,360
+They celebrate the anniversary of the French Revolution on the 14th of July rather than on the 27th of April with this episode.
+
+796
+00:28:23,520 --> 00:28:25,760
+The excrement of the nation vomiting up brandy.
+
+797
+00:28:26,700 --> 00:28:27,980
+Vomiting up paint stripper.
+
+798
+00:28:28,280 --> 00:28:28,540
+Exactly.
+
+799
+00:28:29,500 --> 00:28:33,060
+The city guards arrive too late to sort this out.
+
+800
+00:28:33,200 --> 00:28:37,220
+As in Grenoble, they're pelted with tiles and stones by the crowd.
+
+801
+00:28:37,400 --> 00:28:40,540
+And then they basically lose it and they start shooting into the crowd.
+
+802
+00:28:40,940 --> 00:28:43,060
+And estimates differ massively.
+
+803
+00:28:43,540 --> 00:28:46,360
+But some estimates are that 300 people.
+
+804
+00:28:46,480 --> 00:28:47,780
+That's about the middle ground.
+
+805
+00:28:47,780 --> 00:28:49,820
+About 300 people were killed.
+
+806
+00:28:50,120 --> 00:28:54,920
+And that gives you the bloodiest day of the French Revolution until 1792.
+
+807
+00:28:56,120 --> 00:28:57,000
+Didn't even happen.
+
+808
+00:28:57,080 --> 00:28:58,080
+So that's the September Massacre.
+
+809
+00:28:58,080 --> 00:28:58,600
+Yeah, exactly.
+
+810
+00:28:58,880 --> 00:29:02,180
+I mean, this is a really, really serious business.
+
+811
+00:29:02,540 --> 00:29:07,240
+But of course, completely eclipsed and forgotten now because so much worse is to follow.
+
+812
+00:29:07,520 --> 00:29:17,120
+Well, and I suppose because the main event of the year is looming, or at least the scheduled main event, which is the meeting of the Estates General.
+
+813
+00:29:17,180 --> 00:29:17,420
+Indeed.
+
+814
+00:29:17,780 --> 00:29:18,280
+In Versailles.
+
+815
+00:29:18,460 --> 00:29:22,740
+So after the Réveillon riot, Paris becomes basically an occupied city.
+
+816
+00:29:23,000 --> 00:29:24,020
+Troops are sent in.
+
+817
+00:29:24,320 --> 00:29:28,120
+There are infantry patrols on every street.
+
+818
+00:29:28,340 --> 00:29:30,040
+There are sentries on the street corners.
+
+819
+00:29:30,160 --> 00:29:31,940
+There's cavalry riding up and down the streets.
+
+820
+00:29:32,180 --> 00:29:37,140
+And to the horror of the Parisians, many of these troops are people who have been specially brought in.
+
+821
+00:29:37,440 --> 00:29:41,360
+They are the French armies, German and Hungarian detachments.
+
+822
+00:29:41,380 --> 00:29:44,340
+Basically, of course, in the 18th century, you often recruited troops from elsewhere.
+
+823
+00:29:44,800 --> 00:29:47,620
+As the British did in America.
+
+824
+00:29:47,780 --> 00:29:48,660
+As the British did the Hessians.
+
+825
+00:29:48,860 --> 00:29:54,980
+So to have foreign troops on the streets of Paris for ordinary Parisians is very, very unsettling.
+
+826
+00:29:55,240 --> 00:29:57,220
+And there are all kinds of rumours.
+
+827
+00:29:57,260 --> 00:29:58,060
+There's going to be a coup.
+
+828
+00:29:58,280 --> 00:29:59,480
+There's going to be an insurrection.
+
+829
+00:30:00,320 --> 00:30:01,680
+Something is coming.
+
+830
+00:30:02,100 --> 00:30:08,760
+And then, as you said, Tom, at the beginning of May, the Estates General opens in Versailles.
+
+831
+00:30:09,440 --> 00:30:15,120
+It's all kicking off at Versailles, where the Estates General are meeting up.
+
+832
+00:30:16,040 --> 00:30:17,320
+And, Dominic, what happens?
+
+833
+00:30:17,460 --> 00:30:18,520
+Is it all sweetness and light?
+
+834
+00:30:18,520 --> 00:30:18,620
+Sure.
+
+835
+00:30:18,620 --> 00:30:19,440
+It's all fashion, Tom.
+
+836
+00:30:19,600 --> 00:30:20,400
+You love a history.
+
+837
+00:30:20,640 --> 00:30:21,500
+Yeah, I do.
+
+838
+00:30:21,560 --> 00:30:22,020
+I love a hat.
+
+839
+00:30:22,080 --> 00:30:22,200
+Yeah.
+
+840
+00:30:22,220 --> 00:30:23,060
+It's all fashion.
+
+841
+00:30:23,380 --> 00:30:29,180
+So in Simon Sharma's book Citizens, he starts this section with a guy called the Marquis de Ferrières.
+
+842
+00:30:30,420 --> 00:30:33,880
+So he's a lovely French Revolution character.
+
+843
+00:30:34,480 --> 00:30:38,520
+He wrote letters and stuff all through the Revolution, so we know what he was thinking.
+
+844
+00:30:39,820 --> 00:30:45,000
+He's a very cultivated, reasonable, public-spirited man from the nobility, from Poitou.
+
+845
+00:30:45,000 --> 00:30:46,060
+So does he survive it?
+
+846
+00:30:46,140 --> 00:30:47,720
+He does survive it, yes, which is nice.
+
+847
+00:30:49,080 --> 00:30:50,220
+He's a man of the Enlightenment.
+
+848
+00:30:50,420 --> 00:30:56,880
+So he's kind of looking forward to this, and he thinks, brilliant, we're going to sort out France's problems.
+
+849
+00:30:57,120 --> 00:30:59,440
+He thinks, brilliant, we're going to sort out France's problems.
+
+850
+00:31:00,000 --> 00:31:07,920
+But when he arrives in Versailles, what is on his mind is what he is going to wear, because this is not a minor thing.
+
+851
+00:31:08,120 --> 00:31:08,740
+Of course not.
+
+852
+00:31:08,780 --> 00:31:12,920
+This is an important part of the ritual and the politics of the Estates General.
+
+853
+00:31:13,960 --> 00:31:17,640
+Louis has been giving this some thought, as has his courtiers.
+
+854
+00:31:18,320 --> 00:31:21,400
+He's very anxious about this whole Estates General thing.
+
+855
+00:31:21,480 --> 00:31:24,140
+His queen, Marie Antoinette, thinks this is terrible.
+
+856
+00:31:24,420 --> 00:31:25,000
+She's very good at this.
+
+857
+00:31:25,000 --> 00:31:25,860
+She thinks this is madness.
+
+858
+00:31:26,340 --> 00:31:27,320
+She doesn't like Necker either.
+
+859
+00:31:27,440 --> 00:31:27,980
+She hates Necker.
+
+860
+00:31:28,160 --> 00:31:29,580
+She hates the idea of the Estates General.
+
+861
+00:31:30,060 --> 00:31:32,140
+I mean, she's not wrong.
+
+862
+00:31:32,340 --> 00:31:37,680
+She thinks, opening the door to this, who knows where it will lead.
+
+863
+00:31:37,880 --> 00:31:40,820
+I mean, she's not untrue in her political judgments by this point.
+
+864
+00:31:40,820 --> 00:31:41,100
+No.
+
+865
+00:31:41,100 --> 00:31:42,120
+And Louis is very depressed.
+
+866
+00:31:42,300 --> 00:31:44,540
+He's been spending a lot of time messing around with his locks and stuff.
+
+867
+00:31:44,800 --> 00:31:50,420
+And to run the whole thing, he thinks the ideal person would be this guy who's 23 years old.
+
+868
+00:31:50,720 --> 00:31:53,600
+He's called the Marquis de Trebreze.
+
+869
+00:31:54,580 --> 00:31:57,120
+And he doesn't know anything about politics, but that's fine.
+
+870
+00:31:57,260 --> 00:31:58,780
+He's really interested in court dress.
+
+871
+00:31:59,740 --> 00:32:10,220
+And he and Louis decide that they need to, in the face of this instability, they need to sort of reinforce a sense of tradition and rootedness.
+
+872
+00:32:10,220 --> 00:32:14,700
+So he's like the guy that you love on Twitter, who's a big fan of the King of State.
+
+873
+00:32:14,700 --> 00:32:16,580
+Derek Guy, the menswear expert.
+
+874
+00:32:16,600 --> 00:32:18,560
+Yeah, the guy who, the way he wears his suits.
+
+875
+00:32:18,680 --> 00:32:20,560
+He would be a perfect person to run the Estates General.
+
+876
+00:32:20,980 --> 00:32:21,420
+Absolutely.
+
+877
+00:32:22,460 --> 00:32:26,640
+So the Marquis and Louis decide that the nobles will dress.
+
+878
+00:32:26,720 --> 00:32:28,020
+They must dress up.
+
+879
+00:32:28,300 --> 00:32:33,140
+They must wear gold trimmed cloaks, black silk coats, lace cravats.
+
+880
+00:32:33,260 --> 00:32:36,980
+And they have these special hats, which are made of beaver with white plumes.
+
+881
+00:32:37,220 --> 00:32:39,600
+I mean, beaver fur, not kind of literally.
+
+882
+00:32:39,720 --> 00:32:39,960
+No.
+
+883
+00:32:40,220 --> 00:32:41,140
+No, beaver fur.
+
+884
+00:32:41,280 --> 00:32:41,560
+Exactly.
+
+885
+00:32:41,780 --> 00:32:42,420
+Because that would be horrible.
+
+886
+00:32:42,720 --> 00:32:43,200
+Yeah, it would be horrible.
+
+887
+00:32:43,340 --> 00:32:43,640
+You're right.
+
+888
+00:32:44,080 --> 00:32:45,340
+Disemboweled beaver on their heads.
+
+889
+00:32:45,360 --> 00:32:46,460
+Of course, that'd be ridiculous, Tom.
+
+890
+00:32:46,600 --> 00:32:47,180
+Let's be frank.
+
+891
+00:32:47,380 --> 00:32:48,020
+It would be absurd.
+
+892
+00:32:49,400 --> 00:32:56,480
+Supposedly, these beaver fur hats are the same hats that were worn in the reign of Henry IV of France.
+
+893
+00:32:56,740 --> 00:32:57,760
+Who's a great hero, isn't he?
+
+894
+00:32:57,800 --> 00:32:58,600
+He's the people's king.
+
+895
+00:32:58,900 --> 00:32:59,860
+He's the people's king.
+
+896
+00:33:00,140 --> 00:33:01,860
+Now, actually, this is kind of made up.
+
+897
+00:33:01,940 --> 00:33:06,540
+No one really knows what hats they wore, but they basically invented a tradition.
+
+898
+00:33:06,820 --> 00:33:08,160
+So much of the French Revolution.
+
+899
+00:33:08,400 --> 00:33:09,760
+Well, you never get that in the House of Lords.
+
+900
+00:33:09,760 --> 00:33:10,240
+Yeah.
+
+901
+00:33:10,360 --> 00:33:11,360
+Thank God for that.
+
+902
+00:33:11,520 --> 00:33:14,080
+So, the Marquis de Ferrier gets his cloak and his hat.
+
+903
+00:33:14,500 --> 00:33:19,220
+And on the 4th of May, he joins all the other courtiers and they do a procession with the
+
+904
+00:33:19,220 --> 00:33:24,980
+king and queen through Versailles to the Church of Saint-Louis for the formal kind of, for
+
+905
+00:33:24,980 --> 00:33:28,320
+the blessing, basically, for the church service that's going to kick the whole thing off.
+
+906
+00:33:28,880 --> 00:33:31,440
+And it could not be a more sumptuous scene.
+
+907
+00:33:31,540 --> 00:33:35,620
+The streets are literally hung with tapestries, sort of draped over the houses.
+
+908
+00:33:35,720 --> 00:33:36,820
+Gobelins tapestries.
+
+909
+00:33:37,140 --> 00:33:39,220
+There are big crowds cheering long.
+
+910
+00:33:39,220 --> 00:33:41,820
+I mean, they are cheering Marie Antoinette and the king.
+
+911
+00:33:41,900 --> 00:33:44,300
+They shout, long live the king.
+
+912
+00:33:44,520 --> 00:33:49,860
+And so, it's a procession that visualizes notions of hierarchy.
+
+913
+00:33:49,920 --> 00:33:50,360
+It does.
+
+914
+00:33:50,360 --> 00:33:50,700
+And actually.
+
+915
+00:33:50,860 --> 00:33:51,480
+The monarchy.
+
+916
+00:33:51,660 --> 00:33:52,360
+The nobility.
+
+917
+00:33:52,360 --> 00:33:52,860
+It does indeed.
+
+918
+00:33:52,980 --> 00:33:53,660
+The clergy.
+
+919
+00:33:55,020 --> 00:33:56,700
+The general mass of the people.
+
+920
+00:33:56,800 --> 00:33:58,160
+It's a bad message to send.
+
+921
+00:33:58,500 --> 00:33:59,560
+It's the wrong message.
+
+922
+00:33:59,720 --> 00:34:03,660
+And actually, Necker had said, could we not have the Estates General in Paris?
+
+923
+00:34:04,480 --> 00:34:08,860
+Because he wanted to get it away from the court for precisely this reason.
+
+924
+00:34:08,860 --> 00:34:10,840
+To avoid giving that impression.
+
+925
+00:34:12,660 --> 00:34:13,260
+But no.
+
+926
+00:34:13,360 --> 00:34:15,260
+They have it in Versailles.
+
+927
+00:34:15,360 --> 00:34:16,220
+They have all their finery.
+
+928
+00:34:16,320 --> 00:34:19,960
+And then come the third estate kind of trailing behind all the commons.
+
+929
+00:34:20,340 --> 00:34:24,340
+And they have been forbidden from dressing up in finery.
+
+930
+00:34:24,400 --> 00:34:26,500
+And they have been told, you must wear plain black coats.
+
+931
+00:34:27,200 --> 00:34:29,860
+So, Sharma says they look like a convention of apothecaries.
+
+932
+00:34:30,480 --> 00:34:33,600
+Because they look very kind of sort of solemn.
+
+933
+00:34:33,740 --> 00:34:36,840
+And they look like Puritans from the Ladybird book about the English Civil War.
+
+934
+00:34:37,060 --> 00:34:37,280
+Yeah.
+
+935
+00:34:37,280 --> 00:34:40,720
+Kind of Dutch burgers in a Rembrandt painting.
+
+936
+00:34:40,920 --> 00:34:44,180
+But there's one of them in particular who seizes the limelight.
+
+937
+00:34:44,800 --> 00:34:46,680
+Sharma describes him as, and I quote,
+
+938
+00:34:46,860 --> 00:34:51,400
+a mountain of flesh and muscle crammed with difficulty into black coat and hose.
+
+939
+00:34:51,700 --> 00:34:56,600
+His huge face seemed to have been formed by some volcanic eruption that had cooled,
+
+940
+00:34:56,800 --> 00:35:03,080
+possibly temporarily, into a crust of pumice pitted with dark holes, scabs, and craters.
+
+941
+00:35:03,360 --> 00:35:07,260
+A force of nature, pagan, dangerous, and uncontrollable.
+
+942
+00:35:07,280 --> 00:35:09,400
+Within clothes or custom.
+
+943
+00:35:09,460 --> 00:35:11,380
+So, more bad skin action.
+
+944
+00:35:11,400 --> 00:35:11,640
+Yeah.
+
+945
+00:35:11,640 --> 00:35:13,620
+That's the key to the French Revolution, isn't it?
+
+946
+00:35:13,620 --> 00:35:14,340
+Bad skin.
+
+947
+00:35:14,920 --> 00:35:19,940
+And this monstrous figure is a fellow who, I imagine you would really like this.
+
+948
+00:35:20,020 --> 00:35:21,720
+Because you like Lord Byron and you like bad boys.
+
+949
+00:35:22,500 --> 00:35:26,660
+He's Honoré Gabriel Riquetti, Comte de Mirabeau.
+
+950
+00:35:26,840 --> 00:35:34,860
+So, I would say that the history of the French Revolution could be written as being about Gérard Depardieu characters.
+
+951
+00:35:35,440 --> 00:35:35,680
+Yeah.
+
+952
+00:35:36,400 --> 00:35:38,720
+So, Danton would be another example.
+
+953
+00:35:39,660 --> 00:35:40,100
+Yeah.
+
+954
+00:35:40,100 --> 00:35:42,060
+This is a man who would be played by Gérard Depardieu.
+
+955
+00:35:42,100 --> 00:35:42,540
+Totally.
+
+956
+00:35:42,680 --> 00:35:44,000
+I suppose it hasn't happened.
+
+957
+00:35:44,200 --> 00:35:47,800
+And alternated with very thin, sinister-looking people.
+
+958
+00:35:47,880 --> 00:35:50,000
+Who were Robespierre and people of that ilk.
+
+959
+00:35:50,480 --> 00:35:51,300
+Yeah, completely.
+
+960
+00:35:51,600 --> 00:35:52,940
+So, Mirabeau is such a...
+
+961
+00:35:52,940 --> 00:35:55,480
+When I did this for A-Level, he seemed such a dull dog.
+
+962
+00:35:55,760 --> 00:35:57,260
+Always talking about, like...
+
+963
+00:35:57,260 --> 00:35:58,020
+Constitutions.
+
+964
+00:35:59,060 --> 00:35:59,500
+Electoral...
+
+965
+00:35:59,500 --> 00:36:01,240
+Yeah, constitutional procedures and stuff.
+
+966
+00:36:01,420 --> 00:36:05,240
+I mean, I just couldn't wait to get past Mirabeau and onto Robespierre and Marat and stuff.
+
+967
+00:36:05,240 --> 00:36:08,380
+But actually, he's a tremendously interesting character.
+
+968
+00:36:08,960 --> 00:36:13,140
+He's a really badly behaved, sort of posh wastrel.
+
+969
+00:36:13,260 --> 00:36:15,720
+But he's also, Dominic, he's like your hero, Stanley Baldwin.
+
+970
+00:36:15,920 --> 00:36:16,100
+Yeah.
+
+971
+00:36:16,120 --> 00:36:18,200
+Because he's an enthusiast for writing pornography.
+
+972
+00:36:18,380 --> 00:36:18,620
+Yes.
+
+973
+00:36:19,000 --> 00:36:24,240
+I would imagine Stanley Baldwin's work was a lot more tame than Mirabeau's.
+
+974
+00:36:24,980 --> 00:36:27,660
+So, Mirabeau was a great philanderer, which Stanley Baldwin was not.
+
+975
+00:36:27,840 --> 00:36:28,960
+He was very profligate.
+
+976
+00:36:28,960 --> 00:36:30,100
+Again, a big contrast.
+
+977
+00:36:30,940 --> 00:36:32,960
+His father had him put in prison.
+
+978
+00:36:33,340 --> 00:36:35,080
+His wife took him to court.
+
+979
+00:36:35,240 --> 00:36:36,560
+So, that's quite Marquis de Sade-like.
+
+980
+00:36:36,560 --> 00:36:38,460
+He's very Marquis de Sade-like, actually.
+
+981
+00:36:39,540 --> 00:36:45,080
+He's writing this pornography, but he's also writing very vicious political polemics.
+
+982
+00:36:45,480 --> 00:36:47,920
+So, he accuses his own estate, the nobility.
+
+983
+00:36:48,040 --> 00:36:54,100
+He says, 30,000 calculating vampires who have sucked the blood of 20 million Frenchmen.
+
+984
+00:36:54,880 --> 00:37:01,480
+And it will amaze you to know that having written that, he doesn't manage to win election from the rest of the nobility.
+
+985
+00:37:01,880 --> 00:37:04,740
+But the good news is that he can run for the third estate, which he does.
+
+986
+00:37:04,740 --> 00:37:06,160
+And he's elected from Aix-en-Provence.
+
+987
+00:37:06,540 --> 00:37:15,280
+The thing is that despite his appearance, he's basically a huge man when he's got this terrible skin and he's shouting about vampires and stuff.
+
+988
+00:37:15,580 --> 00:37:19,200
+But actually, behind all that, he's quite moderate.
+
+989
+00:37:19,500 --> 00:37:20,620
+So, what he wants…
+
+990
+00:37:20,620 --> 00:37:22,360
+He wants a kind of British constitution.
+
+991
+00:37:22,860 --> 00:37:24,400
+He totally wants the British constitution.
+
+992
+00:37:25,080 --> 00:37:26,900
+That's very sensible and reflects well on him.
+
+993
+00:37:26,960 --> 00:37:32,800
+But he's determined to be seen as the supreme champion of the people in this whole imbroglio.
+
+994
+00:37:32,800 --> 00:37:40,800
+So, when they have that procession, he apparently walks in a peculiar way, throwing his head back so that everyone can see this huge head.
+
+995
+00:37:41,120 --> 00:37:44,340
+And sort of bobbing his head around in a slightly disturbing manner.
+
+996
+00:37:44,720 --> 00:37:45,520
+So, he's like Harry Maguire.
+
+997
+00:37:45,720 --> 00:37:47,400
+Yes, he's got Harry Maguire's head.
+
+998
+00:37:47,820 --> 00:37:48,260
+Exactly.
+
+999
+00:37:48,460 --> 00:37:49,820
+And if you don't know who Harry Maguire is…
+
+1000
+00:37:49,820 --> 00:37:51,100
+Harry Maguire crossed with a volcano.
+
+1001
+00:37:51,500 --> 00:37:51,640
+Yeah.
+
+1002
+00:37:51,720 --> 00:37:53,660
+So, people are interested in the football metaphor.
+
+1003
+00:37:53,820 --> 00:37:59,320
+My brother once described Martin Keown, the football pundit, as looking like a fish trapped in a meteor.
+
+1004
+00:38:00,300 --> 00:38:02,780
+And that's Mirabeau's favourite.
+
+1005
+00:38:02,780 --> 00:38:06,060
+Right, a couple of other good characters from the Third Estate.
+
+1006
+00:38:06,200 --> 00:38:08,460
+You've got Siez, the abbé who wrote the…
+
+1007
+00:38:09,040 --> 00:38:10,080
+What's the Third Estate?
+
+1008
+00:38:10,380 --> 00:38:10,460
+Yeah.
+
+1009
+00:38:10,640 --> 00:38:14,620
+There's our friend from Grenoble, Mr. Meunier, the first revolutionary.
+
+1010
+00:38:16,000 --> 00:38:19,660
+And there's an obscure young lawyer from Arras.
+
+1011
+00:38:19,660 --> 00:38:20,440
+Yeah, the young judge.
+
+1012
+00:38:20,520 --> 00:38:22,600
+He's called Maximilien Robespierre.
+
+1013
+00:38:22,800 --> 00:38:25,810
+So, he is the counterpoint to Mirabeau.
+
+1014
+00:38:26,540 --> 00:38:26,700
+Yeah.
+
+1015
+00:38:26,700 --> 00:38:27,520
+Thin, pale.
+
+1016
+00:38:27,820 --> 00:38:28,420
+He's me.
+
+1017
+00:38:29,140 --> 00:38:29,920
+Mirabeau is you.
+
+1018
+00:38:31,400 --> 00:38:32,340
+Thanks, Tom.
+
+1019
+00:38:32,440 --> 00:38:32,760
+Yeah.
+
+1020
+00:38:32,780 --> 00:38:34,120
+I'd take Mirabeau.
+
+1021
+00:38:34,180 --> 00:38:35,140
+I'd take him over.
+
+1022
+00:38:35,440 --> 00:38:36,780
+Yeah, you'd rather be Mirabeau than Robespierre.
+
+1023
+00:38:36,780 --> 00:38:37,180
+I definitely would.
+
+1024
+00:38:37,260 --> 00:38:40,520
+I mean, it's terrible that my physical form means that I have to be Robespierre.
+
+1025
+00:38:40,520 --> 00:38:40,600
+Yeah.
+
+1026
+00:38:40,600 --> 00:38:45,180
+But Robespierre is more typical of the people in the Third Estate because they're basically all lawyers.
+
+1027
+00:38:45,840 --> 00:38:51,060
+Of 600 of them, 180 are lawyers and 220 are judges or magistrates.
+
+1028
+00:38:51,900 --> 00:38:57,460
+So, in other words, these Third Estate people, the commons so-called, they're not the common people of France.
+
+1029
+00:38:57,700 --> 00:39:02,760
+They are upwardly mobile winners, people who actually are not very representative of the mass of the French people.
+
+1030
+00:39:02,760 --> 00:39:08,160
+But people who are incredibly articulate and ambitious and suffused.
+
+1031
+00:39:08,380 --> 00:39:09,040
+And resentful.
+
+1032
+00:39:09,080 --> 00:39:09,820
+And resentful, exactly.
+
+1033
+00:39:10,080 --> 00:39:11,240
+And resentful of those above them.
+
+1034
+00:39:11,380 --> 00:39:11,540
+Yeah.
+
+1035
+00:39:11,600 --> 00:39:18,360
+And the trouble is that those above them don't make any effort to hide that they're above them or to include them.
+
+1036
+00:39:18,580 --> 00:39:20,400
+Well, isn't that the whole point of the Ancien Régime?
+
+1037
+00:39:20,460 --> 00:39:21,060
+It's all about hiring.
+
+1038
+00:39:21,060 --> 00:39:21,420
+Of course it is.
+
+1039
+00:39:21,560 --> 00:39:22,580
+So, the very first…
+
+1040
+00:39:22,580 --> 00:39:24,400
+So, that was 4th of May, the procession.
+
+1041
+00:39:24,400 --> 00:39:32,240
+And the 5th of May, they meet in the Salle des Menus Plaisir, the hall of the lesser pleasures of Versailles.
+
+1042
+00:39:33,000 --> 00:39:34,580
+And Louis is on his throne.
+
+1043
+00:39:34,740 --> 00:39:36,420
+He's got Marie Antoinette at his side.
+
+1044
+00:39:36,760 --> 00:39:38,240
+There's a table for his ministers.
+
+1045
+00:39:38,520 --> 00:39:41,140
+Then you have the benches of the church and the nobility.
+
+1046
+00:39:41,500 --> 00:39:45,400
+And then the Third Estate are all shoved down to the far end of the hall.
+
+1047
+00:39:46,300 --> 00:39:47,760
+And the king gives a speech.
+
+1048
+00:39:47,860 --> 00:39:50,500
+And he says, ah, brilliant.
+
+1049
+00:39:50,640 --> 00:39:51,220
+You're all here.
+
+1050
+00:39:51,340 --> 00:39:52,640
+I've been looking forward to this.
+
+1051
+00:39:53,020 --> 00:39:53,420
+Everyone's…
+
+1052
+00:39:53,420 --> 00:39:54,420
+Should have done it before.
+
+1053
+00:39:54,560 --> 00:39:54,760
+Great.
+
+1054
+00:39:54,840 --> 00:39:56,100
+He does say…
+
+1055
+00:39:56,100 --> 00:39:58,280
+There's been a lot of talk of innovations.
+
+1056
+00:39:58,840 --> 00:40:00,660
+I think this is much exaggerated.
+
+1057
+00:40:00,960 --> 00:40:02,220
+I don't want to hear any more of that.
+
+1058
+00:40:03,340 --> 00:40:05,580
+Then there's a strange business with his hat.
+
+1059
+00:40:06,400 --> 00:40:08,880
+So, he doffs his hat at the end of the speech.
+
+1060
+00:40:09,040 --> 00:40:11,260
+And then the nobility doff their hats.
+
+1061
+00:40:11,500 --> 00:40:12,120
+Their beaver hats.
+
+1062
+00:40:12,340 --> 00:40:13,100
+Their beaver hats.
+
+1063
+00:40:13,240 --> 00:40:13,520
+Exactly.
+
+1064
+00:40:13,920 --> 00:40:15,860
+Now, the Third Estate are confused at this.
+
+1065
+00:40:15,920 --> 00:40:19,060
+Some of them take their hats off or put their hats on or whatever.
+
+1066
+00:40:19,240 --> 00:40:20,600
+Their hats are going on and off.
+
+1067
+00:40:20,760 --> 00:40:21,060
+Yeah.
+
+1068
+00:40:21,200 --> 00:40:22,680
+And this is against all protocol.
+
+1069
+00:40:22,820 --> 00:40:24,200
+They shouldn't be doing anything with their hats.
+
+1070
+00:40:24,340 --> 00:40:25,420
+Louis is really confused.
+
+1071
+00:40:26,100 --> 00:40:28,060
+He has to take his hat back off again.
+
+1072
+00:40:28,100 --> 00:40:30,520
+They all start putting their hats off and then on.
+
+1073
+00:40:30,640 --> 00:40:32,040
+But, Dominic, it's fine.
+
+1074
+00:40:32,240 --> 00:40:32,560
+Isn't it?
+
+1075
+00:40:32,660 --> 00:40:39,100
+Because despite all the confusion, there's then the huge excitement of Jacques Necker
+
+1076
+00:40:39,100 --> 00:40:40,580
+giving a speech…
+
+1077
+00:40:40,580 --> 00:40:40,780
+Oh, yeah.
+
+1078
+00:40:40,920 --> 00:40:43,400
+…on fiscal policy and finance.
+
+1079
+00:40:44,000 --> 00:40:45,440
+So, that must cheer them all up.
+
+1080
+00:40:45,560 --> 00:40:46,840
+Well, everyone's really looking forward to this.
+
+1081
+00:40:47,080 --> 00:40:50,680
+So, this is the moment when the great man, the Swiss banker…
+
+1082
+00:40:50,680 --> 00:40:50,800
+Yeah.
+
+1083
+00:40:50,960 --> 00:40:52,140
+…is going to put everything to rights.
+
+1084
+00:40:52,240 --> 00:40:54,640
+And he stands up and he reads the first half hour of his speech.
+
+1085
+00:40:54,720 --> 00:40:58,000
+And then he says, listen, there's two and a half hours more of this to go.
+
+1086
+00:40:58,300 --> 00:41:00,180
+I can't be bothered to read it myself.
+
+1087
+00:41:00,320 --> 00:41:02,220
+And he gives it to the Secretary of the Agricultural…
+
+1088
+00:41:02,220 --> 00:41:04,420
+…Agriculture Committee and says, you read it.
+
+1089
+00:41:04,500 --> 00:41:07,200
+And the guy from the Agriculture Committee has been chosen just because he has a very
+
+1090
+00:41:07,200 --> 00:41:08,560
+loud and strident voice.
+
+1091
+00:41:09,520 --> 00:41:15,260
+And he reads, and Necker has basically written an incredibly boring speech about the deficit
+
+1092
+00:41:15,260 --> 00:41:16,120
+and about finance.
+
+1093
+00:41:16,480 --> 00:41:18,120
+Because the King starts yawning, doesn't he?
+
+1094
+00:41:18,140 --> 00:41:19,180
+And everyone starts falling asleep.
+
+1095
+00:41:19,460 --> 00:41:20,160
+People fall asleep.
+
+1096
+00:41:20,300 --> 00:41:22,720
+Everybody says afterwards, oh, my God, it's so disappointing.
+
+1097
+00:41:23,160 --> 00:41:23,860
+Necker is…
+
+1098
+00:41:23,860 --> 00:41:25,300
+What a useless person Necker is.
+
+1099
+00:41:25,380 --> 00:41:26,380
+I've totally changed my mind.
+
+1100
+00:41:26,540 --> 00:41:29,500
+So, a bit like the British general election, the recent British general election.
+
+1101
+00:41:30,380 --> 00:41:31,940
+Very significant, but boring.
+
+1102
+00:41:31,940 --> 00:41:36,580
+So, the next day, the 6th of May, they all have to arrive and they're going to begin
+
+1103
+00:41:36,580 --> 00:41:37,320
+their deliberations.
+
+1104
+00:41:37,460 --> 00:41:41,440
+And first of all, the various estates have to be registered, have to verify their credentials.
+
+1105
+00:41:41,860 --> 00:41:45,860
+And when they all arrive, the King's men say, right, you're going to go to your separate
+
+1106
+00:41:45,860 --> 00:41:49,980
+chambers, nobility over here, clergy over here, third estate this way.
+
+1107
+00:41:50,120 --> 00:41:51,760
+And Mirabeau says, stop.
+
+1108
+00:41:53,060 --> 00:41:55,340
+We cannot go to a separate chamber.
+
+1109
+00:41:55,880 --> 00:42:01,160
+Because once we agree to that principle, the idea of all sitting together and us dominating
+
+1110
+00:42:01,160 --> 00:42:02,140
+is lost.
+
+1111
+00:42:02,880 --> 00:42:07,260
+We must verify our credentials with everybody else.
+
+1112
+00:42:07,440 --> 00:42:09,720
+And he is really passionate about it.
+
+1113
+00:42:09,800 --> 00:42:13,560
+And one of the deputies says he's like a ferocious beast, an oranger.
+
+1114
+00:42:13,900 --> 00:42:15,520
+He speaks in convulsions.
+
+1115
+00:42:15,520 --> 00:42:16,800
+His face is contorted.
+
+1116
+00:42:17,020 --> 00:42:19,260
+He spits out his words in a fury.
+
+1117
+00:42:19,620 --> 00:42:22,100
+And that, obviously, is the French Revolutionary style.
+
+1118
+00:42:22,380 --> 00:42:23,280
+Everything is overwrought.
+
+1119
+00:42:23,760 --> 00:42:24,660
+Everything is…
+
+1120
+00:42:24,660 --> 00:42:26,380
+You wear it, kind of.
+
+1121
+00:42:26,380 --> 00:42:27,720
+You wear your sentiments physically.
+
+1122
+00:42:28,020 --> 00:42:31,080
+And you turn your rhetoric up to the absolute.
+
+1123
+00:42:31,080 --> 00:42:31,840
+Absolute maximum.
+
+1124
+00:42:32,040 --> 00:42:36,500
+And yet there is also a sense, isn't there, that you're trying to emulate a Roman style,
+
+1125
+00:42:36,760 --> 00:42:38,940
+a kind of Ciceronian style.
+
+1126
+00:42:38,940 --> 00:42:39,940
+Yeah, definitely there is.
+
+1127
+00:42:40,220 --> 00:42:41,560
+Formal and faintly chilly.
+
+1128
+00:42:41,820 --> 00:42:43,260
+Well, I think there's a couple of things, actually.
+
+1129
+00:42:43,460 --> 00:42:47,740
+So part of it is definitely these people have studied the classical period at school, haven't
+
+1130
+00:42:47,740 --> 00:42:48,460
+they, these young lawyers?
+
+1131
+00:42:48,580 --> 00:42:49,020
+Robespierre.
+
+1132
+00:42:49,140 --> 00:42:49,920
+Very saturated.
+
+1133
+00:42:50,040 --> 00:42:51,260
+Robespierre, a classic example.
+
+1134
+00:42:51,360 --> 00:42:53,780
+They've read all the speeches, particularly Cicero.
+
+1135
+00:42:54,020 --> 00:42:56,740
+And they're obsessed with Cicero and copying Cicero's rhetoric.
+
+1136
+00:42:57,060 --> 00:42:58,960
+So they see themselves as the new Romans.
+
+1137
+00:42:59,540 --> 00:43:01,000
+But also there is an argument.
+
+1138
+00:43:02,880 --> 00:43:07,440
+It's been a great age the last 10, 20 years in France of the public theatre, popular
+
+1139
+00:43:07,440 --> 00:43:07,920
+theatre.
+
+1140
+00:43:08,180 --> 00:43:13,720
+Well, we talked about how massively important the theatre is in a couple of episodes ago.
+
+1141
+00:43:13,900 --> 00:43:14,000
+Yeah, we did.
+
+1142
+00:43:14,120 --> 00:43:14,680
+We did.
+
+1143
+00:43:15,340 --> 00:43:16,820
+With The Marriage of a Figaro.
+
+1144
+00:43:17,000 --> 00:43:19,960
+Yeah, The Marriage of a Figaro is a perfect example because The Marriage of a Figaro is
+
+1145
+00:43:19,960 --> 00:43:26,100
+very emotional, tear-stained, over-the-top, fun, this sense of spectacle.
+
+1146
+00:43:26,760 --> 00:43:30,980
+And for the first time, really, politics is deliberately emulated.
+
+1147
+00:43:31,000 --> 00:43:35,080
+So there is a public gallery for the deliberations.
+
+1148
+00:43:35,580 --> 00:43:43,140
+The Third Estate are basically having a massive stalemate with the court and refusing to go
+
+1149
+00:43:43,140 --> 00:43:46,780
+ahead and be verified along with the other chambers.
+
+1150
+00:43:47,020 --> 00:43:48,300
+And this stalemate continues.
+
+1151
+00:43:48,780 --> 00:43:55,400
+And every day, thousands of people will get coaches from Paris, come out to Versailles
+
+1152
+00:43:55,400 --> 00:43:56,380
+to watch the show.
+
+1153
+00:43:56,680 --> 00:44:00,640
+The most famous one is an English traveler called Arthur Young, who is one of the great
+
+1154
+00:44:00,640 --> 00:44:02,960
+go-to sources on the early French Revolution.
+
+1155
+00:44:03,220 --> 00:44:04,660
+He's quoted in every single book.
+
+1156
+00:44:05,080 --> 00:44:06,680
+And he gets a coach out there.
+
+1157
+00:44:06,780 --> 00:44:08,280
+He has all the big names speaking.
+
+1158
+00:44:08,960 --> 00:44:10,840
+He's excited about all the oratory.
+
+1159
+00:44:11,240 --> 00:44:17,200
+And he says, what's shocking for him, coming from Britain, is that the spectators in the
+
+1160
+00:44:17,200 --> 00:44:22,020
+galleries clap and cheer and boo as though it is a play.
+
+1161
+00:44:22,200 --> 00:44:23,580
+And he says, this is very bad.
+
+1162
+00:44:23,700 --> 00:44:26,880
+This is reducing politics to mere entertainment.
+
+1163
+00:44:27,860 --> 00:44:30,620
+But actually, this becomes central to the show.
+
+1164
+00:44:30,640 --> 00:44:31,020
+The revolution.
+
+1165
+00:44:33,060 --> 00:44:33,940
+Emotional outpourings.
+
+1166
+00:44:34,720 --> 00:44:43,560
+And this idea of the orator, who is copying Roman models like Cicero, commanding people
+
+1167
+00:44:43,560 --> 00:44:44,620
+by the strength of his voice.
+
+1168
+00:44:44,700 --> 00:44:46,000
+So Mirabeau had a really good voice.
+
+1169
+00:44:48,000 --> 00:44:51,700
+Perhaps bursting into tears while he's talking, which people think is brilliant.
+
+1170
+00:44:52,040 --> 00:44:56,140
+But also, presumably, it's because unlike in Britain, where you have the House of Commons,
+
+1171
+00:44:56,200 --> 00:44:59,200
+you have the House of Lords, and you have elections where people go on the hustings.
+
+1172
+00:44:59,200 --> 00:45:04,140
+And so the traditions of political engagement are organic.
+
+1173
+00:45:04,280 --> 00:45:05,040
+They've evolved.
+
+1174
+00:45:05,560 --> 00:45:10,920
+They are not suddenly being portrayed to people as something new.
+
+1175
+00:45:11,140 --> 00:45:14,820
+But in this occasion, no one's seen anything like this.
+
+1176
+00:45:14,960 --> 00:45:15,660
+Yeah, of course.
+
+1177
+00:45:15,940 --> 00:45:17,840
+They don't have regular elections.
+
+1178
+00:45:18,040 --> 00:45:22,620
+They don't have the throwing of dead cats and the attacks with halberds that are such
+
+1179
+00:45:22,620 --> 00:45:24,220
+an important part of the British Constitution.
+
+1180
+00:45:24,300 --> 00:45:28,080
+And so there must be a feeling that they're kind of...
+
+1181
+00:45:28,080 --> 00:45:33,500
+You know, Mirabeau and everybody else is kind of feeling their way into roles that
+
+1182
+00:45:33,500 --> 00:45:34,960
+have not yet been defined.
+
+1183
+00:45:34,980 --> 00:45:35,720
+Yeah, making it up.
+
+1184
+00:45:35,760 --> 00:45:36,380
+They're making it...
+
+1185
+00:45:36,380 --> 00:45:37,040
+What is politics?
+
+1186
+00:45:37,400 --> 00:45:38,200
+And what is the style of politics?
+
+1187
+00:45:38,200 --> 00:45:39,100
+What is the style of politics?
+
+1188
+00:45:39,140 --> 00:45:39,480
+Exactly.
+
+1189
+00:45:39,520 --> 00:45:44,620
+And they're drawing their style of politics from the theatre, from literature, from the
+
+1190
+00:45:44,620 --> 00:45:46,080
+kind of cultural mood of the time.
+
+1191
+00:45:46,220 --> 00:45:53,100
+And so this is clearly very much true of the members of the Third Estate, that they are
+
+1192
+00:45:53,100 --> 00:45:57,580
+playing a role simply by not moving, by sticking to their guns.
+
+1193
+00:45:58,340 --> 00:46:02,040
+What about the First and Second Estates?
+
+1194
+00:46:02,040 --> 00:46:03,740
+Well, they've gone off to their own...
+
+1195
+00:46:03,740 --> 00:46:08,680
+But they must be watching this performance as well and thinking, oh, maybe we could...
+
+1196
+00:46:08,680 --> 00:46:09,900
+Maybe we should join it.
+
+1197
+00:46:09,960 --> 00:46:10,100
+Yeah.
+
+1198
+00:46:10,360 --> 00:46:10,800
+Eventually.
+
+1199
+00:46:10,860 --> 00:46:12,140
+They don't join straight away, though.
+
+1200
+00:46:12,240 --> 00:46:14,020
+So there's quite a long...
+
+1201
+00:46:14,020 --> 00:46:19,740
+There's about a month before the first dribs and drabs from them come to join the Third
+
+1202
+00:46:19,740 --> 00:46:19,940
+Estate.
+
+1203
+00:46:20,060 --> 00:46:21,640
+So the stalemate is quite long lasting.
+
+1204
+00:46:21,740 --> 00:46:25,680
+And in all that time, the stalemate is being reported back in Paris.
+
+1205
+00:46:26,060 --> 00:46:27,660
+So Mirabeau, for example...
+
+1206
+00:46:27,660 --> 00:46:36,060
+His mistress owns a print shop, which is very convenient for him because he writes letters
+
+1207
+00:46:36,060 --> 00:46:38,100
+to his constituents telling them what's going on.
+
+1208
+00:46:38,600 --> 00:46:43,900
+And they go to the printers and they're released in Paris before they even get back to Aix-en-Provence.
+
+1209
+00:46:44,280 --> 00:46:46,200
+So there's this stream of stuff.
+
+1210
+00:46:46,680 --> 00:46:48,860
+So actually, it's not just a theatrical event.
+
+1211
+00:46:49,400 --> 00:46:50,840
+It's also a media event.
+
+1212
+00:46:51,120 --> 00:46:51,740
+Yeah, of course.
+
+1213
+00:46:51,880 --> 00:46:57,060
+The first sort of mediated, mediatized...
+
+1214
+00:46:57,060 --> 00:46:58,840
+political event of its kind.
+
+1215
+00:46:59,040 --> 00:47:02,420
+Because there's this whole thing, isn't there, that Robert Darnton mentions about how people
+
+1216
+00:47:02,420 --> 00:47:07,420
+wear buttons with images of top political actors and things.
+
+1217
+00:47:07,660 --> 00:47:15,220
+So there is a sense in which the relationship of the people to the theatre can be mapped
+
+1218
+00:47:15,220 --> 00:47:18,800
+onto their relationship to what is going on in Versailles.
+
+1219
+00:47:18,840 --> 00:47:20,140
+Yeah, I think that's definitely true.
+
+1220
+00:47:20,460 --> 00:47:24,500
+I think there is a sense that it's an entertainment.
+
+1221
+00:47:24,700 --> 00:47:25,360
+It's a spectacle.
+
+1222
+00:47:25,640 --> 00:47:26,360
+It's a sport.
+
+1223
+00:47:26,860 --> 00:47:29,300
+It's a fashion.
+
+1224
+00:47:29,920 --> 00:47:31,880
+You know, all these things are kind of...
+
+1225
+00:47:31,880 --> 00:47:37,320
+And of course, it's of pressing importance because of the catastrophic state that people
+
+1226
+00:47:37,320 --> 00:47:39,780
+are in across the country and in Paris as well.
+
+1227
+00:47:39,840 --> 00:47:39,980
+Absolutely.
+
+1228
+00:47:40,080 --> 00:47:44,920
+So by the end of May, early June, there are really, really bleak apocalyptic reports coming
+
+1229
+00:47:44,920 --> 00:47:45,580
+in from the countryside.
+
+1230
+00:47:46,120 --> 00:47:51,600
+There are posters going up in Paris saying that if something changes, there are posters
+
+1231
+00:47:51,600 --> 00:47:54,480
+going up in Paris saying that if nothing changes, there's going to be an insurrection.
+
+1232
+00:47:54,800 --> 00:47:55,500
+There's, you know...
+
+1233
+00:47:55,500 --> 00:47:59,260
+You can imagine the scene, calling for an uprising, those kind of posters.
+
+1234
+00:47:59,840 --> 00:48:02,200
+And that lends an urgency to all this.
+
+1235
+00:48:02,300 --> 00:48:07,360
+So on the 10th of June, the Abbé Sieyès says, look, we cannot wait any longer.
+
+1236
+00:48:08,220 --> 00:48:12,180
+You know, the courts seem determined to not let us sit with the other states.
+
+1237
+00:48:13,380 --> 00:48:14,120
+Here's what we do.
+
+1238
+00:48:14,780 --> 00:48:16,360
+We will give them an ultimatum.
+
+1239
+00:48:17,140 --> 00:48:18,460
+You come and sit with us.
+
+1240
+00:48:19,560 --> 00:48:24,500
+And whether they do or not, we will declare ourselves the National Assembly.
+
+1241
+00:48:24,500 --> 00:48:27,640
+We will be the sole representatives of the nation.
+
+1242
+00:48:27,880 --> 00:48:31,340
+And we will take the nation's fate into our hands.
+
+1243
+00:48:31,680 --> 00:48:33,700
+I mean, this is an unbelievable thing.
+
+1244
+00:48:33,920 --> 00:48:34,360
+It is.
+
+1245
+00:48:34,480 --> 00:48:35,640
+They're in Versailles.
+
+1246
+00:48:35,860 --> 00:48:36,080
+Yeah.
+
+1247
+00:48:36,260 --> 00:48:39,940
+The monarch is only hundreds of yards away in some other room.
+
+1248
+00:48:40,100 --> 00:48:44,380
+And they're basically saying, we will take this into our own hands.
+
+1249
+00:48:44,740 --> 00:48:48,760
+But also they're laying claim to the sovereignty that traditionally has been that of the monarch.
+
+1250
+00:48:48,980 --> 00:48:49,340
+Exactly.
+
+1251
+00:48:49,480 --> 00:48:53,160
+So, I mean, at this point, I don't think they recognise that, do they?
+
+1252
+00:48:53,300 --> 00:48:54,420
+Well, I think they still think...
+
+1253
+00:48:54,420 --> 00:48:58,160
+This is kind of going to be a rerun of Britain's glorious revolution.
+
+1254
+00:48:58,980 --> 00:49:00,220
+And it won't go too far.
+
+1255
+00:49:00,320 --> 00:49:02,420
+Eventually, Louis will give in and it'll be all fine.
+
+1256
+00:49:02,540 --> 00:49:04,000
+I think a lot of them still do think that.
+
+1257
+00:49:04,560 --> 00:49:09,120
+And you asked, Tom, and I didn't answer it properly, for which I apologise to you, hand on heart,
+
+1258
+00:49:09,880 --> 00:49:11,380
+about the first two estates.
+
+1259
+00:49:11,440 --> 00:49:13,580
+Some of them are now beginning to come across.
+
+1260
+00:49:13,740 --> 00:49:15,520
+On the 13th of June, there was a real breakthrough.
+
+1261
+00:49:15,820 --> 00:49:17,540
+Some parish priests come across.
+
+1262
+00:49:17,760 --> 00:49:20,500
+And actually, you asked about the two estates.
+
+1263
+00:49:20,540 --> 00:49:22,520
+The first estate, the clergy,
+
+1264
+00:49:22,520 --> 00:49:27,660
+they are actually the ones who are closest to the mass of ordinary French men and women.
+
+1265
+00:49:27,780 --> 00:49:34,600
+Because most of the clergy's deputies are not archbishops with kind of sumptuous Cardinal Wolsey-style robes.
+
+1266
+00:49:34,920 --> 00:49:37,580
+They're ordinary parish priests who are probably...
+
+1267
+00:49:37,580 --> 00:49:38,820
+Who are often very poor themselves.
+
+1268
+00:49:38,960 --> 00:49:44,380
+Very poor and who actually understand the peasants better than some of the third estate lawyers do.
+
+1269
+00:49:44,380 --> 00:49:45,360
+The lawyers and so on.
+
+1270
+00:49:45,480 --> 00:49:50,260
+So more and more of these priests come over in the next few days, rising to about 100 of the priests.
+
+1271
+00:49:51,680 --> 00:49:55,280
+And on the 17th of June, they say, enough!
+
+1272
+00:49:55,320 --> 00:49:55,940
+Time has run out.
+
+1273
+00:49:56,060 --> 00:49:58,480
+We are going to now call ourselves some...
+
+1274
+00:49:58,480 --> 00:50:01,060
+You know, we're going to call ourselves, as it were, a National Assembly.
+
+1275
+00:50:01,800 --> 00:50:05,340
+The amusing thing is they can't decide what the name should be.
+
+1276
+00:50:05,760 --> 00:50:15,060
+So Siez says, our title, which will resound down the generations, is the Known and Verifiable Representatives.
+
+1277
+00:50:15,980 --> 00:50:19,220
+So this is very like us trying to decide what to call episodes of our show.
+
+1278
+00:50:20,480 --> 00:50:25,040
+It's actually like you wanting the podcast to be called Podpast, which...
+
+1279
+00:50:25,680 --> 00:50:27,620
+I still regret that.
+
+1280
+00:50:27,620 --> 00:50:27,780
+Yeah.
+
+1281
+00:50:28,560 --> 00:50:29,660
+You're about to stick with that.
+
+1282
+00:50:29,780 --> 00:50:32,220
+And this is the first time I've ever heard you say that you regret it.
+
+1283
+00:50:32,380 --> 00:50:34,600
+I just think it would be a very good name, but whatever.
+
+1284
+00:50:34,820 --> 00:50:35,260
+Oh, sorry.
+
+1285
+00:50:35,360 --> 00:50:37,000
+You don't regret having come up with it?
+
+1286
+00:50:37,280 --> 00:50:38,100
+No, not at all.
+
+1287
+00:50:38,240 --> 00:50:39,120
+No, I'm very proud of it.
+
+1288
+00:50:39,560 --> 00:50:45,280
+Well, listen, I mean, when the rest of history is dead, you can do Podpast, but I'm not doing Podpast.
+
+1289
+00:50:45,920 --> 00:50:49,700
+So Amunier, the guy from Grenoble, he says that's a terrible name, the Known and Verifiable Representatives.
+
+1290
+00:50:50,040 --> 00:50:50,240
+He says...
+
+1291
+00:50:50,260 --> 00:50:51,240
+I've got a very catchy name.
+
+1292
+00:50:51,380 --> 00:50:53,560
+This is Tom Holland of the Third Estate.
+
+1293
+00:50:53,900 --> 00:50:54,980
+He's got a brilliant name.
+
+1294
+00:50:55,180 --> 00:51:01,520
+I think we should be called the Legitimate Assembly of the Representatives of the Larger Part of the Nation Acting in the Absence of the Smaller Part.
+
+1295
+00:51:01,760 --> 00:51:03,260
+No, I'm about compression, Podpast.
+
+1296
+00:51:03,540 --> 00:51:03,740
+Anyway.
+
+1297
+00:51:03,860 --> 00:51:05,000
+Anyway, listen, let's not get into that.
+
+1298
+00:51:05,060 --> 00:51:05,540
+Anyway, yeah.
+
+1299
+00:51:05,620 --> 00:51:09,580
+So they have a succession of terrible names, but eventually they decide, let's go for National Assembly.
+
+1300
+00:51:10,020 --> 00:51:10,880
+Let's cut to the chase.
+
+1301
+00:51:11,080 --> 00:51:15,820
+Now, there's a sense, I think, at this point of them self-radicalising anything being possible.
+
+1302
+00:51:16,500 --> 00:51:19,700
+They say that basically all existing taxation is illegal.
+
+1303
+00:51:19,700 --> 00:51:22,180
+Because they haven't authorised it.
+
+1304
+00:51:22,500 --> 00:51:29,060
+But for the time being, they're happy to let the existing taxes continue until they have drawn up the new...
+
+1305
+00:51:29,060 --> 00:51:33,760
+Remember, they, not the king, have drawn up the new tax system.
+
+1306
+00:51:35,200 --> 00:51:38,060
+So this is, as you said, I mean, they're seizing sovereignty.
+
+1307
+00:51:38,260 --> 00:51:39,460
+It is really an incredible thing.
+
+1308
+00:51:40,660 --> 00:51:44,740
+Louis is very, very deeply depressed during all this.
+
+1309
+00:51:44,960 --> 00:51:49,180
+I mean, he's got, as you said, Tom, before, he's got quite large...
+
+1310
+00:51:49,180 --> 00:51:50,420
+He's eating a lot.
+
+1311
+00:51:50,560 --> 00:51:51,980
+He's messing around with his locks.
+
+1312
+00:51:52,460 --> 00:51:55,380
+He feels very sad that this is spiralling out of control.
+
+1313
+00:51:55,580 --> 00:51:57,140
+And then the terrible thing happens, doesn't it?
+
+1314
+00:51:57,140 --> 00:51:57,600
+Yeah, awful.
+
+1315
+00:51:57,700 --> 00:52:01,500
+Because the Dauphin, his son, his much-loved son, dies.
+
+1316
+00:52:01,600 --> 00:52:02,540
+On the 4th of June.
+
+1317
+00:52:02,660 --> 00:52:03,440
+Dies of TB.
+
+1318
+00:52:03,640 --> 00:52:04,800
+And actually dies...
+
+1319
+00:52:04,800 --> 00:52:08,200
+We won't go into all the details because I think actually it's unnecessary and horrible.
+
+1320
+00:52:08,620 --> 00:52:14,140
+But this little boy dies a very agonising, lingering death from TB.
+
+1321
+00:52:14,380 --> 00:52:15,380
+He's just seven years old.
+
+1322
+00:52:15,460 --> 00:52:19,100
+And Louis and Marie Antoinette are understanding.
+
+1323
+00:52:19,100 --> 00:52:21,280
+Understandably, absolutely distraught.
+
+1324
+00:52:21,940 --> 00:52:27,000
+And Louis, in a weird way, actually, I think almost all the history books, even the best ones, underplay this.
+
+1325
+00:52:27,520 --> 00:52:30,460
+They just say, oh, by the way, his son died and he's very upset and he withdraws.
+
+1326
+00:52:30,460 --> 00:52:35,100
+But I mean, this for him is a loss of unbelievable proportions.
+
+1327
+00:52:35,900 --> 00:52:36,620
+Just horrendous.
+
+1328
+00:52:36,920 --> 00:52:40,440
+Because, you know, unusually for a French king, he hasn't had a mistress.
+
+1329
+00:52:40,620 --> 00:52:42,280
+He's very much a family man.
+
+1330
+00:52:42,500 --> 00:52:42,740
+Yeah.
+
+1331
+00:52:42,940 --> 00:52:45,340
+And Marie Antoinette as well is a very good mother.
+
+1332
+00:52:45,500 --> 00:52:45,740
+Yeah.
+
+1333
+00:52:45,740 --> 00:52:49,180
+So they are engaged with their children in a way that is unusual.
+
+1334
+00:52:49,440 --> 00:52:49,660
+Of course.
+
+1335
+00:52:49,760 --> 00:52:49,900
+Yeah.
+
+1336
+00:52:50,020 --> 00:52:53,360
+But reflects the kind of sentimental ideas of Rousseau.
+
+1337
+00:52:53,620 --> 00:52:53,640
+Yeah.
+
+1338
+00:52:53,640 --> 00:52:54,000
+Absolutely.
+
+1339
+00:52:54,520 --> 00:52:57,900
+So he withdraws from public business.
+
+1340
+00:52:58,100 --> 00:52:58,860
+He leaves.
+
+1341
+00:52:58,980 --> 00:53:05,240
+He physically leaves Versailles for his country estate at Marly-le-Roi.
+
+1342
+00:53:05,500 --> 00:53:08,680
+And there he, you know, is lost in mourning.
+
+1343
+00:53:08,920 --> 00:53:10,980
+So he's not taking charge of all this.
+
+1344
+00:53:11,040 --> 00:53:12,140
+It's spiralling out of control.
+
+1345
+00:53:12,740 --> 00:53:15,720
+When he finally rouses himself and comes back to France.
+
+1346
+00:53:15,720 --> 00:53:16,720
+To Versailles.
+
+1347
+00:53:17,340 --> 00:53:22,520
+He has a big meeting with Necker and with his brothers who are much more hardline than he is.
+
+1348
+00:53:22,600 --> 00:53:23,220
+And with the queen.
+
+1349
+00:53:24,040 --> 00:53:25,900
+What on earth are we going to do?
+
+1350
+00:53:26,020 --> 00:53:29,920
+And Necker says, I think we should probably give in to the third estate at this point.
+
+1351
+00:53:30,040 --> 00:53:30,260
+We should.
+
+1352
+00:53:30,280 --> 00:53:31,260
+We've got to meet them halfway.
+
+1353
+00:53:32,360 --> 00:53:37,560
+And Marie Antoinette and his brothers say this business has gone massively out of control.
+
+1354
+00:53:38,040 --> 00:53:39,100
+It's Necker's fault.
+
+1355
+00:53:39,240 --> 00:53:40,880
+We should shut all this down now.
+
+1356
+00:53:41,500 --> 00:53:42,740
+And Louis can't decide.
+
+1357
+00:53:42,980 --> 00:53:43,480
+So he decides.
+
+1358
+00:53:43,620 --> 00:53:45,520
+So what he does is a tip.
+
+1359
+00:53:45,520 --> 00:53:48,620
+A typical Louis thing of a bit of change, but not too much.
+
+1360
+00:53:49,300 --> 00:53:50,600
+Which doesn't satisfy anybody.
+
+1361
+00:53:50,840 --> 00:53:54,240
+He says, I'll bring all the estates together in what he calls a séance real.
+
+1362
+00:53:54,420 --> 00:53:55,500
+A grand meeting.
+
+1363
+00:53:56,280 --> 00:53:58,180
+And I'll offer them some reforms.
+
+1364
+00:53:58,800 --> 00:54:03,300
+But they have to abandon all this rubbish and tosh about a national assembly.
+
+1365
+00:54:03,580 --> 00:54:04,360
+Like this is no good.
+
+1366
+00:54:06,060 --> 00:54:08,060
+So I want to have this big meeting.
+
+1367
+00:54:08,760 --> 00:54:10,200
+And they're going to have it in the hall.
+
+1368
+00:54:10,460 --> 00:54:13,060
+The hall where the third estate had been meeting.
+
+1369
+00:54:13,300 --> 00:54:14,800
+And they have to set it up.
+
+1370
+00:54:15,520 --> 00:54:17,120
+They literally have to set up the room.
+
+1371
+00:54:17,680 --> 00:54:24,620
+On the morning of the 20th of June, his workmen go in to build the platforms necessary for this meeting.
+
+1372
+00:54:24,740 --> 00:54:26,340
+Where he is going to lay down the law.
+
+1373
+00:54:27,680 --> 00:54:32,380
+Now, meanwhile, they put up signs outside saying, you know, the third estate can't meet here today.
+
+1374
+00:54:32,440 --> 00:54:33,840
+We're setting up the room for this big meeting.
+
+1375
+00:54:33,980 --> 00:54:35,260
+And he puts guards outside.
+
+1376
+00:54:36,020 --> 00:54:40,320
+The third estate all arrive to find the doors are closed.
+
+1377
+00:54:40,540 --> 00:54:42,020
+And there are guards blocking the way.
+
+1378
+00:54:42,120 --> 00:54:44,780
+And there are signs coming up about a big meeting with the king.
+
+1379
+00:54:44,780 --> 00:54:48,880
+And there are hundreds of armed guards standing around blocking their way.
+
+1380
+00:54:49,580 --> 00:54:51,360
+And it is also pouring with rain.
+
+1381
+00:54:52,120 --> 00:54:53,620
+So they're all getting soaked.
+
+1382
+00:54:53,720 --> 00:54:55,700
+And they're expected to go into the hall and have their meeting.
+
+1383
+00:54:56,220 --> 00:54:57,360
+What are they going to do?
+
+1384
+00:54:57,880 --> 00:55:00,640
+And lots of them say, well, I'm not just going to go home to bed.
+
+1385
+00:55:00,880 --> 00:55:01,980
+I mean, we should have a meeting.
+
+1386
+00:55:02,120 --> 00:55:09,860
+We should have our meeting on our own as the national assembly as normal.
+
+1387
+00:55:10,540 --> 00:55:14,220
+And one of them, a man called Dr. Geek.
+
+1388
+00:55:15,380 --> 00:55:17,100
+Tom, you love this.
+
+1389
+00:55:17,440 --> 00:55:28,640
+Well, I mean, I love the way that much-loved characters and, indeed, implements of execution are kind of subtly introduced in unexpected angled ways.
+
+1390
+00:55:28,960 --> 00:55:30,580
+So what's the name of this doctor?
+
+1391
+00:55:30,860 --> 00:55:37,440
+Dr. Guillotin, who is mindful of interesting devices, Tom.
+
+1392
+00:55:38,600 --> 00:55:40,920
+Rational devices for law and order.
+
+1393
+00:55:41,200 --> 00:55:44,200
+Dr. Guillotin says, oh, a friend of mine.
+
+1394
+00:55:45,320 --> 00:55:47,500
+Owns a tennis court around the corner.
+
+1395
+00:55:47,760 --> 00:55:48,960
+We could go and meet there.
+
+1396
+00:55:49,460 --> 00:55:52,900
+It's in the rue du Vieux Versailles, the old Versailles Street.
+
+1397
+00:55:53,200 --> 00:56:00,180
+Now, often you read popular accounts and they say the tennis court was the royal tennis court at Versailles.
+
+1398
+00:56:00,480 --> 00:56:01,640
+That's not right at all.
+
+1399
+00:56:01,960 --> 00:56:05,460
+The game that is being played is a game called real tennis.
+
+1400
+00:56:06,240 --> 00:56:07,960
+Jeu de paume in French.
+
+1401
+00:56:08,280 --> 00:56:10,780
+But it's not the king's court or anything like it.
+
+1402
+00:56:10,800 --> 00:56:12,640
+It's some friend of Dr. Guillotin's.
+
+1403
+00:56:13,620 --> 00:56:15,040
+Who owns the court.
+
+1404
+00:56:15,360 --> 00:56:17,360
+Anyway, they all pile into this tennis court.
+
+1405
+00:56:17,540 --> 00:56:21,160
+So a real tennis is a little bit like squash but with a very hard ball.
+
+1406
+00:56:21,960 --> 00:56:23,200
+So it's indoors.
+
+1407
+00:56:23,420 --> 00:56:27,180
+It's kind of an echoey, very stark, like a squash court.
+
+1408
+00:56:27,660 --> 00:56:29,260
+They're all soaked with the rain.
+
+1409
+00:56:29,500 --> 00:56:30,740
+They all pile into this place.
+
+1410
+00:56:30,840 --> 00:56:35,260
+It's very sort of, it's very plain, very drab, very stark.
+
+1411
+00:56:35,940 --> 00:56:37,700
+But actually that kind of suits them.
+
+1412
+00:56:37,840 --> 00:56:38,600
+It suits them.
+
+1413
+00:56:38,720 --> 00:56:40,700
+It does because it's classical, isn't it, potentially?
+
+1414
+00:56:41,020 --> 00:56:41,400
+It is.
+
+1415
+00:56:41,400 --> 00:56:45,860
+And it gives them a perfect opportunity to swear an oath.
+
+1416
+00:56:45,960 --> 00:56:50,540
+Yeah, because Meunier, the man from Grenoble, he says, what we should all do is we should now swear an oath.
+
+1417
+00:56:50,660 --> 00:57:05,140
+Now, they've all used to this because the big hit painting of the last few years was by David, who you'll be talking about in a subsequent later episode, won't you, one day, when we finally get around to finishing this huge French Revolution epic.
+
+1418
+00:57:05,880 --> 00:57:09,420
+David had done a painting called The Oath of the Horatii, hadn't he?
+
+1419
+00:57:09,620 --> 00:57:11,380
+About three brothers who sacrificed their lives.
+
+1420
+00:57:11,380 --> 00:57:11,600
+Yeah.
+
+1421
+00:57:11,600 --> 00:57:16,040
+About three brothers who sacrificed themselves for Rome or offered to sacrifice themselves for Rome, sort of martyrs, patriots.
+
+1422
+00:57:16,460 --> 00:57:19,000
+And they all decide they want to copy this painting.
+
+1423
+00:57:19,600 --> 00:57:24,160
+So they swear an oath to God and the patrie, the fatherland.
+
+1424
+00:57:24,640 --> 00:57:28,760
+They will never separate until they've written a new constitution for France.
+
+1425
+00:57:28,940 --> 00:57:36,360
+And they say, listen, we don't even need a palace or a courtroom because we are the National Assembly and the National Assembly will exist wherever we come together.
+
+1426
+00:57:36,680 --> 00:57:39,300
+And then they raise their arms, as in David's painting.
+
+1427
+00:57:39,300 --> 00:57:48,240
+They stretch out their right arms, often not a brilliant look, to be fair, tainted by subsequent misconduct in the 20th century.
+
+1428
+00:57:48,320 --> 00:57:49,000
+But that's by the by.
+
+1429
+00:57:49,100 --> 00:57:50,280
+But again, Roman inspiration.
+
+1430
+00:57:50,360 --> 00:57:51,800
+They stretch out their right arms.
+
+1431
+00:57:51,980 --> 00:57:55,260
+They put the other hand on their heart and they swear this oath.
+
+1432
+00:57:55,440 --> 00:58:07,380
+A great act of theatre again, classic act of theatre, inspired by, you know, the media, by paintings, by paintings and the subsequent engravings that reproduce the painting.
+
+1433
+00:58:07,380 --> 00:58:10,980
+There's incredible kind of meta self-consciousness about the whole thing.
+
+1434
+00:58:11,160 --> 00:58:11,960
+There is, exactly.
+
+1435
+00:58:12,220 --> 00:58:13,780
+Everybody is, what do they call it?
+
+1436
+00:58:14,100 --> 00:58:14,580
+Cosplaying.
+
+1437
+00:58:14,780 --> 00:58:15,100
+Yeah.
+
+1438
+00:58:15,260 --> 00:58:16,540
+That's what they're doing, isn't it?
+
+1439
+00:58:16,560 --> 00:58:19,000
+They're basically dressing up and pretending to be Romans.
+
+1440
+00:58:19,240 --> 00:58:20,760
+The news spreads very quickly.
+
+1441
+00:58:20,860 --> 00:58:22,460
+They've sworn this oath in this tennis court.
+
+1442
+00:58:22,860 --> 00:58:27,640
+There are printed copies of the oath on sale in Paris the next morning.
+
+1443
+00:58:29,340 --> 00:58:34,400
+Louis' brothers and the other hardliners in the court go absolutely ballistic at this.
+
+1444
+00:58:34,500 --> 00:58:35,940
+I love their solution to the whole problem.
+
+1445
+00:58:35,940 --> 00:58:36,700
+It's fantastic, isn't it?
+
+1446
+00:58:36,700 --> 00:58:40,480
+The comte d'Artois, he just says, brilliant, I'm just going to book the tennis court.
+
+1447
+00:58:40,520 --> 00:58:40,720
+He does.
+
+1448
+00:58:40,800 --> 00:58:42,260
+He books the tennis court to stop them.
+
+1449
+00:58:42,800 --> 00:58:46,860
+And the question that's on my mind that I haven't been able to resolve is, did he play tennis?
+
+1450
+00:58:47,440 --> 00:58:48,080
+Did he?
+
+1451
+00:58:48,100 --> 00:58:51,340
+I mean, once you've booked the court, you're mad not to use it, right?
+
+1452
+00:58:51,440 --> 00:58:52,200
+What else are you going to be doing?
+
+1453
+00:58:52,480 --> 00:58:53,480
+Especially if it's raining.
+
+1454
+00:58:56,040 --> 00:59:04,500
+Anyway, the 23rd of June, so three days later, is going to be this big séance real, a big meeting, summit meeting where Louis is going to decide all this.
+
+1455
+00:59:05,140 --> 00:59:06,480
+And again, crazy.
+
+1456
+00:59:06,480 --> 00:59:10,720
+I mean, such a failure of statecraft, I suppose.
+
+1457
+00:59:12,140 --> 00:59:13,680
+He humiliates the third estate.
+
+1458
+00:59:14,100 --> 00:59:16,540
+The church and the nobility are seated first.
+
+1459
+00:59:16,640 --> 00:59:20,020
+The third estate have to wait outside in the rain for an hour.
+
+1460
+00:59:20,240 --> 00:59:22,360
+And then they're brought in through a side door.
+
+1461
+00:59:23,340 --> 00:59:26,760
+When they get in, they find that Necker is not there.
+
+1462
+00:59:26,940 --> 00:59:31,380
+It is clear that Necker has lost the argument within the regime.
+
+1463
+00:59:32,140 --> 00:59:35,480
+And he is refusing to come or has been told to stay away.
+
+1464
+00:59:35,480 --> 00:59:37,100
+And Louis stands up.
+
+1465
+00:59:37,760 --> 00:59:39,680
+And Louis speaks for just half an hour.
+
+1466
+00:59:40,080 --> 00:59:42,360
+He says, I'll give you some of what you want.
+
+1467
+00:59:43,180 --> 00:59:48,900
+Taxes will now have to be approved by the nation's representatives.
+
+1468
+00:59:49,480 --> 00:59:52,160
+And I promise that the Estates General will meet regularly.
+
+1469
+00:59:52,700 --> 00:59:56,600
+But he says, this stuff about the National Assembly is gibberish and nonsense.
+
+1470
+00:59:56,800 --> 00:59:57,840
+I will not accept it.
+
+1471
+00:59:58,140 --> 01:00:01,620
+The distinction of the three orders of the state is not up for debate.
+
+1472
+01:00:01,900 --> 01:00:04,500
+You will have to, you know, the clergy and the nobility.
+
+1473
+01:00:05,560 --> 01:00:07,340
+They must run their own affairs.
+
+1474
+01:00:07,460 --> 01:00:09,380
+And they can't be run for them by the third estate.
+
+1475
+01:00:09,560 --> 01:00:13,700
+Because, of course, if the moderate position is to emulate the British Constitution,
+
+1476
+01:00:14,420 --> 01:00:17,280
+Britain does have that division, House of Lords and House of Commons.
+
+1477
+01:00:17,520 --> 01:00:17,800
+Yeah.
+
+1478
+01:00:17,920 --> 01:00:21,300
+I mean, it's not wholly reactionary in that sense.
+
+1479
+01:00:21,500 --> 01:00:23,020
+Yeah, it's not wholly reactionary.
+
+1480
+01:00:23,040 --> 01:00:26,420
+I mean, they're going well beyond the British Constitution now, aren't they?
+
+1481
+01:00:26,580 --> 01:00:29,020
+And they're going well beyond the American Constitution.
+
+1482
+01:00:29,580 --> 01:00:33,480
+So they are doing away with the checks and balances that were so important for the United States.
+
+1483
+01:00:33,480 --> 01:00:35,680
+Because they're all about the general will, aren't they?
+
+1484
+01:00:35,860 --> 01:00:39,440
+Which is not something that the founding fathers in America were so keen on.
+
+1485
+01:00:42,160 --> 01:00:47,780
+Now, had Louis said all this two years earlier, maybe the whole story would be different.
+
+1486
+01:00:47,860 --> 01:00:48,380
+But he didn't.
+
+1487
+01:00:48,400 --> 01:00:51,060
+And it's too late because, as we said, they've self-radicalized.
+
+1488
+01:00:51,660 --> 01:00:58,960
+So when he gets up and goes out after half an hour, everybody else starts to file out.
+
+1489
+01:00:59,000 --> 01:01:01,020
+And the workmen come back in to demolish the platform.
+
+1490
+01:01:01,020 --> 01:01:03,960
+And the third estate do not move.
+
+1491
+01:01:04,780 --> 01:01:05,780
+They're sitting there.
+
+1492
+01:01:05,880 --> 01:01:06,860
+They will not move.
+
+1493
+01:01:06,980 --> 01:01:08,840
+This is their hall, and they're not going to budge.
+
+1494
+01:01:09,300 --> 01:01:13,900
+And the Marquis de Trebreze, the guy who is the…
+
+1495
+01:01:13,900 --> 01:01:15,440
+He's the suit guy.
+
+1496
+01:01:15,800 --> 01:01:16,780
+Yeah, the suits man.
+
+1497
+01:01:17,040 --> 01:01:17,440
+Yes.
+
+1498
+01:01:17,440 --> 01:01:18,260
+The correct thing you wear.
+
+1499
+01:01:18,300 --> 01:01:18,600
+Derek Guy.
+
+1500
+01:01:18,760 --> 01:01:19,900
+Yeah, he's him.
+
+1501
+01:01:20,040 --> 01:01:20,400
+Yeah.
+
+1502
+01:01:20,640 --> 01:01:23,660
+He says to them, you've got to go.
+
+1503
+01:01:23,800 --> 01:01:24,080
+Right.
+
+1504
+01:01:24,140 --> 01:01:25,060
+We're trying to clear the room.
+
+1505
+01:01:25,220 --> 01:01:25,700
+You've got to go.
+
+1506
+01:01:25,780 --> 01:01:29,920
+And Mirabeau, by his own account, which is maybe a little bit self-dramatizing, says,
+
+1507
+01:01:29,920 --> 01:01:35,820
+go and tell those who have sent you that we are here by the will of the people, and
+
+1508
+01:01:35,820 --> 01:01:39,040
+we will only be driven out at the points of bayonets.
+
+1509
+01:01:40,300 --> 01:01:41,720
+Very impressive stuff.
+
+1510
+01:01:41,760 --> 01:01:47,340
+And the Marquis, he retreats because he's such a stickler for protocol.
+
+1511
+01:01:47,640 --> 01:01:50,820
+He retreats, walking slowly backwards.
+
+1512
+01:01:51,260 --> 01:01:53,620
+It's a very strange image.
+
+1513
+01:01:54,020 --> 01:01:58,300
+This man with a face like a crater has given this speech to him.
+
+1514
+01:01:58,320 --> 01:01:58,520
+No.
+
+1515
+01:01:58,520 --> 01:02:00,400
+But etiquette is etiquette, isn't it?
+
+1516
+01:02:00,460 --> 01:02:00,900
+It is.
+
+1517
+01:02:01,060 --> 01:02:02,220
+And then Louis, poor Louis.
+
+1518
+01:02:02,820 --> 01:02:04,360
+He's just not a hard man.
+
+1519
+01:02:05,100 --> 01:02:05,940
+He's not ruthless.
+
+1520
+01:02:06,100 --> 01:02:09,980
+Because when the Marquis tells Louis this, Louis just says, oh, well, let them stay.
+
+1521
+01:02:10,120 --> 01:02:11,340
+If they want to stay, let them stay.
+
+1522
+01:02:11,420 --> 01:02:11,740
+Oh, whatever.
+
+1523
+01:02:11,920 --> 01:02:12,340
+They do.
+
+1524
+01:02:12,500 --> 01:02:14,100
+So it's a classic Louis.
+
+1525
+01:02:16,040 --> 01:02:19,780
+He sort of parades his authority, but then he never, ever enforces it.
+
+1526
+01:02:19,800 --> 01:02:20,180
+He gives in.
+
+1527
+01:02:20,420 --> 01:02:21,020
+He always gives in.
+
+1528
+01:02:22,360 --> 01:02:25,920
+So the next few days, more and more people join this National Assembly from the clergy
+
+1529
+01:02:25,920 --> 01:02:26,500
+and the nobility.
+
+1530
+01:02:26,600 --> 01:02:27,980
+And then the 27th of June.
+
+1531
+01:02:28,140 --> 01:02:28,500
+Yeah.
+
+1532
+01:02:28,520 --> 01:02:31,360
+Only four days later, Louis does give in.
+
+1533
+01:02:31,400 --> 01:02:32,740
+His position has eroded.
+
+1534
+01:02:32,820 --> 01:02:36,940
+It's a classic example of how in revolutionary situations, momentum is all.
+
+1535
+01:02:37,140 --> 01:02:38,620
+His position has eroded.
+
+1536
+01:02:38,660 --> 01:02:40,580
+And he says, okay, yeah, I've changed my mind.
+
+1537
+01:02:40,580 --> 01:02:40,980
+I give up.
+
+1538
+01:02:41,400 --> 01:02:45,660
+He orders the nobility and the clergy, join the National Assembly now.
+
+1539
+01:02:47,040 --> 01:02:49,660
+I've, you know, after all this, I've lost.
+
+1540
+01:02:51,100 --> 01:02:55,320
+There was an explosion of joy in Versailles in a very, very revealing scene.
+
+1541
+01:02:55,540 --> 01:02:56,980
+So people are chanting.
+
+1542
+01:02:57,120 --> 01:02:58,200
+The crowds are in Versailles.
+
+1543
+01:02:58,200 --> 01:02:58,840
+They're shouting.
+
+1544
+01:02:58,940 --> 01:02:59,540
+Vive Necker!
+
+1545
+01:02:59,780 --> 01:03:00,380
+Vive le Roi!
+
+1546
+01:03:01,600 --> 01:03:08,400
+And on the balcony of Louis XIV's bedroom, which overlooks the marble court at Versailles,
+
+1547
+01:03:09,040 --> 01:03:13,880
+Louis and Marie Antoinette come out onto the balcony and they pretend to look happy and
+
+1548
+01:03:13,880 --> 01:03:16,160
+to wave to the crowds who are shouting long live the king.
+
+1549
+01:03:16,900 --> 01:03:18,980
+And actually, I always think it's a telling detail.
+
+1550
+01:03:19,100 --> 01:03:21,320
+People are very shocked at the appearance of Marie Antoinette.
+
+1551
+01:03:21,420 --> 01:03:22,700
+Obviously, she's a grieving mother.
+
+1552
+01:03:23,180 --> 01:03:23,660
+Yeah.
+
+1553
+01:03:24,120 --> 01:03:24,840
+She's grief stricken.
+
+1554
+01:03:24,960 --> 01:03:25,580
+And they say.
+
+1555
+01:03:25,580 --> 01:03:28,680
+Lots of people said she looks as though she's aged so much.
+
+1556
+01:03:28,740 --> 01:03:29,440
+Her hair is gray.
+
+1557
+01:03:29,580 --> 01:03:30,440
+She's not wearing jewels.
+
+1558
+01:03:30,640 --> 01:03:31,600
+She looks terrible.
+
+1559
+01:03:31,940 --> 01:03:34,580
+I mean, you know, it's understandable.
+
+1560
+01:03:35,140 --> 01:03:37,560
+And she seems to be forcing back tears.
+
+1561
+01:03:37,680 --> 01:03:41,240
+And she brings out her children, Marie-Thérèse and Louis.
+
+1562
+01:03:41,420 --> 01:03:42,960
+Marie-Thérèse is ten and Louis is four.
+
+1563
+01:03:43,340 --> 01:03:47,420
+And she brings them out, which is the royal family have never done anything like this
+
+1564
+01:03:47,420 --> 01:03:47,740
+before.
+
+1565
+01:03:47,940 --> 01:03:49,860
+And the crowd go mad.
+
+1566
+01:03:49,960 --> 01:03:51,740
+They're cheering and all this kind of stuff.
+
+1567
+01:03:52,800 --> 01:03:54,660
+But I always think there's a sense.
+
+1568
+01:03:55,720 --> 01:04:01,640
+Even here that they have become prisoners of the crowd, that they're prisoners of the
+
+1569
+01:04:01,640 --> 01:04:03,740
+situation that they're trying.
+
+1570
+01:04:03,800 --> 01:04:04,920
+They're parading.
+
+1571
+01:04:04,940 --> 01:04:06,760
+They've lost age to appease the crowd.
+
+1572
+01:04:06,940 --> 01:04:07,920
+Yeah, exactly.
+
+1573
+01:04:08,560 --> 01:04:12,340
+Now, some people think, in fact, lots of people think this is probably the end of the story.
+
+1574
+01:04:12,400 --> 01:04:14,680
+Now, the French Revolution has come and gone.
+
+1575
+01:04:14,780 --> 01:04:18,960
+So Arthur Young, the traveler that I mentioned, famously wrote in his journal or whatever
+
+1576
+01:04:18,960 --> 01:04:23,780
+it was, the whole business now seems over and the revolution completed.
+
+1577
+01:04:25,260 --> 01:04:26,760
+But not everybody.
+
+1578
+01:04:27,120 --> 01:04:32,220
+So that guy that we mentioned, the Marquis de Ferrières, the nobleman, the Enlightenment
+
+1579
+01:04:32,220 --> 01:04:38,920
+guy, he writes to his sister the next day and he says, we've come close to the bloodiest
+
+1580
+01:04:38,920 --> 01:04:39,300
+catastrophe.
+
+1581
+01:04:39,880 --> 01:04:42,420
+The weakness of the government seems to allow for anything.
+
+1582
+01:04:42,620 --> 01:04:45,540
+People speak openly in the Palais Royal of massacring us.
+
+1583
+01:04:45,560 --> 01:04:47,040
+Our houses are marked out for murder.
+
+1584
+01:04:47,740 --> 01:04:52,600
+He goes on to say, he says, everything may seem tranquil, but the troops are no longer
+
+1585
+01:04:52,600 --> 01:04:53,720
+obeying their officers.
+
+1586
+01:04:53,720 --> 01:04:53,760
+They're not.
+
+1587
+01:04:53,760 --> 01:04:59,480
+He says, the Estates General of 1789 may be celebrated one day, he says, but it will
+
+1588
+01:04:59,480 --> 01:05:04,360
+be by a banner of blood that will be carried to all the parts of Europe.
+
+1589
+01:05:04,620 --> 01:05:08,100
+So would it be fair to say, Dominic, that storm clouds really are gathering?
+
+1590
+01:05:08,180 --> 01:05:13,120
+They are gathering because in the next few days, there are rumors that there are military
+
+1591
+01:05:13,120 --> 01:05:15,900
+units on the march out there in the provinces.
+
+1592
+01:05:16,940 --> 01:05:21,380
+People are swapping stories and they've heard that there are tens of thousands of troops
+
+1593
+01:05:21,380 --> 01:05:27,300
+coming towards the capital from the frontier garrisons and in particular, German and Swiss
+
+1594
+01:05:27,300 --> 01:05:29,360
+troops who fight for the French king.
+
+1595
+01:05:30,400 --> 01:05:34,580
+Mirabeau says, does the king doubt the loyalty of his people?
+
+1596
+01:05:34,960 --> 01:05:39,560
+And Louis has to issue a public statement saying, these troops are to reinforce the
+
+1597
+01:05:39,560 --> 01:05:44,200
+troops already in Paris, which are proving unreliable, which is true.
+
+1598
+01:05:44,460 --> 01:05:50,320
+The French guard and the Swiss guard, well, the French guard in particular in Paris, there
+
+1599
+01:05:50,320 --> 01:05:54,220
+have been stories about them disobeying their officers, fraternizing with looters, all of
+
+1600
+01:05:54,220 --> 01:05:54,900
+this kind of thing.
+
+1601
+01:05:55,660 --> 01:06:00,760
+And there is a sense, as more and more of these stories mount, that the crowds in Paris
+
+1602
+01:06:00,760 --> 01:06:03,820
+are getting ever more radical, the rhetoric ever more violent.
+
+1603
+01:06:04,740 --> 01:06:10,160
+In early July, there's a story that the crowd sees a suspected police informant and they
+
+1604
+01:06:10,160 --> 01:06:11,040
+beat him to death.
+
+1605
+01:06:11,400 --> 01:06:13,880
+There is this kind of latent simmering violence.
+
+1606
+01:06:14,520 --> 01:06:20,200
+And in Versailles, some of Louis' advisors say, sure, you gave in to the National Assembly,
+
+1607
+01:06:20,320 --> 01:06:24,160
+the other day, but this is the last chance now.
+
+1608
+01:06:24,220 --> 01:06:25,100
+We have to act.
+
+1609
+01:06:27,160 --> 01:06:32,540
+This is the last opportunity we'll ever have to seize control of the situation.
+
+1610
+01:06:33,320 --> 01:06:34,100
+Sack necker.
+
+1611
+01:06:34,160 --> 01:06:35,560
+Put an end to all of this nonsense.
+
+1612
+01:06:35,940 --> 01:06:39,020
+Use these new troops from the frontiers to secure the city.
+
+1613
+01:06:39,480 --> 01:06:41,660
+The question is whether the army will obey orders.
+
+1614
+01:06:41,940 --> 01:06:46,400
+The royal commander, the Duke de Broglie, says it is risky.
+
+1615
+01:06:46,520 --> 01:06:50,060
+He says, if we get this wrong, we will not be able.
+
+1616
+01:06:50,060 --> 01:06:53,800
+We don't have enough troops to secure all of Paris, to fight our way through all of Paris.
+
+1617
+01:06:54,520 --> 01:06:59,200
+Other advisors say, so tellingly, get out of Versailles now.
+
+1618
+01:06:59,480 --> 01:07:01,240
+You don't want to be a prisoner.
+
+1619
+01:07:01,980 --> 01:07:05,700
+Let's go to Metz on the frontier out in Alsace.
+
+1620
+01:07:07,260 --> 01:07:10,500
+We're so close to foreign support.
+
+1621
+01:07:10,660 --> 01:07:13,680
+We can get foreign aid if necessary.
+
+1622
+01:07:14,220 --> 01:07:15,160
+Paris is gone.
+
+1623
+01:07:15,440 --> 01:07:18,960
+But then other people say, no, we can't do that because if we abandon Paris now, we'll
+
+1624
+01:07:18,960 --> 01:07:19,720
+never get it back.
+
+1625
+01:07:19,840 --> 01:07:24,740
+And we'll be showing ourselves, you know, that we will be setting ourselves against
+
+1626
+01:07:24,740 --> 01:07:25,160
+the capital.
+
+1627
+01:07:25,240 --> 01:07:26,040
+And we can't do that.
+
+1628
+01:07:26,260 --> 01:07:26,560
+Right.
+
+1629
+01:07:26,600 --> 01:07:32,460
+And, you know, a king leaving his own capital to go inside with foreign powers is not a
+
+1630
+01:07:32,460 --> 01:07:32,760
+good look.
+
+1631
+01:07:32,800 --> 01:07:32,940
+Right.
+
+1632
+01:07:33,000 --> 01:07:34,300
+And that is true now.
+
+1633
+01:07:34,360 --> 01:07:36,400
+And it will be true in due course, as we will see.
+
+1634
+01:07:36,560 --> 01:07:37,720
+Of course it is, Tom.
+
+1635
+01:07:37,800 --> 01:07:43,360
+Of course, it's all so it's so ominous, all of these conversations, because they're anticipating
+
+1636
+01:07:43,360 --> 01:07:44,620
+so much of what will follow.
+
+1637
+01:07:45,020 --> 01:07:47,560
+But anyway, Louis finally makes up his mind.
+
+1638
+01:07:47,660 --> 01:07:48,600
+And he says, OK.
+
+1639
+01:07:48,600 --> 01:07:49,660
+I know what we'll do.
+
+1640
+01:07:50,260 --> 01:07:51,860
+We'll go with your first idea.
+
+1641
+01:07:52,120 --> 01:07:56,200
+So on the night of the 11th of July, the plan is set in motion.
+
+1642
+01:07:56,720 --> 01:08:00,220
+Late that night, out of nowhere, Necker is dismissed.
+
+1643
+01:08:01,220 --> 01:08:02,820
+Louis tells him, you're sacked.
+
+1644
+01:08:03,280 --> 01:08:05,340
+You are exiled from France.
+
+1645
+01:08:05,840 --> 01:08:07,540
+You have to leave the kingdom immediately.
+
+1646
+01:08:07,720 --> 01:08:09,040
+And you cannot go through Paris.
+
+1647
+01:08:09,200 --> 01:08:10,320
+You cannot visit the capital.
+
+1648
+01:08:10,460 --> 01:08:11,440
+You can't stop on the way.
+
+1649
+01:08:11,480 --> 01:08:12,300
+You must go to Switzerland.
+
+1650
+01:08:14,640 --> 01:08:17,900
+A noble deputy called Gaston de Lévis.
+
+1651
+01:08:17,900 --> 01:08:19,900
+Who knows all about this business.
+
+1652
+01:08:20,200 --> 01:08:23,620
+He sends a warning to his wife, who's in the capital that night.
+
+1653
+01:08:23,780 --> 01:08:25,780
+And the warning reads as follows.
+
+1654
+01:08:26,340 --> 01:08:28,040
+Don't go out at all tomorrow.
+
+1655
+01:08:28,440 --> 01:08:31,020
+There will surely be a dreadful commotion.
+
+1656
+01:08:31,220 --> 01:08:34,780
+And one cannot know how things will go.
+
+1657
+01:08:35,020 --> 01:08:36,280
+Dominic, what a cliffhanger.
+
+1658
+01:08:36,420 --> 01:08:44,240
+The clock is ticking down towards one of the most famous dates in the whole, not just the French history, but of history full stop.
+
+1659
+01:08:44,280 --> 01:08:46,980
+The 14th of July, 1789.
+
+1660
+01:08:46,980 --> 01:08:49,720
+The day the Bastille falls.
+
+1661
+01:08:49,840 --> 01:08:52,560
+And we will be looking at that in our next episode.
+
+1662
+01:08:52,600 --> 01:08:54,260
+And if you can't wait, you know the drill.
+
+1663
+01:08:54,360 --> 01:08:58,660
+You can hear it right now by joining the Restless History Club at therestlesshistory.com.
+
+1664
+01:08:59,000 --> 01:09:01,320
+But if you don't do that, it'll be coming very soon anyway.
+
+1665
+01:09:01,680 --> 01:09:04,300
+So we will see you soon.
+
+1666
+01:09:04,440 --> 01:09:04,800
+A bientôt.
+
+1667
+01:09:05,160 --> 01:09:05,720
+Au revoir.
+

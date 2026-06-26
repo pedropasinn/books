@@ -1,0 +1,5 @@
+# áudio e pacotes grandes — re-geráveis (yt-dlp / Colab), não versionar
+audio.mp3
+*.zip
+_fr_outputs_tmp/
+*.log

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Revolução Francesa — The Rest Is History</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0a0b; --panel:#131316; --elevated:#1c1c20; --line:rgba(255,255,255,.08);
+    --txt:#f4f4f5; --muted:#a1a1aa; --faint:#52525b; --accent:#2dd4bf;
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--txt);
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .wrap{max-width:1120px;margin:0 auto;padding:56px 24px 80px}
+  header.hero{margin-bottom:44px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+  h1{font-size:40px;line-height:1.05;font-weight:700;letter-spacing:-.02em;margin:10px 0 8px}
+  .lead{color:var(--muted);font-size:15px;max-width:60ch}
+  .sec-title{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);
+    font-weight:600;margin:0 0 14px}
+  /* continuar */
+  .resume{display:none;margin-bottom:40px}
+  .resume a{display:flex;gap:16px;align-items:center;text-decoration:none;color:inherit;
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:14px;
+    transition:border-color .15s,transform .15s}
+  .resume a:hover{border-color:rgba(255,255,255,.22);transform:translateY(-1px)}
+  .resume .poster{width:84px;height:56px;border-radius:9px;flex:none;position:relative;overflow:hidden}
+  .resume .meta{min-width:0;flex:1}
+  .resume .meta .t{font-weight:600;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .resume .meta .s{color:var(--muted);font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .resume .bar{height:3px;background:rgba(255,255,255,.1);border-radius:3px;margin-top:8px;overflow:hidden}
+  .resume .bar i{display:block;height:100%;background:var(--accent)}
+  .resume .play{flex:none;width:46px;height:46px;border-radius:50%;background:#fff;color:#0a0a0b;
+    display:grid;place-items:center}
+  /* grade */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px}
+  .card{display:flex;flex-direction:column;text-decoration:none;color:inherit;
+    background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+    transition:border-color .18s,transform .18s,box-shadow .18s}
+  .card:hover{border-color:rgba(255,255,255,.24);transform:translateY(-3px);
+    box-shadow:0 12px 30px -12px rgba(0,0,0,.6)}
+  .poster{position:relative;aspect-ratio:16/10;display:flex;flex-direction:column;justify-content:space-between;
+    padding:16px 18px;color:#fff}
+  .poster .num{font-size:64px;font-weight:700;line-height:1;letter-spacing:-.04em;opacity:.26}
+  .poster .dur{align-self:flex-end;font-size:12px;font-weight:500;color:rgba(255,255,255,.8);
+    background:rgba(0,0,0,.35);backdrop-filter:blur(4px);padding:3px 9px;border-radius:999px}
+  .poster .pp{position:absolute;inset:0;display:grid;place-items:center;opacity:0;transition:opacity .18s}
+  .card:hover .poster .pp{opacity:1}
+  .poster .pp span{width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.95);color:#0a0a0b;
+    display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.4)}
+  .body{padding:14px 16px 16px;flex:1;display:flex;flex-direction:column;gap:6px}
+  .body .en{font-weight:600;font-size:15px;line-height:1.3;letter-spacing:-.01em}
+  .body .pt{color:var(--muted);font-size:13px;line-height:1.4;flex:1}
+  .cardbar{height:3px;background:rgba(255,255,255,.08);border-radius:3px;overflow:hidden;margin-top:4px;display:none}
+  .cardbar i{display:block;height:100%;background:var(--accent)}
+  .foot{margin-top:56px;color:var(--faint);font-size:12px;text-align:center}
+  svg{display:block}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="eyebrow">The Rest Is History</div>
+    <h1>A Revolução Francesa</h1>
+    <p class="lead">Karaokê de podcast: ouça vendo o que é dito em inglês e a tradução em português,
+      com a linha e a palavra atual destacadas. 13 episódios.</p>
+  </header>
+
+  <section class="resume" id="resume">
+    <h2 class="sec-title">Continuar ouvindo</h2>
+    <a id="resumeLink" href="#">
+      <div class="poster" id="resumePoster"></div>
+      <div class="meta">
+        <div class="t" id="resumeTitle"></div>
+        <div class="s" id="resumeSub"></div>
+        <div class="bar"><i id="resumeBar"></i></div>
+      </div>
+      <div class="play"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+    </a>
+  </section>
+
+  <section>
+    <h2 class="sec-title">Todos os episódios</h2>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <div class="foot">Whisper large-v3 · tradução automática EN→PT · player offline</div>
+</div>
+
+<script src="episodes.js"></script>
+<script>
+const PLAY = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+const grid = document.getElementById('grid');
+
+EPISODES.forEach((e, i) => {
+  const a = document.createElement('a');
+  a.className = 'card';
+  a.href = `karaoke.html?ep=${e.slug}`;
+  const pos = parseFloat(localStorage.getItem(progressKey(e.slug)) || '0');
+  const pct = pos && e.dur ? Math.min(100, (pos / e.dur) * 100) : 0;
+  a.innerHTML = `
+    <div class="poster" style="background:${posterBg(i)}">
+      <div class="num">${String(e.n).padStart(2,'0')}</div>
+      <div class="dur">${fmtDur(e.dur)}</div>
+      <div class="pp"><span>${PLAY}</span></div>
+    </div>
+    <div class="body">
+      <div class="en">${e.en}</div>
+      <div class="pt">${e.pt}</div>
+      <div class="cardbar" ${pct?'style="display:block"':''}><i style="width:${pct}%"></i></div>
+    </div>`;
+  grid.appendChild(a);
+});
+
+// "continuar ouvindo": episódio mais recente com progresso
+let recent = null;
+EPISODES.forEach((e, i) => {
+  const pos = parseFloat(localStorage.getItem(progressKey(e.slug)) || '0');
+  const ts  = parseFloat(localStorage.getItem(progressKey(e.slug)+'_ts') || '0');
+  if (pos > 15 && (!recent || ts > recent.ts)) recent = { e, i, pos, ts };
+});
+if (recent) {
+  const { e, i, pos } = recent;
+  document.getElementById('resume').style.display = 'block';
+  document.getElementById('resumeLink').href = `karaoke.html?ep=${e.slug}`;
+  document.getElementById('resumePoster').style.background = posterBg(i);
+  document.getElementById('resumeTitle').textContent = e.en;
+  document.getElementById('resumeSub').textContent =
+    `${fmtTime(pos)} de ${fmtTime(e.dur)} · ${e.pt}`;
+  document.getElementById('resumeBar').style.width = `${Math.min(100,(pos/e.dur)*100)}%`;
+}
+</script>
+</body>
+</html>
