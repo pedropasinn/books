@@ -23,6 +23,33 @@ export default async function HomePage() {
         </p>
       </div>
 
+      <section className="space-y-3">
+        <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+          Séries · karaokê
+        </h2>
+        <a href="/fr/index.html" className="group block">
+          <Card className="overflow-hidden transition-colors hover:border-foreground/40">
+            <CardContent className="flex items-center gap-4 p-4">
+              <div
+                className="relative h-20 w-32 shrink-0 overflow-hidden rounded-lg"
+                style={{ background: "linear-gradient(150deg, hsl(188 34% 17%), hsl(214 40% 9%))" }}
+              >
+                <div className="absolute inset-0 flex items-center justify-center opacity-90 transition-opacity group-hover:opacity-100">
+                  <Play className="size-7 text-white" />
+                </div>
+              </div>
+              <div className="min-w-0">
+                <h3 className="text-base font-semibold tracking-tight">A Revolução Francesa</h3>
+                <p className="mt-0.5 text-sm text-muted-foreground">
+                  The Rest Is History · 13 episódios · inglês com tradução, vídeo do YouTube e
+                  legenda sincronizada palavra a palavra
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </a>
+      </section>
+
       {continueRows.length > 0 && (
         <section className="space-y-3">
           <div className="flex items-baseline justify-between">
