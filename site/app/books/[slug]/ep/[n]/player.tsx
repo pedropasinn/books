@@ -3,8 +3,9 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Play, Pause, RotateCcw, FastForward, Check, Gauge } from "lucide-react";
+import { Play, Pause, RotateCcw, FastForward, Check, Gauge, Zap } from "lucide-react";
 import { saveProgress, markCompleted } from "@/lib/actions";
+import { RsvpReader } from "@/components/rsvp-reader";
 import { cn } from "@/lib/utils";
 import { toast } from "sonner";
 
@@ -44,6 +45,7 @@ export function EpisodePlayer({
   const [completed, setCompleted] = useState(initialCompleted);
   const [alignment, setAlignment] = useState<AlignmentWord[] | null>(null);
   const [activeWordIdx, setActiveWordIdx] = useState(-1);
+  const [rsvpOpen, setRsvpOpen] = useState(false);
   const lastSavedRef = useRef(initialPositionSec);
   const wordRefs = useRef<Array<HTMLSpanElement | null>>([]);
 
@@ -329,7 +331,24 @@ export function EpisodePlayer({
         </Card>
       )}
 
+      <div className="flex items-center justify-between border-b border-border/40 pb-2">
+        <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+          Script
+        </h2>
+        <Button variant="outline" size="sm" onClick={() => setRsvpOpen(true)} className="gap-1.5">
+          <Zap className="size-3.5" />
+          Leitura dinâmica
+        </Button>
+      </div>
+
       <article className="prose prose-invert max-w-none">{renderedScript}</article>
+
+      <RsvpReader
+        open={rsvpOpen}
+        onOpenChange={setRsvpOpen}
+        text={scriptText}
+        title="Leitura dinâmica do script"
+      />
     </div>
   );
 }
