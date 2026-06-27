@@ -101,8 +101,14 @@ export function EpisodePlayer({
     }
     if (idx !== activeWordIdx) {
       setActiveWordIdx(idx);
+      // Scroll só quando a palavra ativa sai do viewport, evita scroll nervoso.
       const el = wordRefs.current[idx];
-      if (el) el.scrollIntoView({ block: "center", behavior: "smooth" });
+      if (el) {
+        const rect = el.getBoundingClientRect();
+        const margin = 80;
+        const inView = rect.top >= margin && rect.bottom <= window.innerHeight - margin;
+        if (!inView) el.scrollIntoView({ block: "center", behavior: "smooth" });
+      }
     }
   }, [time, alignment, activeWordIdx]);
 
@@ -197,27 +203,74 @@ export function EpisodePlayer({
     return () => window.removeEventListener("keydown", onKey);
   }, [audioUrl, rate]);
 
-  // Render script: if alignment available, use words; otherwise plain paragraphs
+  // Calcula índices de quebra de parágrafo no array `alignment`, alinhando
+  // por contagem de palavras com o `scriptText` original. WhisperX devolve
+  // tokens sem newlines — re-injetamos a estrutura aqui.
+  const paragraphBreaks = useMemo(() => {
+    if (!alignment || alignment.length === 0) return null;
+    const paragraphs = scriptText.split(/\n\s*\n/).filter((p) => p.trim());
+    const breaks: number[] = []; // índices em `alignment` que iniciam um parágrafo
+    let cursor = 0;
+    for (const p of paragraphs) {
+      const wc = p.trim().split(/\s+/).filter(Boolean).length;
+      breaks.push(cursor);
+      cursor += wc;
+    }
+    // se sobrarem ou faltarem palavras (WhisperX dropou alguma), trunca/ignora
+    return breaks.filter((b) => b < alignment.length);
+  }, [alignment, scriptText]);
+
+  // Para highlight de sentença ativa, mapeia cada palavra → índice de sentença.
+  const sentenceOfWord = useMemo(() => {
+    if (!alignment) return null;
+    const map = new Int32Array(alignment.length);
+    let s = 0;
+    for (let i = 0; i < alignment.length; i++) {
+      map[i] = s;
+      if (/[.!?…]$/.test(alignment[i].word)) s++;
+    }
+    return map;
+  }, [alignment]);
+
+  const activeSentence = activeWordIdx >= 0 && sentenceOfWord ? sentenceOfWord[activeWordIdx] : -1;
+
+  // Render script: if alignment available, use words grouped by paragraph; otherwise plain paragraphs
   const renderedScript = useMemo(() => {
-    if (alignment && alignment.length > 0) {
+    if (alignment && alignment.length > 0 && paragraphBreaks && sentenceOfWord) {
+      const paras: Array<Array<number>> = [];
+      for (let i = 0; i < paragraphBreaks.length; i++) {
+        const start = paragraphBreaks[i];
+        const end = i + 1 < paragraphBreaks.length ? paragraphBreaks[i + 1] : alignment.length;
+        const idxs: number[] = [];
+        for (let j = start; j < end; j++) idxs.push(j);
+        paras.push(idxs);
+      }
       return (
-        <div className="space-y-1 text-base leading-8">
-          {alignment.map((w, i) => (
-            <span
-              key={i}
-              ref={(el) => { wordRefs.current[i] = el; }}
-              onClick={() => seekToWord(i)}
-              className={cn(
-                "cursor-pointer rounded px-0.5 transition-colors",
-                i === activeWordIdx
-                  ? "bg-primary/20 text-foreground"
-                  : i < activeWordIdx
-                  ? "text-muted-foreground"
-                  : "text-foreground/90 hover:bg-muted/50"
-              )}
-            >
-              {w.word}{" "}
-            </span>
+        <div className="space-y-4 text-base leading-8">
+          {paras.map((idxs, pIdx) => (
+            <p key={pIdx} className="text-foreground/90">
+              {idxs.map((i) => {
+                const isActive = i === activeWordIdx;
+                const isPast = i < activeWordIdx;
+                const inActiveSentence = activeSentence >= 0 && sentenceOfWord[i] === activeSentence;
+                return (
+                  <span
+                    key={i}
+                    ref={(el) => { wordRefs.current[i] = el; }}
+                    onClick={() => seekToWord(i)}
+                    className={cn(
+                      "cursor-pointer rounded px-0.5 transition-colors",
+                      isActive && "bg-primary/30 text-foreground",
+                      !isActive && inActiveSentence && "bg-primary/5 text-foreground",
+                      !isActive && !inActiveSentence && isPast && "text-muted-foreground/70",
+                      !isActive && !inActiveSentence && !isPast && "text-foreground/80 hover:bg-muted/40"
+                    )}
+                  >
+                    {alignment[i].word}{" "}
+                  </span>
+                );
+              })}
+            </p>
           ))}
         </div>
       );
@@ -233,7 +286,7 @@ export function EpisodePlayer({
       </div>
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [alignment, activeWordIdx, scriptText]);
+  }, [alignment, activeWordIdx, activeSentence, paragraphBreaks, sentenceOfWord, scriptText]);
 
   return (
     <div className="space-y-6">
