@@ -6,6 +6,8 @@ import { Badge } from "@/components/ui/badge";
 import { ChevronLeft, ChevronRight, ArrowLeft } from "lucide-react";
 import { EpisodePlayer } from "./player";
 
+export const dynamic = "force-dynamic";
+
 export default async function EpisodePage({
   params,
 }: {

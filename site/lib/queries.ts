@@ -4,7 +4,22 @@ import { eq, and, asc, desc, sql } from "drizzle-orm";
 
 const USER_ID = process.env.NEXT_PUBLIC_USER_ID ?? "pedro";
 
+/**
+ * Executa uma query e, se o banco não estiver disponível (ex.: DATABASE_URL
+ * ausente, Neon fora do ar, ou tabelas ainda não criadas), devolve um fallback
+ * em vez de derrubar a página. Mantém o site no ar mesmo sem banco.
+ */
+async function safeQuery<T>(fn: () => Promise<T>, fallback: T): Promise<T> {
+  try {
+    return await fn();
+  } catch (err) {
+    console.error("[queries] DB indisponível, usando fallback:", err);
+    return fallback;
+  }
+}
+
 export async function listBooks() {
+  return safeQuery(async () => {
   const rows = await db.select().from(books).orderBy(asc(books.title));
   const counts = await db
     .select({
@@ -31,14 +46,18 @@ export async function listBooks() {
     totalEpisodes: totalByBook.get(b.id) ?? 0,
     completedEpisodes: doneByBook.get(b.id) ?? 0,
   }));
+  }, []);
 }
 
 export async function getBookBySlug(slug: string) {
-  const rows = await db.select().from(books).where(eq(books.slug, slug)).limit(1);
-  return rows[0] ?? null;
+  return safeQuery(async () => {
+    const rows = await db.select().from(books).where(eq(books.slug, slug)).limit(1);
+    return rows[0] ?? null;
+  }, null);
 }
 
 export async function listEpisodesForBook(bookId: string) {
+  return safeQuery(async () => {
   const eps = await db
     .select()
     .from(episodes)
@@ -55,9 +74,11 @@ export async function listEpisodesForBook(bookId: string) {
     ...e,
     progress: progressById.get(e.id) ?? null,
   }));
+  }, []);
 }
 
 export async function getEpisode(bookSlug: string, number: number) {
+  return safeQuery(async () => {
   const book = await getBookBySlug(bookSlug);
   if (!book) return null;
   const rows = await db
@@ -72,18 +93,22 @@ export async function getEpisode(bookSlug: string, number: number) {
     .where(and(eq(progress.userId, USER_ID), eq(progress.episodeId, rows[0].id)))
     .limit(1);
   return { book, episode: rows[0], progress: prog[0] ?? null };
+  }, null);
 }
 
 export async function getReadingPosition(bookId: string) {
-  const rows = await db
-    .select()
-    .from(readState)
-    .where(and(eq(readState.userId, USER_ID), eq(readState.bookId, bookId)))
-    .limit(1);
-  return rows[0] ?? null;
+  return safeQuery(async () => {
+    const rows = await db
+      .select()
+      .from(readState)
+      .where(and(eq(readState.userId, USER_ID), eq(readState.bookId, bookId)))
+      .limit(1);
+    return rows[0] ?? null;
+  }, null);
 }
 
 export async function listAllProgress() {
+  return safeQuery(async () => {
   const rows = await db
     .select({
       episodeId: episodes.id,
@@ -105,9 +130,11 @@ export async function listAllProgress() {
     .where(eq(progress.userId, USER_ID))
     .orderBy(desc(progress.lastPlayedAt));
   return rows;
+  }, []);
 }
 
 export async function getContinueListening(limit = 6) {
+  return safeQuery(async () => {
   const rows = await db
     .select({
       episodeId: episodes.id,
@@ -130,20 +157,23 @@ export async function getContinueListening(limit = 6) {
     .orderBy(desc(progress.lastPlayedAt))
     .limit(limit);
   return rows;
+  }, []);
 }
 
 export async function getAdjacentEpisodes(bookId: string, number: number) {
-  const prev = await db
-    .select({ number: episodes.number })
-    .from(episodes)
-    .where(and(eq(episodes.bookId, bookId), sql`${episodes.number} < ${number}`))
-    .orderBy(desc(episodes.number))
-    .limit(1);
-  const next = await db
-    .select({ number: episodes.number })
-    .from(episodes)
-    .where(and(eq(episodes.bookId, bookId), sql`${episodes.number} > ${number}`))
-    .orderBy(asc(episodes.number))
-    .limit(1);
-  return { prev: prev[0]?.number ?? null, next: next[0]?.number ?? null };
+  return safeQuery(async () => {
+    const prev = await db
+      .select({ number: episodes.number })
+      .from(episodes)
+      .where(and(eq(episodes.bookId, bookId), sql`${episodes.number} < ${number}`))
+      .orderBy(desc(episodes.number))
+      .limit(1);
+    const next = await db
+      .select({ number: episodes.number })
+      .from(episodes)
+      .where(and(eq(episodes.bookId, bookId), sql`${episodes.number} > ${number}`))
+      .orderBy(asc(episodes.number))
+      .limit(1);
+    return { prev: prev[0]?.number ?? null, next: next[0]?.number ?? null };
+  }, { prev: null as number | null, next: null as number | null });
 }

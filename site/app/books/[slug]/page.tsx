@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Play, CheckCircle2, Clock } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 function fmtDuration(sec?: number | null) {
   if (!sec) return null;
   const m = Math.floor(sec / 60);

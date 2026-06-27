@@ -5,6 +5,8 @@ import { Progress } from "@/components/ui/progress";
 import { Badge } from "@/components/ui/badge";
 import { Play } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 function fmtMin(sec?: number | null) {
   if (!sec) return null;
   const m = Math.floor(sec / 60);
