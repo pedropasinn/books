@@ -5,6 +5,8 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Play, CheckCircle2 } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 function fmtRel(d: Date | null) {
   if (!d) return "";
   const now = Date.now();
