@@ -242,7 +242,80 @@
    "title": "The fall of Necker"
   }
  ],
- "ep05_storming_bastille": [],
+ "ep05_storming_bastille": [
+  {
+   "t": 0,
+   "title": "Crisis in Paris"
+  },
+  {
+   "t": 167,
+   "title": "Necker's dismissal"
+  },
+  {
+   "t": 303,
+   "title": "Call to arms"
+  },
+  {
+   "t": 447,
+   "title": "Parade of heads"
+  },
+  {
+   "t": 559,
+   "title": "Conflict in the city"
+  },
+  {
+   "t": 740,
+   "title": "Destruction of symbols"
+  },
+  {
+   "t": 929,
+   "title": "Formation of a militia"
+  },
+  {
+   "t": 1252,
+   "title": "The search for gunpowder"
+  },
+  {
+   "t": 1317,
+   "title": "The Bastille myth"
+  },
+  {
+   "t": 1726,
+   "title": "Siege negotiations"
+  },
+  {
+   "t": 2087,
+   "title": "Fall of the Bastille"
+  },
+  {
+   "t": 2292,
+   "title": "Seven prisoners found"
+  },
+  {
+   "t": 2405,
+   "title": "Demolition and souvenirs"
+  },
+  {
+   "t": 2583,
+   "title": "Violent reprisals"
+  },
+  {
+   "t": 2830,
+   "title": "King's recognition"
+  },
+  {
+   "t": 3017,
+   "title": "New French flag"
+  },
+  {
+   "t": 3207,
+   "title": "Royal surrender"
+  },
+  {
+   "t": 3432,
+   "title": "Revolutionary violence"
+  }
+ ],
  "ep06_rights_of_man": [
   {
    "t": 0,

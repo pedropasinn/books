@@ -320,7 +320,7 @@ const audio=$('#audio'), scroller=$('#scroller'), linesEl=$('#lines'), empty=$('
       track=$('#track'), tCur=$('#tCur'), tRem=$('#tRem');
 const PLAY='<svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
 const PAUSE='<svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h4v14H7zm6 0h4v14h-4z"/></svg>';
-let segs=[], active=-1, autoFollow=true, current=null, curIdx=-1, activeEl=null;
+let segs=[], active=-1, autoFollow=true, current=null, curIdx=-1, activeEl=null, ytOnly=false;
 let CHAPTERS={}, chaps=[], activeChap=-1, ended=false;
 
 // ---------- configurações ----------
@@ -402,6 +402,7 @@ function ensureYT(startAt,autoplay){
   });
 }
 function setVideo(on){
+  if(ytOnly) on=true;   // sem mp3 local: o áudio vem do vídeo, não dá pra ocultar
   S.video=on?'on':'off'; saveS();
   document.body.classList.toggle('show-video', on);
   $('#videoBtn').classList.toggle('on', on);
@@ -415,6 +416,14 @@ function setVideo(on){
   syncControls();
 }
 $('#videoBtn').onclick=()=>setVideo(!(S.video==='on'));
+// sem audio.mp3 local (ex.: app) -> cai automaticamente para o vídeo do YouTube
+audio.addEventListener('error',()=>{
+  if(ytOnly||Media.mode==='video'||!current||!current.yt)return;
+  if(!(audio.src||'').endsWith('/audio.mp3'))return;
+  ytOnly=true;
+  const t=audio.currentTime||parseFloat(localStorage.getItem(progressKey(current.slug))||'0')||0;
+  setVideo(true); if(t>1)setTimeout(()=>Media.seek(t),400);
+});
 
 // ---------- velocidade ----------
 const RATES=[0.75,1,1.25,1.5,1.75,2]; const rchips=$('#rchips');
@@ -468,10 +477,13 @@ async function loadEpisode(slug,autoplay){
   renderChapters();
   const saved=parseFloat(localStorage.getItem(progressKey(slug))||'0');
   const startAt=(saved>10)?saved:0;
-  // mídia
-  audio.src=`${slug}/audio.mp3`;
-  if(S.video==='on'){ Media.mode='video'; ensureYT(startAt, !!autoplay); }
-  else { Media.mode='audio'; if(saved>10)audio.addEventListener('loadedmetadata',()=>{ if(saved<audio.duration-8)audio.currentTime=saved; },{once:true}); if(autoplay)audio.play(); }
+  // mídia: YouTube quando o vídeo está ligado OU quando não há mp3 local (ex.: app)
+  if(ytOnly||S.video==='on'){ Media.mode='video'; ensureYT(startAt, !!autoplay); }
+  else {
+    Media.mode='audio'; audio.src=`${slug}/audio.mp3`;
+    if(saved>10)audio.addEventListener('loadedmetadata',()=>{ if(saved<audio.duration-8)audio.currentTime=saved; },{once:true});
+    if(autoplay)audio.play();
+  }
   try{
     const r=await fetch(`${slug}/segments.json`,{cache:'no-store'});
     if(!r.ok) throw 0;

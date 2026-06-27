@@ -111,27 +111,30 @@ if importlib.util.find_spec('omnivoice') is None:
 else:
     print('✓ OmniVoice já presente')
 
-# 4) Reconcilia numpy (faixa OBRIGATÓRIA >=2.1,<2.2 — mesmo do notebook de produção)
-%pip install -q --upgrade --force-reinstall --no-deps 'numpy>=2.1,<2.2'
+# 4) Reconcilia numpy — desinstala completamente e fixa versão consistente
+!pip uninstall -y numpy 2>&1 | tail -2
+%pip install -q --no-cache-dir 'numpy==2.1.3'
 %pip install -q soundfile pydub
 
-# 5) Sanity check
+# 5) Sanity check em subprocess (kernel atual tem numpy antigo em sys.modules)
 import subprocess, sys
 chk = subprocess.run(
-    [sys.executable, '-c', 'import numpy; import soundfile; import torch; import torchaudio'],
+    [sys.executable, '-c', 'import numpy as np; from numpy._core import umath; assert hasattr(umath, \"_center\"); print(np.__version__)'],
     capture_output=True, text=True,
 )
 if chk.returncode != 0:
-    print('❌ stack inconsistente:')
-    print(chk.stderr[-800:])
-    print('\\n⚠ Faça Runtime → Restart session e rode esta célula de novo.')
+    print('❌ numpy ainda inconsistente:', chk.stderr[-400:])
 else:
-    print('\\n✓ numpy / soundfile / torch / torchaudio OK')
+    print(f'✓ numpy em disco: {chk.stdout.strip()}')
 
-import numpy
-print(f'   numpy carregado: {numpy.__version__}  (esperado: 2.1.x)')
-print(f'   se for 2.0.x ou 2.2.x → Runtime → Restart session e rode esta célula DE NOVO.')
+# 6) RESTART OBRIGATÓRIO — sys.modules já tem numpy 2.0 cacheado
+print('\\n⚠ Reiniciando kernel em 3s. Depois RODE A PARTIR DA PRÓXIMA CÉLULA (pula esta).')
+import time; time.sleep(3)
+import os
+os.kill(os.getpid(), 9)
 """))
+
+cells.append(md("""> **Atenção:** após o kernel reiniciar (deve acontecer sozinho), **NÃO** rode esta célula de install de novo. Vá direto pra próxima ⬇"""))
 
 # 3. Drive
 cells.append(md("## 3. Montar Google Drive (pra pegar a voz de referência)"))
