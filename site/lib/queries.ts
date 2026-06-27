@@ -5,8 +5,8 @@ import { eq, and, asc, desc, sql } from "drizzle-orm";
 const USER_ID = process.env.NEXT_PUBLIC_USER_ID ?? "pedro";
 
 /**
- * Executa uma query e, se o banco não estiver disponível (ex.: deploy sem
- * LIBSQL_URL configurado, ou tabelas ainda não criadas), devolve um fallback
+ * Executa uma query e, se o banco não estiver disponível (ex.: DATABASE_URL
+ * ausente, Neon fora do ar, ou tabelas ainda não criadas), devolve um fallback
  * em vez de derrubar a página. Mantém o site no ar mesmo sem banco.
  */
 async function safeQuery<T>(fn: () => Promise<T>, fallback: T): Promise<T> {

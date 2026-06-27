@@ -1,7 +1,7 @@
-import { sqliteTable, text, integer, primaryKey } from "drizzle-orm/sqlite-core";
+import { pgTable, text, integer, boolean, timestamp, primaryKey } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 
-export const books = sqliteTable("books", {
+export const books = pgTable("books", {
   id: text("id").primaryKey(),
   slug: text("slug").notNull().unique(),
   title: text("title").notNull(),
@@ -10,10 +10,10 @@ export const books = sqliteTable("books", {
   epubUrl: text("epub_url"),
   summary: text("summary"),
   language: text("language").default("pt-BR"),
-  createdAt: integer("created_at", { mode: "timestamp" }).$defaultFn(() => new Date()),
+  createdAt: timestamp("created_at", { mode: "date" }).$defaultFn(() => new Date()),
 });
 
-export const episodes = sqliteTable("episodes", {
+export const episodes = pgTable("episodes", {
   id: text("id").primaryKey(),
   bookId: text("book_id").notNull().references(() => books.id, { onDelete: "cascade" }),
   number: integer("number").notNull(),
@@ -27,25 +27,25 @@ export const episodes = sqliteTable("episodes", {
     .default("draft"),
 });
 
-export const progress = sqliteTable(
+export const progress = pgTable(
   "progress",
   {
     userId: text("user_id").notNull(),
     episodeId: text("episode_id").notNull().references(() => episodes.id, { onDelete: "cascade" }),
     positionSec: integer("position_sec").notNull().default(0),
-    completed: integer("completed", { mode: "boolean" }).notNull().default(false),
-    lastPlayedAt: integer("last_played_at", { mode: "timestamp" }).$defaultFn(() => new Date()),
+    completed: boolean("completed").notNull().default(false),
+    lastPlayedAt: timestamp("last_played_at", { mode: "date" }).$defaultFn(() => new Date()),
   },
   (t) => ({ pk: primaryKey({ columns: [t.userId, t.episodeId] }) })
 );
 
-export const readState = sqliteTable(
+export const readState = pgTable(
   "read_state",
   {
     userId: text("user_id").notNull(),
     bookId: text("book_id").notNull().references(() => books.id, { onDelete: "cascade" }),
     cfi: text("cfi"),
-    lastReadAt: integer("last_read_at", { mode: "timestamp" }).$defaultFn(() => new Date()),
+    lastReadAt: timestamp("last_read_at", { mode: "date" }).$defaultFn(() => new Date()),
   },
   (t) => ({ pk: primaryKey({ columns: [t.userId, t.bookId] }) })
 );

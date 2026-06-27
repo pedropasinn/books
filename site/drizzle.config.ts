@@ -3,9 +3,12 @@ import type { Config } from "drizzle-kit";
 export default {
   schema: "./lib/db/schema.ts",
   out: "./drizzle",
-  dialect: "turso",
+  dialect: "postgresql",
   dbCredentials: {
-    url: process.env.LIBSQL_URL ?? "file:./local.db",
-    authToken: process.env.LIBSQL_AUTH_TOKEN,
+    // Conexão direta (unpooled) para DDL/migrations.
+    url:
+      process.env.DATABASE_URL_UNPOOLED ??
+      process.env.POSTGRES_URL_NON_POOLING ??
+      process.env.DATABASE_URL!,
   },
 } satisfies Config;
