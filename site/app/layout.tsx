@@ -36,6 +36,7 @@ export default function RootLayout({
             </Link>
             <nav className="flex items-center gap-4 text-sm text-muted-foreground">
               <Link href="/" className="hover:text-foreground">Biblioteca</Link>
+              <Link href="/read" className="hover:text-foreground">Leitura</Link>
               <Link href="/me" className="hover:text-foreground">Progresso</Link>
             </nav>
           </div>
