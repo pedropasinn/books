@@ -10,6 +10,7 @@
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
     "ingest": "tsx scripts/ingest.ts",
+    "ingest-reading": "tsx scripts/ingest-reading.ts",
     "new-book": "tsx scripts/new-book.ts"
   },
   "dependencies": {

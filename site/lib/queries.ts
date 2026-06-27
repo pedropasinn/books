@@ -1,5 +1,5 @@
 import "server-only";
-import { db, books, episodes, progress, readState } from "@/lib/db";
+import { db, books, episodes, progress, readState, readingChapters } from "@/lib/db";
 import { eq, and, asc, desc, sql } from "drizzle-orm";
 
 const USER_ID = process.env.NEXT_PUBLIC_USER_ID ?? "pedro";
@@ -176,4 +176,91 @@ export async function getAdjacentEpisodes(bookId: string, number: number) {
       .limit(1);
     return { prev: prev[0]?.number ?? null, next: next[0]?.number ?? null };
   }, { prev: null as number | null, next: null as number | null });
+}
+
+// ── Leitura (texto do livro) ───────────────────────────────────────────────
+
+/** Livro + contagens de cada modo (podcast / leitura) + posição de leitura. Alimenta a central. */
+export async function getBookOverview(slug: string) {
+  return safeQuery(async () => {
+    const rows = await db.select().from(books).where(eq(books.slug, slug)).limit(1);
+    const book = rows[0];
+    if (!book) return null;
+    const [ep] = await db
+      .select({ n: sql<number>`count(*)` })
+      .from(episodes)
+      .where(eq(episodes.bookId, book.id));
+    const [ch] = await db
+      .select({ n: sql<number>`count(*)` })
+      .from(readingChapters)
+      .where(eq(readingChapters.bookId, book.id));
+    const rs = await db
+      .select()
+      .from(readState)
+      .where(and(eq(readState.userId, USER_ID), eq(readState.bookId, book.id)))
+      .limit(1);
+    return {
+      book,
+      episodeCount: Number(ep?.n ?? 0),
+      chapterCount: Number(ch?.n ?? 0),
+      readState: rs[0] ?? null,
+    };
+  }, null);
+}
+
+/** Índice dos capítulos de leitura (sem a coluna `text`). */
+export async function listReadingChapters(bookId: string) {
+  return safeQuery(
+    async () =>
+      db
+        .select({
+          id: readingChapters.id,
+          number: readingChapters.number,
+          slug: readingChapters.slug,
+          title: readingChapters.title,
+          wordCount: readingChapters.wordCount,
+        })
+        .from(readingChapters)
+        .where(eq(readingChapters.bookId, bookId))
+        .orderBy(asc(readingChapters.number)),
+    [] as { id: string; number: number; slug: string; title: string; wordCount: number }[]
+  );
+}
+
+/** Um capítulo de leitura + adjacentes + posição salva. */
+export async function getReadingChapter(slug: string, number: number) {
+  return safeQuery(async () => {
+    const book = await getBookBySlug(slug);
+    if (!book) return null;
+    const rows = await db
+      .select()
+      .from(readingChapters)
+      .where(and(eq(readingChapters.bookId, book.id), eq(readingChapters.number, number)))
+      .limit(1);
+    if (!rows.length) return null;
+    const prev = await db
+      .select({ number: readingChapters.number })
+      .from(readingChapters)
+      .where(and(eq(readingChapters.bookId, book.id), sql`${readingChapters.number} < ${number}`))
+      .orderBy(desc(readingChapters.number))
+      .limit(1);
+    const next = await db
+      .select({ number: readingChapters.number })
+      .from(readingChapters)
+      .where(and(eq(readingChapters.bookId, book.id), sql`${readingChapters.number} > ${number}`))
+      .orderBy(asc(readingChapters.number))
+      .limit(1);
+    const rs = await db
+      .select()
+      .from(readState)
+      .where(and(eq(readState.userId, USER_ID), eq(readState.bookId, book.id)))
+      .limit(1);
+    return {
+      book,
+      chapter: rows[0],
+      prev: prev[0]?.number ?? null,
+      next: next[0]?.number ?? null,
+      readState: rs[0] ?? null,
+    };
+  }, null);
 }

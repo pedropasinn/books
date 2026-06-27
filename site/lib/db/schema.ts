@@ -1,4 +1,4 @@
-import { pgTable, text, integer, boolean, timestamp, primaryKey } from "drizzle-orm/pg-core";
+import { pgTable, text, integer, boolean, timestamp, primaryKey, uniqueIndex } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
 
 export const books = pgTable("books", {
@@ -27,6 +27,26 @@ export const episodes = pgTable("episodes", {
     .default("draft"),
 });
 
+// Texto integral do livro, em capítulos de leitura (distinto de `episodes`, que é
+// o roteiro narrado do podcast-resumo). Alimenta o leitor e o modo RSVP.
+export const readingChapters = pgTable(
+  "reading_chapters",
+  {
+    id: text("id").primaryKey(),
+    bookId: text("book_id").notNull().references(() => books.id, { onDelete: "cascade" }),
+    number: integer("number").notNull(),
+    slug: text("slug").notNull(),
+    title: text("title").notNull(),
+    text: text("text").notNull(),
+    wordCount: integer("word_count").notNull().default(0),
+    charCount: integer("char_count").notNull().default(0),
+    // Costuras p/ ingestão futura de graphs/filosofia/HPE (não usadas nesta fase).
+    contentKind: text("content_kind").notNull().default("book"),
+    source: text("source"),
+  },
+  (t) => ({ uniq: uniqueIndex("reading_chapters_book_number").on(t.bookId, t.number) })
+);
+
 export const progress = pgTable(
   "progress",
   {
@@ -39,11 +59,16 @@ export const progress = pgTable(
   (t) => ({ pk: primaryKey({ columns: [t.userId, t.episodeId] }) })
 );
 
+// Posição de leitura por livro: capítulo + palavra. `cfi` é legado do EPUB
+// removido — mantido (órfão, nullable) para a migração ser aditiva; pode ser
+// dropado depois com confirmação.
 export const readState = pgTable(
   "read_state",
   {
     userId: text("user_id").notNull(),
     bookId: text("book_id").notNull().references(() => books.id, { onDelete: "cascade" }),
+    chapterNumber: integer("chapter_number").notNull().default(1),
+    wordIndex: integer("word_index").notNull().default(0),
     cfi: text("cfi"),
     lastReadAt: timestamp("last_read_at", { mode: "date" }).$defaultFn(() => new Date()),
   },
@@ -52,8 +77,13 @@ export const readState = pgTable(
 
 export const booksRelations = relations(books, ({ many }) => ({
   episodes: many(episodes),
+  readingChapters: many(readingChapters),
 }));
 
 export const episodesRelations = relations(episodes, ({ one }) => ({
   book: one(books, { fields: [episodes.bookId], references: [books.id] }),
+}));
+
+export const readingChaptersRelations = relations(readingChapters, ({ one }) => ({
+  book: one(books, { fields: [readingChapters.bookId], references: [books.id] }),
 }));

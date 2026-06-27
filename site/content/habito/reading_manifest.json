@@ -1,0 +1,7 @@
+{
+  "pdf": "book.pdf",
+  "source": "pdf",
+  "mode": "pages",
+  "pagesPerChapter": 28,
+  "startPage": 3
+}

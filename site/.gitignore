@@ -39,6 +39,10 @@ local.db-journal
 *.db-shm
 *.db-wal
 
+# conteúdo de leitura: PDF-fonte e texto extraído (o canônico vai pro banco Neon)
+content/*/book.pdf
+content/*/reading/
+
 # vercel
 .vercel
 
