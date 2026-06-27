@@ -158,17 +158,24 @@ export default async function HomePage() {
                           {book.authors}
                         </p>
                       </div>
-                      <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                        <Badge variant="secondary" className="font-normal">
-                          {book.totalEpisodes} ep
-                        </Badge>
+                      <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
+                        {book.totalEpisodes > 0 && (
+                          <Badge variant="secondary" className="font-normal">
+                            {book.totalEpisodes} ep
+                          </Badge>
+                        )}
+                        {book.totalChapters > 0 && (
+                          <Badge variant="secondary" className="font-normal">
+                            {book.totalChapters} cap
+                          </Badge>
+                        )}
                         {book.completedEpisodes > 0 && (
                           <Badge variant="outline" className="font-normal">
                             {book.completedEpisodes} concluídos
                           </Badge>
                         )}
                       </div>
-                      <Progress value={pct} className="h-1" />
+                      {book.totalEpisodes > 0 && <Progress value={pct} className="h-1" />}
                     </CardContent>
                   </Card>
                 </Link>

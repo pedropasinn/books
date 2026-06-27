@@ -11,6 +11,7 @@
     "db:studio": "drizzle-kit studio",
     "ingest": "tsx scripts/ingest.ts",
     "ingest-reading": "tsx scripts/ingest-reading.ts",
+    "ingest-structured": "tsx scripts/ingest-structured.ts",
     "new-book": "tsx scripts/new-book.ts"
   },
   "dependencies": {

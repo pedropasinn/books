@@ -41,10 +41,17 @@ export async function listBooks() {
     .groupBy(episodes.bookId);
   const doneByBook = new Map(doneRows.map((r) => [r.bookId, Number(r.done)]));
 
+  const chapterCounts = await db
+    .select({ bookId: readingChapters.bookId, total: sql<number>`count(*)`.as("total") })
+    .from(readingChapters)
+    .groupBy(readingChapters.bookId);
+  const chaptersByBook = new Map(chapterCounts.map((c) => [c.bookId, Number(c.total)]));
+
   return rows.map((b) => ({
     ...b,
     totalEpisodes: totalByBook.get(b.id) ?? 0,
     completedEpisodes: doneByBook.get(b.id) ?? 0,
+    totalChapters: chaptersByBook.get(b.id) ?? 0,
   }));
   }, []);
 }
