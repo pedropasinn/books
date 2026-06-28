@@ -1,6 +1,8 @@
 import "server-only";
-import { db, books, episodes, progress, readState, readingChapters } from "@/lib/db";
+import { db, books, episodes, progress, readState, readingChapters, bookHighlights } from "@/lib/db";
 import { eq, and, asc, desc, sql } from "drizzle-orm";
+
+export type Highlight = typeof bookHighlights.$inferSelect;
 
 const USER_ID = process.env.NEXT_PUBLIC_USER_ID ?? "pedro";
 
@@ -232,6 +234,19 @@ export async function listReadingChapters(bookId: string) {
         .orderBy(asc(readingChapters.number)),
     [] as { id: string; number: number; slug: string; title: string; wordCount: number }[]
   );
+}
+
+/** Trechos/notas de um livro (ou de um capítulo). */
+export async function listHighlights(bookId: string, chapterNumber?: number) {
+  return safeQuery(async () => {
+    const conds = [eq(bookHighlights.userId, USER_ID), eq(bookHighlights.bookId, bookId)];
+    if (chapterNumber != null) conds.push(eq(bookHighlights.chapterNumber, chapterNumber));
+    return db
+      .select()
+      .from(bookHighlights)
+      .where(and(...conds))
+      .orderBy(asc(bookHighlights.chapterNumber), asc(bookHighlights.startWordIndex));
+  }, [] as Highlight[]);
 }
 
 /** Um capítulo de leitura + adjacentes + posição salva. */

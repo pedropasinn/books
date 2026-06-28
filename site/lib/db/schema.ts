@@ -75,6 +75,20 @@ export const readState = pgTable(
   (t) => ({ pk: primaryKey({ columns: [t.userId, t.bookId] }) })
 );
 
+// Trechos salvos + notas (por capítulo de leitura). Nota = highlight com `note`.
+export const bookHighlights = pgTable("book_highlights", {
+  id: text("id").primaryKey(),
+  userId: text("user_id").notNull(),
+  bookId: text("book_id").notNull().references(() => books.id, { onDelete: "cascade" }),
+  chapterNumber: integer("chapter_number").notNull(),
+  startWordIndex: integer("start_word_index").notNull(),
+  endWordIndex: integer("end_word_index").notNull(),
+  snippet: text("snippet").notNull(),
+  color: text("color").notNull().default("brand"),
+  note: text("note"),
+  createdAt: timestamp("created_at", { mode: "date" }).$defaultFn(() => new Date()),
+});
+
 export const booksRelations = relations(books, ({ many }) => ({
   episodes: many(episodes),
   readingChapters: many(readingChapters),
