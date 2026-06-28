@@ -21,12 +21,14 @@ function ModeCard({ mode }: { mode: Mode }) {
   const inner = (
     <Card
       className={cn(
-        "h-full transition-colors",
-        enabled ? "hover:border-foreground/40" : "opacity-50"
+        "h-full transition-all duration-200",
+        enabled
+          ? "hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lg hover:shadow-black/20"
+          : "opacity-45"
       )}
     >
       <CardContent className="flex h-full flex-col gap-3 p-5">
-        <Icon className="size-6 text-muted-foreground" />
+        <Icon className={cn("size-6", enabled ? "text-brand" : "text-muted-foreground")} />
         <div className="mt-auto">
           <h3 className="font-semibold tracking-tight">{title}</h3>
           <p className="mt-0.5 text-sm text-muted-foreground">

@@ -262,10 +262,10 @@ export function EpisodePlayer({
                     onClick={() => seekToWord(i)}
                     className={cn(
                       "cursor-pointer rounded px-0.5 transition-colors",
-                      isActive && "bg-primary/30 text-foreground",
-                      !isActive && inActiveSentence && "bg-primary/5 text-foreground",
+                      isActive && "bg-brand/25 font-medium text-foreground",
+                      !isActive && inActiveSentence && "bg-brand/10 text-foreground",
                       !isActive && !inActiveSentence && isPast && "text-muted-foreground/70",
-                      !isActive && !inActiveSentence && !isPast && "text-foreground/80 hover:bg-muted/40"
+                      !isActive && !inActiveSentence && !isPast && "text-foreground/80 hover:bg-muted/60 hover:text-brand"
                     )}
                   >
                     {alignment[i].word}{" "}
@@ -394,7 +394,7 @@ export function EpisodePlayer({
         </Button>
       </div>
 
-      <article className="prose prose-invert max-w-none">{renderedScript}</article>
+      <article className="prose dark:prose-invert max-w-none">{renderedScript}</article>
 
       <RsvpReader
         open={rsvpOpen}

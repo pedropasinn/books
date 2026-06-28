@@ -72,7 +72,7 @@ export function BookReader({
         </div>
       </header>
 
-      <article className="prose prose-invert max-w-prose text-[1.05rem] leading-8">
+      <article className="prose dark:prose-invert reading-prose max-w-prose text-[1.05rem]">
         {paragraphs.map((p, i) => (
           <p key={i}>{p}</p>
         ))}

@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
-import { Roboto, Roboto_Mono } from "next/font/google";
+import { Inter, Roboto_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
 
-const roboto = Roboto({
-  variable: "--font-roboto",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
@@ -29,19 +29,19 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${roboto.variable} ${robotoMono.variable} h-full antialiased dark`}
+      className={`${inter.variable} ${robotoMono.variable} h-full antialiased dark theme-dark`}
       suppressHydrationWarning
     >
       <body className="min-h-full bg-background text-foreground">
-        <header className="sticky top-0 z-40 border-b border-border/40 bg-background/80 backdrop-blur">
+        <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
           <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
             <Link href="/" className="text-sm font-semibold tracking-tight">
-              Audiobook Lab
+              Estudos
             </Link>
             <nav className="flex items-center gap-4 text-sm text-muted-foreground">
-              <Link href="/" className="hover:text-foreground">Biblioteca</Link>
-              <Link href="/read" className="hover:text-foreground">Leitura</Link>
-              <Link href="/me" className="hover:text-foreground">Progresso</Link>
+              <Link href="/" className="transition-colors hover:text-foreground">Biblioteca</Link>
+              <Link href="/read" className="transition-colors hover:text-foreground">Leitura</Link>
+              <Link href="/me" className="transition-colors hover:text-foreground">Progresso</Link>
             </nav>
           </div>
         </header>
