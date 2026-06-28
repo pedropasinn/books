@@ -72,7 +72,13 @@ export function BookReader({
         </div>
       </header>
 
-      <article className="prose dark:prose-invert reading-prose max-w-prose text-[1.05rem]">
+      <article
+        className="prose dark:prose-invert reading-prose mx-auto"
+        style={{
+          maxWidth: "var(--reading-width, 680px)",
+          fontSize: "calc(1.0625rem * var(--reading-scale, 1))",
+        }}
+      >
         {paragraphs.map((p, i) => (
           <p key={i}>{p}</p>
         ))}

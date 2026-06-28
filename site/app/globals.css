@@ -147,4 +147,8 @@
     line-height: 1.7;
     letter-spacing: -0.006em;
   }
+  /* Layout editável (controlado pelas preferências no <html>) */
+  .hide-continue [data-block="continue"] {
+    display: none;
+  }
 }

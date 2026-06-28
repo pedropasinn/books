@@ -116,9 +116,11 @@ export default async function BookPage({
         <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
           Como consumir
         </h2>
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="flex flex-col gap-4 sm:flex-row">
           {modes.map((m) => (
-            <ModeCard key={m.key} mode={m} />
+            <div key={m.key} className="flex-1" style={{ order: `var(--order-${m.key}, 0)` }}>
+              <ModeCard mode={m} />
+            </div>
           ))}
         </div>
       </section>

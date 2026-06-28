@@ -3,6 +3,8 @@ import { Inter, Roboto_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import { PreferencesProvider, PREFS_BOOT_SCRIPT } from "@/lib/preferences";
+import { SettingsButton } from "@/components/settings-panel";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -33,20 +35,26 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full bg-background text-foreground">
-        <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
-          <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
-            <Link href="/" className="text-sm font-semibold tracking-tight">
-              Estudos
-            </Link>
-            <nav className="flex items-center gap-4 text-sm text-muted-foreground">
-              <Link href="/" className="transition-colors hover:text-foreground">Biblioteca</Link>
-              <Link href="/read" className="transition-colors hover:text-foreground">Leitura</Link>
-              <Link href="/me" className="transition-colors hover:text-foreground">Progresso</Link>
-            </nav>
-          </div>
-        </header>
-        <main className="mx-auto max-w-6xl px-6 py-10">{children}</main>
-        <Toaster />
+        <script dangerouslySetInnerHTML={{ __html: PREFS_BOOT_SCRIPT }} />
+        <PreferencesProvider>
+          <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">
+            <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-6">
+              <Link href="/" className="text-sm font-semibold tracking-tight">
+                Estudos
+              </Link>
+              <div className="flex items-center gap-4">
+                <nav className="flex items-center gap-4 text-sm text-muted-foreground">
+                  <Link href="/" className="transition-colors hover:text-foreground">Biblioteca</Link>
+                  <Link href="/read" className="transition-colors hover:text-foreground">Leitura</Link>
+                  <Link href="/me" className="transition-colors hover:text-foreground">Progresso</Link>
+                </nav>
+                <SettingsButton />
+              </div>
+            </div>
+          </header>
+          <main className="mx-auto max-w-6xl px-6 py-10">{children}</main>
+          <Toaster />
+        </PreferencesProvider>
       </body>
     </html>
   );

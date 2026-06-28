@@ -53,7 +53,7 @@ export default async function HomePage() {
       </section>
 
       {continueRows.length > 0 && (
-        <section className="space-y-3">
+        <section className="space-y-3" data-block="continue">
           <div className="flex items-baseline justify-between">
             <h2 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
               Continuar
