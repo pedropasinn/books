@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getBookOverview } from "@/lib/queries";
 import { Card, CardContent } from "@/components/ui/card";
-import { Headphones, BookOpen, Zap } from "lucide-react";
+import { Headphones, BookOpen, Zap, Presentation } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const dynamic = "force-dynamic";
@@ -57,7 +57,7 @@ export default async function BookPage({
   const { slug } = await params;
   const overview = await getBookOverview(slug);
   if (!overview) notFound();
-  const { book, episodeCount, chapterCount, readState } = overview;
+  const { book, episodeCount, chapterCount, slideCount, readState } = overview;
   const resume = readState?.chapterNumber ?? 1;
 
   const modes: Mode[] = [
@@ -84,6 +84,14 @@ export default async function BookPage({
       desc: "Leitura acelerada (RSVP)",
       href: `/books/${slug}/read/${resume}?rsvp=1`,
       enabled: chapterCount > 0,
+    },
+    {
+      key: "slides",
+      icon: Presentation,
+      title: "Apresentação",
+      desc: "Slides + quiz",
+      href: `/books/${slug}/slides/1`,
+      enabled: slideCount > 0,
     },
   ];
 
@@ -118,7 +126,11 @@ export default async function BookPage({
         </h2>
         <div className="flex flex-col gap-4 sm:flex-row">
           {modes.map((m) => (
-            <div key={m.key} className="flex-1" style={{ order: `var(--order-${m.key}, 0)` }}>
+            <div
+              key={m.key}
+              className="flex-1"
+              style={{ order: m.key === "slides" ? 99 : `var(--order-${m.key}, 0)` }}
+            >
               <ModeCard mode={m} />
             </div>
           ))}

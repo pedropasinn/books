@@ -1,5 +1,14 @@
-import { pgTable, text, integer, boolean, timestamp, primaryKey, uniqueIndex } from "drizzle-orm/pg-core";
+import { pgTable, text, integer, boolean, timestamp, primaryKey, uniqueIndex, jsonb } from "drizzle-orm/pg-core";
 import { relations } from "drizzle-orm";
+
+/** Estrutura de apresentação (slides) de um capítulo, vinda do JSON-fonte Reale/HPE. */
+export type Presentation = {
+  hero?: Record<string, unknown>;
+  secoes?: Record<string, unknown>[];
+  diagrama?: Record<string, unknown>;
+  quiz?: Record<string, unknown>;
+  pullquote?: unknown;
+};
 
 export const books = pgTable("books", {
   id: text("id").primaryKey(),
@@ -40,9 +49,10 @@ export const readingChapters = pgTable(
     text: text("text").notNull(),
     wordCount: integer("word_count").notNull().default(0),
     charCount: integer("char_count").notNull().default(0),
-    // Costuras p/ ingestão futura de graphs/filosofia/HPE (não usadas nesta fase).
     contentKind: text("content_kind").notNull().default("book"),
     source: text("source"),
+    // Estrutura de slides (apresentação) — preenchida para conteúdo estruturado.
+    presentation: jsonb("presentation").$type<Presentation>(),
   },
   (t) => ({ uniq: uniqueIndex("reading_chapters_book_number").on(t.bookId, t.number) })
 );

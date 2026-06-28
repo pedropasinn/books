@@ -124,6 +124,13 @@ async function main() {
         charCount: text.length,
         contentKind: "book" as const,
         source,
+        presentation: {
+          hero: cap.hero ?? null,
+          secoes: Array.isArray(cap.secoes) ? cap.secoes : [],
+          diagrama: cap.diagrama ?? null,
+          quiz: cap.quiz ?? null,
+          pullquote: cap.pullquote ?? null,
+        },
       };
     })
     .filter((r): r is NonNullable<typeof r> => r !== null);

@@ -203,6 +203,10 @@ export async function getBookOverview(slug: string) {
       .select({ n: sql<number>`count(*)` })
       .from(readingChapters)
       .where(eq(readingChapters.bookId, book.id));
+    const [sl] = await db
+      .select({ n: sql<number>`count(*)` })
+      .from(readingChapters)
+      .where(and(eq(readingChapters.bookId, book.id), sql`${readingChapters.presentation} is not null`));
     const rs = await db
       .select()
       .from(readState)
@@ -212,7 +216,40 @@ export async function getBookOverview(slug: string) {
       book,
       episodeCount: Number(ep?.n ?? 0),
       chapterCount: Number(ch?.n ?? 0),
+      slideCount: Number(sl?.n ?? 0),
       readState: rs[0] ?? null,
+    };
+  }, null);
+}
+
+/** Estrutura de apresentação (slides) de um capítulo. */
+export async function getPresentation(slug: string, number: number) {
+  return safeQuery(async () => {
+    const book = await getBookBySlug(slug);
+    if (!book) return null;
+    const rows = await db
+      .select({
+        number: readingChapters.number,
+        title: readingChapters.title,
+        presentation: readingChapters.presentation,
+      })
+      .from(readingChapters)
+      .where(and(eq(readingChapters.bookId, book.id), eq(readingChapters.number, number)))
+      .limit(1);
+    if (!rows.length || !rows[0].presentation) return null;
+    const prevNext = await db
+      .select({ number: readingChapters.number })
+      .from(readingChapters)
+      .where(and(eq(readingChapters.bookId, book.id), sql`${readingChapters.presentation} is not null`))
+      .orderBy(asc(readingChapters.number));
+    const nums = prevNext.map((r) => r.number);
+    const pos = nums.indexOf(number);
+    return {
+      book: { slug: book.slug, title: book.title },
+      title: rows[0].title,
+      presentation: rows[0].presentation,
+      prev: pos > 0 ? nums[pos - 1] : null,
+      next: pos >= 0 && pos < nums.length - 1 ? nums[pos + 1] : null,
     };
   }, null);
 }
@@ -255,7 +292,13 @@ export async function getReadingChapter(slug: string, number: number) {
     const book = await getBookBySlug(slug);
     if (!book) return null;
     const rows = await db
-      .select()
+      .select({
+        id: readingChapters.id,
+        number: readingChapters.number,
+        slug: readingChapters.slug,
+        title: readingChapters.title,
+        text: readingChapters.text,
+      })
       .from(readingChapters)
       .where(and(eq(readingChapters.bookId, book.id), eq(readingChapters.number, number)))
       .limit(1);
