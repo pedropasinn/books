@@ -4,7 +4,8 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { Settings, X, ChevronUp, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { usePrefs, ACCENT_SWATCHES, type Theme } from "@/lib/preferences";
+import { usePrefs, type Theme } from "@/lib/preferences";
+import { AccentPicker } from "@/components/accent-picker";
 
 const MODE_LABELS: Record<string, string> = {
   podcast: "Podcast-resumo",
@@ -135,20 +136,7 @@ export function SettingsButton() {
           </Field>
 
           <Field label="Destaque">
-            <div className="flex flex-wrap gap-2.5">
-              {ACCENT_SWATCHES.map((c) => (
-                <button
-                  key={c}
-                  aria-label={c}
-                  onClick={() => setPref("brand", c)}
-                  style={{ background: c }}
-                  className={cn(
-                    "size-7 rounded-full transition-transform hover:scale-110",
-                    prefs.brand === c && "ring-2 ring-foreground ring-offset-2 ring-offset-card"
-                  )}
-                />
-              ))}
-            </div>
+            <AccentPicker />
           </Field>
 
           <Field label="Largura de leitura" hint={`${prefs.readingWidth}px`}>

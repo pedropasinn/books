@@ -10,7 +10,8 @@ import {
 } from "react";
 import { Dialog as DialogPrimitive } from "radix-ui";
 import { Play, Pause, X as XIcon, Maximize2, Minimize2, SlidersHorizontal } from "lucide-react";
-import { usePrefs, ACCENT_SWATCHES } from "@/lib/preferences";
+import { usePrefs } from "@/lib/preferences";
+import { AccentPicker } from "@/components/accent-picker";
 import { cn } from "@/lib/utils";
 
 /**
@@ -459,21 +460,7 @@ export function RsvpReader({
                         <div className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-400">
                           Destaque
                         </div>
-                        <div className="flex flex-wrap gap-2">
-                          {ACCENT_SWATCHES.map((c) => (
-                            <button
-                              key={c}
-                              aria-label={c}
-                              onClick={() => setPref("brand", c)}
-                              style={{ background: c }}
-                              className={cn(
-                                "size-6 rounded-full transition-transform hover:scale-110",
-                                prefs.brand === c &&
-                                  "ring-2 ring-white ring-offset-2 ring-offset-zinc-900"
-                              )}
-                            />
-                          ))}
-                        </div>
+                        <AccentPicker dark />
                       </div>
                     </div>
                   )}

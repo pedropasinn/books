@@ -20,12 +20,17 @@ export type Prefs = {
   // Layout editável
   showContinue: boolean; // bloco "Continuar" na home
   modeOrder: string[]; // ordem dos 3 modos da central
+  // 3 cores de destaque salvas pelo usuário (slots do seletor de cor)
+  accentSlots: string[];
 };
 
 export const ACCENT_SWATCHES = [
-  "#2dd4bf", "#38bdf8", "#818cf8", "#a78bfa",
-  "#fb7185", "#fbbf24", "#34d399", "#94a3b8",
+  "#ef4444", "#2dd4bf", "#38bdf8", "#818cf8",
+  "#a78bfa", "#fb7185", "#fbbf24", "#34d399",
 ];
+
+/** Cor de destaque vermelha clássica (padrão histórico do ponteiro do RSVP). */
+export const ACCENT_RED = "#ef4444";
 
 export const DEFAULTS: Prefs = {
   theme: "dark",
@@ -41,6 +46,7 @@ export const DEFAULTS: Prefs = {
   rsvpFontScale: 1,
   showContinue: true,
   modeOrder: ["podcast", "read", "rsvp"],
+  accentSlots: ["#ef4444", "#2dd4bf", "#38bdf8"],
 };
 
 const KEY = "books_prefs";
