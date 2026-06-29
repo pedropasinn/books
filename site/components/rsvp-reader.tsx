@@ -2,28 +2,19 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Dialog as DialogPrimitive } from "radix-ui";
-import { Button } from "@/components/ui/button";
-import {
-  Play,
-  Pause,
-  RotateCcw,
-  ChevronLeft,
-  ChevronRight,
-  Gauge,
-  XIcon,
-  Maximize2,
-  Minimize2,
-} from "lucide-react";
+import { Play, Pause, X as XIcon, Maximize2, Minimize2 } from "lucide-react";
 import { usePrefs } from "@/lib/preferences";
 import { cn } from "@/lib/utils";
 
 /**
- * Leitura dinâmica estilo Spritz (RSVP). A letra de foco (ORP) fica SEMPRE na
- * mesma posição horizontal (ancorada por posicionamento absoluto + fonte
- * monospace), então palavras longas não desalinham o ponteiro vermelho.
+ * Leitura dinâmica estilo Spritz (RSVP). Abre sempre em modo foco imersivo
+ * (tela cheia escura, só a palavra). A letra-foco (ORP) fica SEMPRE na mesma
+ * posição horizontal — a palavra inteira é deslocada por translateX em fonte
+ * monospace (cada caractere = 1ch), então o ponteiro vermelho nunca "anda".
+ * A troca de palavra é instantânea (sem fade — evita o efeito de piscar).
  */
 
-const WPM_PRESETS = [250, 300, 350, 400, 450, 500, 600];
+const WPM_PRESETS = [250, 300, 350, 400, 500, 600];
 const MIN_WPM = 100;
 const MAX_WPM = 900;
 
@@ -66,9 +57,9 @@ function delayFactor(word: string, punctMult: number): number {
 /** Tamanho da palavra: reduz para palavras muito longas evitando estourar a tela. */
 function wordFontSize(word: string): string {
   const n = word.length;
-  if (n <= 12) return "clamp(2rem, 8vw, 3rem)";
-  if (n <= 18) return "clamp(1.55rem, 6vw, 2.4rem)";
-  return "clamp(1.15rem, 4.6vw, 1.9rem)";
+  if (n <= 12) return "clamp(2.2rem, 9vw, 4.5rem)";
+  if (n <= 18) return "clamp(1.7rem, 7vw, 3.4rem)";
+  return "clamp(1.2rem, 5vw, 2.6rem)";
 }
 
 type Props = {
@@ -99,9 +90,11 @@ export function RsvpReader({
   const [wpm, setWpm] = useState(initialWpm ?? prefs.rsvpWpm);
   const [chrome, setChrome] = useState(true); // controles visíveis
   const [fs, setFs] = useState(false);
+  const [speedOpen, setSpeedOpen] = useState(false);
   const contentRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const hideRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const speedRef = useRef<HTMLDivElement>(null);
 
   const clamp = useCallback((i: number) => Math.max(0, Math.min(total - 1, i)), [total]);
 
@@ -120,17 +113,18 @@ export function RsvpReader({
       setIdx(clamp(startIndex));
       setPlaying(false);
       setChrome(true);
+      setSpeedOpen(false);
     }
   }, [open, startIndex, clamp]);
 
-  // Modo foco: enquanto toca, esconde os controles após inatividade
-  const immersive = playing && prefs.rsvpFocus && !chrome;
+  // Modo foco: enquanto toca, esconde os controles após inatividade; mover o
+  // mouse (ou tocar) reexibe. Quando pausado, controles ficam sempre visíveis.
   useEffect(() => {
     if (!open) return;
     const wake = () => {
       setChrome(true);
       if (hideRef.current) clearTimeout(hideRef.current);
-      if (playing && prefs.rsvpFocus) {
+      if (playing && prefs.rsvpFocus && !speedOpen) {
         hideRef.current = setTimeout(() => setChrome(false), 2200);
       }
     };
@@ -142,7 +136,7 @@ export function RsvpReader({
       window.removeEventListener("touchstart", wake);
       if (hideRef.current) clearTimeout(hideRef.current);
     };
-  }, [open, playing, prefs.rsvpFocus]);
+  }, [open, playing, prefs.rsvpFocus, speedOpen]);
 
   // Loop de reprodução: cada palavra tem sua própria duração
   useEffect(() => {
@@ -177,11 +171,6 @@ export function RsvpReader({
     [clamp]
   );
 
-  const restart = useCallback(() => {
-    setPlaying(false);
-    setIdx(0);
-  }, []);
-
   const toggleFs = useCallback(() => {
     const el = contentRef.current;
     if (!el) return;
@@ -195,7 +184,17 @@ export function RsvpReader({
     return () => document.removeEventListener("fullscreenchange", onFs);
   }, []);
 
-  // Atalhos de teclado
+  // Fecha o popover de velocidade ao clicar fora
+  useEffect(() => {
+    if (!speedOpen) return;
+    const onDown = (e: MouseEvent) => {
+      if (speedRef.current && !speedRef.current.contains(e.target as Node)) setSpeedOpen(false);
+    };
+    document.addEventListener("mousedown", onDown);
+    return () => document.removeEventListener("mousedown", onDown);
+  }, [speedOpen]);
+
+  // Atalhos de teclado (silenciosos)
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
@@ -243,150 +242,170 @@ export function RsvpReader({
   const pivot = word.slice(p, p + 1);
   const after = word.slice(p + 1);
 
-  const pct = total > 1 ? (idx / (total - 1)) * 100 : 0;
   const wordsLeft = total - idx - 1;
   const minutesLeft = wpm > 0 ? wordsLeft / wpm : 0;
+  const restante =
+    minutesLeft >= 1
+      ? `${Math.ceil(minutesLeft)} min`
+      : wordsLeft > 0
+      ? "<1 min"
+      : "fim";
 
   return (
     <DialogPrimitive.Root open={open} onOpenChange={handleOpenChange}>
       <DialogPrimitive.Portal>
-        <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm data-open:animate-in data-open:fade-in-0 data-closed:animate-out data-closed:fade-out-0" />
+        <DialogPrimitive.Overlay className="fixed inset-0 z-50 bg-black/90 data-open:animate-in data-open:fade-in-0 data-closed:animate-out data-closed:fade-out-0" />
         <DialogPrimitive.Content
           ref={contentRef}
           aria-describedby={undefined}
-          className={cn(
-            "fixed z-50 outline-none transition-[background] duration-200",
-            immersive || fs
-              ? "inset-0 flex items-center justify-center bg-black p-0"
-              : "top-1/2 left-1/2 w-[calc(100%-1.5rem)] max-w-xl -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-card p-5 shadow-2xl ring-1 ring-foreground/10 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95"
-          )}
+          className="fixed inset-0 z-50 bg-[#070708] text-zinc-100 outline-none select-none data-open:animate-in data-open:fade-in-0"
         >
-          {/* Cabeçalho — some no modo foco */}
-          <div className={cn("flex items-center justify-between gap-2", immersive && "hidden")}>
-            <DialogPrimitive.Title className="line-clamp-1 text-xs font-medium uppercase tracking-wider text-muted-foreground">
+          {/* Título discreto (canto superior esquerdo) — some no modo foco */}
+          <div
+            className={cn(
+              "absolute left-5 top-5 z-20 transition-opacity duration-300",
+              !chrome && "pointer-events-none opacity-0"
+            )}
+          >
+            <DialogPrimitive.Title className="line-clamp-1 max-w-[60vw] text-xs font-medium uppercase tracking-wider text-zinc-500">
               {title ?? "Leitura dinâmica"}
             </DialogPrimitive.Title>
-            <div className="flex items-center gap-1">
-              <Button variant="ghost" size="icon-sm" onClick={toggleFs} aria-label="Tela cheia">
-                {fs ? <Minimize2 /> : <Maximize2 />}
-              </Button>
-              <DialogPrimitive.Close asChild>
-                <Button variant="ghost" size="icon-sm" aria-label="Fechar">
-                  <XIcon />
-                </Button>
-              </DialogPrimitive.Close>
-            </div>
           </div>
 
-          {/* Janela RSVP — a palavra é deslocada por translateX para ancorar a
-              letra-foco (ORP) exatamente no centro/reticle. Fonte monospace →
-              cada caractere = 1ch, então o deslocamento é exato e estável entre
-              palavras (o ponteiro nunca "anda"). overflow-hidden impede que
-              palavras muito longas escapem da janela. */}
-          <div className={cn("relative w-full select-none font-mono", immersive || fs ? "" : "my-5")}>
-            <div className="mx-auto h-2 w-px bg-red-500/70" />
-            <div
-              className="relative overflow-hidden border-y border-border/40 py-8"
-              style={{ fontSize: wordFontSize(word) }}
+          {/* Fechar + tela cheia (canto superior direito) — some no modo foco */}
+          <div
+            className={cn(
+              "absolute right-4 top-4 z-20 flex items-center gap-1 transition-opacity duration-300",
+              !chrome && "pointer-events-none opacity-0"
+            )}
+          >
+            <button
+              onClick={toggleFs}
+              aria-label="Tela cheia"
+              className="grid size-9 place-items-center rounded-lg text-zinc-400 transition-colors hover:bg-white/10 hover:text-zinc-100"
             >
-              <div className="relative h-[1.25em] w-full">
-                {/* posicionamento estável (não animado) no span externo */}
-                <span
-                  className="absolute top-0 left-1/2 whitespace-pre"
-                  style={{ transform: `translateX(calc(-${p}ch - 0.5ch))` }}
-                >
-                  {/* fade só no miolo: troca de palavra não desloca o pivot */}
-                  <span
-                    key={idx}
-                    className={cn("inline-block", prefs.rsvpFade && "animate-in fade-in-0 duration-75")}
-                  >
-                    <span className="text-foreground">{before}</span>
-                    <span className="text-red-500">{pivot}</span>
-                    <span className="text-foreground">{after}</span>
-                  </span>
-                </span>
-              </div>
-            </div>
-            <div className="mx-auto h-2 w-px bg-red-500/70" />
+              {fs ? <Minimize2 className="size-4" /> : <Maximize2 className="size-4" />}
+            </button>
+            <DialogPrimitive.Close asChild>
+              <button
+                aria-label="Fechar"
+                className="grid size-9 place-items-center rounded-lg text-zinc-400 transition-colors hover:bg-white/10 hover:text-zinc-100"
+              >
+                <XIcon className="size-5" />
+              </button>
+            </DialogPrimitive.Close>
           </div>
 
-          {/* Tudo abaixo some no modo foco */}
-          <div className={cn(immersive && "hidden")}>
-            <input
-              type="range"
-              min={0}
-              max={Math.max(0, total - 1)}
-              value={idx}
-              onChange={(e) => {
-                setPlaying(false);
-                setIdx(clamp(parseInt(e.target.value, 10)));
-              }}
-              className="w-full accent-brand"
-              aria-label="Posição da leitura"
-            />
-            <div className="mt-1 flex justify-between font-mono text-[11px] tabular-nums text-muted-foreground">
-              <span>
-                {Math.min(idx + 1, total)} / {total}
-              </span>
-              <span>{pct.toFixed(0)}%</span>
-              <span>
-                {minutesLeft >= 1
-                  ? `${Math.ceil(minutesLeft)} min restantes`
-                  : wordsLeft > 0
-                  ? "menos de 1 min"
-                  : "fim"}
-              </span>
-            </div>
-
-            <div className="mt-4 flex items-center justify-center gap-2">
-              <Button variant="ghost" size="icon" onClick={restart} aria-label="Reiniciar">
-                <RotateCcw className="size-4" />
-              </Button>
-              <Button variant="ghost" size="icon" onClick={() => step(-1)} aria-label="Palavra anterior">
-                <ChevronLeft className="size-5" />
-              </Button>
-              <Button
-                size="icon"
-                onClick={togglePlay}
-                className="size-12 rounded-full"
-                aria-label={playing ? "Pausar" : "Iniciar"}
+          {/* Palavra centralizada — ORP ancorado no reticle, deslocamento estável */}
+          <div className="flex h-full w-full items-center justify-center px-6 font-mono">
+            <div className="w-full">
+              <div className="mx-auto h-2.5 w-px bg-red-500/70" />
+              <div
+                className="relative overflow-hidden py-10"
+                style={{ fontSize: wordFontSize(word) }}
               >
-                {playing ? <Pause className="size-5" /> : <Play className="size-5" />}
-              </Button>
-              <Button variant="ghost" size="icon" onClick={() => step(1)} aria-label="Próxima palavra">
-                <ChevronRight className="size-5" />
-              </Button>
-              <span className="inline-block size-8" />
-            </div>
-
-            <div className="mt-4 space-y-2">
-              <div className="flex items-center justify-center gap-2">
-                <Gauge className="size-3.5 text-muted-foreground" />
-                <Button variant="outline" size="icon-sm" onClick={() => setSpeed(wpm - 25)} aria-label="Diminuir velocidade">
-                  <span className="text-base leading-none">−</span>
-                </Button>
-                <span className="w-24 text-center font-mono text-sm tabular-nums">{wpm} wpm</span>
-                <Button variant="outline" size="icon-sm" onClick={() => setSpeed(wpm + 25)} aria-label="Aumentar velocidade">
-                  <span className="text-base leading-none">+</span>
-                </Button>
-              </div>
-              <div className="flex flex-wrap justify-center gap-1.5">
-                {WPM_PRESETS.map((preset) => (
-                  <Button
-                    key={preset}
-                    variant={wpm === preset ? "default" : "outline"}
-                    size="xs"
-                    onClick={() => setSpeed(preset)}
+                <div className="relative h-[1.25em] w-full">
+                  <span
+                    className="absolute top-0 left-1/2 whitespace-pre"
+                    style={{ transform: `translateX(calc(-${p}ch - 0.5ch))` }}
                   >
-                    {preset}
-                  </Button>
-                ))}
+                    <span className="text-zinc-100">{before}</span>
+                    <span className="text-red-500">{pivot}</span>
+                    <span className="text-zinc-100">{after}</span>
+                  </span>
+                </div>
+              </div>
+              <div className="mx-auto h-2.5 w-px bg-red-500/70" />
+            </div>
+          </div>
+
+          {/* Barra de controles (rodapé) — play/pausa + progresso + velocidade */}
+          <div
+            className={cn(
+              "absolute inset-x-0 bottom-0 z-20 transition-all duration-300",
+              !chrome && "pointer-events-none translate-y-3 opacity-0"
+            )}
+          >
+            <div className="mx-auto flex max-w-2xl items-center gap-4 px-6 pb-7 pt-4">
+              <button
+                onClick={togglePlay}
+                aria-label={playing ? "Pausar" : "Iniciar"}
+                className="grid size-12 shrink-0 place-items-center rounded-full bg-zinc-100 text-zinc-900 transition-transform hover:scale-105 active:scale-95"
+              >
+                {playing ? <Pause className="size-5" /> : <Play className="size-5 translate-x-px" />}
+              </button>
+
+              <div className="flex flex-1 flex-col gap-1.5">
+                <input
+                  type="range"
+                  min={0}
+                  max={Math.max(0, total - 1)}
+                  value={idx}
+                  onChange={(e) => {
+                    setPlaying(false);
+                    setIdx(clamp(parseInt(e.target.value, 10)));
+                  }}
+                  className="w-full accent-brand"
+                  aria-label="Posição da leitura"
+                />
+                <div className="flex justify-between font-mono text-[11px] tabular-nums text-zinc-500">
+                  <span>
+                    {Math.min(idx + 1, total)} / {total}
+                  </span>
+                  <span>{restante}</span>
+                </div>
+              </div>
+
+              {/* Velocidade — popover suspenso (estilo player TRIH) */}
+              <div ref={speedRef} className="relative shrink-0">
+                <button
+                  onClick={() => setSpeedOpen((s) => !s)}
+                  aria-label="Velocidade de leitura"
+                  className={cn(
+                    "h-9 min-w-[64px] rounded-lg border px-3 font-mono text-sm font-semibold tabular-nums transition-colors",
+                    speedOpen
+                      ? "border-white/25 bg-white/10 text-zinc-100"
+                      : "border-white/15 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+                  )}
+                >
+                  {wpm}
+                </button>
+                {speedOpen && (
+                  <div className="absolute bottom-full right-0 mb-3 w-60 rounded-2xl border border-white/10 bg-zinc-900/95 p-4 shadow-2xl backdrop-blur data-open:animate-in">
+                    <div className="mb-3 text-center">
+                      <span className="text-2xl font-bold text-zinc-100">{wpm}</span>
+                      <span className="ml-1 text-sm text-zinc-400">ppm</span>
+                    </div>
+                    <input
+                      type="range"
+                      min={150}
+                      max={800}
+                      step={10}
+                      value={wpm}
+                      onChange={(e) => setSpeed(Number(e.target.value))}
+                      className="w-full accent-brand"
+                      aria-label="Velocidade (palavras por minuto)"
+                    />
+                    <div className="mt-3 flex flex-wrap justify-center gap-1.5">
+                      {WPM_PRESETS.map((preset) => (
+                        <button
+                          key={preset}
+                          onClick={() => setSpeed(preset)}
+                          className={cn(
+                            "rounded-md px-2.5 py-1 font-mono text-xs font-semibold tabular-nums transition-colors",
+                            wpm === preset
+                              ? "bg-brand text-brand-foreground"
+                              : "border border-white/10 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+                          )}
+                        >
+                          {preset}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
-
-            <p className="mt-4 hidden text-center text-[10px] uppercase tracking-wider text-muted-foreground/70 sm:block">
-              espaço · play/pausa · ← → palavra · ↑ ↓ velocidade · f tela cheia
-            </p>
           </div>
         </DialogPrimitive.Content>
       </DialogPrimitive.Portal>
