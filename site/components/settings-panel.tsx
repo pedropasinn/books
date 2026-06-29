@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import { Settings, X, ChevronUp, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { usePrefs, ACCENT_SWATCHES, type Theme } from "@/lib/preferences";
@@ -64,7 +65,13 @@ function Segmented<T extends string>({
 
 export function SettingsButton() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const { prefs, setPref, reset } = usePrefs();
+
+  // O painel é `position: fixed`; renderizado no body via portal para escapar
+  // do containing block criado pelo `backdrop-blur` do header (senão ancora no
+  // header em vez da viewport e "vaza" pela lateral).
+  useEffect(() => setMounted(true), []);
 
   const moveMode = (i: number, dir: -1 | 1) => {
     const next = [...prefs.modeOrder];
@@ -84,6 +91,9 @@ export function SettingsButton() {
         <Settings className="size-4" />
       </button>
 
+      {mounted &&
+        createPortal(
+          <>
       {/* Overlay */}
       <div
         onClick={() => setOpen(false)}
@@ -237,6 +247,9 @@ export function SettingsButton() {
           </button>
         </div>
       </aside>
+          </>,
+          document.body
+        )}
     </>
   );
 }

@@ -255,10 +255,10 @@ export function RsvpReader({
           ref={contentRef}
           aria-describedby={undefined}
           className={cn(
-            "fixed top-1/2 left-1/2 z-50 -translate-x-1/2 -translate-y-1/2 outline-none transition-[width,background] duration-200 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95",
+            "fixed z-50 outline-none transition-[background] duration-200",
             immersive || fs
-              ? "h-full w-full rounded-none bg-black p-0"
-              : "w-[calc(100%-1.5rem)] max-w-xl rounded-2xl bg-card p-5 shadow-2xl ring-1 ring-foreground/10"
+              ? "inset-0 flex items-center justify-center bg-black p-0"
+              : "top-1/2 left-1/2 w-[calc(100%-1.5rem)] max-w-xl -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-card p-5 shadow-2xl ring-1 ring-foreground/10 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95"
           )}
         >
           {/* Cabeçalho — some no modo foco */}
@@ -278,41 +278,36 @@ export function RsvpReader({
             </div>
           </div>
 
-          {/* Janela RSVP — pivot ancorado num X fixo (alinhado ao reticle) */}
-          <div
-            className={cn(
-              "relative select-none font-mono",
-              immersive || fs ? "flex h-full items-center justify-center" : "my-5"
-            )}
-          >
-            <div className="w-full">
-              <div className="mx-auto h-2 w-px bg-red-500/70" />
-              <div className="relative border-y border-border/40 py-8" style={{ fontSize: wordFontSize(word) }}>
-                <div className="relative mx-auto h-[1.25em]">
+          {/* Janela RSVP — a palavra é deslocada por translateX para ancorar a
+              letra-foco (ORP) exatamente no centro/reticle. Fonte monospace →
+              cada caractere = 1ch, então o deslocamento é exato e estável entre
+              palavras (o ponteiro nunca "anda"). overflow-hidden impede que
+              palavras muito longas escapem da janela. */}
+          <div className={cn("relative w-full select-none font-mono", immersive || fs ? "" : "my-5")}>
+            <div className="mx-auto h-2 w-px bg-red-500/70" />
+            <div
+              className="relative overflow-hidden border-y border-border/40 py-8"
+              style={{ fontSize: wordFontSize(word) }}
+            >
+              <div className="relative h-[1.25em] w-full">
+                {/* posicionamento estável (não animado) no span externo */}
+                <span
+                  className="absolute top-0 left-1/2 whitespace-pre"
+                  style={{ transform: `translateX(calc(-${p}ch - 0.5ch))` }}
+                >
+                  {/* fade só no miolo: troca de palavra não desloca o pivot */}
                   <span
                     key={idx}
-                    className={cn(prefs.rsvpFade && "animate-in fade-in-0 duration-75")}
+                    className={cn("inline-block", prefs.rsvpFade && "animate-in fade-in-0 duration-75")}
                   >
-                    <span
-                      className="absolute top-0 whitespace-pre text-right text-foreground"
-                      style={{ right: "calc(50% + 0.5ch)" }}
-                    >
-                      {before}
-                    </span>
-                    <span className="absolute top-0 left-1/2 -translate-x-1/2 whitespace-pre text-red-500">
-                      {pivot}
-                    </span>
-                    <span
-                      className="absolute top-0 whitespace-pre text-foreground"
-                      style={{ left: "calc(50% + 0.5ch)" }}
-                    >
-                      {after}
-                    </span>
+                    <span className="text-foreground">{before}</span>
+                    <span className="text-red-500">{pivot}</span>
+                    <span className="text-foreground">{after}</span>
                   </span>
-                </div>
+                </span>
               </div>
-              <div className="mx-auto h-2 w-px bg-red-500/70" />
             </div>
+            <div className="mx-auto h-2 w-px bg-red-500/70" />
           </div>
 
           {/* Tudo abaixo some no modo foco */}
