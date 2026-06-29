@@ -15,6 +15,8 @@ export type Prefs = {
   rsvpEveryN: number; // pausa periódica a cada N palavras (0 = off)
   rsvpFade: boolean;
   rsvpFocus: boolean; // modo foco imersivo ao tocar
+  rsvpFont: "mono" | "sans" | "serif"; // família da fonte na leitura dinâmica
+  rsvpFontScale: number; // multiplicador do tamanho da palavra no RSVP
   // Layout editável
   showContinue: boolean; // bloco "Continuar" na home
   modeOrder: string[]; // ordem dos 3 modos da central
@@ -35,6 +37,8 @@ export const DEFAULTS: Prefs = {
   rsvpEveryN: 0,
   rsvpFade: true,
   rsvpFocus: true,
+  rsvpFont: "mono",
+  rsvpFontScale: 1,
   showContinue: true,
   modeOrder: ["podcast", "read", "rsvp"],
 };

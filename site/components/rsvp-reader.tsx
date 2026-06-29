@@ -1,22 +1,46 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { Dialog as DialogPrimitive } from "radix-ui";
-import { Play, Pause, X as XIcon, Maximize2, Minimize2 } from "lucide-react";
-import { usePrefs } from "@/lib/preferences";
+import { Play, Pause, X as XIcon, Maximize2, Minimize2, SlidersHorizontal } from "lucide-react";
+import { usePrefs, ACCENT_SWATCHES } from "@/lib/preferences";
 import { cn } from "@/lib/utils";
 
 /**
  * Leitura dinâmica estilo Spritz (RSVP). Abre sempre em modo foco imersivo
  * (tela cheia escura, só a palavra). A letra-foco (ORP) fica SEMPRE na mesma
- * posição horizontal — a palavra inteira é deslocada por translateX em fonte
- * monospace (cada caractere = 1ch), então o ponteiro vermelho nunca "anda".
- * A troca de palavra é instantânea (sem fade — evita o efeito de piscar).
+ * posição horizontal: a palavra é deslocada por translateX de modo que o
+ * CENTRO real da letra-foco (medido no layout) caia no reticle. Por ser
+ * medido, funciona com qualquer fonte (mono/sans/serif). A troca de palavra
+ * é instantânea (sem fade — evita o efeito de piscar).
  */
 
 const WPM_PRESETS = [250, 300, 350, 400, 500, 600];
 const MIN_WPM = 100;
 const MAX_WPM = 900;
+
+/** Tamanho-base da palavra (escalado por prefs.rsvpFontScale). Fixo entre
+ *  palavras de propósito — variar fazia a fonte "pular" em palavras longas. */
+const WORD_FONT_SIZE = "clamp(2rem, 7.5vw, 4.25rem)";
+
+const FONT_STACK: Record<"mono" | "sans" | "serif", string> = {
+  mono: "var(--font-roboto-mono), ui-monospace, SFMono-Regular, monospace",
+  sans: "var(--font-inter), ui-sans-serif, system-ui, sans-serif",
+  serif: "Georgia, Cambria, 'Times New Roman', serif",
+};
+
+const FONT_LABELS: { v: "mono" | "sans" | "serif"; label: string }[] = [
+  { v: "mono", label: "Mono" },
+  { v: "sans", label: "Sans" },
+  { v: "serif", label: "Serif" },
+];
 
 /** Tokeniza o texto em palavras, preservando pontuação anexada. */
 export function tokenize(text: string): string[] {
@@ -54,14 +78,6 @@ function delayFactor(word: string, punctMult: number): number {
   return f;
 }
 
-/** Tamanho da palavra: reduz para palavras muito longas evitando estourar a tela. */
-function wordFontSize(word: string): string {
-  const n = word.length;
-  if (n <= 12) return "clamp(2.2rem, 9vw, 4.5rem)";
-  if (n <= 18) return "clamp(1.7rem, 7vw, 3.4rem)";
-  return "clamp(1.2rem, 5vw, 2.6rem)";
-}
-
 type Props = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
@@ -90,11 +106,16 @@ export function RsvpReader({
   const [wpm, setWpm] = useState(initialWpm ?? prefs.rsvpWpm);
   const [chrome, setChrome] = useState(true); // controles visíveis
   const [fs, setFs] = useState(false);
-  const [speedOpen, setSpeedOpen] = useState(false);
+  const [panel, setPanel] = useState<null | "speed" | "prefs">(null);
+  const [shift, setShift] = useState(0); // deslocamento p/ ancorar o ORP
+  const [measureTick, setMeasureTick] = useState(0);
+
   const contentRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const hideRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const speedRef = useRef<HTMLDivElement>(null);
+  const controlsRef = useRef<HTMLDivElement>(null);
+  const lineRef = useRef<HTMLSpanElement>(null);
+  const pivotRef = useRef<HTMLSpanElement>(null);
 
   const clamp = useCallback((i: number) => Math.max(0, Math.min(total - 1, i)), [total]);
 
@@ -107,24 +128,48 @@ export function RsvpReader({
     [setPref]
   );
 
+  const word = words[idx] ?? "";
+  const p = pivotIndex(word);
+  const before = word.slice(0, p);
+  const pivot = word.slice(p, p + 1);
+  const after = word.slice(p + 1);
+
   // Reposiciona ao (re)abrir
   useEffect(() => {
     if (open) {
       setIdx(clamp(startIndex));
       setPlaying(false);
       setChrome(true);
-      setSpeedOpen(false);
+      setPanel(null);
     }
   }, [open, startIndex, clamp]);
 
+  // Mede o centro real da letra-foco e desloca a linha para ancorá-lo no
+  // reticle. useLayoutEffect → recalcula antes do paint (sem flash).
+  useLayoutEffect(() => {
+    const pv = pivotRef.current;
+    if (!pv) return;
+    setShift(-(pv.offsetLeft + pv.offsetWidth / 2));
+  }, [idx, word, p, prefs.rsvpFont, prefs.rsvpFontScale, measureTick, open]);
+
+  // Remede ao redimensionar (a fonte usa vw) e quando as webfonts carregam.
+  useEffect(() => {
+    const bump = () => setMeasureTick((t) => t + 1);
+    window.addEventListener("resize", bump);
+    if (typeof document !== "undefined" && document.fonts?.ready) {
+      document.fonts.ready.then(bump).catch(() => {});
+    }
+    return () => window.removeEventListener("resize", bump);
+  }, []);
+
   // Modo foco: enquanto toca, esconde os controles após inatividade; mover o
-  // mouse (ou tocar) reexibe. Quando pausado, controles ficam sempre visíveis.
+  // mouse (ou tocar) reexibe. Quando pausado/painel aberto, ficam visíveis.
   useEffect(() => {
     if (!open) return;
     const wake = () => {
       setChrome(true);
       if (hideRef.current) clearTimeout(hideRef.current);
-      if (playing && prefs.rsvpFocus && !speedOpen) {
+      if (playing && prefs.rsvpFocus && !panel) {
         hideRef.current = setTimeout(() => setChrome(false), 2200);
       }
     };
@@ -136,7 +181,7 @@ export function RsvpReader({
       window.removeEventListener("touchstart", wake);
       if (hideRef.current) clearTimeout(hideRef.current);
     };
-  }, [open, playing, prefs.rsvpFocus, speedOpen]);
+  }, [open, playing, prefs.rsvpFocus, panel]);
 
   // Loop de reprodução: cada palavra tem sua própria duração
   useEffect(() => {
@@ -159,7 +204,7 @@ export function RsvpReader({
       setIdx(0);
       setPlaying(true);
     } else {
-      setPlaying((p) => !p);
+      setPlaying((pp) => !pp);
     }
   }, [idx, total]);
 
@@ -184,15 +229,15 @@ export function RsvpReader({
     return () => document.removeEventListener("fullscreenchange", onFs);
   }, []);
 
-  // Fecha o popover de velocidade ao clicar fora
+  // Fecha o popover (velocidade/aparência) ao clicar fora do grupo de controles
   useEffect(() => {
-    if (!speedOpen) return;
+    if (!panel) return;
     const onDown = (e: MouseEvent) => {
-      if (speedRef.current && !speedRef.current.contains(e.target as Node)) setSpeedOpen(false);
+      if (controlsRef.current && !controlsRef.current.contains(e.target as Node)) setPanel(null);
     };
     document.addEventListener("mousedown", onDown);
     return () => document.removeEventListener("mousedown", onDown);
-  }, [speedOpen]);
+  }, [panel]);
 
   // Atalhos de teclado (silenciosos)
   useEffect(() => {
@@ -236,20 +281,10 @@ export function RsvpReader({
     onOpenChange(next);
   };
 
-  const word = words[idx] ?? "";
-  const p = pivotIndex(word);
-  const before = word.slice(0, p);
-  const pivot = word.slice(p, p + 1);
-  const after = word.slice(p + 1);
-
   const wordsLeft = total - idx - 1;
   const minutesLeft = wpm > 0 ? wordsLeft / wpm : 0;
   const restante =
-    minutesLeft >= 1
-      ? `${Math.ceil(minutesLeft)} min`
-      : wordsLeft > 0
-      ? "<1 min"
-      : "fim";
+    minutesLeft >= 1 ? `${Math.ceil(minutesLeft)} min` : wordsLeft > 0 ? "<1 min" : "fim";
 
   return (
     <DialogPrimitive.Root open={open} onOpenChange={handleOpenChange}>
@@ -296,30 +331,36 @@ export function RsvpReader({
             </DialogPrimitive.Close>
           </div>
 
-          {/* Palavra centralizada — ORP ancorado no reticle, deslocamento estável */}
-          <div className="flex h-full w-full items-center justify-center px-6 font-mono">
+          {/* Palavra centralizada — ORP ancorado no reticle (medido) */}
+          <div className="flex h-full w-full items-center justify-center px-6">
             <div className="w-full">
-              <div className="mx-auto h-2.5 w-px bg-red-500/70" />
+              <div className="mx-auto h-2.5 w-px" style={{ background: "var(--brand)" }} />
               <div
                 className="relative overflow-hidden py-10"
-                style={{ fontSize: wordFontSize(word) }}
+                style={{
+                  fontFamily: FONT_STACK[prefs.rsvpFont] ?? FONT_STACK.mono,
+                  fontSize: `calc(${WORD_FONT_SIZE} * ${prefs.rsvpFontScale})`,
+                }}
               >
-                <div className="relative h-[1.25em] w-full">
+                <div className="relative h-[1.4em] w-full">
                   <span
-                    className="absolute top-0 left-1/2 whitespace-pre"
-                    style={{ transform: `translateX(calc(-${p}ch - 0.5ch))` }}
+                    ref={lineRef}
+                    className="absolute top-0 left-1/2 whitespace-pre leading-[1.4]"
+                    style={{ transform: `translateX(${shift}px)` }}
                   >
                     <span className="text-zinc-100">{before}</span>
-                    <span className="text-red-500">{pivot}</span>
+                    <span ref={pivotRef} style={{ color: "var(--brand)" }}>
+                      {pivot}
+                    </span>
                     <span className="text-zinc-100">{after}</span>
                   </span>
                 </div>
               </div>
-              <div className="mx-auto h-2.5 w-px bg-red-500/70" />
+              <div className="mx-auto h-2.5 w-px" style={{ background: "var(--brand)" }} />
             </div>
           </div>
 
-          {/* Barra de controles (rodapé) — play/pausa + progresso + velocidade */}
+          {/* Barra de controles (rodapé) — play/pausa + progresso + aparência + velocidade */}
           <div
             className={cn(
               "absolute inset-x-0 bottom-0 z-20 transition-all duration-300",
@@ -356,54 +397,137 @@ export function RsvpReader({
                 </div>
               </div>
 
-              {/* Velocidade — popover suspenso (estilo player TRIH) */}
-              <div ref={speedRef} className="relative shrink-0">
-                <button
-                  onClick={() => setSpeedOpen((s) => !s)}
-                  aria-label="Velocidade de leitura"
-                  className={cn(
-                    "h-9 min-w-[64px] rounded-lg border px-3 font-mono text-sm font-semibold tabular-nums transition-colors",
-                    speedOpen
-                      ? "border-white/25 bg-white/10 text-zinc-100"
-                      : "border-white/15 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+              {/* Grupo direito: aparência + velocidade (popovers suspensos) */}
+              <div ref={controlsRef} className="flex shrink-0 items-center gap-2">
+                {/* Aparência — tamanho, fonte e cor de destaque */}
+                <div className="relative">
+                  <button
+                    onClick={() => setPanel((p2) => (p2 === "prefs" ? null : "prefs"))}
+                    aria-label="Aparência"
+                    className={cn(
+                      "grid size-9 place-items-center rounded-lg border transition-colors",
+                      panel === "prefs"
+                        ? "border-white/25 bg-white/10 text-zinc-100"
+                        : "border-white/15 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+                    )}
+                  >
+                    <SlidersHorizontal className="size-4" />
+                  </button>
+                  {panel === "prefs" && (
+                    <div className="absolute bottom-full right-0 mb-3 w-64 space-y-4 rounded-2xl border border-white/10 bg-zinc-900/95 p-4 shadow-2xl backdrop-blur">
+                      <div>
+                        <div className="mb-2 flex items-center justify-between text-[11px] font-semibold uppercase tracking-wide text-zinc-400">
+                          <span>Tamanho</span>
+                          <span className="tabular-nums">
+                            {Math.round(prefs.rsvpFontScale * 100)}%
+                          </span>
+                        </div>
+                        <input
+                          type="range"
+                          min={0.7}
+                          max={1.7}
+                          step={0.1}
+                          value={prefs.rsvpFontScale}
+                          onChange={(e) => setPref("rsvpFontScale", Number(e.target.value))}
+                          className="w-full accent-brand"
+                          aria-label="Tamanho da fonte"
+                        />
+                      </div>
+                      <div>
+                        <div className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-400">
+                          Fonte
+                        </div>
+                        <div className="flex gap-1.5">
+                          {FONT_LABELS.map((f) => (
+                            <button
+                              key={f.v}
+                              onClick={() => setPref("rsvpFont", f.v)}
+                              style={{ fontFamily: FONT_STACK[f.v] }}
+                              className={cn(
+                                "flex-1 rounded-lg border px-2 py-1.5 text-sm font-semibold transition-colors",
+                                prefs.rsvpFont === f.v
+                                  ? "border-brand bg-brand text-brand-foreground"
+                                  : "border-white/15 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+                              )}
+                            >
+                              {f.label}
+                            </button>
+                          ))}
+                        </div>
+                      </div>
+                      <div>
+                        <div className="mb-2 text-[11px] font-semibold uppercase tracking-wide text-zinc-400">
+                          Destaque
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          {ACCENT_SWATCHES.map((c) => (
+                            <button
+                              key={c}
+                              aria-label={c}
+                              onClick={() => setPref("brand", c)}
+                              style={{ background: c }}
+                              className={cn(
+                                "size-6 rounded-full transition-transform hover:scale-110",
+                                prefs.brand === c &&
+                                  "ring-2 ring-white ring-offset-2 ring-offset-zinc-900"
+                              )}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    </div>
                   )}
-                >
-                  {wpm}
-                </button>
-                {speedOpen && (
-                  <div className="absolute bottom-full right-0 mb-3 w-60 rounded-2xl border border-white/10 bg-zinc-900/95 p-4 shadow-2xl backdrop-blur data-open:animate-in">
-                    <div className="mb-3 text-center">
-                      <span className="text-2xl font-bold text-zinc-100">{wpm}</span>
-                      <span className="ml-1 text-sm text-zinc-400">ppm</span>
+                </div>
+
+                {/* Velocidade — popover suspenso (estilo player TRIH) */}
+                <div className="relative">
+                  <button
+                    onClick={() => setPanel((p2) => (p2 === "speed" ? null : "speed"))}
+                    aria-label="Velocidade de leitura"
+                    className={cn(
+                      "h-9 min-w-[64px] rounded-lg border px-3 font-mono text-sm font-semibold tabular-nums transition-colors",
+                      panel === "speed"
+                        ? "border-white/25 bg-white/10 text-zinc-100"
+                        : "border-white/15 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+                    )}
+                  >
+                    {wpm}
+                  </button>
+                  {panel === "speed" && (
+                    <div className="absolute bottom-full right-0 mb-3 w-60 rounded-2xl border border-white/10 bg-zinc-900/95 p-4 shadow-2xl backdrop-blur">
+                      <div className="mb-3 text-center">
+                        <span className="text-2xl font-bold text-zinc-100">{wpm}</span>
+                        <span className="ml-1 text-sm text-zinc-400">ppm</span>
+                      </div>
+                      <input
+                        type="range"
+                        min={150}
+                        max={800}
+                        step={10}
+                        value={wpm}
+                        onChange={(e) => setSpeed(Number(e.target.value))}
+                        className="w-full accent-brand"
+                        aria-label="Velocidade (palavras por minuto)"
+                      />
+                      <div className="mt-3 flex flex-wrap justify-center gap-1.5">
+                        {WPM_PRESETS.map((preset) => (
+                          <button
+                            key={preset}
+                            onClick={() => setSpeed(preset)}
+                            className={cn(
+                              "rounded-md px-2.5 py-1 font-mono text-xs font-semibold tabular-nums transition-colors",
+                              wpm === preset
+                                ? "bg-brand text-brand-foreground"
+                                : "border border-white/10 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
+                            )}
+                          >
+                            {preset}
+                          </button>
+                        ))}
+                      </div>
                     </div>
-                    <input
-                      type="range"
-                      min={150}
-                      max={800}
-                      step={10}
-                      value={wpm}
-                      onChange={(e) => setSpeed(Number(e.target.value))}
-                      className="w-full accent-brand"
-                      aria-label="Velocidade (palavras por minuto)"
-                    />
-                    <div className="mt-3 flex flex-wrap justify-center gap-1.5">
-                      {WPM_PRESETS.map((preset) => (
-                        <button
-                          key={preset}
-                          onClick={() => setSpeed(preset)}
-                          className={cn(
-                            "rounded-md px-2.5 py-1 font-mono text-xs font-semibold tabular-nums transition-colors",
-                            wpm === preset
-                              ? "bg-brand text-brand-foreground"
-                              : "border border-white/10 text-zinc-300 hover:border-white/25 hover:text-zinc-100"
-                          )}
-                        >
-                          {preset}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
+                  )}
+                </div>
               </div>
             </div>
           </div>
