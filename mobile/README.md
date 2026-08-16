@@ -11,6 +11,7 @@ de foco ancorada) continua ali, a um toque de distância.
 mobile/
 ├── src/
 │   ├── lib/
+│   │   ├── import/           EPUB, PDF e TXT → capítulos (carregado sob demanda)
 │   │   ├── fragments.ts      corta o capítulo em cartões (respeitando frases)
 │   │   ├── rsvp.ts           pivô/ORP e pausa por pontuação (portado do site)
 │   │   ├── store.tsx         estado do app (contexto React)
@@ -62,13 +63,26 @@ Android agenda de forma inexata e a notificação pode atrasar alguns minutos.
 
 ## Conteúdo
 
-Em **Ajustes → Sua biblioteca**, informe o endereço do site e a senha (a mesma
-`SITE_PASSWORD`, ou um `MOBILE_SYNC_TOKEN` dedicado). O app baixa o catálogo e,
-ao abrir um livro, o texto integral — que fica guardado no aparelho. Depois
-disso o feed funciona offline.
+Duas portas de entrada, e as duas guardam o livro no aparelho para ler offline.
 
-Sem servidor também dá: **Biblioteca → Colar texto** cria um livro local a
-partir de qualquer texto colado.
+**Importar arquivo** (Biblioteca → *Importar EPUB, PDF ou TXT*), sem depender
+de servidor nenhum. O parsing roda no próprio celular:
+
+| Formato | Capítulos | Metadados | Observação |
+|---------|-----------|-----------|------------|
+| `.epub` | um por documento do spine, com os títulos do sumário (`nav` ou `ncx`) | título e autor do OPF | descarta imagens/CSS na descompactação e pula a página de índice |
+| `.pdf`  | pelos marcadores do PDF; sem eles, blocos de 12 páginas | título e autor do PDF, quando houver | reconstrói parágrafos, junta palavras partidas no fim da linha e remove cabeçalho/rodapé repetido |
+| `.txt` / `.md` | por `\f`, ou por linhas de cabeçalho ("Capítulo 3", "# Título") quando há pelo menos três | nome do arquivo | tenta UTF-8 e cai para windows-1252 se o arquivo vier acentuado errado |
+
+PDF digitalizado (imagem pura, sem camada de texto) não dá — o app avisa em vez
+de importar um livro vazio. Os parsers são carregados sob demanda: quem só lê
+EPUB nunca baixa o pdf.js.
+
+**Sincronizar com o site**: em Ajustes → Sua biblioteca, informe o endereço e a
+senha (a mesma `SITE_PASSWORD`, ou um `MOBILE_SYNC_TOKEN` dedicado). O app baixa
+o catálogo e, ao abrir um livro, o texto integral.
+
+Também dá para **colar texto** direto, para um trecho avulso.
 
 ## Desenvolvimento
 

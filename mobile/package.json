@@ -18,6 +18,8 @@
     "@capacitor/local-notifications": "^7.0.3",
     "@capacitor/preferences": "^7.0.2",
     "@capacitor/status-bar": "^7.0.3",
+    "fflate": "^0.8.3",
+    "pdfjs-dist": "^6.2.108",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },

@@ -17,6 +17,7 @@ import { fetchBook, fetchLibrary } from "./sync";
 import type {
   BookContent,
   BookMeta,
+  Chapter,
   DailyStats,
   SavedFragment,
   Settings,
@@ -58,7 +59,7 @@ type Ctx = {
   syncLibrary: () => Promise<void>;
   openBook: (slug: string) => Promise<void>;
   removeBook: (slug: string) => Promise<void>;
-  addLocalBook: (title: string, text: string) => Promise<void>;
+  addLocalBook: (title: string, authors: string, chapters: Chapter[]) => Promise<void>;
   upcomingTeasers: (n: number) => string[];
 };
 
@@ -322,38 +323,52 @@ export function AppProvider({ children }: { children: ReactNode }) {
     [activeSlug]
   );
 
-  const addLocalBook = useCallback(async (title: string, text: string) => {
-    const slug = `local-${Date.now().toString(36)}`;
-    const words = text.trim().split(/\s+/).filter(Boolean).length;
-    const book: BookContent = {
-      slug,
-      title: title.trim() || "Texto colado",
-      authors: "—",
-      chapters: [{ number: 1, title: title.trim() || "Texto colado", text, wordCount: words }],
-      fetchedAt: Date.now(),
-    };
-    await db.putBookContent(book);
-    setDownloaded(await db.listDownloadedSlugs());
-    const meta: BookMeta = {
-      slug,
-      title: book.title,
-      authors: "—",
-      coverUrl: null,
-      chapterCount: 1,
-      wordCount: words,
-      chapters: [{ number: 1, title: book.title, wordCount: words }],
-      origin: "local",
-    };
-    setLibrary((prev) => {
-      const next = [...prev, meta];
-      void db.saveLibrary(next);
-      return next;
-    });
-    lastPositioned.current = "";
-    setContent(book);
-    setActiveSlug(slug);
-    setModeState("livro");
-  }, []);
+  /**
+   * Guarda um livro que veio do próprio aparelho — texto colado ou arquivo
+   * importado (EPUB/PDF/TXT) — e já abre no feed.
+   */
+  const addLocalBook = useCallback(
+    async (title: string, authors: string, chapters: Chapter[]) => {
+      if (!chapters.length) throw new Error("Nada para ler neste arquivo.");
+      const slug = `local-${Date.now().toString(36)}`;
+      const titulo = title.trim() || "Sem título";
+      const book: BookContent = {
+        slug,
+        title: titulo,
+        authors: authors.trim() || "—",
+        chapters,
+        fetchedAt: Date.now(),
+      };
+      await db.putBookContent(book);
+      setDownloaded(await db.listDownloadedSlugs());
+
+      const meta: BookMeta = {
+        slug,
+        title: titulo,
+        authors: book.authors,
+        coverUrl: null,
+        chapterCount: chapters.length,
+        wordCount: chapters.reduce((s, c) => s + c.wordCount, 0),
+        chapters: chapters.map((c) => ({
+          number: c.number,
+          title: c.title,
+          wordCount: c.wordCount,
+        })),
+        origin: "local",
+      };
+      setLibrary((prev) => {
+        const next = [...prev, meta];
+        void db.saveLibrary(next);
+        return next;
+      });
+
+      lastPositioned.current = "";
+      setContent(book);
+      setActiveSlug(slug);
+      setModeState("livro");
+    },
+    []
+  );
 
   // ── Trechos salvos ───────────────────────────────────────────────────────
 

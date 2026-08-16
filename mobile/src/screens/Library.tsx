@@ -1,8 +1,13 @@
-import { useState } from "react";
-import { IconDown, IconRefresh, IconTrash } from "../components/icons";
+import { useRef, useState } from "react";
+import { IconDown, IconFile, IconRefresh, IconTrash } from "../components/icons";
+import { ACCEPT_ATTR, importarArquivo } from "../lib/import";
+import { countWords } from "../lib/import/types";
 import { useApp } from "../lib/store";
 
-/** Biblioteca: sincroniza o catálogo do site, baixa livros e abre no feed. */
+/**
+ * Biblioteca: sincroniza o catálogo do site, importa arquivos do aparelho
+ * (EPUB, PDF, TXT/MD), baixa livros e abre no feed.
+ */
 export function Library({ onOpened }: { onOpened: () => void }) {
   const {
     library,
@@ -20,8 +25,28 @@ export function Library({ onOpened }: { onOpened: () => void }) {
   const [colando, setColando] = useState(false);
   const [titulo, setTitulo] = useState("");
   const [texto, setTexto] = useState("");
+  const [andamento, setAndamento] = useState<string | null>(null);
+  const [falha, setFalha] = useState<string | null>(null);
+  const arquivoRef = useRef<HTMLInputElement>(null);
 
   const configurado = !!settings.serverUrl && !!settings.token;
+
+  const importar = async (file: File) => {
+    setFalha(null);
+    setAndamento("Lendo o arquivo…");
+    try {
+      // Um quadro de folga antes de trabalhar: o parse é síncrono em partes e
+      // travaria a tela antes de o aviso de andamento aparecer.
+      await new Promise((r) => requestAnimationFrame(() => r(null)));
+      const livro = await importarArquivo(file, setAndamento);
+      await addLocalBook(livro.title, livro.authors, livro.chapters);
+      setAndamento(null);
+      onOpened();
+    } catch (e) {
+      setAndamento(null);
+      setFalha(e instanceof Error ? e.message : "Não consegui ler este arquivo.");
+    }
+  };
 
   return (
     <div className="scroller">
@@ -30,7 +55,33 @@ export function Library({ onOpened }: { onOpened: () => void }) {
         Baixe um livro uma vez e ele fica no aparelho — o feed funciona sem internet.
       </p>
 
-      <div style={{ display: "flex", gap: 10, marginBottom: 6 }}>
+      <button
+        className="btn btn--wide"
+        onClick={() => arquivoRef.current?.click()}
+        disabled={!!andamento}
+      >
+        <IconFile style={{ width: 17, height: 17 }} />
+        {andamento ?? "Importar EPUB, PDF ou TXT"}
+      </button>
+      <input
+        ref={arquivoRef}
+        type="file"
+        accept={ACCEPT_ATTR}
+        style={{ display: "none" }}
+        onChange={(e) => {
+          const f = e.target.files?.[0];
+          e.target.value = ""; // permite reimportar o mesmo arquivo
+          if (f) void importar(f);
+        }}
+      />
+
+      {falha && (
+        <p className="row__hint" style={{ marginTop: 12, color: "#fca5a5" }}>
+          {falha}
+        </p>
+      )}
+
+      <div style={{ display: "flex", gap: 10, marginTop: 12 }}>
         <button
           className="btn btn--ghost btn--sm"
           onClick={() => syncLibrary()}
@@ -46,7 +97,8 @@ export function Library({ onOpened }: { onOpened: () => void }) {
 
       {!configurado && (
         <p className="row__hint" style={{ marginTop: 12 }}>
-          Configure o endereço do site e a senha em Ajustes para sincronizar seus livros.
+          O import funciona sozinho. Para trazer os livros do site, configure o endereço e a
+          senha em Ajustes.
         </p>
       )}
 
@@ -74,7 +126,10 @@ export function Library({ onOpened }: { onOpened: () => void }) {
             className="btn btn--wide"
             disabled={!texto.trim()}
             onClick={async () => {
-              await addLocalBook(titulo, texto);
+              const nome = titulo.trim() || "Texto colado";
+              await addLocalBook(nome, "—", [
+                { number: 1, title: nome, text: texto, wordCount: countWords(texto) },
+              ]);
               setTitulo("");
               setTexto("");
               setColando(false);
