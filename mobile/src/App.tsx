@@ -19,8 +19,22 @@ const TABS: { id: Tab; label: string; Icon: typeof IconFeed }[] = [
 ];
 
 function Shell() {
-  const { ready, settings, busy, error, clearError, upcomingTeasers } = useApp();
+  const {
+    ready,
+    settings,
+    busy,
+    error,
+    clearError,
+    upcomingTeasers,
+    chrome,
+    setChrome,
+    fragments,
+  } = useApp();
   const [tab, setTab] = useState<Tab>("feed");
+
+  // O modo foco é só do feed, e só quando há texto na tela: no estado vazio
+  // ("nenhum livro carregado") esconder as abas deixaria a pessoa sem saída.
+  const focado = tab === "feed" && !chrome && fragments.length > 0;
 
   // Cor de destaque escolhida pelo usuário.
   useEffect(() => {
@@ -33,6 +47,14 @@ function Shell() {
     StatusBar.setStyle({ style: Style.Dark }).catch(() => {});
     StatusBar.setOverlaysWebView({ overlay: true }).catch(() => {});
   }, []);
+
+  // No modo foco some também a barra do sistema: aí é tela cheia de verdade.
+  // Como o WebView já desenha por baixo dela (overlay), esconder não redimensiona
+  // nada — o texto não pula.
+  useEffect(() => {
+    if (!isNative()) return;
+    (focado ? StatusBar.hide() : StatusBar.show()).catch(() => {});
+  }, [focado]);
 
   // Tocar na notificação abre direto no feed.
   useEffect(() => {
@@ -85,13 +107,19 @@ function Shell() {
         </div>
       )}
 
-      <nav className="tabs">
+      <nav className="tabs" data-hidden={focado} aria-hidden={focado}>
         {TABS.map(({ id, label, Icon }) => (
           <button
             key={id}
             className="tabs__item"
             data-on={tab === id}
-            onClick={() => setTab(id)}
+            tabIndex={focado ? -1 : 0}
+            onClick={() => {
+              // Sair do feed traz os controles de volta, para não voltar depois
+              // numa tela sem barra nenhuma e sem saber como recuperá-la.
+              if (id !== "feed") setChrome(true);
+              setTab(id);
+            }}
           >
             <Icon />
             {label}

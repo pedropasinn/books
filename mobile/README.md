@@ -27,12 +27,20 @@ mobile/
 
 ## Como se lê
 
-Um cartão por vez, ocupando a tela. Para passar, três caminhos — o que a mão
-pedir na hora:
+Abre em **modo foco**: a tela inteira é o texto, sem barras, botões ou abas —
+nem a barra de status do Android. O toque divide a tela em três faixas:
 
-- **arrastar** para cima **ou para o lado** → próximo; o contrário → anterior;
-- **tocar** na direita da tela → próximo; na esquerda → anterior;
-- **botão redondo** no rodapé → próximo.
+```
+┌────────┬──────────────────────┬────────┐
+│anterior│  controles on/off    │próximo │
+└────────┴──────────────────────┴────────┘
+    28%            44%              28%
+```
+
+**Arrastar** funciona em qualquer ponto e nos dois eixos: para cima ou para o
+lado passa adiante, o contrário volta. Com os controles à vista, o **botão
+redondo** do rodapé também avança — e eles somem sozinhos depois de alguns
+segundos parados, devolvendo a tela ao texto.
 
 Os outros dois botões do rodapé salvam o trecho e abrem a **leitura dinâmica**
 (RSVP) daquele fragmento. Com "emendar no próximo" ligado, ao terminar um
@@ -41,6 +49,25 @@ encostar na tela.
 
 O ícone de embaralhar, no topo, troca para o modo **Explorar**: trechos
 sorteados de todos os livros baixados, sem ordem. É o modo "só mais um".
+
+### O texto sempre cabe
+
+Um cartão é uma tela: cortar o texto em cima e embaixo seria pior do que
+qualquer alternativa. Três mecanismos garantem isso, nesta ordem:
+
+1. **o corte enxerga as quebras de linha do original** — em verso, diálogo e
+   lista quase não há ponto final, e sem isso o fragmento crescia até o limite
+   duro e estourava a tela. Os versos também são preservados na exibição, em
+   vez de virarem um parágrafo corrido;
+2. **o tamanho do fragmento é limitado pelo que cabe** — o ajuste é um pedido,
+   e a tela é o teto real: o app mede quantas linhas cabem e qual a largura
+   média de caractere na fonte escolhida, e usa o menor dos dois;
+3. **auto-fit** — o que ainda assim passar do espaço tem a fonte reduzida até
+   caber, antes do primeiro quadro (nada "pula" na tela).
+
+A área reservada ao texto **não muda** entre o modo foco e os controles à
+vista. Se mudasse, cada toque no meio da tela recortaria o livro em fragmentos
+diferentes e a leitura perderia o lugar; no modo foco a área extra vira margem.
 
 ## Hábito
 

@@ -38,6 +38,14 @@ type Ctx = {
   mode: FeedMode;
   setMode: (m: FeedMode) => void;
 
+  /** Modo foco: com `false`, o feed mostra só o texto (sem barras nem botões). */
+  chrome: boolean;
+  setChrome: (visivel: boolean) => void;
+  /** Máximo de palavras que cabem na tela — medido pelo feed. */
+  setCapacidade: (palavras: number) => void;
+  /** O tamanho de fragmento que está valendo (pedido, limitado pela tela). */
+  fragmentSizeEfetivo: number;
+
   fragments: Fragment[];
   index: number;
   goTo: (i: number) => void;
@@ -91,6 +99,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const [streak, setStreak] = useState<Streak>({ current: 0, best: 0, lastDay: null });
   const [busy, setBusy] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  // Abre em modo foco: a primeira coisa que aparece é o texto, nada mais.
+  const [chrome, setChrome] = useState(false);
+  const [capacidade, setCapacidade] = useState(Number.POSITIVE_INFINITY);
 
   // Carga inicial
   useEffect(() => {
@@ -136,9 +147,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
     });
   }, []);
 
+  // O ajuste do usuário é o teto desejado; a tela é o teto real. Fragmento que
+  // não cabe seria cortado ou espremido — os dois piores resultados possíveis.
+  const fragmentSizeEfetivo = Math.max(12, Math.min(settings.fragmentSize, capacidade));
+
   const bookFragments = useMemo(
-    () => (content ? splitBook(content, settings.fragmentSize) : []),
-    [content, settings.fragmentSize]
+    () => (content ? splitBook(content, fragmentSizeEfetivo) : []),
+    [content, fragmentSizeEfetivo]
   );
 
   const fragments = mode === "explorar" ? explore : bookFragments;
@@ -148,13 +163,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const lastPositioned = useRef<string>("");
   useEffect(() => {
     if (mode !== "livro" || !activeSlug || !bookFragments.length) return;
-    const stamp = `${activeSlug}:${settings.fragmentSize}`;
+    const stamp = `${activeSlug}:${fragmentSizeEfetivo}`;
     if (lastPositioned.current === stamp) return;
     lastPositioned.current = stamp;
     const p = progress[activeSlug];
     const i = p ? findFragmentIndex(bookFragments, p.chapterNumber, p.wordIndex) : 0;
     setIndex(i >= 0 ? i : 0);
-  }, [mode, activeSlug, bookFragments, progress, settings.fragmentSize]);
+  }, [mode, activeSlug, bookFragments, progress, fragmentSizeEfetivo]);
 
   // Espelhos do estado que `record` precisa ler. Os updaters do useState não
   // servem: eles têm que ser puros (o StrictMode os chama duas vezes), e aqui
@@ -247,10 +262,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
     const books = (await Promise.all(slugs.map((s) => db.getBookContent(s)))).filter(
       (b): b is BookContent => !!b
     );
-    const all = books.flatMap((b) => splitBook(b, settings.fragmentSize));
+    const all = books.flatMap((b) => splitBook(b, fragmentSizeEfetivo));
     setExplore(shuffle(all).slice(0, 60));
     setIndex(0);
-  }, [settings.fragmentSize]);
+  }, [fragmentSizeEfetivo]);
 
   const setMode = useCallback(
     (m: FeedMode) => {
@@ -431,6 +446,10 @@ export function AppProvider({ children }: { children: ReactNode }) {
     activeSlug,
     mode,
     setMode,
+    chrome,
+    setChrome,
+    setCapacidade,
+    fragmentSizeEfetivo,
     fragments,
     index,
     goTo,
