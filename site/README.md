@@ -48,6 +48,29 @@ Os scripts são gerados manualmente (ou por outro Claude) e colocados em `script
 
 O player aparece quando há mp3. O karaoke (highlight palavra-a-palavra) liga quando há alignment JSON.
 
+## App Android (Fragmentos)
+
+O APK vive em `../mobile/` (Vite + React + Capacitor) e lê os mesmos livros em
+formato de feed: um fragmento curto por tela, passando com o dedo, com o RSVP
+a um toque e lembretes diários. Veja `mobile/README.md`.
+
+O app consome duas rotas JSON deste projeto, fora do gate de senha do
+`proxy.ts` e autenticadas por header `Authorization: Bearer <token>`:
+
+| Rota                       | Devolve                                   |
+|----------------------------|-------------------------------------------|
+| `GET /api/mobile/library`  | catálogo: livros + índice de capítulos    |
+| `GET /api/mobile/book/:slug` | texto integral do livro (leitura offline) |
+
+O token aceito é a `SITE_PASSWORD` ou, de preferência, um `MOBILE_SYNC_TOKEN`
+dedicado — assim dá para revogar o acesso do celular sem trocar a senha do
+site:
+
+```bash
+# .env.local (e nas env vars da Vercel)
+MOBILE_SYNC_TOKEN=<algo longo e aleatório>
+```
+
 ## Fases futuras
 
 **Fase 2 — Karaoke (forced alignment).** Script Python rodando WhisperX em pt-BR pra gerar `alignment/NN_*.json` no formato `[{word, start, end}]`. O player já consome esse JSON — só falta o gerador.

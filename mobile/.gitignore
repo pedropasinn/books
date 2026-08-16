@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+
+# APKs assinados ficam fora do repositório (o android/.gitignore do Capacitor
+# já cobre os que o Gradle gera dentro de android/).
+*.apk
+
+# Chave de assinatura: sem ela, uma versão nova do APK não instala por cima da
+# antiga — guarde uma cópia em lugar seguro, fora do git.
+*.keystore
+*.jks
+
+# Assinatura gerada pelo apksigner junto do APK
+*.idsig
