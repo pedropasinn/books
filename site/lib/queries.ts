@@ -286,6 +286,85 @@ export async function listHighlights(bookId: string, chapterNumber?: number) {
   }, [] as Highlight[]);
 }
 
+// ── Sync do app mobile (Fragmentos) ────────────────────────────────────────
+
+/** Catálogo enxuto p/ o app: livro + capítulos (sem `text`) + total de palavras. */
+export async function listLibraryForSync() {
+  return safeQuery(async () => {
+    const rows = await db.select().from(books).orderBy(asc(books.title));
+    const chapters = await db
+      .select({
+        bookId: readingChapters.bookId,
+        number: readingChapters.number,
+        title: readingChapters.title,
+        wordCount: readingChapters.wordCount,
+      })
+      .from(readingChapters)
+      .orderBy(asc(readingChapters.bookId), asc(readingChapters.number));
+
+    const byBook = new Map<string, typeof chapters>();
+    for (const c of chapters) {
+      const list = byBook.get(c.bookId);
+      if (list) list.push(c);
+      else byBook.set(c.bookId, [c]);
+    }
+
+    return rows
+      .map((b) => {
+        const chs = byBook.get(b.id) ?? [];
+        return {
+          slug: b.slug,
+          title: b.title,
+          authors: b.authors,
+          coverUrl: b.coverUrl,
+          summary: b.summary,
+          chapterCount: chs.length,
+          wordCount: chs.reduce((sum, c) => sum + c.wordCount, 0),
+          chapters: chs.map((c) => ({
+            number: c.number,
+            title: c.title,
+            wordCount: c.wordCount,
+          })),
+        };
+      })
+      .filter((b) => b.chapterCount > 0);
+  }, [] as {
+    slug: string;
+    title: string;
+    authors: string;
+    coverUrl: string | null;
+    summary: string | null;
+    chapterCount: number;
+    wordCount: number;
+    chapters: { number: number; title: string; wordCount: number }[];
+  }[]);
+}
+
+/** Texto integral de um livro, para o app baixar e ler offline. */
+export async function getBookTextForSync(slug: string) {
+  return safeQuery(async () => {
+    const book = await getBookBySlug(slug);
+    if (!book) return null;
+    const chapters = await db
+      .select({
+        number: readingChapters.number,
+        title: readingChapters.title,
+        text: readingChapters.text,
+        wordCount: readingChapters.wordCount,
+      })
+      .from(readingChapters)
+      .where(eq(readingChapters.bookId, book.id))
+      .orderBy(asc(readingChapters.number));
+    return {
+      slug: book.slug,
+      title: book.title,
+      authors: book.authors,
+      coverUrl: book.coverUrl,
+      chapters,
+    };
+  }, null);
+}
+
 /** Um capítulo de leitura + adjacentes + posição salva. */
 export async function getReadingChapter(slug: string, number: number) {
   return safeQuery(async () => {

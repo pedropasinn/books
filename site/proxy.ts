@@ -3,6 +3,8 @@ import type { NextRequest } from "next/server";
 
 // Gate de senha (Next 16: "middleware" virou "proxy").
 // Protege todo o app; libera /login, /api/login e os assets do Next.
+// `/api/mobile/*` também fica de fora: é consumida pelo APK Fragmentos, que
+// não tem cookie de sessão e se autentica por Bearer token (lib/mobile-auth).
 export function proxy(request: NextRequest) {
   const secret = process.env.SESSION_SECRET;
   const token = request.cookies.get("fr_session")?.value;
@@ -16,5 +18,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico|login|api/login).*)"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico|login|api/login|api/mobile).*)"],
 };
