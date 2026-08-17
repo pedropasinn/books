@@ -98,6 +98,13 @@ export const IconTrash = (p: P) => (
   </svg>
 );
 
+export const IconList = (p: P) => (
+  <svg {...base} {...p}>
+    <path d="M8 6h12M8 12h12M8 18h7" />
+    <path d="M4 6h.01M4 12h.01M4 18h.01" />
+  </svg>
+);
+
 export const IconFile = (p: P) => (
   <svg {...base} {...p}>
     <path d="M13.5 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8.5z" />

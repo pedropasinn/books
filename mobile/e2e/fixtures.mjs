@@ -110,8 +110,10 @@ export function epubMinimo() {
     "OEBPS/capa.jpg": new Uint8Array([0xff, 0xd8, 0xff, 0xe0, 0x00, 0x10]),
   };
   for (const c of capitulos) {
+    // Vários parágrafos por capítulo: sem isso cada capítulo caberia num
+    // cartão só, e a grade de números do índice não teria o que mostrar.
     arquivos[`OEBPS/${c.arquivo}`] = strToU8(
-      xhtml(c.titulo, `<p>${PARAGRAFO}</p><p>${PARAGRAFO}</p>`)
+      xhtml(c.titulo, Array.from({ length: 8 }, () => `<p>${PARAGRAFO}</p>`).join(""))
     );
   }
 

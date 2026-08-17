@@ -13,6 +13,8 @@ mobile/
 │   ├── lib/
 │   │   ├── import/           EPUB, PDF e TXT → capítulos (carregado sob demanda)
 │   │   ├── fragments.ts      corta o capítulo em cartões (respeitando frases)
+│   │   ├── outline.ts        índice: capítulos, marcadores e números dos cartões
+│   │   ├── position.ts       posição por (capítulo, palavra) e regra de avanço
 │   │   ├── rsvp.ts           pivô/ORP e pausa por pontuação (portado do site)
 │   │   ├── store.tsx         estado do app (contexto React)
 │   │   ├── storage.ts        Preferences (estado) + IndexedDB (texto dos livros)
@@ -49,6 +51,31 @@ encostar na tela.
 
 O ícone de embaralhar, no topo, troca para o modo **Explorar**: trechos
 sorteados de todos os livros baixados, sem ordem. É o modo "só mais um".
+
+### Índice: capítulos, marcadores e números
+
+O ícone de lista no topo do feed (ou um toque no "Capítulo · 3/12") abre o
+índice do livro. Cada capítulo mostra quantos cartões tem, quantos trechos
+você marcou nele e quanto já leu; o capítulo aberto vem expandido, com a
+**grade dos números dos cartões**:
+
+```
+  ┌────┬────┬────┬────┐
+  │ 1  │ 2 •│ 3  │ 4  │   • = tem trecho marcado
+  └────┴────┴────┴────┘   cheio = onde você está
+                          apagado = já lido
+```
+
+Tocar num número pula direto para aquele cartão — é o equivalente a virar para
+uma página. O botão de marcador na barra filtra só os capítulos que guardam
+trechos salvos, então dá para ir de marcador em marcador sem sair do índice.
+
+Na aba Hábito, tocar num trecho salvo **volta ao contexto**: abre o livro (se
+for outro) e cai no ponto exato de onde ele saiu.
+
+Os números vêm da mesma lista de fragmentos que o feed usa, então continuam
+batendo quando o tamanho do fragmento muda — e o salto é gravado como posição
+de leitura normal, em palavra.
 
 ### O texto sempre cabe
 
@@ -164,6 +191,7 @@ URL do servidor.
 | `feed` | as três formas de avançar, RSVP, hábito, persistência, mudar o tamanho do fragmento |
 | `foco` | abertura em modo foco, faixas de toque, auto-esconder, e a medição de que **nenhum fragmento vaza** do cartão |
 | `import` | TXT, EPUB e PDF de ponta a ponta, conferindo o resultado no IndexedDB |
+| `indice` | capítulos, marcadores, salto pelos números e volta ao contexto |
 
 As fixtures de EPUB e PDF são **geradas em código** (`e2e/fixtures.mjs`), não
 arquivos binários commitados: a suíte roda offline, sem depender de download, e

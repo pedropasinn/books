@@ -829,3 +829,187 @@ select {
   letter-spacing: 0.06em;
   margin-top: 2px;
 }
+
+/* ── Folha do índice ────────────────────────────────────────────────────── */
+
+.sheet {
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  animation: sobe 0.24s cubic-bezier(0.22, 0.7, 0.28, 1);
+}
+
+@keyframes sobe {
+  from {
+    transform: translateY(18px);
+    opacity: 0;
+  }
+}
+
+.sheet__bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: calc(var(--safe-top) + 14px) 16px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.sheet__where {
+  flex: 1;
+  min-width: 0;
+}
+
+.sheet__title {
+  font-size: 15px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sheet__sub {
+  font-size: 11.5px;
+  color: var(--muted-dim);
+  margin-top: 2px;
+}
+
+.sheet__body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 8px 12px calc(var(--safe-bottom) + 28px);
+}
+
+/* Linha de capítulo */
+
+.cap {
+  border-bottom: 1px solid var(--line);
+  padding: 2px 4px 10px;
+}
+
+.cap__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  text-align: left;
+  padding: 12px 2px;
+}
+
+.cap__num {
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  border-radius: 9px;
+  border: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.cap[data-estado="atual"] .cap__num {
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.cap[data-estado="lido"] .cap__num {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--muted-dim);
+}
+
+.cap__meio {
+  flex: 1;
+  min-width: 0;
+}
+
+.cap__titulo {
+  display: block;
+  font-size: 14.5px;
+  line-height: 1.35;
+}
+
+.cap[data-estado="lido"] .cap__titulo {
+  color: var(--muted);
+}
+
+.cap__meta {
+  display: block;
+  font-size: 11.5px;
+  color: var(--muted-dim);
+  margin-top: 3px;
+  font-variant-numeric: tabular-nums;
+}
+
+.cap__flag {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  color: var(--brand);
+}
+
+/* Grade com os números dos cartões — "as páginas" do capítulo */
+
+.paginas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 7px;
+  padding: 6px 2px 4px;
+}
+
+.pagina {
+  height: 42px;
+  border-radius: 11px;
+  border: 1px solid var(--line);
+  font-family: var(--mono);
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+  transition: transform 0.1s, border-color 0.15s, background 0.15s;
+  position: relative;
+}
+
+.pagina:active {
+  transform: scale(0.94);
+}
+
+/* Já lido: recuado, para o olho achar rápido onde a leitura parou. */
+.pagina[data-lido="true"] {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--muted-dim);
+}
+
+/* Com trecho marcado: ponto na quina superior direita. */
+.pagina[data-marcado="true"] {
+  border-color: color-mix(in srgb, var(--brand) 55%, transparent);
+  color: var(--brand);
+}
+
+.pagina[data-marcado="true"]::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 999px;
+  background: var(--brand);
+}
+
+.pagina[data-atual="true"] {
+  background: var(--brand);
+  border-color: transparent;
+  color: var(--brand-ink);
+  font-weight: 650;
+}
+
+.pagina[data-atual="true"]::after {
+  background: var(--brand-ink);
+}

@@ -2,8 +2,8 @@ import { displayStreak, lastDays } from "../lib/habit";
 import { useApp } from "../lib/store";
 
 /** Hábito: streak, meta do dia, últimas duas semanas e os trechos salvos. */
-export function Habito() {
-  const { stats, streak, todayCount, settings, saved, toggleSaved } = useApp();
+export function Habito({ onJump }: { onJump: () => void }) {
+  const { stats, streak, todayCount, settings, saved, toggleSaved, jumpTo } = useApp();
 
   const dias = lastDays(stats, 14);
   const pico = Math.max(settings.dailyGoal, ...dias.map((d) => d.fragments), 1);
@@ -71,7 +71,15 @@ export function Habito() {
         )}
         {saved.map((s) => (
           <div key={s.id} className="tile">
-            <div className="tile__quote">{s.text}</div>
+            {/* Tocar no trecho volta para ele no livro, no ponto exato. */}
+            <button
+              style={{ display: "block", width: "100%", textAlign: "left" }}
+              onClick={async () => {
+                if (await jumpTo(s.bookSlug, s.chapterNumber, s.startWord)) onJump();
+              }}
+            >
+              <div className="tile__quote">{s.text}</div>
+            </button>
             <div className="tile__top" style={{ marginTop: 10 }}>
               <span className="tile__meta">
                 {s.bookTitle} · {s.chapterTitle}

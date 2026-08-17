@@ -17,6 +17,7 @@ const SUITES = [
   ["feed", () => import("./feed.mjs")],
   ["foco", () => import("./foco.mjs")],
   ["import", () => import("./import.mjs")],
+  ["indice", () => import("./indice.mjs")],
 ];
 
 const porta = new URL(URL_APP).port || "5299";

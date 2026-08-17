@@ -92,7 +92,7 @@ function Shell() {
       <div className="app__body">
         {tab === "feed" && <Feed onGoToLibrary={() => setTab("biblioteca")} />}
         {tab === "biblioteca" && <Library onOpened={() => setTab("feed")} />}
-        {tab === "habito" && <Habito />}
+        {tab === "habito" && <Habito onJump={() => setTab("feed")} />}
         {tab === "ajustes" && <Settings />}
       </div>
 

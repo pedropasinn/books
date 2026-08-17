@@ -48,9 +48,13 @@ type Ctx = {
   fragmentSizeEfetivo: number;
 
   fragments: Fragment[];
+  /** Fragmentos do livro em ordem — o índice usa isto, não a pilha do Explorar. */
+  bookFragments: Fragment[];
   index: number;
   goTo: (i: number) => void;
   advance: (delta: number) => void;
+  /** Pula para uma posição do livro, abrindo-o antes se preciso. */
+  jumpTo: (slug: string, chapterNumber: number, wordIndex: number) => Promise<boolean>;
 
   progress: db.ProgressMap;
   saved: SavedFragment[];
@@ -164,11 +168,30 @@ export function AppProvider({ children }: { children: ReactNode }) {
 
   const fragments = mode === "explorar" ? explore : bookFragments;
 
+  /**
+   * Salto pedido pelo índice (ou por um trecho salvo) que ainda não pôde ser
+   * atendido: abrir um livro é assíncrono, e os fragmentos só existem depois
+   * que o texto carrega. Fica guardado aqui e o efeito abaixo consome.
+   */
+  const saltoPendente = useRef<{ slug: string; chapterNumber: number; wordIndex: number } | null>(
+    null
+  );
+
   // Ao trocar de livro (ou de tamanho de fragmento), reposiciona pela palavra
   // salva — o índice de fragmento muda, o índice de palavra não.
   const lastPositioned = useRef<string>("");
   useEffect(() => {
     if (mode !== "livro" || !activeSlug || !bookFragments.length) return;
+
+    const salto = saltoPendente.current;
+    if (salto && salto.slug === activeSlug) {
+      saltoPendente.current = null;
+      lastPositioned.current = `${activeSlug}:${fragmentSizeEfetivo}`;
+      const i = findFragmentIndex(bookFragments, salto.chapterNumber, salto.wordIndex);
+      setIndex(i >= 0 ? i : 0);
+      return;
+    }
+
     const stamp = `${activeSlug}:${fragmentSizeEfetivo}`;
     if (lastPositioned.current === stamp) return;
     lastPositioned.current = stamp;
@@ -380,6 +403,32 @@ export function AppProvider({ children }: { children: ReactNode }) {
     [downloadBook]
   );
 
+  /**
+   * Pula para uma posição — do índice de capítulos, de um número de cartão ou
+   * de um trecho salvo. Se o livro alvo não é o que está aberto, abre antes e
+   * deixa o salto pendente: os fragmentos só existem depois do texto carregar.
+   */
+  const jumpTo = useCallback(
+    async (slug: string, chapterNumber: number, wordIndex: number): Promise<boolean> => {
+      setModeState("livro");
+
+      if (slug !== activeSlug) {
+        saltoPendente.current = { slug, chapterNumber, wordIndex };
+        const abriu = await openBook(slug);
+        if (!abriu) saltoPendente.current = null;
+        return abriu;
+      }
+
+      const i = findFragmentIndex(bookFragments, chapterNumber, wordIndex);
+      if (i < 0) return false;
+      setIndex(i);
+      const f = bookFragments[i];
+      if (f) record(f, true);
+      return true;
+    },
+    [activeSlug, bookFragments, openBook, record]
+  );
+
   const removeBook = useCallback(
     async (slug: string) => {
       await db.deleteBookContent(slug);
@@ -535,9 +584,11 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setCapacidade,
     fragmentSizeEfetivo,
     fragments,
+    bookFragments,
     index,
     goTo,
     advance,
+    jumpTo,
     progress,
     saved,
     toggleSaved,

@@ -6,8 +6,10 @@ import {
   IconBolt,
   IconBookmark,
   IconBookmarkFilled,
+  IconList,
   IconShuffle,
 } from "../components/icons";
+import { Indice } from "../components/Indice";
 import { capacidadeEmPalavras } from "../lib/fragments";
 import type { Fragment } from "../lib/fragments";
 import { useApp } from "../lib/store";
@@ -71,6 +73,7 @@ export function Feed({ onGoToLibrary }: { onGoToLibrary: () => void }) {
   const [animating, setAnimating] = useState(false);
   const [noAnim, setNoAnim] = useState(false);
   const [rsvp, setRsvp] = useState(false);
+  const [indice, setIndice] = useState(false);
   const stageRef = useRef<HTMLDivElement>(null);
   const axisRef = useRef<Axis>("y");
   const gesture = useRef({
@@ -310,14 +313,27 @@ export function Feed({ onGoToLibrary }: { onGoToLibrary: () => void }) {
           <div className="feed__book">
             {explorando ? "Explorar" : bookTitle || current?.chapterTitle || "Fragmentos"}
           </div>
-          <div className="feed__chapter">
+          <button
+            className="feed__chapter"
+            onClick={() => !explorando && setIndice(true)}
+            aria-label="Abrir o índice do livro"
+          >
             {current
               ? explorando
                 ? `${bookTitle} · ${posInScope}/${scopeTotal}`
                 : `${current.chapterTitle} · ${posInScope}/${scopeTotal}`
               : "fim"}
-          </div>
+          </button>
         </div>
+        <button
+          className="act"
+          style={{ width: 34, height: 34 }}
+          onClick={() => setIndice(true)}
+          disabled={explorando}
+          aria-label="Índice do livro"
+        >
+          <IconList />
+        </button>
         <button
           className="act"
           style={{ width: 34, height: 34 }}
@@ -396,6 +412,8 @@ export function Feed({ onGoToLibrary }: { onGoToLibrary: () => void }) {
           <IconBolt />
         </button>
       </div>
+
+      {indice && <Indice onClose={() => setIndice(false)} />}
 
       {rsvp && current && (
         <RsvpOverlay
