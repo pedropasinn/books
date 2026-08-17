@@ -1,4 +1,4 @@
-import { CORS_HEADERS, mobileAuthOk, unauthorized } from "@/lib/mobile-auth";
+import { CORS_HEADERS, denied, mobileAuth } from "@/lib/mobile-auth";
 import { getBookTextForSync } from "@/lib/queries";
 
 export const dynamic = "force-dynamic";
@@ -12,7 +12,8 @@ export async function GET(
   req: Request,
   { params }: { params: Promise<{ slug: string }> }
 ) {
-  if (!mobileAuthOk(req)) return unauthorized();
+  const auth = mobileAuth(req);
+  if (auth !== "ok") return denied(auth);
   const { slug } = await params;
   const book = await getBookTextForSync(slug);
   if (!book) return Response.json({ error: "not found" }, { status: 404, headers: CORS_HEADERS });

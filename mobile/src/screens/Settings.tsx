@@ -289,7 +289,7 @@ export function Settings() {
         </div>
 
         <div className="field">
-          <label className="field__label">Senha do site (ou token do app)</label>
+          <label className="field__label">Token de sincronização</label>
           <input
             className="input"
             type="password"
@@ -300,7 +300,16 @@ export function Settings() {
           />
         </div>
 
-        <button className="btn btn--wide" onClick={salvarServidor} disabled={!url.trim()}>
+        <p className="row__hint" style={{ marginTop: -6, marginBottom: 16 }}>
+          É o <code>MOBILE_SYNC_TOKEN</code> definido nas variáveis de ambiente do site — não
+          a senha dele. Assim dá para revogar o acesso deste aparelho sem trocar a senha.
+        </p>
+
+        <button
+          className="btn btn--wide"
+          onClick={salvarServidor}
+          disabled={!url.trim() || !token.trim()}
+        >
           Conectar
         </button>
 

@@ -12,8 +12,9 @@ export function Library({ onOpened }: { onOpened: () => void }) {
   const {
     library,
     downloaded,
-    progress,
+    bookFraction,
     activeSlug,
+    downloadBook,
     openBook,
     removeBook,
     syncLibrary,
@@ -156,27 +157,29 @@ export function Library({ onOpened }: { onOpened: () => void }) {
 
         {library.map((b) => {
           const baixado = downloaded.includes(b.slug);
-          const p = progress[b.slug];
-          const estimado = Math.max(1, Math.round(b.wordCount / settings.fragmentSize));
-          const pct = p ? Math.min(100, Math.round((p.fragmentsRead / estimado) * 100)) : 0;
+          // Progresso pelo ponto mais distante em palavras — contagem de
+          // cartões mudaria de significado ao mexer no tamanho do fragmento.
+          const pct = Math.round(bookFraction(b.slug) * 100);
           return (
             <div key={b.slug} className="tile">
               <button
                 style={{ display: "block", width: "100%", textAlign: "left" }}
                 onClick={async () => {
-                  await openBook(b.slug);
-                  onOpened();
+                  // Só navega se abriu mesmo: senão o feed mostraria o livro
+                  // anterior e pareceria que este aqui carregou.
+                  if (await openBook(b.slug)) onOpened();
                 }}
               >
                 <div className="tile__top">
                   <span className="tile__title">{b.title}</span>
                   <span className="tile__meta">
-                    {baixado ? `${estimado} frag.` : `${Math.round(b.wordCount / 1000)}k pal.`}
+                    {pct > 0 ? `${pct}%` : `${Math.round(b.wordCount / 1000)}k pal.`}
                   </span>
                 </div>
                 <div className="tile__sub">
                   {b.authors}
                   {activeSlug === b.slug ? " · lendo agora" : ""}
+                  {baixado ? "" : " · não baixado"}
                 </div>
                 {pct > 0 && (
                   <div className="bar">
@@ -189,7 +192,7 @@ export function Library({ onOpened }: { onOpened: () => void }) {
                 {!baixado ? (
                   <button
                     className="btn btn--ghost btn--sm"
-                    onClick={() => openBook(b.slug)}
+                    onClick={() => downloadBook(b.slug)}
                     disabled={!!busy}
                   >
                     <IconDown style={{ width: 15, height: 15 }} />

@@ -17,12 +17,19 @@ export function normalizeUrl(raw: string): string {
 async function apiGet<T>(serverUrl: string, token: string, path: string): Promise<T> {
   const base = normalizeUrl(serverUrl);
   if (!base) throw new Error("Endereço do servidor não configurado.");
+  if (!token.trim()) throw new Error("Token de sincronização não configurado.");
 
   const res = await fetch(`${base}${path}`, {
     headers: { authorization: `Bearer ${token}` },
   });
 
-  if (res.status === 401) throw new Error("Senha/token recusado pelo servidor.");
+  if (res.status === 401) throw new Error("Token recusado pelo servidor.");
+  if (res.status === 503) {
+    // O site está no ar, mas sem MOBILE_SYNC_TOKEN definido: é configuração
+    // faltando no servidor, não token errado no celular.
+    throw new Error("O site ainda não tem MOBILE_SYNC_TOKEN configurado.");
+  }
+  if (res.status === 404) throw new Error("Endereço não encontrado — confira a URL do site.");
   if (!res.ok) throw new Error(`Servidor respondeu ${res.status}.`);
   return (await res.json()) as T;
 }

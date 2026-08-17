@@ -31,13 +31,21 @@ export type BookContent = {
   fetchedAt: number;
 };
 
-/** Posição de leitura por livro (palavra dentro do capítulo). */
+/**
+ * Progresso por livro. Guarda DOIS pontos, que não são a mesma coisa:
+ * onde você parou (para retomar) e o mais longe que já chegou (para o
+ * progresso e o hábito). Ambos em (capítulo, palavra) — ver `position.ts`.
+ */
 export type BookProgress = {
+  /** Onde retomar a leitura. */
   chapterNumber: number;
   wordIndex: number;
   updatedAt: number;
-  /** Fragmentos concluídos neste livro (para a barra de progresso). */
-  fragmentsRead: number;
+  /** Ponto mais distante já lido. */
+  furthestChapter: number;
+  furthestWord: number;
+  /** Legado: contagem de fragmentos das versões antigas, só para migração. */
+  fragmentsRead?: number;
 };
 
 export type SavedFragment = {

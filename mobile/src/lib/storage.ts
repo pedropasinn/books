@@ -56,11 +56,21 @@ async function readJson<T>(key: string, fallback: T): Promise<T> {
   }
 }
 
-async function writeJson(key: string, value: unknown): Promise<void> {
+/**
+ * Grava e DIZ se conseguiu.
+ *
+ * Antes isto engolia o erro em silêncio. Num app pessoal, achar que o
+ * progresso ou um trecho marcado foi salvo quando não foi é pior do que ver
+ * um aviso: o dado perdido não volta. Quem chama decide o que fazer com o
+ * `false` — o store transforma em aviso na tela.
+ */
+async function writeJson(key: string, value: unknown): Promise<boolean> {
   try {
     await Preferences.set({ key, value: JSON.stringify(value) });
-  } catch {
-    /* sem espaço / modo privado — segue sem persistir */
+    return true;
+  } catch (e) {
+    console.error(`[storage] falha ao gravar "${key}"`, e);
+    return false;
   }
 }
 
@@ -82,7 +92,29 @@ export const saveLibrary = (books: BookMeta[]) => writeJson(KEYS.library, books)
 
 export type ProgressMap = Record<string, BookProgress>;
 
-export const loadProgress = () => readJson<ProgressMap>(KEYS.progress, {});
+/**
+ * Migração das versões que guardavam `fragmentsRead` (contagem de cartões).
+ * Aquela unidade era instável, então não dá para convertê-la em palavra: o
+ * melhor palpite honesto é assumir que o ponto mais distante é onde a pessoa
+ * parou. Perde-se, no máximo, o avanço de quem tinha relido para trás.
+ */
+export async function loadProgress(): Promise<ProgressMap> {
+  const bruto = await readJson<Record<string, Partial<BookProgress>>>(KEYS.progress, {});
+  const saida: ProgressMap = {};
+  for (const [slug, p] of Object.entries(bruto)) {
+    const chapterNumber = p.chapterNumber ?? 1;
+    const wordIndex = p.wordIndex ?? 0;
+    saida[slug] = {
+      chapterNumber,
+      wordIndex,
+      updatedAt: p.updatedAt ?? 0,
+      furthestChapter: p.furthestChapter ?? chapterNumber,
+      furthestWord: p.furthestWord ?? wordIndex,
+    };
+  }
+  return saida;
+}
+
 export const saveProgress = (p: ProgressMap) => writeJson(KEYS.progress, p);
 
 // ── Trechos salvos ─────────────────────────────────────────────────────────
@@ -136,11 +168,15 @@ export async function getBookContent(slug: string): Promise<BookContent | null> 
   }
 }
 
-export async function putBookContent(book: BookContent): Promise<void> {
+export async function putBookContent(book: BookContent): Promise<boolean> {
   try {
     await tx("readwrite", (s) => s.put(book) as IDBRequest<IDBValidKey>);
-  } catch {
-    /* ignore */
+    return true;
+  } catch (e) {
+    // Falha típica: cota do IndexedDB estourada por um livro grande. Quem
+    // chama precisa saber, senão o livro "some" sem explicação.
+    console.error("[storage] falha ao gravar o livro", book.slug, e);
+    return false;
   }
 }
 

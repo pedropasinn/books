@@ -69,11 +69,28 @@ A área reservada ao texto **não muda** entre o modo foco e os controles à
 vista. Se mudasse, cada toque no meio da tela recortaria o livro em fragmentos
 diferentes e a leitura perderia o lugar; no modo foco a área extra vira margem.
 
-## Hábito
+## Posição, progresso e hábito
 
-Cada fragmento novo conta para a meta do dia (o anel no topo do feed). Bater a
-meta mantém a sequência viva. Voltar atrás e reler não conta de novo — o
-contador só anda quando a leitura avança de verdade.
+A unidade é sempre **(capítulo, palavra)** — nunca "fragmento 37". Índice de
+fragmento muda com o tamanho escolhido, com o tamanho da tela e com a fonte:
+o cartão 37 de hoje não é o trecho de amanhã, e guardar isso apodreceria o
+histórico. Palavra é propriedade do texto, não da renderização.
+
+São dois pontos distintos por livro:
+
+- **retomada** — onde você parou, para onde o app volta;
+- **mais distante** — o ponto mais adiantado que você realmente leu.
+
+Reler para trás move o primeiro e não o segundo. É o segundo que alimenta a
+barra de progresso da Biblioteca e o contador do dia, então voltar e avançar de
+novo não infla nada.
+
+O modo **Explorar** conta para a meta do dia (ler é ler), mas **não toca na
+posição de nenhum livro**: os trechos vêm sorteados de qualquer capítulo, e se
+mexessem no progresso, cair num trecho do capítulo 17 apagaria o lugar onde a
+leitura estava — o app reabriria lá.
+
+Bater a meta mantém a sequência viva.
 
 ## Lembretes
 
@@ -105,9 +122,18 @@ PDF digitalizado (imagem pura, sem camada de texto) não dá — o app avisa em 
 de importar um livro vazio. Os parsers são carregados sob demanda: quem só lê
 EPUB nunca baixa o pdf.js.
 
-**Sincronizar com o site**: em Ajustes → Sua biblioteca, informe o endereço e a
-senha (a mesma `SITE_PASSWORD`, ou um `MOBILE_SYNC_TOKEN` dedicado). O app baixa
-o catálogo e, ao abrir um livro, o texto integral.
+**Sincronizar com o site**: em Ajustes → Sua biblioteca, informe o endereço e o
+`MOBILE_SYNC_TOKEN`. O app baixa o catálogo e, ao abrir um livro, o texto
+integral.
+
+O token é **exclusivo do app** — a senha do site não é aceita, de propósito. Ele
+fica guardado no aparelho e entra no backup do Android, então precisa ser
+descartável: se o celular sumir, troca-se a variável de ambiente no site e o
+acesso morre, sem mexer na senha que abre tudo. Sem `MOBILE_SYNC_TOKEN` definido,
+as rotas respondem 503 explicando o que falta em vez de 401.
+
+Na Biblioteca, **Baixar** e **abrir** são coisas separadas: baixar traz o texto
+para o aparelho sem interromper o que você está lendo.
 
 Também dá para **colar texto** direto, para um trecho avulso.
 
@@ -116,10 +142,32 @@ Também dá para **colar texto** direto, para um trecho avulso.
 ```bash
 npm install
 npm run dev      # navegador, em localhost:5273 (sem notificações nativas)
+npm run test     # testes de unidade (vitest)
 npm run build    # gera dist/
+npm run e2e      # testes de ponta a ponta sobre o build (Playwright)
 npm run sync     # build + copia para o projeto Android
 npm run apk      # sync + APK de debug
 ```
+
+### Testes
+
+`npm run test` cobre a lógica pura, que é onde um erro passa despercebido e
+estraga o histórico meses depois: corte de fragmentos, recuperação da posição
+ao mudar o tamanho do cartão, avanço × releitura, streak, pivô e pausas do
+RSVP, parser de TXT (incluindo o fallback de windows-1252) e normalização da
+URL do servidor.
+
+`npm run e2e` roda o app **buildado** num Chromium, em três suítes:
+
+| Suíte | Cobre |
+|-------|-------|
+| `feed` | as três formas de avançar, RSVP, hábito, persistência, mudar o tamanho do fragmento |
+| `foco` | abertura em modo foco, faixas de toque, auto-esconder, e a medição de que **nenhum fragmento vaza** do cartão |
+| `import` | TXT, EPUB e PDF de ponta a ponta, conferindo o resultado no IndexedDB |
+
+As fixtures de EPUB e PDF são **geradas em código** (`e2e/fixtures.mjs`), não
+arquivos binários commitados: a suíte roda offline, sem depender de download, e
+o gerador é obrigado a produzir arquivos válidos de verdade.
 
 O APK sai em `android/app/build/outputs/apk/debug/app-debug.apk`.
 

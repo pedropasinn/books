@@ -62,14 +62,19 @@ O app consome duas rotas JSON deste projeto, fora do gate de senha do
 | `GET /api/mobile/library`  | catálogo: livros + índice de capítulos    |
 | `GET /api/mobile/book/:slug` | texto integral do livro (leitura offline) |
 
-O token aceito é a `SITE_PASSWORD` ou, de preferência, um `MOBILE_SYNC_TOKEN`
-dedicado — assim dá para revogar o acesso do celular sem trocar a senha do
-site:
+O token aceito é **somente** `MOBILE_SYNC_TOKEN` — a `SITE_PASSWORD` não vale
+aqui, de propósito. O token fica guardado no celular (e entra no backup do
+Android), então precisa ser descartável: sumindo o aparelho, troca-se a
+variável e o acesso morre, sem mexer na senha que abre o site inteiro.
 
 ```bash
 # .env.local (e nas env vars da Vercel)
-MOBILE_SYNC_TOKEN=<algo longo e aleatório>
+MOBILE_SYNC_TOKEN=$(openssl rand -base64 32)
 ```
+
+Sem a variável definida, as rotas respondem `503` com a explicação, em vez de
+`401` — erro de configuração do servidor não deve mandar você procurar o
+problema no celular.
 
 ## Fases futuras
 

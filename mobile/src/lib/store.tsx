@@ -11,6 +11,7 @@ import type { ReactNode } from "react";
 import { findFragmentIndex, splitBook, teaser } from "./fragments";
 import type { Fragment } from "./fragments";
 import { bumpStreak, bumpToday, fragmentsToday } from "./habit";
+import { fractionRead, fragmentKey, registrarLeitura } from "./position";
 import * as db from "./storage";
 import { DEFAULT_SETTINGS } from "./storage";
 import { fetchBook, fetchLibrary } from "./sync";
@@ -65,9 +66,14 @@ type Ctx = {
   clearError: () => void;
 
   syncLibrary: () => Promise<void>;
-  openBook: (slug: string) => Promise<void>;
+  /** Baixa o texto sem trocar o livro que está sendo lido. */
+  downloadBook: (slug: string) => Promise<boolean>;
+  /** Abre no feed. `false` = não abriu; não navegue. */
+  openBook: (slug: string) => Promise<boolean>;
   removeBook: (slug: string) => Promise<void>;
   addLocalBook: (title: string, authors: string, chapters: Chapter[]) => Promise<void>;
+  /** Fração lida (0–1) pelo ponto mais distante alcançado. */
+  bookFraction: (slug: string) => number;
   upcomingTeasers: (n: number) => string[];
 };
 
@@ -181,43 +187,67 @@ export function AppProvider({ children }: { children: ReactNode }) {
   statsRef.current = stats;
   streakRef.current = streak;
 
-  /** Marca leitura: guarda a posição e, se avançou o recorde, conta hábito. */
+  /** Conta um fragmento no hábito do dia (e fecha o streak ao bater a meta). */
+  const contarHabito = useCallback(async () => {
+    const nextStats = bumpToday(statsRef.current);
+    statsRef.current = nextStats;
+    setStats(nextStats);
+    const okStats = await db.saveStats(nextStats);
+
+    let okStreak = true;
+    if (fragmentsToday(nextStats) === settings.dailyGoal) {
+      const nextStreak = bumpStreak(streakRef.current);
+      streakRef.current = nextStreak;
+      setStreak(nextStreak);
+      okStreak = await db.saveStreak(nextStreak);
+    }
+    if (!okStats || !okStreak) setError("Não consegui salvar o progresso do dia.");
+  }, [settings.dailyGoal]);
+
+  /**
+   * Fragmentos já contados no modo Explorar, nesta sessão. Sem isso, ficar
+   * indo e voltando na pilha sorteada inflaria o contador do dia.
+   */
+  const exploradosRef = useRef<Set<string>>(new Set());
+
+  /**
+   * Registra a leitura de um fragmento.
+   *
+   * `sequencial` separa as duas origens, e a separação é o ponto: no modo
+   * Explorar os trechos vêm sorteados de qualquer capítulo de qualquer livro.
+   * Se eles mexessem na posição do livro, cair num trecho do capítulo 17
+   * apagaria o lugar onde você estava lendo — e o app reabriria lá. Então
+   * Explorar conta hábito e mais nada.
+   */
   const record = useCallback(
-    (f: Fragment, fragIndex: number) => {
-      const cur = progressRef.current[f.bookSlug];
-      const reached = Math.max(cur?.fragmentsRead ?? 0, fragIndex + 1);
-      const avancou = reached > (cur?.fragmentsRead ?? 0);
+    (f: Fragment, sequencial: boolean) => {
+      const pos = { chapterNumber: f.chapterNumber, wordIndex: f.startWord };
+      const chave = fragmentKey(f.bookSlug, pos);
 
-      const nextProgress: db.ProgressMap = {
-        ...progressRef.current,
-        [f.bookSlug]: {
-          chapterNumber: f.chapterNumber,
-          wordIndex: f.startWord,
-          updatedAt: Date.now(),
-          fragmentsRead: reached,
-        },
-      };
-      progressRef.current = nextProgress;
-      setProgress(nextProgress);
-      void db.saveProgress(nextProgress);
+      const { progresso, contarHabito: conta } = registrarLeitura(
+        progressRef.current[f.bookSlug],
+        pos,
+        {
+          sequencial,
+          jaExplorado: exploradosRef.current.has(chave),
+          agora: Date.now(),
+        }
+      );
 
-      // Só conta hábito quando a leitura avança de verdade: reler para trás
-      // e voltar não move o contador do dia.
-      if (!avancou) return;
+      if (!sequencial) exploradosRef.current.add(chave);
 
-      const nextStats = bumpToday(statsRef.current);
-      statsRef.current = nextStats;
-      setStats(nextStats);
-      void db.saveStats(nextStats);
-
-      if (fragmentsToday(nextStats) === settings.dailyGoal) {
-        const nextStreak = bumpStreak(streakRef.current);
-        streakRef.current = nextStreak;
-        setStreak(nextStreak);
-        void db.saveStreak(nextStreak);
+      if (progresso) {
+        const next: db.ProgressMap = { ...progressRef.current, [f.bookSlug]: progresso };
+        progressRef.current = next;
+        setProgress(next);
+        void db.saveProgress(next).then((ok) => {
+          if (!ok) setError("Não consegui salvar onde você parou.");
+        });
       }
+
+      if (conta) void contarHabito();
     },
-    [settings.dailyGoal]
+    [contarHabito]
   );
 
   const goTo = useCallback(
@@ -228,7 +258,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       const next = Math.max(0, Math.min(list.length, i));
       setIndex(next);
       const f = list[next];
-      if (f) record(f, mode === "explorar" ? 0 : next);
+      if (f) record(f, mode !== "explorar");
     },
     [mode, explore, bookFragments, record]
   );
@@ -248,7 +278,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
       setIndex((cur) => {
         const next = Math.max(0, Math.min(list.length, cur + delta));
         const f = list[next];
-        if (f) record(f, explorando ? 0 : next);
+        if (f) record(f, !explorando);
         return next;
       });
     },
@@ -286,7 +316,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
       setLibrary((prev) => {
         const locais = prev.filter((b) => b.origin === "local");
         const merged = [...remote, ...locais];
-        void db.saveLibrary(merged);
+        void db.saveLibrary(merged).then((ok) => {
+          if (!ok) setError("Não consegui guardar o catálogo no aparelho.");
+        });
         return merged;
       });
     } catch (e) {
@@ -296,29 +328,56 @@ export function AppProvider({ children }: { children: ReactNode }) {
     }
   }, [settings.serverUrl, settings.token]);
 
-  const openBook = useCallback(
-    async (slug: string) => {
+  /**
+   * Traz o texto do livro para o aparelho, sem mexer no que está sendo lido.
+   * Baixar é uma operação de biblioteca; trocar o livro ativo é outra coisa, e
+   * juntar as duas fazia "Baixar" sequestrar a leitura em curso.
+   */
+  const downloadBook = useCallback(
+    async (slug: string): Promise<boolean> => {
       setError(null);
-      let c = await db.getBookContent(slug);
-      if (!c) {
-        setBusy("Baixando livro…");
-        try {
-          c = await fetchBook(settings.serverUrl, settings.token, slug);
-          await db.putBookContent(c);
-          setDownloaded(await db.listDownloadedSlugs());
-        } catch (e) {
-          setError(e instanceof Error ? e.message : "Falha ao baixar o livro.");
-          setBusy(null);
-          return;
+      if (await db.getBookContent(slug)) return true;
+
+      setBusy("Baixando livro…");
+      try {
+        const c = await fetchBook(settings.serverUrl, settings.token, slug);
+        const gravou = await db.putBookContent(c);
+        setDownloaded(await db.listDownloadedSlugs());
+        if (!gravou) {
+          setError("Baixei o livro, mas não coube no armazenamento do aparelho.");
+          return false;
         }
+        return true;
+      } catch (e) {
+        setError(e instanceof Error ? e.message : "Falha ao baixar o livro.");
+        return false;
+      } finally {
         setBusy(null);
+      }
+    },
+    [settings.serverUrl, settings.token]
+  );
+
+  /**
+   * Abre o livro no feed. Devolve `false` quando não deu — quem chama usa isso
+   * para NÃO navegar, senão a tela pularia para o feed exibindo o livro
+   * anterior, dando a impressão de que deu certo.
+   */
+  const openBook = useCallback(
+    async (slug: string): Promise<boolean> => {
+      if (!(await downloadBook(slug))) return false;
+      const c = await db.getBookContent(slug);
+      if (!c) {
+        setError("O livro não está disponível no aparelho.");
+        return false;
       }
       lastPositioned.current = "";
       setContent(c);
       setActiveSlug(slug);
       setModeState("livro");
+      return true;
     },
-    [settings.serverUrl, settings.token]
+    [downloadBook]
   );
 
   const removeBook = useCallback(
@@ -354,8 +413,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
         chapters,
         fetchedAt: Date.now(),
       };
-      await db.putBookContent(book);
+      const gravou = await db.putBookContent(book);
       setDownloaded(await db.listDownloadedSlugs());
+      if (!gravou) {
+        setError("Não consegui guardar este livro no aparelho (sem espaço?).");
+        return;
+      }
 
       const meta: BookMeta = {
         slug,
@@ -373,7 +436,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
       };
       setLibrary((prev) => {
         const next = [...prev, meta];
-        void db.saveLibrary(next);
+        void db.saveLibrary(next).then((ok) => {
+          if (!ok) setError("Não consegui guardar o catálogo no aparelho.");
+        });
         return next;
       });
 
@@ -416,11 +481,30 @@ export function AppProvider({ children }: { children: ReactNode }) {
               },
               ...prev,
             ];
-        void db.saveSaved(next);
+        void db.saveSaved(next).then((ok) => {
+          if (!ok) setError("Não consegui salvar este trecho.");
+        });
         return next;
       });
     },
     [library, content]
+  );
+
+  /**
+   * Fração lida do livro, pelo ponto mais distante — não por contagem de
+   * cartões, que muda de significado quando o tamanho do fragmento muda.
+   */
+  const bookFraction = useCallback(
+    (slug: string) => {
+      const p = progress[slug];
+      const meta = library.find((b) => b.slug === slug);
+      if (!p || !meta) return 0;
+      return fractionRead(meta.chapters, {
+        chapterNumber: p.furthestChapter,
+        wordIndex: p.furthestWord,
+      });
+    },
+    [progress, library]
   );
 
   /** Prévias dos próximos fragmentos — viram o corpo das notificações. */
@@ -465,7 +549,9 @@ export function AppProvider({ children }: { children: ReactNode }) {
     error,
     clearError: () => setError(null),
     syncLibrary,
+    downloadBook,
     openBook,
+    bookFraction,
     removeBook,
     addLocalBook,
     upcomingTeasers,
